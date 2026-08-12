@@ -1,0 +1,140 @@
+-- Read-only probe for the SOS target list built by the game.
+-- Temporarily deploy as monster_variant_probe.lua, open the SOS target selector,
+-- then inspect reframework/data/monster_variants_hr_probe.json.
+
+local OUT = "monster_variants_hr_probe.json"
+local pending_target_data = nil
+local capture_count = 0
+
+local SEARCH_ROLE = {
+  [-1] = "INVALID",
+  [0] = "NORMAL",
+  [1] = "FRENZY",
+  [2] = "LEGENDARY",
+  [3] = "KING",
+}
+
+local ENEMY_ROLE = {
+  [0] = "NORMAL",
+  [1] = "BOSS",
+  [2] = "CHILED",
+  [3] = "FRENZY",
+  [4] = "COCOON",
+  [5] = "ROLE_COLLAB_01",
+}
+
+local LEGENDARY = {
+  [0] = "NONE",
+  [1] = "NORMAL",
+  [2] = "KING",
+}
+
+local function plog(message)
+  local text = "[MONSTER-VARIANT-PROBE] " .. tostring(message)
+  if type(log) == "table" and type(log.info) == "function" then
+    log.info(text)
+  else
+    print(text)
+  end
+end
+
+local function as_int(value)
+  if value == nil then return nil end
+  local ok, number = pcall(function() return value:get_value() end)
+  if ok and number ~= nil then return tonumber(number) end
+  return tonumber(value)
+end
+
+local function collection_count(collection)
+  if not collection then return 0 end
+  local count = nil
+  pcall(function() count = collection:get_size() end)
+  if count == nil then pcall(function() count = collection:call("get_Count") end) end
+  if count == nil then pcall(function() count = collection:call("get_Length") end) end
+  if count == nil then pcall(function() count = collection:get_field("_size") end) end
+  return tonumber(count) or 0
+end
+
+local function collection_item(collection, index)
+  local item = nil
+  pcall(function() item = collection:call("get_Item", index) end)
+  if not item then pcall(function() item = collection:call("Get", index) end) end
+  if not item then pcall(function() item = collection:get_element(index) end) end
+  if not item then pcall(function() item = collection[index] end) end
+  return item
+end
+
+local function message_text(info)
+  if not info then return nil end
+  local result = nil
+  pcall(function()
+    local method = sdk.find_type_definition("app.MessageUtil"):get_method("createMessage")
+    result = method:call(nil, info)
+  end)
+  return result and tostring(result) or nil
+end
+
+local function read_entry(entry, index)
+  if not entry then return { index = index, error = "nil entry" } end
+  local em_id, search_role, enemy_role, legendary_id, text_info
+  pcall(function() em_id = as_int(entry:get_field("EmID")) end)
+  pcall(function() search_role = as_int(entry:get_field("EmRoleID")) end)
+  pcall(function() enemy_role = as_int(entry:get_field("RoleID")) end)
+  pcall(function() legendary_id = as_int(entry:get_field("LegendaryID")) end)
+  pcall(function() text_info = entry:get_field("Text") end)
+  return {
+    index = index,
+    em_id = em_id,
+    search_role_id = search_role,
+    search_role = SEARCH_ROLE[search_role] or tostring(search_role),
+    enemy_role_id = enemy_role,
+    enemy_role = ENEMY_ROLE[enemy_role] or tostring(enemy_role),
+    legendary_id = legendary_id,
+    legendary = LEGENDARY[legendary_id] or tostring(legendary_id),
+    name = message_text(text_info),
+  }
+end
+
+local function read_collection(collection)
+  local rows = {}
+  local count = collection_count(collection)
+  for index = 0, count - 1 do
+    rows[#rows + 1] = read_entry(collection_item(collection, index), index)
+  end
+  return rows, count
+end
+
+local function capture(target_data)
+  if not target_data then return end
+  local choices, enabled
+  pcall(function() choices = target_data:get_field("_ChoiceTargetDataList") end)
+  pcall(function() enabled = target_data:get_field("ActualEnalbeTargetDataList") end)
+  local choice_rows, choice_count = read_collection(choices)
+  local enabled_rows, enabled_count = read_collection(enabled)
+  capture_count = capture_count + 1
+  json.dump_file(OUT, {
+    capture = capture_count,
+    timestamp = os.time(),
+    note = "Capture the SOS target selector after choosing High Rank.",
+    choice_count = choice_count,
+    enabled_count = enabled_count,
+    choices = choice_rows,
+    enabled = enabled_rows,
+  })
+  plog(string.format("captured choices=%d enabled=%d -> %s", choice_count, enabled_count, OUT))
+end
+
+local type_def = sdk.find_type_definition("app.cGUI050000MemberSettingItemData.cTargetData")
+local method = type_def and type_def:get_method("updateEnableIndexList") or nil
+if method then
+  sdk.hook(method, function(args)
+    pending_target_data = sdk.to_managed_object(args[2])
+  end, function(retval)
+    pcall(capture, pending_target_data)
+    pending_target_data = nil
+    return retval
+  end)
+  plog("loaded; open the High Rank SOS target selector")
+else
+  plog("ERROR updateEnableIndexList method not found")
+end
