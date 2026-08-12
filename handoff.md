@@ -1,6 +1,6 @@
 # Handoff — mhwilds-companion
 
-Checkpoint: **FieldGuideSOS v1.5.0** berhasil dalam pengujian awal target Field Guide generik dan rotasi varian per monster tanpa crash. Seluruh jeda (`action`, post-search, order, dan depart) bernilai nol.
+Checkpoint: **FieldGuideSOS v1.5.3** — target Field Guide generik + rotasi varian per monster.
 
 ## Goal
 
@@ -17,9 +17,7 @@ Target UX: Field Guide highlight monster → **F1** → SOS search/accept/depart
 | Deploy | `scripts\deploy.ps1` → `...\MonsterHunterWilds\reframework\autorun\` |
 | Game | `D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds` |
 | Trace log | `reframework\data\fieldguide_sos_trace_v<VERSION>.txt` (CWD REF = `reframework/data/`) |
-| Probe (OFF) | `mods\fieldguide-sos\fieldguide_sos_probe.lua.off` |
 | SDK dump | `il2cpp_dump.json` di folder game (jangan commit) |
-| Dump slices | `mods\fieldguide-sos\dump_slices\` |
 
 Steam AppID: `2246340`. GitHub account: **preschian**.
 
@@ -47,7 +45,6 @@ Setelah edit script: **Reset Scripts** di REFramework, atau restart game.
 | Camp info panels | `169` + `170` |
 | Field Guide large monster | `179` (`GUI060102`) |
 | `LOCAL_SESSION_NOT_FOUND` | `110002` |
-| `action_gap_s` / `post_search_settle_s` / `order_settle_s` / `depart_settle_s` | `0.0` / `0.0` / `0.0` / `0.0` |
 | `mission` search | `INVALID` (`4294967295`) |
 
 ## Alur auto yang jalan (golden)
@@ -56,9 +53,9 @@ Setelah edit script: **Reset Scripts** di REFramework, atau restart game.
 2. **Sebelum** search: `setQuestListInCategory(12)` — **aman**
 3. Snapshot `GUI060102.get_TargetEmId`, lalu `GUI050000.search` dengan `resc=true diff=300`; retry merotasi varian valid per monster: Arch-tempered → Tempered → Frenzied → normal
 4. Game sering `setQuestListCategory(NONE)` + path fail-search dialog — **boleh di-skip**; hasil SOS tetap bisa ada (`hasSR`)
-5. Tunggu list `hasSR` → `updateQuestDetailWindow` → settle → `decideQuest`
+5. Tunggu list `hasSR` → `updateQuestDetailWindow` → `decideQuest`
 6. Tunggu UI `162` + panel `169`+`170` → `orderQuest` → join
-7. Setelah `isResucureSession` → settle → `decideDepartLate` (jika ada link) → `QuestDepart`
+7. Setelah `isResucureSession` → `decideDepartLate` (jika ada link) → `QuestDepart`
 
 ## Crash / anti-pattern (jangan ulangi)
 

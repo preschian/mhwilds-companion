@@ -31,9 +31,7 @@ FieldGuideSOS to skip it. Unsupported variants are still skipped per monster.
 | File | Role |
 |------|------|
 | `fieldguide_sos.lua` | Main mod |
-| `fieldguide_sos_probe.lua` | Optional discovery helper (can remove after wiring) |
-| `monster_variant_probe.lua.off` | Disabled SOS target-list capture helper |
-| `../../docs/high-rank-monster-variants.md` | Captured High Rank variant matrix |
+| `../../docs/high-rank-monster-variants.md` | High Rank variant matrix |
 
 ## Notes
 

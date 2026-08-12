@@ -3,7 +3,6 @@
 -- Crash: setQuestListInCategory(12) AFTER search = CRASH
 -- Safe: setQuestListInCategory(12) ONLY before search; after search use soft set_ViewCategory
 -- Popup: skip LOCAL_SESSION_NOT_FOUND + skip openDialog_faildSearchQuest (no Invoke, no cat rewrite)
--- Search/order/depart settle controls remain available, but the validated baseline uses 0s.
 -- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
@@ -47,13 +46,9 @@ local ERR_LOCAL_SESSION_NOT_FOUND = 110002 -- NETWORK_ERROR_CODE.LOCAL_SESSION_N
 
 local LOG_FILE = "fieldguide_sos_trace_v" .. VERSION .. ".txt"
 local cfg = {
-  action_gap_s = 0.0,
   wait_alma_s = 12,
   wait_list_s = 15,
   wait_join_s = 35,
-  post_search_settle_s = 0.0,
-  order_settle_s = 0.0,
-  depart_settle_s = 0.0,
   retry_search_s = 3,
   max_search = 8,
   search_arch_tempered = true,
@@ -67,13 +62,9 @@ local state = {
   msg = "F1=auto | F8=log | F9=stop",
   searches = 0,
   deadline = 0,
-  next_action_at = 0,
   ordered = false,
   native_depart_requested = false,
   suppress_popup = false, -- skip LOCAL_SESSION_NOT_FOUND + openDialog_faildSearchQuest
-  post_search_ready_at = 0,
-  order_ready_at = 0,
-  depart_ready_at = 0,
   target_em_id = nil,
   target_source = nil,
 }
@@ -115,19 +106,6 @@ local function set_phase(phase, msg)
     state.suppress_popup = false
   end
   note(phase .. " | " .. tostring(msg or ""))
-end
-
-local function action_ready()
-  local now = os.clock()
-  if now < state.next_action_at then
-    state.msg = string.format("jeda %.1fs...", state.next_action_at - now)
-    return false
-  end
-  return true
-end
-
-local function arm_gap()
-  state.next_action_at = os.clock() + cfg.action_gap_s
 end
 
 local function get_gui_manager()
@@ -304,21 +282,9 @@ local function hook_skip_session_popup()
   end
 end
 
-local function hook_trace_category_only()
-  local t = sdk.find_type_definition("app.GUI050000")
-  if not t then return end
-  local m = t:get_method("setQuestListCategory")
-  if not m then return end
-  sdk.hook(m, function(args)
-    if not tracing then return end
-    local cat = to_int(args[3])
-    local n = tbump("app.GUI050000.setQuestListCategory")
-    tpush(string.format("#%d setQuestListCategory | cat=%s", n, tostring(cat)))
-  end, function(retval) return retval end)
-end
-
 hook("app.GUI050000", "search", function(args) return dump_search(sdk.to_managed_object(args[3])) end)
 hook("app.GUI050000", "setQuestListInCategory", function(args) return "cat=" .. tostring(to_int(args[3])) end)
+hook("app.GUI050000", "setQuestListCategory", function(args) return "cat=" .. tostring(to_int(args[3])) end)
 hook("app.GUI050000", "changeCategorySelectedIndex", function(args) return "cat=" .. tostring(to_int(args[3])) end)
 hook("app.net_quest_session.QuestMatchmakeSystem", "SearchRescure", function(args) return dump_search(sdk.to_managed_object(args[3])) end)
 hook("app.net_quest_session.QuestMatchmakeSystem", "JoinSession", function() return "JoinSession" end)
@@ -343,7 +309,6 @@ hook("app.GUI050002", "QuestDepart", function() return "QuestDepart" end)
 hook("app.GUI050002_DeparturePreparingLink", "decideDepartLate", function() return "departLate" end)
 
 hook_skip_session_popup()
-hook_trace_category_only()
 
 ----------------------------------------------------------------
 -- Auto helpers
@@ -587,41 +552,34 @@ local function do_depart()
   return true, "depart"
 end
 
-local function cancel_auto()
-  state.suppress_popup = false
-  set_phase("idle", "cancelled")
+local function reset_auto()
   state.searches = 0
   state.deadline = 0
-  state.next_action_at = 0
   state.ordered = false
   state.native_depart_requested = false
-  state.post_search_ready_at = 0
-  state.order_ready_at = 0
-  state.depart_ready_at = 0
+  state.suppress_popup = false
+  state.target_em_id = nil
+  state.target_source = nil
+end
+
+local function cancel_auto()
+  reset_auto()
+  set_phase("idle", "cancelled")
 end
 
 local function start_auto()
-  state.searches = 0
-  state.next_action_at = 0
-  state.ordered = false
-  state.native_depart_requested = false
-  state.suppress_popup = false
-  state.post_search_ready_at = 0
-  state.order_ready_at = 0
-  state.depart_ready_at = 0
+  reset_auto()
   state.target_em_id, state.target_source = resolve_em_id()
   write_file("===== AUTO START v" .. VERSION .. " " .. os.date("%Y-%m-%d %H:%M:%S") .. " =====")
   note("target em_id=" .. tostring(state.target_em_id) .. " source=" .. tostring(state.target_source))
   if is_alma_open() then
-    arm_gap()
     set_phase("prep_cat", "Alma open")
-  else
-    local ok, detail = open_alma()
-    arm_gap()
-    if not ok then set_phase("error", detail) return end
-    state.deadline = os.clock() + cfg.wait_alma_s
-    set_phase("wait_alma", detail)
+    return
   end
+  local ok, detail = open_alma()
+  if not ok then set_phase("error", detail) return end
+  state.deadline = os.clock() + cfg.wait_alma_s
+  set_phase("wait_alma", detail)
 end
 
 local function tick_auto()
@@ -631,8 +589,6 @@ local function tick_auto()
 
   if phase == "wait_alma" then
     if is_open(UI050000) or is_alma_open() then
-      if not action_ready() then return end
-      arm_gap()
       set_phase("prep_cat", "Alma open")
       return
     end
@@ -641,25 +597,20 @@ local function tick_auto()
   end
 
   if phase == "prep_cat" then
-    if not action_ready() then return end
     if current_category() == CAT_SEARCH_RESCUE then
-      arm_gap()
       set_phase("search", "already cat=12")
       return
     end
     local ok, detail = force_cat_pre_search()
-    arm_gap()
     if not ok then set_phase("error", detail) return end
     set_phase("search", detail)
     return
   end
 
   if phase == "search" then
-    if not action_ready() then return end
     if not is_open(UI050000) then state.msg = "waiting GUI050000..." return end
     if current_category() ~= CAT_SEARCH_RESCUE then
       local ok, detail = force_cat_pre_search()
-      arm_gap()
       if not ok then set_phase("error", detail) return end
       return
     end
@@ -667,28 +618,14 @@ local function tick_auto()
     if state.searches > cfg.max_search then set_phase("error", "max search") return end
     state.suppress_popup = true -- from search until join
     local ok, detail = do_search()
-    arm_gap()
     if not ok then
       state.suppress_popup = false
       set_phase("error", detail)
       return
     end
     state.deadline = now + cfg.wait_list_s
-    state.post_search_ready_at = now + cfg.post_search_settle_s
-    set_phase("post_search", detail .. "; settle " .. tostring(cfg.post_search_settle_s) .. "s")
-    return
-  end
-
-  if phase == "post_search" then
-    if state.post_search_ready_at > 0 and now < state.post_search_ready_at then
-      state.msg = string.format("post-search settle %.1fs... cat=%s", state.post_search_ready_at - now, tostring(current_category()))
-      return
-    end
-    if not action_ready() then return end
-    note("post_search cat=" .. tostring(current_category()))
-    -- never setQuestListInCategory here
+    -- never setQuestListInCategory after search
     soft_cat_post_search()
-    arm_gap()
     set_phase("wait_list", "wait hasSR")
     return
   end
@@ -696,10 +633,6 @@ local function tick_auto()
   if phase == "wait_list" then
     local view, _, detail = pick_rescue_view()
     if view then
-      if not action_ready() then
-        state.msg = string.format("hasSR jeda %.1fs cat=%s", math.max(0, state.next_action_at - now), tostring(current_category()))
-        return
-      end
       set_phase("detail", tostring(detail))
       return
     end
@@ -712,9 +645,7 @@ local function tick_auto()
   end
 
   if phase == "detail" then
-    if not action_ready() then return end
     local ok, detail = do_detail()
-    arm_gap()
     if not ok then
       state.msg = tostring(detail)
       if now > state.deadline then set_phase("prep_cat", "detail fail") end
@@ -725,9 +656,7 @@ local function tick_auto()
   end
 
   if phase == "decide" then
-    if not action_ready() then return end
     local ok, detail = do_decide()
-    arm_gap()
     if not ok then
       state.msg = tostring(detail)
       if now > state.deadline then set_phase("prep_cat", "decide fail") end
@@ -735,38 +664,29 @@ local function tick_auto()
     end
     state.deadline = now + cfg.wait_join_s
     state.ordered = false
-    state.order_ready_at = now + cfg.order_settle_s
-    set_phase("wait_order", detail .. "; settle " .. tostring(cfg.order_settle_s) .. "s")
+    set_phase("wait_order", detail)
     return
   end
 
   if phase == "wait_order" then
     if state.ordered and is_rescue_session() then
-      if not action_ready() then return end
-      arm_gap()
       state.suppress_popup = false -- join ok; allow real errors again
       if state.native_depart_requested then
         set_phase("done", "joined; native accept-and-depart")
         write_file("===== AUTO DONE (NATIVE DEPART) =====")
         return
       end
-      state.depart_ready_at = now + cfg.depart_settle_s
       state.deadline = now + cfg.wait_join_s
-      set_phase("wait_depart", "joined; settle " .. tostring(cfg.depart_settle_s) .. "s")
+      set_phase("wait_depart", "joined")
       return
     end
     if not state.ordered then
-      if state.order_ready_at > 0 and now < state.order_ready_at then
-        state.msg = string.format("order settle %.1fs...", state.order_ready_at - now)
-      elseif not is_open(UI050001) then
+      if not is_open(UI050001) then
         state.msg = "waiting 162..."
       elseif not camp_info_ready() then
         state.msg = "waiting 169+170..."
-      elseif not action_ready() then
-        -- gap
       else
         local ok, detail = do_order()
-        arm_gap()
         if not ok then set_phase("error", detail) return end
         state.ordered = true
         state.native_depart_requested = detail == "accept-and-start"
@@ -791,17 +711,11 @@ local function tick_auto()
       if now > state.deadline then set_phase("error", "timeout camp") end
       return
     end
-    if state.depart_ready_at > 0 and now < state.depart_ready_at then
-      state.msg = string.format("depart settle %.1fs...", state.depart_ready_at - now)
-      return
-    end
     if get_gui(UI050002) == nil then
       state.msg = "waiting GUI050002..."
       return
     end
-    if not action_ready() then return end
     local ok, detail = do_depart()
-    arm_gap()
     if ok then
       state.suppress_popup = false
       set_phase("done", detail)
