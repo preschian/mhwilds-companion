@@ -1,6 +1,6 @@
 # Handoff — mhwilds-companion
 
-Checkpoint: **FieldGuideSOS v1.4.13** berhasil sampai native Accept & Depart tanpa crash. Mod memilih `ACCEPT_AND_START=0` melalui `GUI050001_AcceptList.callbackDecide`, lalu membiarkan game menjalankan `decideDepartLate → QuestDepart`; fallback tetap `orderQuest` bila item native tidak tersedia.
+Checkpoint: **FieldGuideSOS v1.4.15** berhasil 3/3 kali sampai native Accept & Depart tanpa crash, fallback, atau error. Seluruh jeda (`action`, post-search, order, dan depart) bernilai nol.
 
 ## Goal
 
@@ -46,7 +46,7 @@ Setelah edit script: **Reset Scripts** di REFramework, atau restart game.
 | Camp info panels | `169` + `170` |
 | Field Guide large monster | `179` (`GUI060102`) |
 | `LOCAL_SESSION_NOT_FOUND` | `110002` |
-| `action_gap_s` / `post_search_settle_s` / `order_settle_s` / `depart_settle_s` | `1.0` / `3.0` / `3.0` / `1.0` |
+| `action_gap_s` / `post_search_settle_s` / `order_settle_s` / `depart_settle_s` | `0.0` / `0.0` / `0.0` / `0.0` |
 | `mission` search | `INVALID` (`4294967295`) |
 
 ## Alur auto yang jalan (golden)
@@ -104,7 +104,7 @@ Launch: `steam://rungameid/2246340`
 ## Cara tes
 
 1. Masuk dunia (online)
-2. Reset Scripts → pastikan log `MOD LOADED v1.4.13`
+2. Reset Scripts → pastikan log `MOD LOADED v1.4.15`
 3. F8 → F1 → F9
 4. Sukses = log sampai `===== AUTO DONE =====` tanpa crash
 5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace_v<VERSION>.txt`

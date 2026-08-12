@@ -3,12 +3,11 @@
 -- Crash: setQuestListInCategory(12) AFTER search = CRASH
 -- Safe: setQuestListInCategory(12) ONLY before search; after search use soft set_ViewCategory
 -- Popup: skip LOCAL_SESSION_NOT_FOUND + skip openDialog_faildSearchQuest (no Invoke, no cat rewrite)
--- Search: let native NONE/fail-search noise settle before soft set_ViewCategory
--- Order: settle after decideQuest before GUI050001.orderQuest
--- Depart: settle after join before decideDepartLate/QuestDepart
+-- Search/order/depart settle controls remain available, but the validated baseline uses 0s.
+-- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.4.13"
+local VERSION = "1.4.15"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local UI050000, UI050001, UI050002 = 161, 162, 163
@@ -31,13 +30,13 @@ local LOG_FILE = "fieldguide_sos_trace_v" .. VERSION .. ".txt"
 local cfg = {
   auto_depart = true,
   accept_and_depart = true,
-  action_gap_s = 1.0,
+  action_gap_s = 0.0,
   wait_alma_s = 12,
   wait_list_s = 15,
   wait_join_s = 35,
-  post_search_settle_s = 3.0,
-  order_settle_s = 3.0,
-  depart_settle_s = 1.0,
+  post_search_settle_s = 0.0,
+  order_settle_s = 0.0,
+  depart_settle_s = 0.0,
   retry_search_s = 3,
   max_search = 8,
   -- 27 = Tempered Arkveld baseline; 0 reads the highlighted GUI060102 target.
