@@ -17,16 +17,14 @@ Requires `dinput8.dll` (REFramework) next to `MonsterHunterWilds.exe`.
 3. Press **F1** — mod searches SOS for that monster and tries auto join/depart
 4. **F1** again or **Esc** cancels retry loop
 
-Config: REFramework → Script Generated UI → FieldGuideSOS. The default `em_id=0`
-uses the highlighted `GUI060102` monster. Any positive ID is a manual override;
-Arkveld (`27`) remains the fallback when no Field Guide target can be read.
+Target is always the highlighted Field Guide monster (`GUI060102`). Arkveld (`27`)
+is the fallback when no Field Guide target can be read. Join uses native
+**Accept & Depart**.
 
 The native matchmaking request accepts only one target state at a time. Retries
-rotate through available variants from strongest to weakest: Arch-tempered →
-Tempered → Frenzied → normal. Unsupported variants are skipped per monster.
-
-`accept_and_depart` uses the game's native **Accept & Depart** action. Disable it
-to retain the **Accept & Prep** flow followed by the mod's separate depart action.
+rotate through enabled variants from strongest to weakest: Arch-tempered →
+Tempered → Frenzied → normal. Uncheck a variant in Script Generated UI →
+FieldGuideSOS to skip it. Unsupported variants are still skipped per monster.
 
 ## Files
 

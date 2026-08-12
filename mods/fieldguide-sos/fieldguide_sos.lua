@@ -7,7 +7,7 @@
 -- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.5.0"
+local VERSION = "1.5.3"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local UI050000, UI050001, UI050002 = 161, 162, 163
@@ -47,8 +47,6 @@ local ERR_LOCAL_SESSION_NOT_FOUND = 110002 -- NETWORK_ERROR_CODE.LOCAL_SESSION_N
 
 local LOG_FILE = "fieldguide_sos_trace_v" .. VERSION .. ".txt"
 local cfg = {
-  auto_depart = true,
-  accept_and_depart = true,
   action_gap_s = 0.0,
   wait_alma_s = 12,
   wait_list_s = 15,
@@ -58,8 +56,10 @@ local cfg = {
   depart_settle_s = 0.0,
   retry_search_s = 3,
   max_search = 8,
-  -- 0 reads the highlighted GUI060102 target; a positive value is an override.
-  em_id = 0,
+  search_arch_tempered = true,
+  search_tempered = true,
+  search_frenzied = true,
+  search_normal = true,
 }
 
 local state = {
@@ -349,7 +349,6 @@ hook_trace_category_only()
 -- Auto helpers
 ----------------------------------------------------------------
 local function resolve_em_id()
-  if cfg.em_id and cfg.em_id > 0 then return cfg.em_id, "manual" end
   local gui = get_gui(UI060102)
   if gui then
     local id = nil
@@ -369,10 +368,16 @@ end
 
 local function get_search_variants(em_id)
   local variants = {}
-  if ARCH_TEMPERED_EM_IDS[em_id] then variants[#variants + 1] = VARIANT_ARCH_TEMPERED end
-  if TEMPERED_EM_IDS[em_id] then variants[#variants + 1] = VARIANT_TEMPERED end
-  if FRENZIED_EM_IDS[em_id] then variants[#variants + 1] = VARIANT_FRENZIED end
-  variants[#variants + 1] = VARIANT_NORMAL
+  if cfg.search_arch_tempered and ARCH_TEMPERED_EM_IDS[em_id] then
+    variants[#variants + 1] = VARIANT_ARCH_TEMPERED
+  end
+  if cfg.search_tempered and TEMPERED_EM_IDS[em_id] then
+    variants[#variants + 1] = VARIANT_TEMPERED
+  end
+  if cfg.search_frenzied and FRENZIED_EM_IDS[em_id] then
+    variants[#variants + 1] = VARIANT_FRENZIED
+  end
+  if cfg.search_normal then variants[#variants + 1] = VARIANT_NORMAL end
   return variants
 end
 
@@ -408,6 +413,7 @@ local function do_search()
     state.target_em_id = em
   end
   local variants = get_search_variants(em)
+  if #variants == 0 then return false, "no enabled variants for em_id=" .. tostring(em) end
   local variant_index = ((state.searches - 1) % #variants) + 1
   local variant = variants[variant_index]
   local info = build_search(em, variant)
@@ -525,22 +531,20 @@ end
 local function do_order()
   local gui = get_gui(UI050001)
   if not gui then return false, "no GUI050001" end
-  if cfg.auto_depart and cfg.accept_and_depart then
-    local accept_list, start_item = nil, nil
-    pcall(function() accept_list = gui:get_field("_AcceptList") end)
-    if accept_list then
-      pcall(function() start_item = accept_list:get_field("_MenuItem_AcceptAndStart") end)
-    end
-    if accept_list and start_item then
-      note("CALL callbackDecide ACCEPT_AND_START")
-      local ok, err = pcall(function()
-        accept_list:call("callbackDecide", start_item, start_item, 0)
-      end)
-      if not ok then return false, "accept-and-start: " .. tostring(err) end
-      return true, "accept-and-start"
-    end
-    note("fallback orderQuest (no AcceptAndStart item)")
+  local accept_list, start_item = nil, nil
+  pcall(function() accept_list = gui:get_field("_AcceptList") end)
+  if accept_list then
+    pcall(function() start_item = accept_list:get_field("_MenuItem_AcceptAndStart") end)
   end
+  if accept_list and start_item then
+    note("CALL callbackDecide ACCEPT_AND_START")
+    local ok, err = pcall(function()
+      accept_list:call("callbackDecide", start_item, start_item, 0)
+    end)
+    if not ok then return false, "accept-and-start: " .. tostring(err) end
+    return true, "accept-and-start"
+  end
+  note("fallback orderQuest (no AcceptAndStart item)")
   note("CALL orderQuest")
   local ok, err = pcall(function() gui:call("orderQuest") end)
   if not ok then return false, "order: " .. tostring(err) end
@@ -777,7 +781,6 @@ local function tick_auto()
   end
 
   if phase == "wait_depart" then
-    if not cfg.auto_depart then set_phase("done", "joined") return end
     if not is_rescue_session() then
       state.msg = "waiting session..."
       if now > state.deadline then set_phase("error", "timeout session") end
@@ -852,17 +855,19 @@ end)
 
 re.on_draw_ui(function()
   if not imgui.tree_node(MOD .. " v" .. VERSION) then return end
-  imgui.text("phase: " .. state.phase)
-  imgui.text_wrapped(state.msg)
-  local _, auto_d = imgui.checkbox("auto_depart", cfg.auto_depart)
-  cfg.auto_depart = auto_d
-  local _, accept_depart = imgui.checkbox("accept_and_depart", cfg.accept_and_depart)
-  cfg.accept_and_depart = accept_depart
-  local _, em = imgui.drag_int("em_id (0=Field Guide)", cfg.em_id, 1, 0, 200)
-  cfg.em_id = em
-  if imgui.button("Start") then start_auto() end
-  imgui.same_line()
-  if imgui.button("Cancel") then cancel_auto() end
+  pcall(function()
+    imgui.text("phase: " .. state.phase)
+    imgui.text(tostring(state.msg))
+    imgui.text("search variants")
+    local _, arch = imgui.checkbox("Arch-tempered", cfg.search_arch_tempered)
+    cfg.search_arch_tempered = arch
+    local _, tempered = imgui.checkbox("Tempered", cfg.search_tempered)
+    cfg.search_tempered = tempered
+    local _, frenzied = imgui.checkbox("Frenzied", cfg.search_frenzied)
+    cfg.search_frenzied = frenzied
+    local _, normal = imgui.checkbox("Normal", cfg.search_normal)
+    cfg.search_normal = normal
+  end)
   imgui.tree_pop()
 end)
 
