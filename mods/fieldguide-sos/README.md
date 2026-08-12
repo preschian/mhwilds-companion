@@ -17,9 +17,9 @@ Requires `dinput8.dll` (REFramework) next to `MonsterHunterWilds.exe`.
 3. Press **F1** — mod searches SOS for that monster and tries auto join/depart
 4. **F1** again or **Esc** cancels retry loop
 
-Target is always the highlighted Field Guide monster (`GUI060102`). Arkveld (`27`)
-is the fallback when no Field Guide target can be read. Join uses native
-**Accept & Depart**.
+Target is always the highlighted Field Guide monster (`GUI060102`). If none can
+be read, F1 errors with `no Field Guide target` and does not search. Join uses
+native **Accept & Depart**.
 
 The native matchmaking request accepts only one target state at a time. Retries
 rotate through enabled variants from strongest to weakest: Arch-tempered →
