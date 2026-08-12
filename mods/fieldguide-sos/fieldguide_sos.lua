@@ -7,7 +7,7 @@
 -- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.4.16"
+local VERSION = "1.5.0"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local UI050000, UI050001, UI050002 = 161, 162, 163
@@ -17,13 +17,25 @@ local ALMA_IDS = { 161, 162, 163, 164, 165 }
 
 local ARKVELD_ID = 27
 local ROLE_NORMAL = 0
+local ROLE_FRENZY = 3
 local LEGENDARY_NORMAL = 0
 local LEGENDARY_TEMPERED = 1
 local LEGENDARY_ARCH_TEMPERED = 2
-local ARKVELD_SEARCH_VARIANTS = {
-  { id = LEGENDARY_ARCH_TEMPERED, label = "Arch-tempered" },
-  { id = LEGENDARY_TEMPERED, label = "Tempered" },
-  { id = LEGENDARY_NORMAL, label = "normal" },
+local VARIANT_NORMAL = { role = ROLE_NORMAL, legendary = LEGENDARY_NORMAL, label = "normal" }
+local VARIANT_FRENZIED = { role = ROLE_FRENZY, legendary = LEGENDARY_NORMAL, label = "Frenzied" }
+local VARIANT_TEMPERED = { role = ROLE_NORMAL, legendary = LEGENDARY_TEMPERED, label = "Tempered" }
+local VARIANT_ARCH_TEMPERED = { role = ROLE_NORMAL, legendary = LEGENDARY_ARCH_TEMPERED, label = "Arch-tempered" }
+
+-- Captured from the enabled High Rank SOS target list. Guardian forms are
+-- separate EmIDs, not variants of their base monster.
+local FRENZIED_EM_IDS = { [4]=true, [5]=true, [7]=true, [9]=true, [29]=true }
+local ARCH_TEMPERED_EM_IDS = { [23]=true, [24]=true, [25]=true, [27]=true, [30]=true }
+local TEMPERED_EM_IDS = {
+  [0]=true, [1]=true, [2]=true, [3]=true, [4]=true, [5]=true, [6]=true,
+  [7]=true, [8]=true, [9]=true, [10]=true, [11]=true, [13]=true,
+  [14]=true, [15]=true, [16]=true, [17]=true, [18]=true, [19]=true,
+  [20]=true, [21]=true, [22]=true, [23]=true, [24]=true, [25]=true,
+  [26]=true, [27]=true, [29]=true, [30]=true, [31]=true,
 }
 local DIFF_HIGH_NATIVE = 300
 local QUEST_TYPE_ANY = 0
@@ -46,8 +58,8 @@ local cfg = {
   depart_settle_s = 0.0,
   retry_search_s = 3,
   max_search = 8,
-  -- 27 cycles all Arkveld variants; 0 reads the highlighted GUI060102 target.
-  em_id = ARKVELD_ID,
+  -- 0 reads the highlighted GUI060102 target; a positive value is an override.
+  em_id = 0,
 }
 
 local state = {
@@ -342,7 +354,7 @@ local function resolve_em_id()
   if gui then
     local id = nil
     pcall(function() id = to_int(gui:call("get_TargetEmId")) end)
-    if id and id > 0 then return id, "Field Guide" end
+    if id and id >= 0 then return id, "Field Guide" end
   end
   return ARKVELD_ID, "fallback Arkveld"
 end
@@ -355,7 +367,16 @@ local function open_alma()
   return ok, ok and "requestQuestCounter" or "open Alma failed"
 end
 
-local function build_search(em_id, legendary_id)
+local function get_search_variants(em_id)
+  local variants = {}
+  if ARCH_TEMPERED_EM_IDS[em_id] then variants[#variants + 1] = VARIANT_ARCH_TEMPERED end
+  if TEMPERED_EM_IDS[em_id] then variants[#variants + 1] = VARIANT_TEMPERED end
+  if FRENZIED_EM_IDS[em_id] then variants[#variants + 1] = VARIANT_FRENZIED end
+  variants[#variants + 1] = VARIANT_NORMAL
+  return variants
+end
+
+local function build_search(em_id, variant)
   local info = sdk.create_instance("app.net_quest_session.cSearchQuestSessionInfo")
   if not info then return nil end
   info = info:add_ref()
@@ -365,8 +386,8 @@ local function build_search(em_id, legendary_id)
   target = target:add_ref()
   pcall(function() target:call(".ctor") end)
   target:set_field("Id", em_id)
-  target:set_field("RoleId", ROLE_NORMAL)
-  target:set_field("LegendaryId", legendary_id)
+  target:set_field("RoleId", variant.role)
+  target:set_field("LegendaryId", variant.legendary)
   info:call("set_Rescure", true)
   info:call("set_QuestDifficulty", DIFF_HIGH_NATIVE)
   info:call("set_QuestType", QUEST_TYPE_ANY)
@@ -382,21 +403,19 @@ local function do_search()
   local gui = get_gui(UI050000)
   if not gui then return false, "no GUI050000" end
   local em = state.target_em_id
-  if not em or em <= 0 then
+  if em == nil or em < 0 then
     em, state.target_source = resolve_em_id()
     state.target_em_id = em
   end
-  local variant = { id = LEGENDARY_TEMPERED, label = "Tempered" }
-  if em == ARKVELD_ID then
-    local variant_index = ((state.searches - 1) % #ARKVELD_SEARCH_VARIANTS) + 1
-    variant = ARKVELD_SEARCH_VARIANTS[variant_index]
-  end
-  local info = build_search(em, variant.id)
+  local variants = get_search_variants(em)
+  local variant_index = ((state.searches - 1) % #variants) + 1
+  local variant = variants[variant_index]
+  local info = build_search(em, variant)
   if not info then return false, "build search failed" end
-  note(string.format("CALL GUI050000.search tid=%s leg=%s variant=%s", tostring(em), tostring(variant.id), variant.label))
+  note(string.format("CALL GUI050000.search tid=%s role=%s leg=%s variant=%s", tostring(em), tostring(variant.role), tostring(variant.legendary), variant.label))
   local ok, err = pcall(function() gui:call("search", info, MISSION_INVALID) end)
   if not ok then return false, "search err: " .. tostring(err) end
-  return true, string.format("search ok tid=%s leg=%s %s", tostring(em), tostring(variant.id), variant.label)
+  return true, string.format("search ok tid=%s role=%s leg=%s %s", tostring(em), tostring(variant.role), tostring(variant.legendary), variant.label)
 end
 
 local function list_count(list)

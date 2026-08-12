@@ -1,8 +1,8 @@
 # Field Guide SOS (MH Wilds)
 
 Standalone REFramework QoL: **F1** → SOS search → auto join/depart. The default
-target cycles through Arch-tempered, Tempered, and normal Arkveld; Field Guide
-targeting is available as an option.
+target is the monster highlighted in the Field Guide. Search retries use only
+the High Rank variants available for that monster.
 
 ## Install
 
@@ -13,15 +13,17 @@ Requires `dinput8.dll` (REFramework) next to `MonsterHunterWilds.exe`.
 ## Usage
 
 1. Launch game, load into world (online)
-2. Press **F1** — mod searches SOS for any Arkveld variant and tries auto join/depart
-3. **F1** again or **Esc** cancels retry loop
+2. Highlight a large monster in the Field Guide
+3. Press **F1** — mod searches SOS for that monster and tries auto join/depart
+4. **F1** again or **Esc** cancels retry loop
 
-Config: REFramework → Script Generated UI → FieldGuideSOS. The default `em_id=27`
-targets Arkveld. Set `em_id=0`, open `GUI060102`, and highlight a monster to use
-the Field Guide target; any other positive ID is a manual override.
+Config: REFramework → Script Generated UI → FieldGuideSOS. The default `em_id=0`
+uses the highlighted `GUI060102` monster. Any positive ID is a manual override;
+Arkveld (`27`) remains the fallback when no Field Guide target can be read.
 
-The native matchmaking request accepts only one target state at a time. For
-Arkveld, retries rotate in this order: Arch-tempered → Tempered → normal.
+The native matchmaking request accepts only one target state at a time. Retries
+rotate through available variants from strongest to weakest: Arch-tempered →
+Tempered → Frenzied → normal. Unsupported variants are skipped per monster.
 
 `accept_and_depart` uses the game's native **Accept & Depart** action. Disable it
 to retain the **Accept & Prep** flow followed by the mod's separate depart action.
@@ -32,6 +34,8 @@ to retain the **Accept & Prep** flow followed by the mod's separate depart actio
 |------|------|
 | `fieldguide_sos.lua` | Main mod |
 | `fieldguide_sos_probe.lua` | Optional discovery helper (can remove after wiring) |
+| `monster_variant_probe.lua.off` | Disabled SOS target-list capture helper |
+| `../../docs/high-rank-monster-variants.md` | Captured High Rank variant matrix |
 
 ## Notes
 

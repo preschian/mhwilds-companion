@@ -1,12 +1,12 @@
 # Handoff — mhwilds-companion
 
-Checkpoint stabil terakhir: **FieldGuideSOS v1.4.15** berhasil 3/3 kali sampai native Accept & Depart tanpa crash, fallback, atau error. **v1.4.16** menambahkan rotasi pencarian tiga varian Arkveld dan masih perlu dites. Seluruh jeda (`action`, post-search, order, dan depart) bernilai nol.
+Checkpoint: **FieldGuideSOS v1.5.0** berhasil dalam pengujian awal target Field Guide generik dan rotasi varian per monster tanpa crash. Seluruh jeda (`action`, post-search, order, dan depart) bernilai nol.
 
 ## Goal
 
-QoL MH Wilds (REFramework Lua standalone): dari Alma / flow quest counter → auto search SOS **Arkveld (Arch-tempered → Tempered → normal)** → accept → depart, tanpa klik manual panjang.
+QoL MH Wilds (REFramework Lua standalone): dari monster yang disorot di Field Guide → auto search SOS varian terkuat yang tersedia → accept → depart, tanpa klik manual panjang.
 
-Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS search/accept/depart. `em_id=0` sekarang membaca snapshot `GUI060102.get_TargetEmId` saat F1; angka positif tetap menjadi override manual, dan Arkveld (`27`) menjadi fallback.
+Target UX: Field Guide highlight monster → **F1** → SOS search/accept/depart. `em_id=0` membaca snapshot `GUI060102.get_TargetEmId` saat F1; angka positif tetap menjadi override manual, dan Arkveld (`27`) menjadi fallback.
 
 ## Paths
 
@@ -54,7 +54,7 @@ Setelah edit script: **Reset Scripts** di REFramework, atau restart game.
 
 1. Buka Alma: `requestQuestCounter(NORMAL)` atau sudah open → UI `161`
 2. **Sebelum** search: `setQuestListInCategory(12)` — **aman**
-3. `GUI050000.search` dengan `resc=true diff=300 tid=27 role=0`; setiap retry merotasi `leg=2` (Arch-tempered) → `leg=1` (Tempered) → `leg=0` (normal)
+3. Snapshot `GUI060102.get_TargetEmId`, lalu `GUI050000.search` dengan `resc=true diff=300`; retry merotasi varian valid per monster: Arch-tempered → Tempered → Frenzied → normal
 4. Game sering `setQuestListCategory(NONE)` + path fail-search dialog — **boleh di-skip**; hasil SOS tetap bisa ada (`hasSR`)
 5. Tunggu list `hasSR` → `updateQuestDetailWindow` → settle → `decideQuest`
 6. Tunggu UI `162` + panel `169`+`170` → `orderQuest` → join
@@ -105,7 +105,7 @@ Launch: `steam://rungameid/2246340`
 ## Cara tes
 
 1. Masuk dunia (online)
-2. Reset Scripts → pastikan log `MOD LOADED v1.4.16`
+2. Reset Scripts → pastikan log `MOD LOADED v1.5.0`
 3. F8 → F1 → F9
 4. Sukses = log sampai `===== AUTO DONE =====` tanpa crash
 5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace_v<VERSION>.txt`
