@@ -3,10 +3,11 @@
 -- Crash: setQuestListInCategory(12) AFTER search = CRASH
 -- Safe: setQuestListInCategory(12) ONLY before search; after search use soft set_ViewCategory
 -- Popup: skip LOCAL_SESSION_NOT_FOUND + skip openDialog_faildSearchQuest (no Invoke, no cat rewrite)
--- Depart: settle after join before decideDepartLate/QuestDepart
+-- Search/order/depart settle controls remain available, but the validated baseline uses 0s.
+-- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.4.7"
+local VERSION = "1.4.16"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local UI050000, UI050001, UI050002 = 161, 162, 163
@@ -16,7 +17,14 @@ local ALMA_IDS = { 161, 162, 163, 164, 165 }
 
 local ARKVELD_ID = 27
 local ROLE_NORMAL = 0
+local LEGENDARY_NORMAL = 0
 local LEGENDARY_TEMPERED = 1
+local LEGENDARY_ARCH_TEMPERED = 2
+local ARKVELD_SEARCH_VARIANTS = {
+  { id = LEGENDARY_ARCH_TEMPERED, label = "Arch-tempered" },
+  { id = LEGENDARY_TEMPERED, label = "Tempered" },
+  { id = LEGENDARY_NORMAL, label = "normal" },
+}
 local DIFF_HIGH_NATIVE = 300
 local QUEST_TYPE_ANY = 0
 local FIELD_ANY = -1
@@ -25,16 +33,20 @@ local CAT_SEARCH_RESCUE = 12
 local QC_MODE_NORMAL = 0
 local ERR_LOCAL_SESSION_NOT_FOUND = 110002 -- NETWORK_ERROR_CODE.LOCAL_SESSION_NOT_FOUND
 
-local LOG_FILE = "fieldguide_sos_trace.txt"
+local LOG_FILE = "fieldguide_sos_trace_v" .. VERSION .. ".txt"
 local cfg = {
   auto_depart = true,
-  action_gap_s = 1.0,
+  accept_and_depart = true,
+  action_gap_s = 0.0,
   wait_alma_s = 12,
   wait_list_s = 15,
   wait_join_s = 35,
-  depart_settle_s = 1.0,
+  post_search_settle_s = 0.0,
+  order_settle_s = 0.0,
+  depart_settle_s = 0.0,
   retry_search_s = 3,
   max_search = 8,
+  -- 27 cycles all Arkveld variants; 0 reads the highlighted GUI060102 target.
   em_id = ARKVELD_ID,
 }
 
@@ -45,8 +57,13 @@ local state = {
   deadline = 0,
   next_action_at = 0,
   ordered = false,
+  native_depart_requested = false,
   suppress_popup = false, -- skip LOCAL_SESSION_NOT_FOUND + openDialog_faildSearchQuest
+  post_search_ready_at = 0,
+  order_ready_at = 0,
   depart_ready_at = 0,
+  target_em_id = nil,
+  target_source = nil,
 }
 
 local tracing = false
@@ -298,6 +315,14 @@ hook("app.GUI050000QuestListParts", "updateQuestDetailWindow", function(args) re
 hook("app.GUI050000QuestListParts", "decideQuest", function(args) return dump_view(sdk.to_managed_object(args[3])) end)
 hook("app.GUI050000QuestListParts", "set_ViewCategory", function(args) return "cat=" .. tostring(to_int(args[3])) end)
 hook("app.GUI050001", "orderQuest", function() return "orderQuest" end)
+hook("app.GUI050001_AcceptList", "callbackDecide", function(args)
+  local list = sdk.to_managed_object(args[2])
+  local item = sdk.to_managed_object(args[4])
+  local idx = nil
+  if list and item then pcall(function() idx = to_int(list:call("getItemIndex", item)) end) end
+  return "item=" .. tostring(idx)
+end)
+hook("app.GUI050001", "setActiveStartPointList", function(args) return "active=" .. tostring(to_int(args[3])) end)
 hook("app.cGUIQuestOrderHelper", "order", function(args) return "orderType=" .. tostring(to_int(args[4])) end)
 hook("app.cGUIQuestOrderHelper", "executeJoinSession", function() return "executeJoinSession" end)
 hook("app.GUIManager", "requestQuestCounter", function() return "requestQuestCounter" end)
@@ -312,14 +337,14 @@ hook_trace_category_only()
 -- Auto helpers
 ----------------------------------------------------------------
 local function resolve_em_id()
-  if cfg.em_id and cfg.em_id > 0 then return cfg.em_id end
+  if cfg.em_id and cfg.em_id > 0 then return cfg.em_id, "manual" end
   local gui = get_gui(UI060102)
   if gui then
     local id = nil
     pcall(function() id = to_int(gui:call("get_TargetEmId")) end)
-    if id and id > 0 then return id end
+    if id and id > 0 then return id, "Field Guide" end
   end
-  return ARKVELD_ID
+  return ARKVELD_ID, "fallback Arkveld"
 end
 
 local function open_alma()
@@ -330,7 +355,7 @@ local function open_alma()
   return ok, ok and "requestQuestCounter" or "open Alma failed"
 end
 
-local function build_search(em_id)
+local function build_search(em_id, legendary_id)
   local info = sdk.create_instance("app.net_quest_session.cSearchQuestSessionInfo")
   if not info then return nil end
   info = info:add_ref()
@@ -341,7 +366,7 @@ local function build_search(em_id)
   pcall(function() target:call(".ctor") end)
   target:set_field("Id", em_id)
   target:set_field("RoleId", ROLE_NORMAL)
-  target:set_field("LegendaryId", LEGENDARY_TEMPERED)
+  target:set_field("LegendaryId", legendary_id)
   info:call("set_Rescure", true)
   info:call("set_QuestDifficulty", DIFF_HIGH_NATIVE)
   info:call("set_QuestType", QUEST_TYPE_ANY)
@@ -356,13 +381,22 @@ end
 local function do_search()
   local gui = get_gui(UI050000)
   if not gui then return false, "no GUI050000" end
-  local em = resolve_em_id()
-  local info = build_search(em)
+  local em = state.target_em_id
+  if not em or em <= 0 then
+    em, state.target_source = resolve_em_id()
+    state.target_em_id = em
+  end
+  local variant = { id = LEGENDARY_TEMPERED, label = "Tempered" }
+  if em == ARKVELD_ID then
+    local variant_index = ((state.searches - 1) % #ARKVELD_SEARCH_VARIANTS) + 1
+    variant = ARKVELD_SEARCH_VARIANTS[variant_index]
+  end
+  local info = build_search(em, variant.id)
   if not info then return false, "build search failed" end
-  note("CALL GUI050000.search tid=" .. tostring(em))
+  note(string.format("CALL GUI050000.search tid=%s leg=%s variant=%s", tostring(em), tostring(variant.id), variant.label))
   local ok, err = pcall(function() gui:call("search", info, MISSION_INVALID) end)
   if not ok then return false, "search err: " .. tostring(err) end
-  return true, "search ok tid=" .. tostring(em)
+  return true, string.format("search ok tid=%s leg=%s %s", tostring(em), tostring(variant.id), variant.label)
 end
 
 local function list_count(list)
@@ -472,6 +506,22 @@ end
 local function do_order()
   local gui = get_gui(UI050001)
   if not gui then return false, "no GUI050001" end
+  if cfg.auto_depart and cfg.accept_and_depart then
+    local accept_list, start_item = nil, nil
+    pcall(function() accept_list = gui:get_field("_AcceptList") end)
+    if accept_list then
+      pcall(function() start_item = accept_list:get_field("_MenuItem_AcceptAndStart") end)
+    end
+    if accept_list and start_item then
+      note("CALL callbackDecide ACCEPT_AND_START")
+      local ok, err = pcall(function()
+        accept_list:call("callbackDecide", start_item, start_item, 0)
+      end)
+      if not ok then return false, "accept-and-start: " .. tostring(err) end
+      return true, "accept-and-start"
+    end
+    note("fallback orderQuest (no AcceptAndStart item)")
+  end
   note("CALL orderQuest")
   local ok, err = pcall(function() gui:call("orderQuest") end)
   if not ok then return false, "order: " .. tostring(err) end
@@ -521,6 +571,9 @@ local function cancel_auto()
   state.deadline = 0
   state.next_action_at = 0
   state.ordered = false
+  state.native_depart_requested = false
+  state.post_search_ready_at = 0
+  state.order_ready_at = 0
   state.depart_ready_at = 0
 end
 
@@ -528,9 +581,14 @@ local function start_auto()
   state.searches = 0
   state.next_action_at = 0
   state.ordered = false
+  state.native_depart_requested = false
   state.suppress_popup = false
+  state.post_search_ready_at = 0
+  state.order_ready_at = 0
   state.depart_ready_at = 0
+  state.target_em_id, state.target_source = resolve_em_id()
   write_file("===== AUTO START v" .. VERSION .. " " .. os.date("%Y-%m-%d %H:%M:%S") .. " =====")
+  note("target em_id=" .. tostring(state.target_em_id) .. " source=" .. tostring(state.target_source))
   if is_alma_open() then
     arm_gap()
     set_phase("prep_cat", "Alma open")
@@ -593,11 +651,16 @@ local function tick_auto()
       return
     end
     state.deadline = now + cfg.wait_list_s
-    set_phase("post_search", detail)
+    state.post_search_ready_at = now + cfg.post_search_settle_s
+    set_phase("post_search", detail .. "; settle " .. tostring(cfg.post_search_settle_s) .. "s")
     return
   end
 
   if phase == "post_search" then
+    if state.post_search_ready_at > 0 and now < state.post_search_ready_at then
+      state.msg = string.format("post-search settle %.1fs... cat=%s", state.post_search_ready_at - now, tostring(current_category()))
+      return
+    end
     if not action_ready() then return end
     note("post_search cat=" .. tostring(current_category()))
     -- never setQuestListInCategory here
@@ -649,7 +712,8 @@ local function tick_auto()
     end
     state.deadline = now + cfg.wait_join_s
     state.ordered = false
-    set_phase("wait_order", detail)
+    state.order_ready_at = now + cfg.order_settle_s
+    set_phase("wait_order", detail .. "; settle " .. tostring(cfg.order_settle_s) .. "s")
     return
   end
 
@@ -658,13 +722,20 @@ local function tick_auto()
       if not action_ready() then return end
       arm_gap()
       state.suppress_popup = false -- join ok; allow real errors again
+      if state.native_depart_requested then
+        set_phase("done", "joined; native accept-and-depart")
+        write_file("===== AUTO DONE (NATIVE DEPART) =====")
+        return
+      end
       state.depart_ready_at = now + cfg.depart_settle_s
       state.deadline = now + cfg.wait_join_s
       set_phase("wait_depart", "joined; settle " .. tostring(cfg.depart_settle_s) .. "s")
       return
     end
     if not state.ordered then
-      if not is_open(UI050001) then
+      if state.order_ready_at > 0 and now < state.order_ready_at then
+        state.msg = string.format("order settle %.1fs...", state.order_ready_at - now)
+      elseif not is_open(UI050001) then
         state.msg = "waiting 162..."
       elseif not camp_info_ready() then
         state.msg = "waiting 169+170..."
@@ -675,6 +746,7 @@ local function tick_auto()
         arm_gap()
         if not ok then set_phase("error", detail) return end
         state.ordered = true
+        state.native_depart_requested = detail == "accept-and-start"
         state.msg = detail .. " — wait JoinSession"
         return
       end
@@ -765,7 +837,9 @@ re.on_draw_ui(function()
   imgui.text_wrapped(state.msg)
   local _, auto_d = imgui.checkbox("auto_depart", cfg.auto_depart)
   cfg.auto_depart = auto_d
-  local _, em = imgui.drag_int("em_id", cfg.em_id, 1, 0, 200)
+  local _, accept_depart = imgui.checkbox("accept_and_depart", cfg.accept_and_depart)
+  cfg.accept_and_depart = accept_depart
+  local _, em = imgui.drag_int("em_id (0=Field Guide)", cfg.em_id, 1, 0, 200)
   cfg.em_id = em
   if imgui.button("Start") then start_auto() end
   imgui.same_line()

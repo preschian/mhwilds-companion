@@ -1,12 +1,12 @@
 # Handoff — mhwilds-companion
 
-Checkpoint: **FieldGuideSOS v1.4.7** (jeda 1s). Status: search → accept → join terasa OK; depart masih perlu divalidasi end-to-end (`AUTO DONE` tanpa crash).
+Checkpoint stabil terakhir: **FieldGuideSOS v1.4.15** berhasil 3/3 kali sampai native Accept & Depart tanpa crash, fallback, atau error. **v1.4.16** menambahkan rotasi pencarian tiga varian Arkveld dan masih perlu dites. Seluruh jeda (`action`, post-search, order, dan depart) bernilai nol.
 
 ## Goal
 
-QoL MH Wilds (REFramework Lua standalone): dari Alma / flow quest counter → auto search SOS **Tempered Arkveld** → accept → depart, tanpa klik manual panjang.
+QoL MH Wilds (REFramework Lua standalone): dari Alma / flow quest counter → auto search SOS **Arkveld (Arch-tempered → Tempered → normal)** → accept → depart, tanpa klik manual panjang.
 
-Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS search/accept/depart. Saat ini `em_id` masih default Arkveld (`27`); path Field Guide (`GUI060102` / `TargetEmId`) sudah di-stub.
+Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS search/accept/depart. `em_id=0` sekarang membaca snapshot `GUI060102.get_TargetEmId` saat F1; angka positif tetap menjadi override manual, dan Arkveld (`27`) menjadi fallback.
 
 ## Paths
 
@@ -16,7 +16,7 @@ Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS searc
 | Mod source | `mods\fieldguide-sos\fieldguide_sos.lua` |
 | Deploy | `scripts\deploy.ps1` → `...\MonsterHunterWilds\reframework\autorun\` |
 | Game | `D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds` |
-| Trace log | `reframework\data\fieldguide_sos_trace.txt` (CWD REF = `reframework/data/`) |
+| Trace log | `reframework\data\fieldguide_sos_trace_v<VERSION>.txt` (CWD REF = `reframework/data/`) |
 | Probe (OFF) | `mods\fieldguide-sos\fieldguide_sos_probe.lua.off` |
 | SDK dump | `il2cpp_dump.json` di folder game (jangan commit) |
 | Dump slices | `mods\fieldguide-sos\dump_slices\` |
@@ -40,20 +40,21 @@ Setelah edit script: **Reset Scripts** di REFramework, atau restart game.
 |------|-------|
 | Arkveld `EnemyDef.ID` | `27` |
 | Tempered | `RoleId=0`, `LegendaryId=1` (**bukan** RoleId=2) |
+| Arkveld normal / Arch-tempered | `LegendaryId=0` / `LegendaryId=2` |
 | HR search difficulty | `300` |
 | Rescue category | `12` (`SERCH_RESCUE_SIGNAL`) |
 | Alma / order / camp UI | `161` / `162` / `163` |
 | Camp info panels | `169` + `170` |
 | Field Guide large monster | `179` (`GUI060102`) |
 | `LOCAL_SESSION_NOT_FOUND` | `110002` |
-| `action_gap_s` / `depart_settle_s` | `1.0` / `1.0` |
+| `action_gap_s` / `post_search_settle_s` / `order_settle_s` / `depart_settle_s` | `0.0` / `0.0` / `0.0` / `0.0` |
 | `mission` search | `INVALID` (`4294967295`) |
 
 ## Alur auto yang jalan (golden)
 
 1. Buka Alma: `requestQuestCounter(NORMAL)` atau sudah open → UI `161`
 2. **Sebelum** search: `setQuestListInCategory(12)` — **aman**
-3. `GUI050000.search` dengan `resc=true diff=300 tid=27 role=0 leg=1`
+3. `GUI050000.search` dengan `resc=true diff=300 tid=27 role=0`; setiap retry merotasi `leg=2` (Arch-tempered) → `leg=1` (Tempered) → `leg=0` (normal)
 4. Game sering `setQuestListCategory(NONE)` + path fail-search dialog — **boleh di-skip**; hasil SOS tetap bisa ada (`hasSR`)
 5. Tunggu list `hasSR` → `updateQuestDetailWindow` → settle → `decideQuest`
 6. Tunggu UI `162` + panel `169`+`170` → `orderQuest` → join
@@ -104,18 +105,16 @@ Launch: `steam://rungameid/2246340`
 ## Cara tes
 
 1. Masuk dunia (online)
-2. Reset Scripts → pastikan log `MOD LOADED v1.4.7`
+2. Reset Scripts → pastikan log `MOD LOADED v1.4.16`
 3. F8 → F1 → F9
 4. Sukses = log sampai `===== AUTO DONE =====` tanpa crash
-5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace.txt`
+5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace_v<VERSION>.txt`
 
 ## Next (prioritas)
 
-1. Validasi depart end-to-end tanpa crash; jika crash, bandingkan call `decideDepartLate` vs native (F8 capture manual depart)
-2. Skip quest yang sudah full
-3. Baca monster dari Field Guide (`GUI060102.get_TargetEmId`) supaya F1 tidak hardcode Arkveld
-4. Optional: auto-open Alma polish / retry search lebih pintar
-5. Update `mods\fieldguide-sos\README.md` (masih outdated vs implementasi sekarang)
+1. Skip quest yang sudah full
+2. Validasi mode Field Guide (`em_id=0`) dengan monster non-Arkveld
+3. Optional: auto-open Alma polish / retry search lebih pintar
 
 ## Agent context
 
