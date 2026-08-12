@@ -1,12 +1,12 @@
 # Handoff — mhwilds-companion
 
-Checkpoint: **FieldGuideSOS v1.4.7** (jeda 1s). Status: search → accept → join terasa OK; depart masih perlu divalidasi end-to-end (`AUTO DONE` tanpa crash).
+Checkpoint: **FieldGuideSOS v1.4.12**. Baseline Tempered Arkveld (`em_id=27`) berhasil dua kali berturut-turut sampai `AUTO DONE` tanpa crash. Fix utama: settle 3 detik setelah search agar native category `NONE`/fail-search selesai sebelum soft category, ditambah settle 3 detik sebelum `orderQuest`.
 
 ## Goal
 
 QoL MH Wilds (REFramework Lua standalone): dari Alma / flow quest counter → auto search SOS **Tempered Arkveld** → accept → depart, tanpa klik manual panjang.
 
-Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS search/accept/depart. Saat ini `em_id` masih default Arkveld (`27`); path Field Guide (`GUI060102` / `TargetEmId`) sudah di-stub.
+Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS search/accept/depart. `em_id=0` sekarang membaca snapshot `GUI060102.get_TargetEmId` saat F1; angka positif tetap menjadi override manual, dan Arkveld (`27`) menjadi fallback.
 
 ## Paths
 
@@ -16,7 +16,7 @@ Target UX jangka panjang: Field Guide highlight monster → **F1** → SOS searc
 | Mod source | `mods\fieldguide-sos\fieldguide_sos.lua` |
 | Deploy | `scripts\deploy.ps1` → `...\MonsterHunterWilds\reframework\autorun\` |
 | Game | `D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds` |
-| Trace log | `reframework\data\fieldguide_sos_trace.txt` (CWD REF = `reframework/data/`) |
+| Trace log | `reframework\data\fieldguide_sos_trace_v<VERSION>.txt` (CWD REF = `reframework/data/`) |
 | Probe (OFF) | `mods\fieldguide-sos\fieldguide_sos_probe.lua.off` |
 | SDK dump | `il2cpp_dump.json` di folder game (jangan commit) |
 | Dump slices | `mods\fieldguide-sos\dump_slices\` |
@@ -46,7 +46,7 @@ Setelah edit script: **Reset Scripts** di REFramework, atau restart game.
 | Camp info panels | `169` + `170` |
 | Field Guide large monster | `179` (`GUI060102`) |
 | `LOCAL_SESSION_NOT_FOUND` | `110002` |
-| `action_gap_s` / `depart_settle_s` | `1.0` / `1.0` |
+| `action_gap_s` / `post_search_settle_s` / `order_settle_s` / `depart_settle_s` | `1.0` / `3.0` / `3.0` / `1.0` |
 | `mission` search | `INVALID` (`4294967295`) |
 
 ## Alur auto yang jalan (golden)
@@ -104,18 +104,16 @@ Launch: `steam://rungameid/2246340`
 ## Cara tes
 
 1. Masuk dunia (online)
-2. Reset Scripts → pastikan log `MOD LOADED v1.4.7`
+2. Reset Scripts → pastikan log `MOD LOADED v1.4.12`
 3. F8 → F1 → F9
 4. Sukses = log sampai `===== AUTO DONE =====` tanpa crash
-5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace.txt`
+5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace_v<VERSION>.txt`
 
 ## Next (prioritas)
 
-1. Validasi depart end-to-end tanpa crash; jika crash, bandingkan call `decideDepartLate` vs native (F8 capture manual depart)
-2. Skip quest yang sudah full
-3. Baca monster dari Field Guide (`GUI060102.get_TargetEmId`) supaya F1 tidak hardcode Arkveld
-4. Optional: auto-open Alma polish / retry search lebih pintar
-5. Update `mods\fieldguide-sos\README.md` (masih outdated vs implementasi sekarang)
+1. Skip quest yang sudah full
+2. Validasi mode Field Guide (`em_id=0`) dengan monster non-Arkveld
+3. Optional: auto-open Alma polish / retry search lebih pintar
 
 ## Agent context
 
