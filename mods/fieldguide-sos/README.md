@@ -33,8 +33,10 @@ to retain the **Accept & Prep** flow followed by the mod's separate depart actio
 | File | Role |
 |------|------|
 | `fieldguide_sos.lua` | Main mod |
+| `startup_autojoin.lua` | Experimental opt-in: Auto Start Game → save slot 1 → Recommended Lobby (not deployed by `deploy.ps1`) |
 | `fieldguide_sos_probe.lua` | Optional discovery helper (can remove after wiring) |
 | `monster_variant_probe.lua.off` | Disabled SOS target-list capture helper |
+| `startup_flow_probe.lua.off` | Disabled title/startup flow capture helper |
 | `../../docs/high-rank-monster-variants.md` | Captured High Rank variant matrix |
 
 ## Notes
