@@ -1,0 +1,18 @@
+# REFramework / game dumps (live outside repo or huge)
+il2cpp_dump.json
+*.dmp
+*.log
+
+# Local traces / OS junk
+**/fieldguide_sos_trace.txt
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / env
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key

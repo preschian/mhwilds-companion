@@ -1,0 +1,17 @@
+==== app.Net_LateJoinSync.SyncSnapShot
+  F _StackSession: app.net_session_manager.SessionManager
+==== app.Net_PacketReplay
+  F _QuestSession: app.net_quest_session.cQuestSession
+==== app.Net_ReplayEvent
+  F _QuestSession: app.net_quest_session.cQuestSession
+==== app.Net_SessionService
+  F _QuestSession: app.net_quest_session.cQuestSession
+  M get_QuestSession645718 -> app.net_quest_session.cQuestSession
+==== app.NetworkRequestManager
+  F _QuestSession: app.net_quest_session.cQuestSession
+==== app.net_quest_session.cQuestSession
+  F _MatchMake: app.net_quest_session.QuestMatchmakeSystem
+==== app.net_session_manager.SessionManager[]
+  M Address643097 -> app.net_session_manager.SessionManager
+  M Get643096 -> app.net_session_manager.SessionManager
+  M get_Item643104 -> app.net_session_manager.SessionManager

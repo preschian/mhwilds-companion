@@ -1,0 +1,236 @@
+==== keys
+app.GUI040200
+app.GUI040200.FLAG
+app.GUI040200.FLAG[]
+app.GUI040200.PAGE_TYPE
+app.GUI040200.PAGE_TYPE[]
+app.GUI040200.POSITION
+app.GUI040200.POSITION[]
+app.GUI040200.SE_NO
+app.GUI040200.SE_NO[]
+app.GUI040200.SUB_MENU_TYPE
+app.GUI040200.SUB_MENU_TYPE[]
+app.GUI040200.cCircleInfo
+app.GUI040200.cCircleInfo[]
+app.GUI040200Accessor
+app.GUI040200PartsAnimal
+app.GUI040200PartsArena
+app.GUI040200PartsBase
+app.GUI040200PartsBase[]
+app.GUI040200PartsEnemyReport
+app.GUI040200PartsFullScreenPicture
+app.GUI040200PartsHunterEquip
+app.GUI040200PartsHunterEquip.MODE
+app.GUI040200PartsHunterEquip.MODE[]
+app.GUI040200PartsMedal
+app.GUI040200PartsMedalTips
+app.GUI040200PartsMenu
+app.GUI040200PartsMenu.cData
+app.GUI040200PartsMenu.cData[]
+app.GUI040200PartsMenu.cMainData
+app.GUI040200PartsMenu.cMainData[]
+app.GUI040200PartsOtomoEquip
+app.GUI040200PartsOtomoEquip.MODE
+app.GUI040200PartsOtomoEquip.MODE[]
+app.GUI040200PartsQuestClear
+app.GUI040200PartsQuestClear.MISSION_TYPE
+app.GUI040200PartsQuestClear.MISSION_TYPE[]
+app.GUI040200PartsQuestList
+app.GUI040200PartsTitleSetting
+app.GUI040200PartsTop
+app.GUI040200PartsTop.DUPLICATE_TYPE
+app.GUI040200PartsTop.DUPLICATE_TYPE[]
+app.GUI040200PartsTop.MODE
+app.GUI040200PartsTop.MODE[]
+app.GUI040200PartsTop.MOUSE_CTRL_INFO
+app.GUI040200PartsTop.MOUSE_CTRL_INFO[]
+app.GUI040200PartsTop.WidgetSelectData
+app.GUI040200PartsTop.WidgetSelectData[]
+app.GUI040200PartsWeaponGraph
+app.GUI040205
+app.GUI040205.BossReportInfo
+app.GUI040205.BossReportInfo[]
+app.GUI040205PartsEnemyDetail
+app.GUI040205PartsEnemyList
+app.GUI040205PartsEnemyList.SORT_TYPE
+app.GUI040205PartsEnemyList.SORT_TYPE[]
+app.GUI040205PartsEnemyList.VIEW_TYPE
+app.GUI040205PartsEnemyList.VIEW_TYPE[]
+app.cGUI040200DotTab
+app.cGUI040200WidgetAnimalCaptureRanking
+app.cGUI040200WidgetAnimalFieldCapture
+app.cGUI040200WidgetAnimalKeyholder
+app.cGUI040200WidgetAnimalRankingBase
+app.cGUI040200WidgetArena
+app.cGUI040200WidgetBase
+app.cGUI040200WidgetBase[]
+app.cGUI040200WidgetBase[][]
+app.cGUI040200WidgetCircle
+app.cGUI040200WidgetDecorateTitle
+app.cGUI040200WidgetEmCount
+app.cGUI040200WidgetEquipAppearanceMyset
+app.cGUI040200WidgetEquipMyset
+app.cGUI040200WidgetFishCaptureRanking
+app.cGUI040200WidgetFishSizeRanking
+app.cGUI040200WidgetFishWeightRanking
+app.cGUI040200WidgetFreeComment
+app.cGUI040200WidgetGyotaku
+app.cGUI040200WidgetHunterRank
+app.cGUI040200WidgetJukeBox
+app.cGUI040200WidgetMedal
+app.cGUI040200WidgetMedalAll
+app.cGUI040200WidgetPicture
+app.cGUI040200WidgetPlTop
+app.cGUI040200WidgetPlayTime
+app.cGUI040200WidgetPopName
+app.cGUI040200WidgetPopName.POS_STATE
+app.cGUI040200WidgetPopName.POS_STATE[]
+app.cGUI040200WidgetQuestClear
+app.cGUI040200WidgetSimpleBoxBase
+app.cGUI040200WidgetWeaponUseNum
+app.cGUICommonMenu_EnemyReportBoss
+app.cGUIPartsEnemyReportBossEcology
+app.cGUIPartsEnemyReportBossEcology.cSpecialAttackData
+app.cGUIPartsEnemyReportBossEcology.cSpecialAttackData[]
+app.cGUIPartsEnemyReportBossGuidance
+app.cGUIPartsEnemyReportBossGuidance.EFFECTION
+app.cGUIPartsEnemyReportBossGuidance.EFFECTION[]
+app.cGUIPartsEnemyReportBossGuidance.EFFECTION_LEVEL
+app.cGUIPartsEnemyReportBossGuidance.EFFECTION_LEVEL[]
+app.cGUIPartsEnemyReportBossGuidance.WEAK_PARTS
+app.cGUIPartsEnemyReportBossGuidance.WEAK_PARTS[]
+app.cGUIPartsEnemyReportBossGuidance.cPartsMeatData
+app.cGUIPartsEnemyReportBossGuidance.cPartsMeatData[]
+app.cGUIPartsEnemyReportBossMaterialList
+app.cGUIPartsEnemyReportBossMaterialList.MATERIAL_PARTS
+app.cGUIPartsEnemyReportBossMaterialList.MATERIAL_PARTS[]
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListData
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListData[]
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListDetailData
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListDetailData[]
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListSearchData
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListSearchData[]
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialPartsData
+app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialPartsData[]
+app.cGUIPartsEnemyReportBossMeasureInfo
+app.cGUIPartsEnemyReportBossMeasureInfo.cMeasureData
+app.cGUIPartsEnemyReportBossMeasureInfo.cRecommendAttributeAttackData
+app.cGUIPartsEnemyReportBossMeasureInfo.cRecommendAttributeAttackData[]
+app.cGUIPartsEnemyReportBossMeasureInfo.cValidConditionData
+app.cGUIPartsEnemyReportBossMeasureInfo.cValidConditionData[]
+app.cGUIPartsEnemyReportBossMeasureInfo.cValidItemData
+app.cGUIPartsEnemyReportBossMeasureInfo.cValidItemData[]
+app.cGUIPartsEnemyReportBossRecord
+app.cGUIPartsEnemyReportBossRecord.cTitleData
+app.cGUIPartsEnemyReportBossRecord.cTitleData[]
+app.user_data.EnemyReportBossAnatomyTextureData
+app.user_data.EnemyReportBossAnatomyTextureData.cData
+app.user_data.EnemyReportBossAnatomyTextureData.cData[]
+app.user_data.EnemyReportBossData
+app.user_data.EnemyReportBossData.cData
+app.user_data.EnemyReportBossData.cData[]
+app.user_data.EnemyReportBossMaterialDispData
+app.user_data.EnemyReportBossMaterialDispData.cData
+app.user_data.EnemyReportBossMaterialDispData.cData[]
+app.user_data.EnemyReportBossReleaseData
+app.user_data.EnemyReportBossReleaseData.cData
+app.user_data.EnemyReportBossReleaseData.cData[]
+app.user_data.EnemyReportBossSketchTextureData
+app.user_data.EnemyReportBossSketchTextureData.cData
+app.user_data.EnemyReportBossSketchTextureData.cData[]
+app.user_data.EnemyReportBossTitleData
+app.user_data.EnemyReportBossTitleData.cData
+app.user_data.EnemyReportBossTitleData.cData[]
+==== app.GUI040200PartsEnemyReport 
+  M .ctor703523() -> System.Void
+  M <open>b__0_0703524(ace.GUIBaseCore) -> System.Void
+  M close703522(System.Int32) -> System.Void
+  M open703521() -> System.Void
+==== app.cGUI040200WidgetEmCount 
+  M .ctor693677() -> System.Void
+  M get_Name693671() -> System.Guid
+  M get_Size693670() -> via.Uint2
+  M get_WidgetType693669() -> app.HunterProfileDef.WIDGET_TYPE
+  M get__PathCrown693673() -> via.gui.asset.ui040200._PNL_iconCrown_
+  M get__PathRoot693672() -> via.gui.asset.ui040200._PNL_EM00_
+  M setContent693674() -> System.Void
+  M setEnemy693676(app.EnemyDef.ID) -> System.Void
+  M setupCrown693675(via.gui.Panel, app.GUI040205.BossReportInfo) -> System.Void
+  F <_PathCrown>k__BackingField: via.gui.asset.ui040200._PNL_iconCrown_
+  F <_PathRoot>k__BackingField: via.gui.asset.ui040200._PNL_EM00_
+==== app.GUI040200Accessor 
+  M .ctor662874() -> System.Void
+  M get_HunterProfileGUI662870() -> app.GUI040200
+  M onRegister662871(ace.GUIBase`2[[app.GUIID.ID, application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[app.GUIFunc.TYPE, application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][]) -> System.Void
+  M onUnRegister662872() -> System.Void
+  M setGameObjectRef662873(via.GameObjectRef, via.GameObjectRef, via.GameObjectRef, app.GuildCardSceneController) -> System.Void
+  F _HunterProfileGUI: app.GUI040200
+==== app.cGUICommonMenu_EnemyReportBoss 
+  M .ctor1197076() -> System.Void
+  M execute1197074(app.MenuDef.ExecuteFrom, System.Object, app.cGUICommonMenuItemExecuteOptionBase, ace.IGUIFlowHandle) -> System.Void
+  M get_OpenGUIID1197072() -> app.GUIID.ID
+  M isEnable1197075(System.Guid) -> System.Boolean
+  M isUpdate1197073() -> System.Boolean
+==== app.GUI040208 
+  M .cctor662194() -> System.Void
+  M .ctor662193() -> System.Void
+  M callback_ClickSwitchDisp662192(via.gui.Control) -> System.Void
+  M callback_Other662191(ace.GUIDef.BUTTON_SLOT, via.gui.Control, via.gui.SelectItem, System.UInt32) -> System.Void
+  M get_AnimalFishCapturePerStage662177() -> System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
+  M get_AnimalFishRanking662179() -> app.GUI040208.AnimalReportInfo[,]
+  M get_AnimalReports662173() -> app.GUI040208.AnimalReportInfo[]
+  M get_DispType662172() -> app.GUI040208.DISP_TYPE
+  M get_FishingReports662175() -> app.GUI040208.FishingReportInfo[]
+  M get_ID662161() -> app.GUIID.ID
+  M get__InputCtrl662170() -> ace.cGUIInputCtrl`2<app.GUIID.ID,app.GUIFunc.TYPE>
+  M get__PanelPat00662181() -> via.gui.Panel
+  M get__PartsAnimalDetail662164() -> app.GUI040208PartsAnimalDetail
+  M get__PartsAnimalList662166() -> app.GUI040208PartsAnimalList
+  M get__PartsAnimalRanking662168() -> app.GUI040208PartsAnimalRanking
+  M get__PartsAnimalRankingPerStage662162() -> app.GUI040208PartsAnimalRankingPerStage
+  M get__TextSwitchDisp662183() -> via.gui.Text
+  M guiAwake662185() -> System.Void
+  M onOpen662186() -> System.Void
+  M setCurrentEnemy662188(app.GUI040208.AnimalReportInfo) -> System.Void
+  M setData662187(app.GUI040208.AnimalReportInfo[], app.GUI040208.FishingReportInfo[], System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>, app.GUI040208.AnimalReportInfo[,]) -> System.Void
+  M setDispType662189(app.GUI040208.DISP_TYPE) -> System.Void
+  M set_AnimalFishCapturePerStage662178(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>) -> System.Void
+  M set_AnimalFishRanking662180(app.GUI040208.AnimalReportInfo[,]) -> System.Void
+  M set_AnimalReports662174(app.GUI040208.AnimalReportInfo[]) -> System.Void
+  M set_FishingReports662176(app.GUI040208.FishingReportInfo[]) -> System.Void
+  M set__InputCtrl662171(ace.cGUIInputCtrl`2<app.GUIID.ID,app.GUIFunc.TYPE>) -> System.Void
+  M set__PanelPat00662182(via.gui.Panel) -> System.Void
+  M set__PartsAnimalDetail662165(app.GUI040208PartsAnimalDetail) -> System.Void
+  M set__PartsAnimalList662167(app.GUI040208PartsAnimalList) -> System.Void
+  M set__PartsAnimalRanking662169(app.GUI040208PartsAnimalRanking) -> System.Void
+  M set__PartsAnimalRankingPerStage662163(app.GUI040208PartsAnimalRankingPerStage) -> System.Void
+  M set__TextSwitchDisp662184(via.gui.Text) -> System.Void
+  M switchDispType662190() -> System.Void
+  F <AnimalFishCapturePerStage>k__BackingField: System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
+  F <AnimalFishRanking>k__BackingField: app.GUI040208.AnimalReportInfo[,]
+  F <AnimalReports>k__BackingField: app.GUI040208.AnimalReportInfo[]
+  F <FishingReports>k__BackingField: app.GUI040208.FishingReportInfo[]
+  F <_InputCtrl>k__BackingField: ace.cGUIInputCtrl`2<app.GUIID.ID,app.GUIFunc.TYPE>
+  F <_PanelPat00>k__BackingField: via.gui.Panel
+  F <_PartsAnimalDetail>k__BackingField: app.GUI040208PartsAnimalDetail
+  F <_PartsAnimalList>k__BackingField: app.GUI040208PartsAnimalList
+  F <_PartsAnimalRanking>k__BackingField: app.GUI040208PartsAnimalRanking
+  F <_PartsAnimalRankingPerStage>k__BackingField: app.GUI040208PartsAnimalRankingPerStage
+  F <_TextSwitchDisp>k__BackingField: via.gui.Text
+  F SLOT_SWITCH_DISP: ace.GUIDef.BUTTON_SLOT
+  F _DispType: app.GUI040208.DISP_TYPE
+  F _DispTypeMsgs: System.Guid[]
+  F _DispTypeStates: System.String[]
+==== GUIID.ID 0402*
+  UI040200 = 136
+  UI040201 = 137
+  UI040202 = 138
+  UI040203 = 139
+  UI040204 = 140
+  UI040205 = 141
+  UI040206 = 142
+  UI040207 = 143
+  UI040208 = 144
+  UI040209 = 145
+  UI040402 = 151
+  UI090402 = 226

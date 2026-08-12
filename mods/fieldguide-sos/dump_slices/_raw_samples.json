@@ -1,0 +1,1770 @@
+{
+  "app.GUI040205PartsEnemyList": {
+    "address": "14f084330",
+    "crc": "5f2236e",
+    "deserializer_chain": [
+      {
+        "address": "0x14b470830",
+        "name": "via.Object"
+      },
+      {
+        "address": "0x14b028830",
+        "name": "System.Object"
+      }
+    ],
+    "fields": {
+      "_keys_sample": [
+        "<_CtrlChangeView>k__BackingField",
+        "<_CtrlGrid>k__BackingField",
+        "<_CtrlList>k__BackingField",
+        "<_CtrlSort>k__BackingField",
+        "<_MyOwner>k__BackingField",
+        "<_PanelListChange>k__BackingField",
+        "<_PanelListRoot>k__BackingField",
+        "<_PathCrown0>k__BackingField",
+        "<_PathCrown1>k__BackingField",
+        "<_PathCrown>k__BackingField",
+        "<_PathGrid>k__BackingField",
+        "<_PathGridItem>k__BackingField",
+        "<_PathGridName>k__BackingField",
+        "<_PathList>k__BackingField",
+        "<_PathListChange>k__BackingField",
+        "<_PathListChangeGrid>k__BackingField",
+        "<_PathListChangeKey>k__BackingField",
+        "<_PathListChangeKeyIcon>k__BackingField",
+        "<_PathListChangeList>k__BackingField",
+        "<_PathListItem>k__BackingField",
+        "<_PathListRoot>k__BackingField",
+        "<_PathRoot>k__BackingField",
+        "<_PathSort>k__BackingField",
+        "<_RelativePathGridCrown>k__BackingField",
+        "<_RelativePathGridIcon>k__BackingField",
+        "<_RelativePathListCrown>k__BackingField",
+        "<_RelativePathListIcon>k__BackingField",
+        "<_RelativePathListName>k__BackingField",
+        "SLOT_CHANGE_VIEW",
+        "_CurrentSortType",
+        "_CurrentViewType",
+        "_DispList",
+        "_GridEnemyName"
+      ],
+      "_key_count": 33
+    },
+    "flags": "Public | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "d991e1d5",
+    "id": 130253,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      "_keys_sample": [
+        ".cctor661276",
+        ".ctor661275",
+        "callback_ClickGridView661270",
+        "callback_ClickListView661271",
+        "callback_ClickViewChange661269",
+        "callback_OtherViewChange661268",
+        "callback_SelectGrid661266",
+        "callback_SelectList661264",
+        "callback_SwitchSortToggle661272",
+        "changeViewType661260",
+        "get__CtrlChangeView661222",
+        "get__CtrlGrid661220",
+        "get__CtrlList661218",
+        "get__CtrlSort661224",
+        "get__MyOwner661216",
+        "get__PanelListChange661226",
+        "get__PanelListRoot661228",
+        "get__PathCrown0661249",
+        "get__PathCrown1661250",
+        "get__PathCrown661248",
+        "get__PathGrid661243",
+        "get__PathGridItem661244",
+        "get__PathGridName661247",
+        "get__PathList661238",
+        "get__PathListChange661232",
+        "get__PathListChangeGrid661235",
+        "get__PathListChangeKey661233",
+        "get__PathListChangeKeyIcon661234",
+        "get__PathListChangeList661236",
+        "get__PathListItem661239",
+        "get__PathListRoot661237",
+        "get__PathRoot661230",
+        "get__PathSort661231",
+        "get__RelativePathGridCrown661246",
+        "get__RelativePathGridIcon661245",
+        "get__RelativePathListCrown661241",
+        "get__RelativePathListIcon661240",
+        "get__RelativePathListName661242",
+        "onOpen661252",
+        "onSetup661251"
+      ],
+      "_key_count": 61
+    },
+    "name_hierarchy": [
+      "app",
+      "GUI040205PartsEnemyList"
+    ],
+    "parent": "app.cGUIPartsBaseApp",
+    "properties": {
+      "_CtrlChangeView": {
+        "getter": "get__CtrlChangeView",
+        "id": 219415,
+        "setter": "set__CtrlChangeView"
+      },
+      "_CtrlGrid": {
+        "getter": "get__CtrlGrid",
+        "id": 219414,
+        "setter": "set__CtrlGrid"
+      },
+      "_CtrlList": {
+        "getter": "get__CtrlList",
+        "id": 219413,
+        "setter": "set__CtrlList"
+      },
+      "_CtrlSort": {
+        "getter": "get__CtrlSort",
+        "id": 219416,
+        "setter": "set__CtrlSort"
+      },
+      "_MyOwner": {
+        "getter": "get__MyOwner",
+        "id": 219412,
+        "setter": "set__MyOwner"
+      },
+      "_PanelListChange": {
+        "getter": "get__PanelListChange",
+        "id": 219417,
+        "setter": "set__PanelListChange"
+      },
+      "_PanelListRoot": {
+        "getter": "get__PanelListRoot",
+        "id": 219418,
+        "setter": "set__PanelListRoot"
+      }
+    },
+    "size": "88"
+  },
+  "app.cGUI050000QuestSearchWindowCtrl": {
+    "address": "14f1ef0d0",
+    "crc": "5c1ba8f",
+    "deserializer_chain": [
+      {
+        "address": "0x14b470830",
+        "name": "via.Object"
+      },
+      {
+        "address": "0x14b028830",
+        "name": "System.Object"
+      }
+    ],
+    "fields": {
+      "_SearchState": {
+        "flags": "Private",
+        "id": 312277,
+        "init_data_index": 0,
+        "offset_from_base": "0x50",
+        "offset_from_fieldptr": "0x40",
+        "type": "app.cGUI050000QuestSearchWindowCtrl.SEARCH_STATE"
+      }
+    },
+    "flags": "Public | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "f8766288",
+    "id": 148831,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor650811": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "14bae0c30",
+        "id": 650811,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "<failSearchQuest>b__4_0650815": {
+        "flags": "Private | HideBySig",
+        "function": "144943410",
+        "id": 650815,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "failSearchQuest650813": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1449431d0",
+        "id": 650813,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "search650814": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "144943210",
+        "id": 650814,
+        "impl_flags": "HasThis",
+        "invoke_id": 11,
+        "params": [
+          {
+            "name": "",
+            "type": "app.net_quest_session.cSearchQuestSessionInfo"
+          },
+          {
+            "name": "",
+            "type": "app.MissionIDList.ID"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "successSearchQuest650812": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1449431b0",
+        "id": 650812,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "cGUI050000QuestSearchWindowCtrl"
+    ],
+    "parent": "app.GUI050000PartsBase",
+    "size": "54"
+  },
+  "app.cQuestAcceptArg": {
+    "RSZ": [
+      {
+        "align": 8,
+        "array": false,
+        "code": "Guid",
+        "code_id": 45,
+        "depth": 0,
+        "offset_from_fieldptr": "0x18",
+        "potential_name": "QuestHostId",
+        "size": "0x10",
+        "static": false,
+        "type": "System.Guid"
+      },
+      {
+        "align": 8,
+        "array": false,
+        "code": "S64",
+        "code_id": 16,
+        "depth": 0,
+        "offset_from_fieldptr": "0x8",
+        "potential_name": "AcceptedTime",
+        "size": "0x8",
+        "static": false,
+        "type": "System.Int64"
+      },
+      {
+        "align": 1,
+        "array": false,
+        "code": "Bool",
+        "code_id": 7,
+        "depth": 0,
+        "offset_from_fieldptr": "0x30",
+        "potential_name": "IsJoinRescue",
+        "size": "0x1",
+        "static": false,
+        "type": "System.Boolean"
+      },
+      {
+        "align": 1,
+        "array": false,
+        "code": "Bool",
+        "code_id": 7,
+        "depth": 0,
+        "offset_from_fieldptr": "0x31",
+        "potential_name": "IsHostStart",
+        "size": "0x1",
+        "static": false,
+        "type": "System.Boolean"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x28",
+        "potential_name": "StartType",
+        "size": "0x4",
+        "static": false,
+        "type": "app.cGUIQuestOrderParam.QUEST_START_TYPE"
+      },
+      "...(+5 more)"
+    ],
+    "address": "14efa8790",
+    "crc": "a0d23ed0",
+    "fields": {
+      "<RescueSearchParam>k__BackingField": {
+        "flags": "Private",
+        "id": 294307,
+        "init_data_index": 0,
+        "offset_from_base": "0x20",
+        "offset_from_fieldptr": "0x10",
+        "type": "app.cQuestAcceptArg.cResueuSearchParam"
+      },
+      "AcceptedTime": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294303,
+        "init_data_index": 0,
+        "offset_from_base": "0x18",
+        "offset_from_fieldptr": "0x8",
+        "type": "System.Int64"
+      },
+      "ArenaQuestSelectDataIndex": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294308,
+        "init_data_index": 0,
+        "offset_from_base": "0x3c",
+        "offset_from_fieldptr": "0x2c",
+        "type": "System.Int32"
+      },
+      "IsArenaQuestChangeMainWeapon": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294309,
+        "init_data_index": 0,
+        "offset_from_base": "0x42",
+        "offset_from_fieldptr": "0x32",
+        "type": "System.Boolean"
+      },
+      "IsArenaQuestJoinNpc": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294310,
+        "init_data_index": 0,
+        "offset_from_base": "0x43",
+        "offset_from_fieldptr": "0x33",
+        "type": "System.Boolean"
+      },
+      "IsChangeMainWeaponInQuest": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294311,
+        "init_data_index": 0,
+        "offset_from_base": "0x44",
+        "offset_from_fieldptr": "0x34",
+        "type": "System.Boolean"
+      },
+      "IsDeleted": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294312,
+        "init_data_index": 0,
+        "offset_from_base": "0x45",
+        "offset_from_fieldptr": "0x35",
+        "type": "System.Boolean"
+      },
+      "IsHostStart": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294305,
+        "init_data_index": 0,
+        "offset_from_base": "0x41",
+        "offset_from_fieldptr": "0x31",
+        "type": "System.Boolean"
+      },
+      "IsJoinRescue": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294304,
+        "init_data_index": 0,
+        "offset_from_base": "0x40",
+        "offset_from_fieldptr": "0x30",
+        "type": "System.Boolean"
+      },
+      "QuestHostId": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294302,
+        "init_data_index": 0,
+        "offset_from_base": "0x28",
+        "offset_from_fieldptr": "0x18",
+        "type": "System.Guid"
+      },
+      "StartPos": {
+        "flags": "FamANDAssem | Family",
+        "id": 294301,
+        "init_data_index": 0,
+        "offset_from_base": "0x10",
+        "offset_from_fieldptr": "0x0",
+        "type": "app.cStartPointInfo"
+      },
+      "StartType": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294306,
+        "init_data_index": 0,
+        "offset_from_base": "0x38",
+        "offset_from_fieldptr": "0x28",
+        "type": "app.cGUIQuestOrderParam.QUEST_START_TYPE"
+      }
+    },
+    "flags": "Public | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "c6d03799",
+    "id": 119003,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor581388": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "148a45ad0",
+        "id": 581388,
+        "impl_flags": "HasThis",
+        "invoke_id": 7763,
+        "params": [
+          {
+            "name": "",
+            "type": "app.cStartPointInfo"
+          },
+          {
+            "flags": "Optional | HasDefault",
+            "name": "",
+            "type": "System.Guid"
+          },
+          {
+            "flags": "Optional | HasDefault",
+            "name": "",
+            "type": "System.Int64"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "get_RescueSearchParam581386": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName",
+        "function": "14b733ca0",
+        "id": 581386,
+        "impl_flags": "HasThis",
+        "invoke_id": 4,
+        "returns": {
+          "name": "",
+          "type": "app.cQuestAcceptArg.cResueuSearchParam"
+        }
+      },
+      "set_RescueSearchParam581387": {
+        "flags": "Private | HideBySig | SpecialName",
+        "function": "14b767f80",
+        "id": 581387,
+        "impl_flags": "HasThis",
+        "invoke_id": 9,
+        "params": [
+          {
+            "name": "",
+            "type": "app.cQuestAcceptArg.cResueuSearchParam"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "cQuestAcceptArg"
+    ],
+    "parent": "System.Object",
+    "properties": {
+      "RescueSearchParam": {
+        "getter": "get_RescueSearchParam",
+        "id": 204218,
+        "setter": "set_RescueSearchParam"
+      }
+    },
+    "reflection_properties": {
+      "AcceptedTime": {
+        "getter": "0x14001b180",
+        "order": 1,
+        "type": "s64"
+      },
+      "ArenaQuestSelectDataIndex": {
+        "getter": "0x14001b180",
+        "order": 5,
+        "type": "s32"
+      },
+      "IsArenaQuestChangeMainWeapon": {
+        "getter": "0x14001b180",
+        "order": 6,
+        "type": "bool"
+      },
+      "IsArenaQuestJoinNpc": {
+        "getter": "0x14001b180",
+        "order": 7,
+        "type": "bool"
+      },
+      "IsChangeMainWeaponInQuest": {
+        "getter": "0x14001b180",
+        "order": 8,
+        "type": "bool"
+      },
+      "IsDeleted": {
+        "getter": "0x14001b180",
+        "order": 9,
+        "type": "bool"
+      },
+      "IsHostStart": {
+        "getter": "0x14001b180",
+        "order": 3,
+        "type": "bool"
+      },
+      "IsJoinRescue": {
+        "getter": "0x14001b180",
+        "order": 2,
+        "type": "bool"
+      },
+      "QuestHostId": {
+        "getter": "0x14001b180",
+        "order": 0,
+        "type": "System.Guid"
+      },
+      "StartType": {
+        "getter": "0x14001b180",
+        "order": 4,
+        "type": "app.cGUIQuestOrderParam.QUEST_START_TYPE"
+      }
+    },
+    "size": "48"
+  },
+  "app.cQuestAcceptArg.cResueuSearchParam": {
+    "RSZ": [
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x0",
+        "potential_name": "search_rescue_quest_type_id",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x4",
+        "potential_name": "search_rescue_quest_difficulty",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x8",
+        "potential_name": "search_rescue_language_setting",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0xc",
+        "potential_name": "search_rescue_platform_type",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x10",
+        "potential_name": "search_rescue_monster_id",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      "...(+1 more)"
+    ],
+    "address": "14e8bc5d0",
+    "crc": "4753d9a9",
+    "declaring_type": "app.cQuestAcceptArg",
+    "fields": {
+      "search_rescue_field_id": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294300,
+        "init_data_index": 0,
+        "offset_from_base": "0x24",
+        "offset_from_fieldptr": "0x14",
+        "type": "app.FieldDef.STAGE"
+      },
+      "search_rescue_language_setting": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294297,
+        "init_data_index": 0,
+        "offset_from_base": "0x18",
+        "offset_from_fieldptr": "0x8",
+        "type": "System.Int32"
+      },
+      "search_rescue_monster_id": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294299,
+        "init_data_index": 0,
+        "offset_from_base": "0x20",
+        "offset_from_fieldptr": "0x10",
+        "type": "System.Int32"
+      },
+      "search_rescue_platform_type": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294298,
+        "init_data_index": 0,
+        "offset_from_base": "0x1c",
+        "offset_from_fieldptr": "0xc",
+        "type": "System.Int32"
+      },
+      "search_rescue_quest_difficulty": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294296,
+        "init_data_index": 0,
+        "offset_from_base": "0x14",
+        "offset_from_fieldptr": "0x4",
+        "type": "System.Int32"
+      },
+      "search_rescue_quest_type_id": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 294295,
+        "init_data_index": 0,
+        "offset_from_base": "0x10",
+        "offset_from_fieldptr": "0x0",
+        "type": "System.Int32"
+      }
+    },
+    "flags": "NestedPublic | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "2ef5d343",
+    "id": 28271,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor581385": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "14ba1b2f0",
+        "id": 581385,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "cQuestAcceptArg",
+      "cResueuSearchParam"
+    ],
+    "parent": "System.Object",
+    "reflection_properties": {
+      "search_rescue_field_id": {
+        "getter": "0x14001b180",
+        "order": 5,
+        "type": "app.FieldDef.STAGE"
+      },
+      "search_rescue_language_setting": {
+        "getter": "0x14001b180",
+        "order": 2,
+        "type": "s32"
+      },
+      "search_rescue_monster_id": {
+        "getter": "0x14001b180",
+        "order": 4,
+        "type": "s32"
+      },
+      "search_rescue_platform_type": {
+        "getter": "0x14001b180",
+        "order": 3,
+        "type": "s32"
+      },
+      "search_rescue_quest_difficulty": {
+        "getter": "0x14001b180",
+        "order": 1,
+        "type": "s32"
+      },
+      "search_rescue_quest_type_id": {
+        "getter": "0x14001b180",
+        "order": 0,
+        "type": "s32"
+      }
+    },
+    "size": "28"
+  },
+  "app.net_quest_session.QuestMatchmakeSystem": {
+    "address": "14ee32640",
+    "crc": "e11629a8",
+    "deserializer_chain": [
+      {
+        "address": "0x14b470830",
+        "name": "via.Object"
+      },
+      {
+        "address": "0x14b028830",
+        "name": "System.Object"
+      }
+    ],
+    "fields": {
+      "_APISessionId": {
+        "flags": "Private",
+        "id": 310035,
+        "init_data_index": 0,
+        "offset_from_base": "0x10",
+        "offset_from_fieldptr": "0x0",
+        "type": "System.String"
+      },
+      "_QuestEndPoint": {
+        "flags": "Private",
+        "id": 310036,
+        "init_data_index": 0,
+        "offset_from_base": "0x18",
+        "offset_from_fieldptr": "0x8",
+        "type": "System.String"
+      }
+    },
+    "flags": "Public | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "a6b998dd",
+    "id": 99850,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor641871": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "140006de0",
+        "id": 641871,
+        "impl_flags": "EmptyCtor | HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "AutoJoinRescureSession641878": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149189030",
+        "id": 641878,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "app.net_quest_session.cSearchQuestSessionInfo"
+          },
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "CreateRescueRequestParam641885": {
+        "flags": "Private | HideBySig",
+        "function": "149189f80",
+        "id": 641885,
+        "impl_flags": "HasThis",
+        "invoke_id": 94,
+        "params": [
+          {
+            "flags": "Out",
+            "modifier": "ByRef",
+            "name": "",
+            "type": "app.Net_APIServer.cQuest.PostQuestSignalCreateRequest"
+          },
+          {
+            "name": "",
+            "type": "app.net_quest_session.cSessionInfo"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Boolean"
+        }
+      },
+      "CreateRescure641879": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149189250",
+        "id": 641879,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "app.net_quest_session.cSessionInfo"
+          },
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "DeleteRescure641880": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1491894b0",
+        "id": 641880,
+        "impl_flags": "HasThis",
+        "invoke_id": 9,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "EndSession641874": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149188920",
+        "id": 641874,
+        "impl_flags": "HasThis",
+        "invoke_id": 9,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "EndSession641875": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149188ac0",
+        "id": 641875,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "System.String"
+          },
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "GetQuestHunterList641883": {
+        "flags": "Private | HideBySig",
+        "function": "149189910",
+        "id": 641883,
+        "impl_flags": "HasThis",
+        "invoke_id": 47,
+        "params": [
+          {
+            "flags": "Optional | HasDefault",
+            "name": "",
+            "type": "System.Boolean"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Collections.Generic.List`1<app.Net_APIServer.cCommonQuest.QuestHunter>"
+        }
+      },
+      "GetSelfQuestHunterInfo641884": {
+        "flags": "Private | HideBySig",
+        "function": "149189ea0",
+        "id": 641884,
+        "impl_flags": "HasThis",
+        "invoke_id": 1574,
+        "returns": {
+          "name": "",
+          "type": "app.Net_APIServer.cCommonQuest.QuestHunter"
+        }
+      },
+      "JoinSession641876": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149188bd0",
+        "id": 641876,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "app.net_quest_session.cJoinQuestSessionInfo"
+          },
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "SearchRescure641882": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1491896b0",
+        "id": 641882,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "app.net_quest_session.cSearchQuestSessionInfo"
+          },
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "StartSession641873": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1491886b0",
+        "id": 641873,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "app.net_quest_session.cCreateQuestSessionInfo"
+          },
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "UpdateSession641877": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149188da0",
+        "id": 641877,
+        "impl_flags": "HasThis",
+        "invoke_id": 9,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Action`3<System.Boolean,System.Int32,System.Byte[]>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "getQuestSearchType641886": {
+        "flags": "Private | HideBySig",
+        "function": "14918b3a0",
+        "id": 641886,
+        "impl_flags": "HasThis",
+        "invoke_id": 36,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Int32"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "app.net_quest_session.cSearchQuestSessionInfo.SEARCH_QUEST_TYPE"
+        }
+      },
+      "get_APISessionId641869": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName",
+        "function": "14b72f5c0",
+        "id": 641869,
+        "impl_flags": "HasThis",
+        "invoke_id": 4,
+        "returns": {
+          "name": "",
+          "type": "System.String"
+        }
+      },
+      "get_QuestEndPoint641870": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName",
+        "function": "14b730180",
+        "id": 641870,
+        "impl_flags": "HasThis",
+        "invoke_id": 4,
+        "returns": {
+          "name": "",
+          "type": "System.String"
+        }
+      },
+      "init641872": {
+        "flags": "Private | HideBySig",
+        "function": "14c946860",
+        "id": 641872,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "set_APISessionId641868": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName",
+        "function": "14b733bf0",
+        "id": 641868,
+        "impl_flags": "HasThis",
+        "invoke_id": 9,
+        "params": [
+          {
+            "name": "",
+            "type": "System.String"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "touchRescure641881": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "149189610",
+        "id": 641881,
+        "impl_flags": "HasThis",
+        "invoke_id": 9,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Action`2<System.Boolean,app.NETWORK_ERROR_CODE>"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app.net_quest_session",
+      "QuestMatchmakeSystem"
+    ],
+    "parent": "System.Object",
+    "properties": {
+      "APISessionId": {
+        "getter": "get_APISessionId",
+        "id": 216259,
+        "setter": "set_APISessionId"
+      }
+    },
+    "size": "20"
+  },
+  "app.cGUICommonMenu_EnemyReportBoss": {
+    "address": "14e936f60",
+    "crc": "f8839e57",
+    "deserializer_chain": [
+      {
+        "address": "0x14b470830",
+        "name": "via.Object"
+      },
+      {
+        "address": "0x14b028830",
+        "name": "System.Object"
+      }
+    ],
+    "flags": "Public | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "399ec11f",
+    "id": 34548,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor1197076": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "14b780420",
+        "id": 1197076,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "execute1197074": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig",
+        "function": "149a59820",
+        "id": 1197074,
+        "impl_flags": "HasThis",
+        "invoke_id": 1054,
+        "params": [
+          {
+            "name": "",
+            "type": "app.MenuDef.ExecuteFrom"
+          },
+          {
+            "name": "",
+            "type": "System.Object"
+          },
+          {
+            "name": "",
+            "type": "app.cGUICommonMenuItemExecuteOptionBase"
+          },
+          {
+            "modifier": "ByRef",
+            "name": "",
+            "type": "ace.IGUIFlowHandle"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        },
+        "vtable_index": 15
+      },
+      "get_OpenGUIID1197072": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig | SpecialName",
+        "function": "14b7803b0",
+        "id": 1197072,
+        "impl_flags": "HasThis",
+        "invoke_id": 6,
+        "returns": {
+          "name": "",
+          "type": "app.GUIID.ID"
+        },
+        "vtable_index": 4
+      },
+      "isEnable1197075": {
+        "flags": "Family | Virtual | HideBySig",
+        "function": "14cb2e4d0",
+        "id": 1197075,
+        "impl_flags": "HasThis",
+        "invoke_id": 10,
+        "params": [
+          {
+            "modifier": "ByRef",
+            "name": "",
+            "type": "System.Guid"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Boolean"
+        },
+        "vtable_index": 12
+      },
+      "isUpdate1197073": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig",
+        "function": "14cb2e4e0",
+        "id": 1197073,
+        "impl_flags": "HasThis",
+        "invoke_id": 3,
+        "returns": {
+          "name": "",
+          "type": "System.Boolean"
+        },
+        "vtable_index": 13
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "cGUICommonMenu_EnemyReportBoss"
+    ],
+    "parent": "app.cGUICommonMenuItemBase",
+    "size": "1c"
+  },
+  "app.GUIFlowQuestCounter": {
+    "address": "14e95e3d0",
+    "crc": "e8cb884c",
+    "deserializer_chain": [
+      {
+        "address": "0x14b470830",
+        "name": "via.Object"
+      },
+      {
+        "address": "0x14b028830",
+        "name": "System.Object"
+      }
+    ],
+    "flags": "Public | Abstract | Sealed | BeforeFieldInit | LocalHeap",
+    "fqn": "3d0f8083",
+    "id": 36559,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      "getMode651164": {
+        "flags": "FamANDAssem | Family | Static | HideBySig",
+        "function": "1450594f0",
+        "id": 651164,
+        "invoke_id": 1705,
+        "params": [
+          {
+            "name": "",
+            "type": "ace.IGUIFlowHandle"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "app.GUIFlowQuestCounter.MODE"
+        }
+      },
+      "start651163": {
+        "flags": "FamANDAssem | Family | Static | HideBySig",
+        "function": "1450593f0",
+        "id": 651163,
+        "invoke_id": 8707,
+        "params": [
+          {
+            "name": "",
+            "type": "app.cGUIQuestOrderParam"
+          },
+          {
+            "flags": "Optional | HasDefault",
+            "name": "",
+            "type": "app.GUIFlowQuestCounter.MODE"
+          },
+          {
+            "flags": "Optional | HasDefault",
+            "name": "",
+            "type": "ace.IGUIFlowHandle"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "ace.IGUIFlowHandle"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "GUIFlowQuestCounter"
+    ],
+    "parent": "System.Object",
+    "size": "10"
+  },
+  "app.cGUI050000ViewFlow.Flow.SearchQuest": {
+    "address": "14eeded50",
+    "crc": "d8a19edd",
+    "declaring_type": "app.cGUI050000ViewFlow.Flow",
+    "deserializer_chain": [
+      {
+        "address": "0x14b470830",
+        "name": "via.Object"
+      },
+      {
+        "address": "0x14b028830",
+        "name": "System.Object"
+      }
+    ],
+    "flags": "NestedPublic | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "b5a3ffd2",
+    "id": 108679,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor656104": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "140006de0",
+        "id": 656104,
+        "impl_flags": "EmptyCtor | HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "cancelFlow656103": {
+        "flags": "Private | HideBySig",
+        "function": "148d36ce0",
+        "id": 656103,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "nextFlow656102": {
+        "flags": "Private | HideBySig",
+        "function": "148d36cc0",
+        "id": 656102,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "onEnter656100": {
+        "flags": "Family | Virtual | HideBySig",
+        "function": "148d369b0",
+        "id": 656100,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        },
+        "vtable_index": 6
+      },
+      "onUpdate656101": {
+        "flags": "Family | Virtual | HideBySig",
+        "function": "148d36c70",
+        "id": 656101,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        },
+        "vtable_index": 9
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "cGUI050000ViewFlow",
+      "Flow",
+      "SearchQuest"
+    ],
+    "parent": "app.cGUI050000ViewFlow.cGUI050000ViewFlowBase",
+    "size": "20"
+  },
+  "app.GUI050000PartsBase.cRescueSearchSettingParamHolder": {
+    "RSZ": [
+      {
+        "align": 1,
+        "array": false,
+        "code": "U8",
+        "code_id": 11,
+        "depth": 0,
+        "offset_from_fieldptr": "0x10",
+        "potential_name": "RescueSearchQuestType",
+        "size": "0x1",
+        "static": false,
+        "type": "System.Byte"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x0",
+        "potential_name": "RescueSearchDifficulty",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      {
+        "align": 1,
+        "array": false,
+        "code": "U8",
+        "code_id": 11,
+        "depth": 0,
+        "offset_from_fieldptr": "0x11",
+        "potential_name": "RescueSearchLanguage",
+        "size": "0x1",
+        "static": false,
+        "type": "System.Byte"
+      },
+      {
+        "align": 1,
+        "array": false,
+        "code": "U8",
+        "code_id": 11,
+        "depth": 0,
+        "offset_from_fieldptr": "0x12",
+        "potential_name": "RescueSearchPlatform",
+        "size": "0x1",
+        "static": false,
+        "type": "System.Byte"
+      },
+      {
+        "align": 4,
+        "array": false,
+        "code": "S32",
+        "code_id": 14,
+        "depth": 0,
+        "offset_from_fieldptr": "0x4",
+        "potential_name": "RescueSearchTargetID",
+        "size": "0x4",
+        "static": false,
+        "type": "System.Int32"
+      },
+      "...(+2 more)"
+    ],
+    "address": "14f1c44c0",
+    "crc": "752dcaa6",
+    "declaring_type": "app.GUI050000PartsBase",
+    "fields": {
+      "RescueSearchDifficulty": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144071,
+        "init_data_index": 0,
+        "offset_from_base": "0x10",
+        "offset_from_fieldptr": "0x0",
+        "type": "System.Int32"
+      },
+      "RescueSearchFieldID": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144076,
+        "init_data_index": 0,
+        "offset_from_base": "0x1c",
+        "offset_from_fieldptr": "0xc",
+        "type": "System.Int32"
+      },
+      "RescueSearchLanguage": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144072,
+        "init_data_index": 0,
+        "offset_from_base": "0x21",
+        "offset_from_fieldptr": "0x11",
+        "type": "System.Byte"
+      },
+      "RescueSearchPlatform": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144073,
+        "init_data_index": 0,
+        "offset_from_base": "0x22",
+        "offset_from_fieldptr": "0x12",
+        "type": "System.Byte"
+      },
+      "RescueSearchQuestType": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144070,
+        "init_data_index": 0,
+        "offset_from_base": "0x20",
+        "offset_from_fieldptr": "0x10",
+        "type": "System.Byte"
+      },
+      "RescueSearchTargetID": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144074,
+        "init_data_index": 0,
+        "offset_from_base": "0x14",
+        "offset_from_fieldptr": "0x4",
+        "type": "System.Int32"
+      },
+      "RescueSearchTargetRoleID": {
+        "flags": "FamANDAssem | Family | ExposeMember",
+        "id": 144075,
+        "init_data_index": 0,
+        "offset_from_base": "0x18",
+        "offset_from_fieldptr": "0x8",
+        "type": "System.Int32"
+      }
+    },
+    "flags": "NestedPublic | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "f4ab52b9",
+    "id": 146642,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor227748": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "140006de0",
+        "id": 227748,
+        "impl_flags": "EmptyCtor | HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "checkCrossPlayOption227751": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1475c81a0",
+        "id": 227751,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "restoreParam227749": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1475c8100",
+        "id": 227749,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "saveParam227750": {
+        "flags": "FamANDAssem | Family | HideBySig",
+        "function": "1475c8150",
+        "id": 227750,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "GUI050000PartsBase",
+      "cRescueSearchSettingParamHolder"
+    ],
+    "parent": "System.Object",
+    "reflection_properties": {
+      "RescueSearchDifficulty": {
+        "getter": "0x14001b180",
+        "order": 1,
+        "type": "s32"
+      },
+      "RescueSearchFieldID": {
+        "getter": "0x14001b180",
+        "order": 6,
+        "type": "s32"
+      },
+      "RescueSearchLanguage": {
+        "getter": "0x14001b180",
+        "order": 2,
+        "type": "u8"
+      },
+      "RescueSearchPlatform": {
+        "getter": "0x14001b180",
+        "order": 3,
+        "type": "u8"
+      },
+      "RescueSearchQuestType": {
+        "getter": "0x14001b180",
+        "order": 0,
+        "type": "u8"
+      },
+      "RescueSearchTargetID": {
+        "getter": "0x14001b180",
+        "order": 4,
+        "type": "s32"
+      },
+      "RescueSearchTargetRoleID": {
+        "getter": "0x14001b180",
+        "order": 5,
+        "type": "s32"
+      }
+    },
+    "size": "24"
+  },
+  "app.cGUI050000MemberSettingItemData.cTargetData": {
+    "RSZ": [
+      {
+        "align": 8,
+        "array": false,
+        "code": "Guid",
+        "code_id": 45,
+        "depth": 1,
+        "offset_from_fieldptr": "0x0",
+        "potential_name": "ItemName",
+        "size": "0x10",
+        "static": false,
+        "type": "System.Guid"
+      }
+    ],
+    "address": "14e9cb2f0",
+    "crc": "460a4ae9",
+    "declaring_type": "app.cGUI050000MemberSettingItemData",
+    "fields": {
+      "ActualEnalbeTargetDataList": {
+        "flags": "Private",
+        "id": 312280,
+        "init_data_index": 0,
+        "offset_from_base": "0x30",
+        "offset_from_fieldptr": "0x20",
+        "type": "System.Collections.Generic.List`1<app.cGUI050000MemberSettingItemData.cTargetData.TARGET_DATA>"
+      },
+      "OwnerParts": {
+        "flags": "Private",
+        "id": 312278,
+        "init_data_index": 0,
+        "offset_from_base": "0x20",
+        "offset_from_fieldptr": "0x10",
+        "type": "app.GUI050000PartsBase"
+      },
+      "_ChoiceTargetDataList": {
+        "flags": "Private",
+        "id": 312279,
+        "init_data_index": 0,
+        "offset_from_base": "0x28",
+        "offset_from_fieldptr": "0x18",
+        "type": "app.cGUI050000MemberSettingItemData.cTargetData.TARGET_DATA[]"
+      }
+    },
+    "flags": "NestedPublic | BeforeFieldInit | LocalHeap | ManagedVTable",
+    "fqn": "4657fcab",
+    "id": 42137,
+    "is_generic_type": false,
+    "is_generic_type_definition": false,
+    "methods": {
+      ".ctor650816": {
+        "flags": "FamANDAssem | Family | HideBySig | SpecialName | RTSpecialName",
+        "function": "149fdbb30",
+        "id": 650816,
+        "impl_flags": "HasThis",
+        "invoke_id": 44,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Guid"
+          },
+          {
+            "name": "",
+            "type": "app.GUI050000PartsBase"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "execute650820": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig",
+        "function": "149fdbaa0",
+        "id": 650820,
+        "impl_flags": "HasThis",
+        "invoke_id": 151,
+        "params": [
+          {
+            "name": "",
+            "type": "app.GUIBaseApp"
+          },
+          {
+            "name": "",
+            "type": "app.GUI050000PartsBase"
+          },
+          {
+            "name": "",
+            "type": "via.gui.Rect"
+          },
+          {
+            "name": "",
+            "type": "via.gui.Rect"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        },
+        "vtable_index": 4
+      },
+      "getTargetEmMessage650819": {
+        "flags": "Private | HideBySig",
+        "function": "149fdc420",
+        "id": 650819,
+        "impl_flags": "HasThis",
+        "invoke_id": 162,
+        "params": [
+          {
+            "name": "",
+            "type": "System.Int32"
+          },
+          {
+            "name": "",
+            "type": "app.QuestDef.QUEST_SEARCH_PARAM_ROLE_ID"
+          }
+        ],
+        "returns": {
+          "name": "",
+          "type": "ace.cGUIMessageInfo"
+        }
+      },
+      "getValue650821": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig",
+        "function": "149fdbb00",
+        "id": 650821,
+        "impl_flags": "HasThis",
+        "invoke_id": 6,
+        "returns": {
+          "name": "",
+          "type": "System.Int32"
+        },
+        "vtable_index": 5
+      },
+      "getValueMsgInfo650822": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig",
+        "function": "149fdbb10",
+        "id": 650822,
+        "impl_flags": "HasThis",
+        "invoke_id": 4,
+        "returns": {
+          "name": "",
+          "type": "ace.cGUIMessageInfo"
+        },
+        "vtable_index": 6
+      },
+      "initTextInfoList650817": {
+        "flags": "Private | HideBySig",
+        "function": "149fdbba0",
+        "id": 650817,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      },
+      "isEnableItem650823": {
+        "flags": "FamANDAssem | Family | Virtual | HideBySig",
+        "function": "14b470e80",
+        "id": 650823,
+        "impl_flags": "HasThis",
+        "invoke_id": 3,
+        "returns": {
+          "name": "",
+          "type": "System.Boolean"
+        },
+        "vtable_index": 7
+      },
+      "updateEnableIndexList650818": {
+        "flags": "Private | HideBySig",
+        "function": "149fdc060",
+        "id": 650818,
+        "impl_flags": "HasThis",
+        "invoke_id": 2,
+        "returns": {
+          "name": "",
+          "type": "System.Void"
+        }
+      }
+    },
+    "name_hierarchy": [
+      "app",
+      "cGUI050000MemberSettingItemData",
+      "cTargetData"
+    ],
+    "parent": "app.cGUI050000MemberSettingItemData.cData",
+    "size": "38"
+  }
+}

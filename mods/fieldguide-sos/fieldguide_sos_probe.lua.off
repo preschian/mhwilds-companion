@@ -1,0 +1,124 @@
+-- Field Guide SOS — discovery probe (run once, then disable)
+-- Writes: reframework/data/fieldguide_sos_probe.txt
+-- Hotkeys: F8 = scan candidates, F9 = dump live singletons that look relevant
+
+local OUT = "fieldguide_sos_probe.json"
+
+local CANDIDATES = {
+  -- field guide / hunter notes
+  "app.GUIHunterNote", "app.GUIFieldGuide", "app.GUIEnemyBook",
+  "app.GUIEncyclopedia", "app.cGUIHunterNote", "app.cGUIFieldGuide",
+  "app.cGUIEnemyBook", "app.HunterNote", "app.FieldGuide",
+  "app.EnemyBook", "app.EnemyEncyclopedia", "app.GuideBook",
+  "app.GUI020001", "app.GUI020002", "app.GUI020003",
+  "app.gui020001", "app.gui020002",
+  -- enemy ids
+  "app.EnemyDefID", "app.EnemyID", "app.EnemyDef", "app.cEnemyDef",
+  "app.EnemyManager", "app.cEnemyManager",
+  -- quest / SOS
+  "app.QuestManager", "app.cQuestManager", "app.QuestAccept",
+  "app.cQuestAccept", "app.QuestCounter", "app.cQuestCounter",
+  "app.SosFlare", "app.cSosFlare", "app.SOSFlare", "app.SosSearch",
+  "app.cSosSearch", "app.QuestSearch", "app.cQuestSearch",
+  "app.QuestMatchmake", "app.cQuestMatchmake", "app.NetworkQuest",
+  "app.cNetworkQuest", "app.QuestJoin", "app.cQuestJoin",
+  "app.GUIQuestCounter", "app.cGUIQuestCounter",
+  "app.GUISosQuest", "app.cGUISosQuest", "app.GUIPostQuest",
+  "app.cGUIPostQuest", "app.SessionManager", "app.cSessionManager",
+  "app.LobbyManager", "app.cLobbyManager", "app.NetManager",
+  "app.cNetManager", "app.QuestFlow", "app.cQuestFlow",
+  "app.SaveDataManager", "app.cSaveDataManager",
+}
+
+local function plog(msg)
+  local s = tostring(msg)
+  if type(log) == "table" and type(log.info) == "function" then
+    log.info(s)
+  elseif type(log) == "function" then
+    log(s)
+  else
+    print(s)
+  end
+end
+
+local function append(lines)
+  local body = table.concat(lines, "\n")
+  plog("[FG-SOS-PROBE]\n" .. body)
+  pcall(function()
+    json.dump_file(OUT, { text = body, ts = os.time() })
+  end)
+end
+
+local function type_info(name)
+  local t = sdk.find_type_definition(name)
+  if not t then return nil end
+  local methods, fields = {}, {}
+  for _, m in ipairs(t:get_methods() or {}) do
+    methods[#methods + 1] = m:get_name()
+  end
+  for _, f in ipairs(t:get_fields() or {}) do
+    fields[#fields + 1] = f:get_name()
+  end
+  return { name = name, methods = methods, fields = fields }
+end
+
+local function scan_candidates()
+  local lines = { "=== candidate type scan ===", "tdb=" .. tostring(sdk.get_tdb_version()) }
+  local found = {}
+  for _, name in ipairs(CANDIDATES) do
+    local info = type_info(name)
+    if info then
+      found[#found + 1] = info
+      lines[#lines + 1] = "HIT " .. name
+      lines[#lines + 1] = "  methods(" .. #info.methods .. "): " .. table.concat(info.methods, ", ")
+      lines[#lines + 1] = "  fields(" .. #info.fields .. "): " .. table.concat(info.fields, ", ")
+    end
+  end
+  lines[#lines + 1] = "total_hits=" .. #found
+  append(lines)
+  return found
+end
+
+local function dump_singletons()
+  local lines = { "=== managed singletons (filtered) ===" }
+  -- REFramework does not expose a full singleton list in Lua; try get on candidates.
+  local keys = {
+    "app.EnemyManager", "app.cEnemyManager", "app.QuestManager", "app.cQuestManager",
+    "app.SessionManager", "app.cSessionManager", "app.LobbyManager", "app.cLobbyManager",
+    "app.NetManager", "app.cNetManager", "app.SaveDataManager", "app.cSaveDataManager",
+    "app.GUIManager", "app.cGUIManager", "app.GameManager", "app.cGameManager",
+  }
+  for _, name in ipairs(keys) do
+    local ok, obj = pcall(sdk.get_managed_singleton, name)
+    if ok and obj then
+      lines[#lines + 1] = "SINGLETON " .. name .. " type=" .. tostring(obj:get_type_definition():get_full_name())
+    end
+  end
+  append(lines)
+end
+
+local f8_down, f9_down = false, false
+
+re.on_frame(function()
+  local f8 = reframework:is_key_down(0x77) -- F8
+  local f9 = reframework:is_key_down(0x78) -- F9
+  if f8 and not f8_down then
+    scan_candidates()
+  end
+  if f9 and not f9_down then
+    dump_singletons()
+  end
+  f8_down, f9_down = f8, f9
+end)
+
+re.on_draw_ui(function()
+  if imgui.tree_node("Field Guide SOS Probe") then
+    if imgui.button("Scan candidates (also F8)") then scan_candidates() end
+    if imgui.button("Dump singletons (also F9)") then dump_singletons() end
+    imgui.text("Output: reframework/data/fieldguide_sos_probe.txt")
+    imgui.text("Also: Object Explorer → Dump SDK → il2cpp_dump.json")
+    imgui.tree_pop()
+  end
+end)
+
+plog("[FG-SOS-PROBE] loaded — F8 scan types, F9 singletons")

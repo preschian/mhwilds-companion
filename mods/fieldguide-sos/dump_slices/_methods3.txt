@@ -1,0 +1,844 @@
+==== app.net_session_manager.SessionManager m=150 f=52 parent=System.Object
+  M blockCheckAccept641018() -> System.Void
+  M checkLocalSameQuest641022(app.net_session_manager.SESSION_TYPE, System.Int32, System.Boolean) -> System.Boolean
+  M createSession640982(app.net_session_manager.cCreateSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M execSessionDelagate640901(app.net_session_manager.SessionManager.DELEGATE_TYPE, System.Boolean, System.Int32, System.Byte[]) -> System.Void
+  M getSessionId640904() -> via.network.utility.SessionId
+  M get_BlockCheckUniqueId640909() -> app.net_session_manager.SessionManager.BlockCheckInfo[]
+  M get_CSession640894() -> app.Net_CloudSessionRequest
+  M get_CreateSessionDelegate640895() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M get_GetSession640891() -> via.network.SessionBase
+  M get_InvitationPlatform640893() -> via.network.InvitationBase
+  M get_InvitationPlayFab640892() -> via.network.InvitationBase
+  M get_IsAcceptJoinForBlock640907() -> System.Boolean
+  M get_IsCreateSession640905() -> System.Boolean
+  M get_JoinSessionDelegate640899() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M get_SearchResultTblLobby640910() -> app.net_session_manager.SessionManager.cSearchResultTblLobby
+  M get_SearchResultTblQuest640911() -> app.net_session_manager.SessionManager.cSearchResultTblQuest
+  M get_SearchSessionDelegate640897() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M get_SessionType640903() -> app.net_session_manager.SESSION_TYPE
+  M get_SnapShot640942() -> app.Net_LateJoinSync.SyncSnapShot
+  M get_VoiceChatParam640906() -> app.net_session_manager.SessionManager.cVoiceChatParam[]
+  M get_onNetHostChange640956() -> app.net_session_manager.onHostChange
+  M get_onNetHostChange_Session640958() -> app.net_session_manager.onHostChange
+  M get_onNetJoinMember640950() -> app.net_session_manager.onJoinMember
+  M get_onNetJoinMemberSys640944() -> app.net_session_manager.onJoinMember
+  M get_onNetKick640960() -> app.net_session_manager.onKick
+  M get_onNetLeaveMember640952() -> app.net_session_manager.onLeaveMember
+  M get_onNetLeaveMemberSys640946() -> app.net_session_manager.onLeaveMember
+  M get_onNetLeaveSession640954() -> app.net_session_manager.onLeaveSession
+  M get_onNetLeaveSessionSys640948() -> app.net_session_manager.onLeaveSession
+  M get_onNetReceiveAutoReplay640930() -> app.net_session_manager.onReceiveAutoReplay
+  M get_onNetReceiveEnemy640920() -> app.net_session_manager.onReceiveEnemy
+  M get_onNetReceiveEnvAnimal640926() -> app.net_session_manager.onReceiveEnvAnimal
+  M get_onNetReceiveEnvironment640936() -> app.net_session_manager.onReceiveEnvironment
+  M get_onNetReceiveGimmick640924() -> app.net_session_manager.onReceiveGimmick
+  M get_onNetReceiveNpc640934() -> app.net_session_manager.onReceiveNpc
+  M get_onNetReceiveOther640938() -> app.net_session_manager.onReceiveOther
+  M get_onNetReceiveOtomo640922() -> app.net_session_manager.onReceiveOtomo
+  M get_onNetReceivePlayer640918() -> app.net_session_manager.onReceivePlayer
+  M get_onNetReceivePorter640932() -> app.net_session_manager.onReceivePorter
+  M get_onNetReceiveQuest640928() -> app.net_session_manager.onReceiveQuest
+  M get_onNetReceiveSystem640916() -> app.net_session_manager.onReceiveSystem
+  M get_onNetSyncLoadBefore640962() -> System.Func`2<System.Boolean,System.Boolean>
+  M get_onSendCompleteBroadcast640940() -> app.net_session_manager.onSendCompleteBroadcast
+  M isAcceptJoinSessionCheck641013(app.net_session_manager.SESSION_TYPE, System.Int32, System.Object) -> System.Boolean
+  M isAcceptLeaveMemberCheck641014(app.net_session_manager.SESSION_TYPE) -> System.Boolean
+  M joinSession640984(app.net_session_manager.cJoinSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M joinSessionCheckBlockUserStack641012(app.net_session_manager.SESSION_TYPE, System.Int32, System.Boolean, System.Guid) -> System.Void
+  M leaveQuestSession_Local640986() -> System.Void
+  M leaveSession640985() -> System.Void
+  M prepareInvitationJoin640972(via.network.session.Info, via.network.session.MemberInfo) -> System.Void
+  M reqUpdateSearchKey640981(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M requestBootup640980() -> System.Boolean
+  M requestBootupSessionCreate640977(app.net_session_manager.cCreateSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, app.NETWORK_ERROR_CODE) -> System.Boolean
+  M requestBootupSessionJoin640978(app.net_session_manager.cJoinSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, app.NETWORK_ERROR_CODE) -> System.Boolean
+  M requestBootupSessionSearch640979(app.net_session_manager.cSearchSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, app.NETWORK_ERROR_CODE) -> System.Boolean
+  M requestUpdateInGameFriendVC641009() -> System.Void
+  M searchSession640983(app.net_session_manager.cSearchSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_CreateSessionDelegate640896(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_IsAcceptJoinForBlock640908(System.Boolean) -> System.Void
+  M set_JoinSessionDelegate640900(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_SearchSessionDelegate640898(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_SnapShot640943(app.Net_LateJoinSync.SyncSnapShot) -> System.Void
+  M set_onNetHostChange640957(app.net_session_manager.onHostChange) -> System.Void
+  M set_onNetHostChange_Session640959(app.net_session_manager.onHostChange) -> System.Void
+  M set_onNetJoinMember640951(app.net_session_manager.onJoinMember) -> System.Void
+  M set_onNetJoinMemberSys640945(app.net_session_manager.onJoinMember) -> System.Void
+  M set_onNetKick640961(app.net_session_manager.onKick) -> System.Void
+  M set_onNetLeaveMember640953(app.net_session_manager.onLeaveMember) -> System.Void
+  M set_onNetLeaveMemberSys640947(app.net_session_manager.onLeaveMember) -> System.Void
+  M set_onNetLeaveSession640955(app.net_session_manager.onLeaveSession) -> System.Void
+  M set_onNetLeaveSessionSys640949(app.net_session_manager.onLeaveSession) -> System.Void
+  M set_onNetReceiveAutoReplay640931(app.net_session_manager.onReceiveAutoReplay) -> System.Void
+  M set_onNetReceiveEnemy640921(app.net_session_manager.onReceiveEnemy) -> System.Void
+  M set_onNetReceiveEnvAnimal640927(app.net_session_manager.onReceiveEnvAnimal) -> System.Void
+  M set_onNetReceiveEnvironment640937(app.net_session_manager.onReceiveEnvironment) -> System.Void
+  M set_onNetReceiveGimmick640925(app.net_session_manager.onReceiveGimmick) -> System.Void
+  M set_onNetReceiveNpc640935(app.net_session_manager.onReceiveNpc) -> System.Void
+  M set_onNetReceiveOther640939(app.net_session_manager.onReceiveOther) -> System.Void
+  M set_onNetReceiveOtomo640923(app.net_session_manager.onReceiveOtomo) -> System.Void
+  M set_onNetReceivePlayer640919(app.net_session_manager.onReceivePlayer) -> System.Void
+  M set_onNetReceivePorter640933(app.net_session_manager.onReceivePorter) -> System.Void
+  M set_onNetReceiveQuest640929(app.net_session_manager.onReceiveQuest) -> System.Void
+  M set_onNetReceiveSystem640917(app.net_session_manager.onReceiveSystem) -> System.Void
+  M set_onNetSyncLoadBefore640963(System.Func`2<System.Boolean,System.Boolean>) -> System.Void
+  M set_onSendCompleteBroadcast640941(app.net_session_manager.onSendCompleteBroadcast) -> System.Void
+  F <CreateSessionDelegate>k__BackingField: System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  F <JoinSessionDelegate>k__BackingField: System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  F <SearchSessionDelegate>k__BackingField: System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  F <onNetHostChange_Session>k__BackingField: app.net_session_manager.onHostChange
+  F <onNetLeaveSession>k__BackingField: app.net_session_manager.onLeaveSession
+  F <onNetLeaveSessionSys>k__BackingField: app.net_session_manager.onLeaveSession
+  F <onNetReceiveQuest>k__BackingField: app.net_session_manager.onReceiveQuest
+  F SessionParam: app.net_session_manager.SessionManager.cSessionParam
+  F _CSession: app.Net_CloudSessionRequest
+  F _IsCreateSession: System.Boolean
+  F _RequestParam: app.net_session_manager.SessionManager.RequestParam
+  F _SearchResultTblQuest: app.net_session_manager.SessionManager.cSearchResultTblQuest
+  F _Session: via.network.SessionBase
+  F _SessionId: via.network.utility.SessionId
+  F _SessionType: app.net_session_manager.SESSION_TYPE
+==== app.net_session_manager.SessionManager.cSearchResultQuest m=17 f=34 parent=System.Object
+  M getAcceptableHR640414() -> System.Int16
+  M getQuestClientNameText640416() -> ace.cGUIMessageInfo
+  M getQuestDetailText640417() -> ace.cGUIMessageInfo
+  M isKeepQuest640412() -> System.Boolean
+  F questId: app.MissionIDList.ID
+  F questLevel: app.QuestDef.EM_REWARD_RANK
+  F questLife: System.Byte
+  F questName: System.String
+  F questRank: app.QuestDef.RANK
+  F questReward: System.UInt32
+  F questSessionId: System.String
+  F questTimeLimit: System.Int32
+  F questType: app.QuestDef.QUEST_TYPE
+  F rescueAcceptPos: via.vec3
+  F rescueComment: app.net_quest_session.cCreateQuestSessionInfo.RESCUE_COMMENT
+==== app.net_quest_session.cQuestSession m=108 f=37 parent=app.net_session_manager.SessionManager
+  M <move_rescue>b__111_0642257(System.Boolean, app.NETWORK_ERROR_CODE) -> System.Void
+  M <move_rescue_keepalive>b__117_0642258(app.net_quest_session.cQuestSession.RESCUE_KEEPALIVE_RESULT) -> System.Void
+  M OnGuestLateJoinFinished642232(System.Int32) -> System.Void
+  M SaveTempBanSessionId642238(System.Boolean) -> System.Void
+  M addLoadWait_QuestDepart642224(System.Func`1<System.Boolean>) -> System.Void
+  M applyFilterForSearchResult642239() -> System.Void
+  M blockCheckAccept642179() -> System.Void
+  M createSession642176(app.net_session_manager.cCreateSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M endEntryQuest642245() -> System.Void
+  M endQuest642237(System.Boolean, System.Boolean) -> System.Void
+  M entryRankingQuest642191() -> System.Void
+  M execLoadWait_QuestDepart642225() -> System.Void
+  M executeAutoActiveQuestVoiceChat642211() -> System.Void
+  M fixRankingQuestInfo642193(System.Boolean) -> System.Void
+  M fixRankingQuestScore642197() -> System.Void
+  M getApiSessionId642161() -> System.String
+  M getMemberInfoFromSession642194() -> System.Collections.Generic.List`1<app.Net_RankingService.RankingMemberParam>
+  M getSessionInfo642160() -> app.net_quest_session.cSessionInfo
+  M get_CallEndQuest642169() -> System.Boolean
+  M get_IsRescueProcess642218() -> System.Boolean
+  M get_RankingScore642153() -> app.Net_RankingService.cRankingQuestScore
+  M get_SessionEquipChangeQueue642152() -> System.Collections.Generic.Dictionary`2<System.Int32,app.net_packet.cSysQuestChangeEquipSync>
+  M get_SessionInfo642151() -> app.net_quest_session.cSessionInfo
+  M get_onNetMultiExploreBegin642163() -> System.Func`1<System.Boolean>
+  M get_onNetMultiExploreEnd642165() -> System.Func`1<System.Boolean>
+  M goQuest642230(System.Boolean, System.Boolean, System.Byte, System.Boolean) -> System.Void
+  M initQuest642234(System.Boolean) -> System.Void
+  M initQuestForLink642236(System.Boolean) -> System.Void
+  M initQuestForLobby642235() -> System.Void
+  M inviteSession642180() -> System.Void
+  M isArenaQuestWithoutNetRanking642188() -> System.Boolean
+  M isRankingQuest642187() -> System.Boolean
+  M joinSession642178(app.net_session_manager.cJoinSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M judgeQuestJoin642185() -> System.ValueTuple`2<System.Boolean,app.NETWORK_ERROR_CODE>
+  M leaveLocalSession642175() -> System.Void
+  M leaveSession642174() -> System.Void
+  M move_accept_wait_remind642217() -> System.Void
+  M move_quest_update642214() -> System.Void
+  M move_rescue642220() -> System.Void
+  M move_rescue_keepalive642221() -> System.Void
+  M preEndQuest642233(app.MissionIDList.ID, System.Boolean) -> System.Void
+  M requestAutoJoinRescure642181(app.net_quest_session.cSearchQuestSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M requestCreateRescure642182(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M requestDeleteRescure642183(System.Boolean, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M requestSendRankingScoreAgain642205(System.Action`2<System.Boolean,app.NETWORK_ERROR_CODE>) -> System.Void
+  M requestSessionUpdate642184(app.net_quest_session.cUpdateQuestSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, System.Boolean) -> System.Void
+  M reserveCreateRescue642219(System.Action`2<System.Boolean,app.NETWORK_ERROR_CODE>) -> System.Void
+  M reserveWeaponChangeRequest642155(System.Int32, app.net_packet.cSysQuestChangeEquipSync) -> System.Void
+  M searchSession642177(app.net_session_manager.cSearchSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M sendSessionInfoSync642243(System.Int32) -> System.Void
+  M setApiSessionId642162(System.String) -> System.Void
+  M setQuestEquipTimer642156() -> System.Void
+  M setQuestInfoTimer642157() -> System.Void
+  M setRescure642158(System.Boolean) -> System.Void
+  M setRescureRequesting642159(System.Boolean) -> System.Void
+  M set_onNetMultiExploreBegin642164(System.Func`1<System.Boolean>) -> System.Void
+  M set_onNetMultiExploreEnd642166(System.Func`1<System.Boolean>) -> System.Void
+  M setupLoadWait_QuestDepart642223() -> System.Void
+  M startQuest642231(System.Boolean, System.Boolean) -> System.Void
+  M tryExecJoinCallback642186() -> System.Boolean
+  M updateQuestRanking_After642190() -> System.Void
+  M updateQuestRanking_Before642189(System.Boolean) -> System.Void
+  M waitComplateLateJoin642227(System.Boolean) -> System.Boolean
+  M waitCompleteJoinSync642228(System.Boolean) -> System.Boolean
+  F LoadWait_QuestDepart: app.net_quest_session.LoadWaitSync
+  F QUEST_INFO_UPDATE_INTERVAL: System.Int32
+  F QuestJoinMemberList: app.net_quest_session.cJoinQuestMemberList
+  F RESCUE_KEEPALIVE_INTERVAL: System.Single
+  F RESCUE_KEEPALIVE_RETRY_MAX: System.Int32
+  F _CallEndQuest: System.Boolean
+  F _IsRequestProcess: System.Boolean
+  F _LatestSessionId: System.String
+  F _MatchMake: app.net_quest_session.QuestMatchmakeSystem
+  F _RescueKeepAliveRetryCount: System.Int32
+  F _ReservedRequest: app.net_quest_session.cQuestSession.cReserveRescue
+  F _SessionBinay: app.net_quest_session.cSessionBinaryQuest
+  F _SessionEquipChangeQueue: System.Collections.Generic.Dictionary`2<System.Int32,app.net_packet.cSysQuestChangeEquipSync>
+  F _SessionInfo: app.net_quest_session.cSessionInfo
+  F _UpdateQuestEquipTimer: System.Single
+  F _UpdateQuestInfoTimer: System.Single
+==== app.QuestDef.QUEST_SEARCH_PARAM_ROLE_ID m=0 f=6 parent=System.Enum
+  E FRENZY
+  E INVALID
+  E KING
+  E LEGENDARY
+  E NORMAL
+  E value__
+==== app.QuestDef.QUEST_SEARCH_PARAM_ROLE_ID_Fixed m=0 f=6 parent=System.Enum
+  E FRENZY
+  E INVALID
+  E KING
+  E LEGENDARY
+  E NORMAL
+  E value__
+==== app.cGUIQuestOrderParam.QUEST_ORDER_FROM m=0 f=4 parent=System.Enum
+  F MAP_INSTANCE_QUEST: app.cGUIQuestOrderParam.QUEST_ORDER_FROM
+  F QUEST_COUNTER: app.cGUIQuestOrderParam.QUEST_ORDER_FROM
+  E INVITE_LINQ_PARTY
+  E MAP_INSTANCE_QUEST
+  E QUEST_COUNTER
+  E value__
+==== app.cGUIQuestOrderParam.QUEST_START_TYPE m=0 f=6 parent=System.Enum
+  F QUEST_COUNTER: app.cGUIQuestOrderParam.QUEST_START_TYPE
+  E DIRECT_ATTACK
+  E INVITE
+  E MAP
+  E OTHER
+  E QUEST_COUNTER
+  E value__
+==== app.EnemyDef.ID_Fixed m=0 f=213 parent=System.Enum
+  E EM0001_00_0
+  E EM0002_00_0
+  E EM0002_50_0
+  E EM0003_00_0
+  E EM0004_00_0
+  E EM0005_00_0
+  E EM0007_00_0
+  E EM0008_00_0
+  E EM0009_00_0
+  E EM0011_00_0
+  E EM0018_00_0
+  E EM0019_00_0
+  E EM0020_00_0
+  E EM0021_00_0
+  E EM0022_00_0
+  E EM0023_00_0
+  E EM0024_00_0
+  E EM0025_00_0
+  E EM0026_00_0
+  E EM0027_00_0
+  E EM0032_00_0
+  E EM0036_00_0
+  E EM0037_00_0
+  E EM0042_00_0
+  E EM0043_00_0
+  E EM0044_00_0
+  E EM0045_00_0
+  E EM0046_00_0
+  E EM0047_00_0
+  E EM0054_00_0
+  E EM0057_00_0
+  E EM0059_00_0
+  E EM0060_00_0
+  E EM0061_00_0
+  E EM0062_00_0
+  E EM0063_00_0
+  E EM0070_00_0
+  E EM0071_00_0
+  E EM0077_00_0
+  E EM0078_00_0
+  E EM0080_00_0
+  E EM0081_00_0
+  E EM0082_00_0
+  E EM0089_00_0
+  E EM0090_00_0
+  E EM0091_00_0
+  E EM0092_00_0
+  E EM0093_00_0
+  E EM0094_00_0
+  E EM0095_00_0
+  E EM0096_00_0
+  E EM0097_00_0
+  E EM0098_00_0
+  E EM0100_00_0
+  E EM0100_51_0
+  E EM0101_00_0
+  E EM0102_00_0
+  E EM0103_00_0
+  E EM0107_00_0
+  E EM0108_00_0
+  E EM0109_00_0
+  E EM0110_00_0
+  E EM0111_00_0
+  E EM0112_00_0
+  E EM0113_00_0
+  E EM0113_51_0
+  E EM0114_00_0
+  E EM0115_00_0
+  E EM0116_00_0
+  E EM0118_00_0
+  E EM0120_00_0
+  E EM0122_00_0
+  E EM0123_00_0
+  E EM0124_00_0
+  E EM0125_00_0
+  E EM0136_00_0
+  E EM0150_00_0
+  E EM0150_50_0
+  E EM0151_00_0
+  E EM0152_00_0
+  E EM0153_00_0
+  E EM0154_00_0
+  E EM0155_00_0
+  E EM0156_00_0
+  E EM0157_00_0
+  E EM0158_00_0
+  E EM0159_00_0
+  E EM0160_00_0
+  E EM0160_50_0
+  E EM0161_00_0
+  E EM0162_00_0
+  E EM0163_00_0
+  E EM0164_50_0
+  E EM0165_00_0
+  E EM0166_00_0
+  E EM1006_00_0
+  E EM1022_00_0
+  E EM1023_00_0
+  E EM1062_00_0
+  E EM1150_00_0
+  E EM1150_00_1
+  E EM1151_00_0
+  E EM1151_00_1
+  E EM1152_00_0
+  E EM1153_00_0
+  E EM1154_00_0
+  E EM1155_00_0
+  E EM1156_00_0
+  E EM1157_00_0
+  E EM1158_00_0
+  E EM1159_00_0
+  E EM1160_00_0
+  E EM1161_00_0
+  E EM1162_00_0
+  E EM1163_00_0
+  E EM1164_50_0
+  E EM1165_00_0
+  E EM5001_00_0
+  E EM5001_10_0
+  E EM5001_20_0
+  E EM5002_00_0
+  E EM5002_01_0
+  E EM5002_10_0
+  E EM5003_00_0
+  E EM5004_00_0
+  E EM5004_10_0
+  E EM5004_20_0
+  E EM5005_00_0
+  E EM5005_10_0
+  E EM5005_20_0
+  E EM5006_00_0
+  E EM5007_00_0
+  E EM5008_00_0
+  E EM5009_00_0
+  E EM5010_00_0
+  E EM5011_00_0
+  E EM5100_00_0
+  E EM5101_00_0
+  E EM5101_10_0
+  E EM5101_20_0
+  E EM5102_00_0
+  E EM5200_00_0
+  E EM5200_09_0
+  E EM5201_00_0
+  E EM5202_00_0
+  E EM5202_10_0
+  E EM5203_00_0
+  E EM5203_09_0
+  E EM5204_00_0
+  E EM5204_10_0
+  E EM5204_19_0
+  E EM5205_00_0
+  E EM5206_00_0
+  E EM5207_00_0
+  E EM5207_10_0
+  E EM5208_00_0
+  E EM5208_10_0
+  E EM5208_20_0
+  E EM5209_00_0
+  E EM5210_00_0
+  E EM5210_10_0
+  E EM5211_00_0
+  E EM5211_09_0
+  E EM5212_00_0
+  E EM5213_00_0
+  E EM5214_00_0
+  E EM5214_10_0
+  E EM5215_00_0
+  E EM5215_10_0
+  E EM5216_00_0
+  E EM5216_09_0
+  E EM5216_10_0
+  E EM5217_00_0
+  E EM5217_10_0
+  E EM5218_00_0
+  E EM5218_09_0
+  E EM5219_00_0
+  E EM5220_00_0
+  E EM5221_00_0
+  E EM5221_09_0
+  E EM5222_00_0
+  E EM5222_10_0
+  E EM5223_00_0
+  E EM5224_00_0
+  E EM5224_09_0
+  E EM5225_00_0
+  E EM5226_00_0
+  E EM5227_00_0
+  E EM5300_00_0
+  E EM5300_10_0
+  E EM5301_00_0
+  E EM5302_00_0
+  E EM5303_00_0
+  E EM5304_00_0
+  E EM5305_00_0
+  E EM5306_00_0
+  E EM5307_00_0
+  E EM5308_00_0
+  E EM5309_00_0
+  E EM5310_00_0
+  E EM5311_00_0
+  E EM5312_00_0
+  E EM5313_00_0
+  E EM5314_00_0
+  E EM5315_00_0
+  E EM5316_00_0
+  E EM5317_00_0
+  E EM5317_09_0
+  E EM5318_00_0
+  E EM5319_00_0
+  E INVALID
+  E MAX
+  E value__
+==== app.EnemyDef m=184 f=217 parent=System.Object
+  M InterruptIDToAcceptChangeState758088(app.EnemyDef.AI_INTERRUPT_ID, app.cEmAIInterrupt) -> app.EnemyDef.INTERRUPT_ACCEPT_CHANGE_STATE
+  M QuestData758076(app.EnemyDef.ID) -> app.user_data.EnemyQuestData.cData
+  M get_ReadID_BITFixedArray758020() -> System.ReadOnlySpan`1<System.Int32>
+  M get_ReadID_BITValueArray758021() -> System.ReadOnlySpan`1<System.UInt64>
+  M get_ReadMULTI_PARTS_PRIORITY_CONDITION_TYPEBitFixedArray758023() -> System.ReadOnlySpan`1<System.Int32>
+  M get_ReadMULTI_PARTS_PRIORITY_CONDITION_TYPEBitIndexArray758025() -> System.ReadOnlySpan`1<System.UInt64>
+  M get_ReadMULTI_PARTS_PRIORITY_CONDITION_TYPEBitValueArray758024() -> System.ReadOnlySpan`1<System.UInt64>
+==== app.NetSessionUpdate m=3 f=1 parent=app.NetworkRequest
+  M get_Info1204123() -> app.net_quest_session.cUpdateQuestSessionInfo
+  M set_Info1204124(app.net_quest_session.cUpdateQuestSessionInfo) -> System.Void
+==== app.NetworkManager m=110 f=57 parent=ace.GAElement`1<app.NetworkManager>
+  M IsShowSessionReqDialog766771() -> System.Boolean
+  M get_APIServer766783() -> app.Net_APIServer
+  M get_AnalysisLogService766823() -> app.AnalysisLogService
+  M get_AppNetworkLog766775() -> System.Boolean
+  M get_BlockListService766809() -> app.Net_BlockListService
+  M get_ChatService766795() -> app.Net_ChatService
+  M get_CircleService766798() -> app.Net_CircleService
+  M get_ContextManager766784() -> app.net_context_manager.cContextManager
+  M get_DeflateService766797() -> app.Net_DeflateService
+  M get_DeliveryService766796() -> app.Net_DeliveryService
+  M get_DlcService766803() -> app.dlc.DlcService
+  M get_DoStarted766777() -> System.Boolean
+  M get_ErrorManager766789() -> app.NetworkErrorManager
+  M get_EventReplay766793() -> app.Net_ReplayEvent
+  M get_FollowManager766800() -> app.Net_FollowManager
+  M get_FriendManager766799() -> app.Net_FriendManager
+  M get_GameSightService766782() -> app.GameSightService
+  M get_Gamesight766824() -> app.Net_Gamesight
+  M get_GuildCard766787() -> app.net_guildcard_manager.cGuildCardManager
+  M get_HistoryManager766801() -> app.Net_HistoryManager
+  M get_IsEnableConnectSession766781() -> System.Boolean
+  M get_IsInvitationBoot766815() -> System.Boolean
+  M get_IsInvitationLocked766817() -> System.Boolean
+  M get_IsLinkPartyRecruiting766820() -> System.Boolean
+  M get_IsLinkPartyRecruitingWithPassword766821() -> System.Boolean
+  M get_IsLocalNetwork766772() -> System.Boolean
+  M get_IsPauseSyncObject766816() -> System.Boolean
+  M get_IsSwitchingLocal766774() -> System.Boolean
+  M get_LinkPartyRecruitPassword766822() -> System.String
+  M get_LinkRecruitStatus766819() -> ace_network.EnumLinkPartyRecruitStatus
+  M get_NSOPremiumChecker766805() -> app.Net_NSOPremiumChecker
+  M get_NickNameManager766808() -> app.Net_IdConverterManager
+  M get_NotifyListService766806() -> app.Net_NotifyListService
+  M get_NotifyService766794() -> app.Net_NotifyService
+  M get_ObtInfoManager766814() -> app.Net_ObtInfoManager
+  M get_PacketReplay766792() -> app.Net_PacketReplay
+  M get_Party766786() -> app.Net_Party
+  M get_PermissionChecker766811() -> app.Net_PermissionChecker
+  M get_PrivilageChecker766804() -> app.Net_PrivilegeChecker
+  M get_RankingService766812() -> app.Net_RankingService
+  M get_ReportService766813() -> app.Net_ReportService
+  M get_RequestManager766788() -> app.NetworkRequestManager
+  M get_SaveDataChecker766818() -> app.Net_SaveDataChecker
+  M get_SessionService766785() -> app.Net_SessionService
+  M get_SocialUserList766791() -> app.Net_SocialUserList
+  M get_StoreService766802() -> app.net_store_service.Net_StoreService
+  M get_UdsManager766807() -> app.Net_UdsManager
+  M get_UserInfoManager766790() -> app.Net_UserInfoManager
+  M get_WebApplet766810() -> app.Net_WebApplet
+  M setShowSessionReqDialog766770(System.Boolean) -> System.Void
+  M set_AppNetworkLog766776(System.Boolean) -> System.Void
+  M set_IsEnableConnectSession766780(System.Boolean) -> System.Void
+  F <IsEnableConnectSession>k__BackingField: System.Boolean
+  F _IsShowSessionReqDialog: System.Boolean
+  F _RequestManager: app.NetworkRequestManager
+  F _SessionService: app.Net_SessionService
+==== app.cPlLobbyGameManager m=29 f=8 parent=System.Object
+  M get_MasterPlActionControlPhase444820() -> app.cPlLobbyGameManager.ACTION_CONTROL_PHASE
+  M get_MasterPlUsingGmIndex444817() -> System.Int32
+  M get_OtherPlayerIndex444818() -> System.Int32
+  M get_OtherPlayerInputCount444819() -> System.Int32
+  M onNetJoinLobbyMember444836(System.Int32) -> System.Void
+  M onNetLeaveLobbySession444837() -> System.Void
+==== app.cPlLobbyGameManager.ACTION_CONTROL_PHASE m=0 f=5 parent=System.Enum
+  E NONE
+  E READY
+  E READY_TO_NONE
+  E TO_READY
+  E value__
+==== app.cPlLobbyGameManager.ACTION_CONTROL_PHASE[] m=15 f=0 parent=System.Array
+  M get_Item1534716(System.Int32) -> app.cPlLobbyGameManager.ACTION_CONTROL_PHASE
+  M set_Item1534717(System.Int32, app.cPlLobbyGameManager.ACTION_CONTROL_PHASE) -> System.Void
+==== app.cPlLobbyGameManager.LOBBY_GAME_A_USER_INFO m=1 f=4 parent=System.ValueType
+==== app.cPlLobbyGameManager.LOBBY_GAME_A_USER_INFO[] m=15 f=0 parent=System.Array
+  M get_Item444689(System.Int32) -> app.cPlLobbyGameManager.LOBBY_GAME_A_USER_INFO
+  M set_Item444690(System.Int32, app.cPlLobbyGameManager.LOBBY_GAME_A_USER_INFO) -> System.Void
+==== app.cPlLobbyGameManager.LOBBY_GAME_PACKET_TYPE m=0 f=9 parent=System.Enum
+  F GAME_A_MEDIATE_REQUEST_LEFT: app.cPlLobbyGameManager.LOBBY_GAME_PACKET_TYPE
+  F GAME_A_MEDIATE_REQUEST_RIGHT: app.cPlLobbyGameManager.LOBBY_GAME_PACKET_TYPE
+  E GAME_A_END
+  E GAME_A_MEDIATE_FAIL
+  E GAME_A_MEDIATE_REQUEST_LEFT
+  E GAME_A_MEDIATE_REQUEST_RIGHT
+  E GAME_A_MEDIATE_SUCCESS_LEFT
+  E GAME_A_MEDIATE_SUCCESS_RIGHT
+  E NEED_GAME_A_INFO
+  E NONE
+  E value__
+==== app.cPlLobbyGameManager.LOBBY_GAME_PACKET_TYPE[] m=15 f=0 parent=System.Array
+  M get_Item1534687(System.Int32) -> app.cPlLobbyGameManager.LOBBY_GAME_PACKET_TYPE
+  M set_Item1534688(System.Int32, app.cPlLobbyGameManager.LOBBY_GAME_PACKET_TYPE) -> System.Void
+==== app.net_session_manager.SessionManager m=150 f=52 parent=System.Object
+  M blockCheckAccept641018() -> System.Void
+  M checkLocalSameQuest641022(app.net_session_manager.SESSION_TYPE, System.Int32, System.Boolean) -> System.Boolean
+  M createSession640982(app.net_session_manager.cCreateSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M execSessionDelagate640901(app.net_session_manager.SessionManager.DELEGATE_TYPE, System.Boolean, System.Int32, System.Byte[]) -> System.Void
+  M getSessionId640904() -> via.network.utility.SessionId
+  M get_BlockCheckUniqueId640909() -> app.net_session_manager.SessionManager.BlockCheckInfo[]
+  M get_CSession640894() -> app.Net_CloudSessionRequest
+  M get_CreateSessionDelegate640895() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M get_GetSession640891() -> via.network.SessionBase
+  M get_InvitationPlatform640893() -> via.network.InvitationBase
+  M get_InvitationPlayFab640892() -> via.network.InvitationBase
+  M get_IsAcceptJoinForBlock640907() -> System.Boolean
+  M get_IsCreateSession640905() -> System.Boolean
+  M get_JoinSessionDelegate640899() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M get_SearchResultTblLobby640910() -> app.net_session_manager.SessionManager.cSearchResultTblLobby
+  M get_SearchResultTblQuest640911() -> app.net_session_manager.SessionManager.cSearchResultTblQuest
+  M get_SearchSessionDelegate640897() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M get_SessionType640903() -> app.net_session_manager.SESSION_TYPE
+  M get_SnapShot640942() -> app.Net_LateJoinSync.SyncSnapShot
+  M get_VoiceChatParam640906() -> app.net_session_manager.SessionManager.cVoiceChatParam[]
+  M get_onNetHostChange640956() -> app.net_session_manager.onHostChange
+  M get_onNetHostChange_Session640958() -> app.net_session_manager.onHostChange
+  M get_onNetJoinMember640950() -> app.net_session_manager.onJoinMember
+  M get_onNetJoinMemberSys640944() -> app.net_session_manager.onJoinMember
+  M get_onNetKick640960() -> app.net_session_manager.onKick
+  M get_onNetLeaveMember640952() -> app.net_session_manager.onLeaveMember
+  M get_onNetLeaveMemberSys640946() -> app.net_session_manager.onLeaveMember
+  M get_onNetLeaveSession640954() -> app.net_session_manager.onLeaveSession
+  M get_onNetLeaveSessionSys640948() -> app.net_session_manager.onLeaveSession
+  M get_onNetReceiveAutoReplay640930() -> app.net_session_manager.onReceiveAutoReplay
+  M get_onNetReceiveEnemy640920() -> app.net_session_manager.onReceiveEnemy
+  M get_onNetReceiveEnvAnimal640926() -> app.net_session_manager.onReceiveEnvAnimal
+  M get_onNetReceiveEnvironment640936() -> app.net_session_manager.onReceiveEnvironment
+  M get_onNetReceiveGimmick640924() -> app.net_session_manager.onReceiveGimmick
+  M get_onNetReceiveNpc640934() -> app.net_session_manager.onReceiveNpc
+  M get_onNetReceiveOther640938() -> app.net_session_manager.onReceiveOther
+  M get_onNetReceiveOtomo640922() -> app.net_session_manager.onReceiveOtomo
+  M get_onNetReceivePlayer640918() -> app.net_session_manager.onReceivePlayer
+  M get_onNetReceivePorter640932() -> app.net_session_manager.onReceivePorter
+  M get_onNetReceiveQuest640928() -> app.net_session_manager.onReceiveQuest
+  M get_onNetReceiveSystem640916() -> app.net_session_manager.onReceiveSystem
+  M get_onNetSyncLoadBefore640962() -> System.Func`2<System.Boolean,System.Boolean>
+  M get_onSendCompleteBroadcast640940() -> app.net_session_manager.onSendCompleteBroadcast
+  M isAcceptJoinSessionCheck641013(app.net_session_manager.SESSION_TYPE, System.Int32, System.Object) -> System.Boolean
+  M isAcceptLeaveMemberCheck641014(app.net_session_manager.SESSION_TYPE) -> System.Boolean
+  M joinSession640984(app.net_session_manager.cJoinSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M joinSessionCheckBlockUserStack641012(app.net_session_manager.SESSION_TYPE, System.Int32, System.Boolean, System.Guid) -> System.Void
+  M leaveQuestSession_Local640986() -> System.Void
+  M leaveSession640985() -> System.Void
+  M prepareInvitationJoin640972(via.network.session.Info, via.network.session.MemberInfo) -> System.Void
+  M reqUpdateSearchKey640981(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M requestBootup640980() -> System.Boolean
+  M requestBootupSessionCreate640977(app.net_session_manager.cCreateSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, app.NETWORK_ERROR_CODE) -> System.Boolean
+  M requestBootupSessionJoin640978(app.net_session_manager.cJoinSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, app.NETWORK_ERROR_CODE) -> System.Boolean
+  M requestBootupSessionSearch640979(app.net_session_manager.cSearchSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>, app.NETWORK_ERROR_CODE) -> System.Boolean
+  M requestUpdateInGameFriendVC641009() -> System.Void
+  M searchSession640983(app.net_session_manager.cSearchSessionInfo, System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_CreateSessionDelegate640896(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_IsAcceptJoinForBlock640908(System.Boolean) -> System.Void
+  M set_JoinSessionDelegate640900(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_SearchSessionDelegate640898(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+  M set_SnapShot640943(app.Net_LateJoinSync.SyncSnapShot) -> System.Void
+  M set_onNetHostChange640957(app.net_session_manager.onHostChange) -> System.Void
+  M set_onNetHostChange_Session640959(app.net_session_manager.onHostChange) -> System.Void
+  M set_onNetJoinMember640951(app.net_session_manager.onJoinMember) -> System.Void
+  M set_onNetJoinMemberSys640945(app.net_session_manager.onJoinMember) -> System.Void
+  M set_onNetKick640961(app.net_session_manager.onKick) -> System.Void
+  M set_onNetLeaveMember640953(app.net_session_manager.onLeaveMember) -> System.Void
+  M set_onNetLeaveMemberSys640947(app.net_session_manager.onLeaveMember) -> System.Void
+  M set_onNetLeaveSession640955(app.net_session_manager.onLeaveSession) -> System.Void
+  M set_onNetLeaveSessionSys640949(app.net_session_manager.onLeaveSession) -> System.Void
+  M set_onNetReceiveAutoReplay640931(app.net_session_manager.onReceiveAutoReplay) -> System.Void
+  M set_onNetReceiveEnemy640921(app.net_session_manager.onReceiveEnemy) -> System.Void
+  M set_onNetReceiveEnvAnimal640927(app.net_session_manager.onReceiveEnvAnimal) -> System.Void
+  M set_onNetReceiveEnvironment640937(app.net_session_manager.onReceiveEnvironment) -> System.Void
+  M set_onNetReceiveGimmick640925(app.net_session_manager.onReceiveGimmick) -> System.Void
+  M set_onNetReceiveNpc640935(app.net_session_manager.onReceiveNpc) -> System.Void
+  M set_onNetReceiveOther640939(app.net_session_manager.onReceiveOther) -> System.Void
+  M set_onNetReceiveOtomo640923(app.net_session_manager.onReceiveOtomo) -> System.Void
+  M set_onNetReceivePlayer640919(app.net_session_manager.onReceivePlayer) -> System.Void
+  M set_onNetReceivePorter640933(app.net_session_manager.onReceivePorter) -> System.Void
+  M set_onNetReceiveQuest640929(app.net_session_manager.onReceiveQuest) -> System.Void
+  M set_onNetReceiveSystem640917(app.net_session_manager.onReceiveSystem) -> System.Void
+  M set_onNetSyncLoadBefore640963(System.Func`2<System.Boolean,System.Boolean>) -> System.Void
+  M set_onSendCompleteBroadcast640941(app.net_session_manager.onSendCompleteBroadcast) -> System.Void
+  F <CreateSessionDelegate>k__BackingField: System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  F <JoinSessionDelegate>k__BackingField: System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  F <SearchSessionDelegate>k__BackingField: System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  F <onNetHostChange_Session>k__BackingField: app.net_session_manager.onHostChange
+  F <onNetLeaveSession>k__BackingField: app.net_session_manager.onLeaveSession
+  F <onNetLeaveSessionSys>k__BackingField: app.net_session_manager.onLeaveSession
+  F <onNetReceiveQuest>k__BackingField: app.net_session_manager.onReceiveQuest
+  F SessionParam: app.net_session_manager.SessionManager.cSessionParam
+  F _CSession: app.Net_CloudSessionRequest
+  F _IsCreateSession: System.Boolean
+  F _RequestParam: app.net_session_manager.SessionManager.RequestParam
+  F _SearchResultTblQuest: app.net_session_manager.SessionManager.cSearchResultTblQuest
+  F _Session: via.network.SessionBase
+  F _SessionId: via.network.utility.SessionId
+  F _SessionType: app.net_session_manager.SESSION_TYPE
+==== app.net_session_manager.SessionManager.BlockCheckInfo m=1 f=3 parent=System.Object
+==== app.net_session_manager.SessionManager.BlockCheckInfo[] m=15 f=0 parent=System.Array
+  M get_Item242627(System.Int32) -> app.net_session_manager.SessionManager.BlockCheckInfo
+  M set_Item242628(System.Int32, app.net_session_manager.SessionManager.BlockCheckInfo) -> System.Void
+==== app.net_session_manager.SessionManager.BroadCastInfo m=2 f=3 parent=System.ValueType
+==== app.net_session_manager.SessionManager.BroadCastInfo.BroadCastType m=0 f=3 parent=System.Enum
+  E LATEJOIN
+  E LOCAL_HUNTER_PROFILE
+  E value__
+==== app.net_session_manager.SessionManager.BroadCastInfo.BroadCastType[] m=15 f=0 parent=System.Array
+  M get_Item1590976(System.Int32) -> app.net_session_manager.SessionManager.BroadCastInfo.BroadCastType
+  M set_Item1590977(System.Int32, app.net_session_manager.SessionManager.BroadCastInfo.BroadCastType) -> System.Void
+==== app.net_session_manager.SessionManager.BroadCastInfo[] m=15 f=0 parent=System.Array
+  M get_Item640757(System.Int32) -> app.net_session_manager.SessionManager.BroadCastInfo
+  M set_Item640758(System.Int32, app.net_session_manager.SessionManager.BroadCastInfo) -> System.Void
+==== app.net_session_manager.SessionManager.DELEGATE_TYPE m=0 f=4 parent=System.Enum
+  E CREATE
+  E JOIN
+  E SEARCH
+  E value__
+==== app.net_session_manager.SessionManager.DELEGATE_TYPE[] m=15 f=0 parent=System.Array
+  M get_Item1590947(System.Int32) -> app.net_session_manager.SessionManager.DELEGATE_TYPE
+  M set_Item1590948(System.Int32, app.net_session_manager.SessionManager.DELEGATE_TYPE) -> System.Void
+==== app.net_session_manager.SessionManager.RequestParam m=7 f=5 parent=System.Object
+  M get_BootupDelegate242581() -> System.Action`3<System.Boolean,System.Int32,System.Byte[]>
+  M set_BootupDelegate242582(System.Action`3<System.Boolean,System.Int32,System.Byte[]>) -> System.Void
+==== app.net_session_manager.SessionManager.SESSION_STATE m=0 f=13 parent=System.Enum
+  E ACTIVE
+  E CREATE
+  E FAILRE
+  E INACTIVE
+  E JOIN
+  E LOGIN
+  E LOGINWAIT
+  E SAVESYNC
+  E SAVESYNCWAIT
+  E SEARCH
+  E SETUP
+  E SHUTDOWN
+  E value__
+==== app.net_session_manager.SessionManager.SESSION_STATE[] m=15 f=0 parent=System.Array
+  M get_Item1590918(System.Int32) -> app.net_session_manager.SessionManager.SESSION_STATE
+  M set_Item1590919(System.Int32, app.net_session_manager.SessionManager.SESSION_STATE) -> System.Void
+==== app.net_session_manager.SessionManager.cSearchResultLobby m=2 f=1 parent=System.Object
+  F SessionInfo: app.Net_APIServer.cCommonLobby.LobbyInfo
+==== app.net_session_manager.SessionManager.cSearchResultLobby[] m=15 f=0 parent=System.Array
+  M get_Item242658(System.Int32) -> app.net_session_manager.SessionManager.cSearchResultLobby
+  M set_Item242659(System.Int32, app.net_session_manager.SessionManager.cSearchResultLobby) -> System.Void
+==== app.net_session_manager.SessionManager.cSearchResultQuest m=17 f=34 parent=System.Object
+  M getAcceptableHR640414() -> System.Int16
+  M getQuestClientNameText640416() -> ace.cGUIMessageInfo
+  M getQuestDetailText640417() -> ace.cGUIMessageInfo
+  M isKeepQuest640412() -> System.Boolean
+  F questId: app.MissionIDList.ID
+  F questLevel: app.QuestDef.EM_REWARD_RANK
+  F questLife: System.Byte
+  F questName: System.String
+  F questRank: app.QuestDef.RANK
+  F questReward: System.UInt32
+  F questSessionId: System.String
+  F questTimeLimit: System.Int32
+  F questType: app.QuestDef.QUEST_TYPE
+  F rescueAcceptPos: via.vec3
+  F rescueComment: app.net_quest_session.cCreateQuestSessionInfo.RESCUE_COMMENT
+==== app.net_session_manager.SessionManager.cSearchResultQuest.HunterInfo m=0 f=16 parent=System.ValueType
+==== app.net_session_manager.SessionManager.cSearchResultQuest.HunterInfo[] m=15 f=0 parent=System.Array
+  M get_Item640185(System.Int32) -> app.net_session_manager.SessionManager.cSearchResultQuest.HunterInfo
+  M set_Item640186(System.Int32, app.net_session_manager.SessionManager.cSearchResultQuest.HunterInfo) -> System.Void
+==== app.net_session_manager.SessionManager.cSearchResultQuest.TargetInfo m=0 f=7 parent=System.ValueType
+==== app.net_session_manager.SessionManager.cSearchResultQuest.TargetInfo[] m=15 f=0 parent=System.Array
+  M get_Item640054(System.Int32) -> app.net_session_manager.SessionManager.cSearchResultQuest.TargetInfo
+  M set_Item640055(System.Int32, app.net_session_manager.SessionManager.cSearchResultQuest.TargetInfo) -> System.Void
+==== app.net_session_manager.SessionManager.cSearchResultQuest[] m=15 f=0 parent=System.Array
+  M get_Item640439(System.Int32) -> app.net_session_manager.SessionManager.cSearchResultQuest
+  M set_Item640440(System.Int32, app.net_session_manager.SessionManager.cSearchResultQuest) -> System.Void
+==== app.net_session_manager.SessionManager.cSearchResultTblLobby m=2 f=1 parent=System.Object
+  M getSearchResultCount242779() -> System.UInt32
+==== app.net_session_manager.SessionManager.cSearchResultTblQuest m=3 f=1 parent=System.Object
+  M containsSameSessionId640561(System.String) -> System.Boolean
+  M getSearchResultCount640560() -> System.UInt32
+==== app.net_session_manager.SessionManager.cSessionParam m=13 f=7 parent=System.ValueType
+  M get_GetCustomProperty242563() -> via.network.session.CustomProperty
+  M get_GetSearchKey242562() -> via.network.session.SearchKey
+  M get_HostMemberIndex242567() -> System.Int32
+  M get_IsHostChangeFirstCall242568() -> System.Boolean
+  M get_IsHostChangeFirstCall_Session242569() -> System.Boolean
+  M get_SelfMemberIndex242566() -> System.Int32
+  M get_SessionState242565() -> app.net_session_manager.SessionManager.SESSION_STATE
+  M setHostChangeFirstCallDone_Session242561() -> System.Void
+  M setSessionState242564(app.net_session_manager.SessionManager.SESSION_STATE) -> System.Void
+  F _IsHostChangeFirstCall_Session: System.Boolean
+  F _SessionState: app.net_session_manager.SessionManager.SESSION_STATE
+==== app.net_session_manager.SessionManager.cVoiceChatParam m=2 f=3 parent=System.ValueType
+==== app.net_session_manager.SessionManager.cVoiceChatParam[] m=15 f=0 parent=System.Array
+  M get_Item242597(System.Int32) -> app.net_session_manager.SessionManager.cVoiceChatParam
+  M set_Item242598(System.Int32, app.net_session_manager.SessionManager.cVoiceChatParam) -> System.Void
+==== app.net_session_manager.SessionManager[] m=15 f=0 parent=System.Array
+  M get_Item643104(System.Int32) -> app.net_session_manager.SessionManager
+  M set_Item643105(System.Int32, app.net_session_manager.SessionManager) -> System.Void
+==== BossReportInfo ALL FIELDS
+  F CaptureNum: System.Int32
+  F CrownFlag: System.Boolean[]
+  F EmId: app.EnemyDef.ID
+  F EnemyState: app.EnemyReportState.STATE
+  F HuntingNum: System.Int32
+  F MaxSize: System.Int32
+  F MinSize: System.Int32
+  F SelfEnemyState: app.EnemyReportState.STATE
+  F SortNum: System.Int32[]
+==== app.EnemyDef m=184
+  M getACTION_DICTIONARY_CONDITIONFromFixed757990(app.EnemyDef.ACTION_DICTIONARY_CONDITION_Fixed, app.EnemyDef.ACTION_DICTIONARY_CONDITION) -> System.Boolean
+  M getAREAMOVE_OBJECTIVE_TYPEFromFixed757991(app.EnemyDef.AREAMOVE_OBJECTIVE_TYPE_Fixed, app.EnemyDef.AREAMOVE_OBJECTIVE_TYPE) -> System.Boolean
+  M getBAD_CONDITION_EFFECTIVE_TYPEFromFixed757993(app.EnemyDef.BAD_CONDITION_EFFECTIVE_TYPE_Fixed, app.EnemyDef.BAD_CONDITION_EFFECTIVE_TYPE) -> System.Boolean
+  M getBTABLE_IDFromFixed757984(app.EnemyDef.BTABLE_ID_Fixed, app.EnemyDef.BTABLE_ID) -> System.Boolean
+  M getCOMBAT_EM_CONDITIONFromFixed757994(app.EnemyDef.COMBAT_EM_CONDITION_Fixed, app.EnemyDef.COMBAT_EM_CONDITION) -> System.Boolean
+  M getCOMBAT_EM_REACTIONFromFixed757995(app.EnemyDef.COMBAT_EM_REACTION_Fixed, app.EnemyDef.COMBAT_EM_REACTION) -> System.Boolean
+  M getDETOUR_ACTION_TYPEFromFixed757996(app.EnemyDef.DETOUR_ACTION_TYPE_Fixed, app.EnemyDef.DETOUR_ACTION_TYPE) -> System.Boolean
+  M getEM0001_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757937(app.EnemyDef.EM0001_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0001_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0002_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757938(app.EnemyDef.EM0002_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0002_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0002_50_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757939(app.EnemyDef.EM0002_50_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0002_50_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0005_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757941(app.EnemyDef.EM0005_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0005_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0009_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757942(app.EnemyDef.EM0009_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0009_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM002_50_CONSTRAINT_ASSIST_TYPEFromFixed757940(app.EnemyDef.EM002_50_CONSTRAINT_ASSIST_TYPE_Fixed, app.EnemyDef.EM002_50_CONSTRAINT_ASSIST_TYPE) -> System.Boolean
+  M getEM0071_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757943(app.EnemyDef.EM0071_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0071_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0078_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757944(app.EnemyDef.EM0078_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0078_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM01006_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757955(app.EnemyDef.EM01006_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM01006_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0100_51_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757945(app.EnemyDef.EM0100_51_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0100_51_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0113_51_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757946(app.EnemyDef.EM0113_51_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0113_51_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0150_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757947(app.EnemyDef.EM0150_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0150_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0150_50_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757948(app.EnemyDef.EM0150_50_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0150_50_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0154_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757949(app.EnemyDef.EM0154_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0154_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0158_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757950(app.EnemyDef.EM0158_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0158_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0159_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757951(app.EnemyDef.EM0159_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0159_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0160_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757952(app.EnemyDef.EM0160_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0160_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0161_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757953(app.EnemyDef.EM0161_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0161_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM0166_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757954(app.EnemyDef.EM0166_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM0166_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1022_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757956(app.EnemyDef.EM1022_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1022_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1062_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757957(app.EnemyDef.EM1062_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1062_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1151_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757958(app.EnemyDef.EM1151_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1151_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1154_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757959(app.EnemyDef.EM1154_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1154_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1157_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757960(app.EnemyDef.EM1157_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1157_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1159_CONSTRAINT_ASSIST_TYPEFromFixed757961(app.EnemyDef.EM1159_CONSTRAINT_ASSIST_TYPE_Fixed, app.EnemyDef.EM1159_CONSTRAINT_ASSIST_TYPE) -> System.Boolean
+  M getEM1160_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757962(app.EnemyDef.EM1160_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1160_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1163_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757963(app.EnemyDef.EM1163_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1163_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1164_50_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757964(app.EnemyDef.EM1164_50_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1164_50_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM1165_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757965(app.EnemyDef.EM1165_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM1165_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5002_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757966(app.EnemyDef.EM5002_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5002_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5002_01_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757967(app.EnemyDef.EM5002_01_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5002_01_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5002_10_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757968(app.EnemyDef.EM5002_10_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5002_10_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5005_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757969(app.EnemyDef.EM5005_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5005_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5005_10_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757970(app.EnemyDef.EM5005_10_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5005_10_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5005_20_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757971(app.EnemyDef.EM5005_20_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5005_20_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5101_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757972(app.EnemyDef.EM5101_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5101_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5101_10_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757973(app.EnemyDef.EM5101_10_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5101_10_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5101_20_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757974(app.EnemyDef.EM5101_20_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5101_20_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5203_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757975(app.EnemyDef.EM5203_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5203_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5206_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757976(app.EnemyDef.EM5206_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5206_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5208_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757977(app.EnemyDef.EM5208_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5208_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5208_10_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757978(app.EnemyDef.EM5208_10_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5208_10_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5208_20_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757979(app.EnemyDef.EM5208_20_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5208_20_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5208_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757980(app.EnemyDef.EM5208_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5208_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5211_00_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757981(app.EnemyDef.EM5211_00_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5211_00_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5211_09_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757982(app.EnemyDef.EM5211_09_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5211_09_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM5214_ACTION_DICTIONARY_EXTEND_CONDITIONFromFixed757983(app.EnemyDef.EM5214_ACTION_DICTIONARY_EXTEND_CONDITION_Fixed, app.EnemyDef.EM5214_ACTION_DICTIONARY_EXTEND_CONDITION) -> System.Boolean
+  M getEM_PROP_CATEGORYFromFixed757987(app.EnemyDef.EM_PROP_CATEGORY_Fixed, app.EnemyDef.EM_PROP_CATEGORY) -> System.Boolean
+  M getEM_PROP_CULLING_TYPEFromFixed757988(app.EnemyDef.EM_PROP_CULLING_TYPE_Fixed, app.EnemyDef.EM_PROP_CULLING_TYPE) -> System.Boolean
+  M getEM_PROP_IDFromFixed757989(app.EnemyDef.EM_PROP_ID_Fixed, app.EnemyDef.EM_PROP_ID) -> System.Boolean
+  M getENEMY_FEEL_RATE_TYPEFromFixed757998(app.EnemyDef.ENEMY_FEEL_RATE_TYPE_Fixed, app.EnemyDef.ENEMY_FEEL_RATE_TYPE) -> System.Boolean
+  M getFixedFromATTACK_HIT_ACTION_TYPE757992(app.EnemyDef.ATTACK_HIT_ACTION_TYPE, app.EnemyDef.ATTACK_HIT_ACTION_TYPE_Fixed) -> System.Boolean
+  M getFixedFromDETOUR_ACTION_TYPE757997(app.EnemyDef.DETOUR_ACTION_TYPE, app.EnemyDef.DETOUR_ACTION_TYPE_Fixed) -> System.Boolean
+  M getFixedFromID757986(app.EnemyDef.ID, app.EnemyDef.ID_Fixed) -> System.Boolean
+  M getFixedFromLEAD_CHASE_PHASE758002(app.EnemyDef.LEAD_CHASE_PHASE, app.EnemyDef.LEAD_CHASE_PHASE_Fixed) -> System.Boolean
+  M getFixedFromMOVE_ACTION_TYPE758005(app.EnemyDef.MOVE_ACTION_TYPE, app.EnemyDef.MOVE_ACTION_TYPE_Fixed) -> System.Boolean
+  M getFixedFromMULTI_PARTS_PRIORITY_CONDITION_TYPEBit758028(app.EnemyDef.MULTI_PARTS_PRIORITY_CONDITION_TYPEBit, app.EnemyDef.Damage.MULTI_PARTS_PRIORITY_CONDITION_TYPE_Fixed) -> System.Boolean
+  M getFixedFromOBSTACLE_TYPE758009(app.EnemyDef.OBSTACLE_TYPE, app.EnemyDef.OBSTACLE_TYPE_Fixed) -> System.Boolean
+  M getFixedFromPARTS_TYPE758011(app.EnemyDef.PARTS_TYPE, app.EnemyDef.PARTS_TYPE_Fixed) -> System.Boolean
+  M getFixedFromPOP_INTERACT_TYPE758012(app.EnemyDef.POP_INTERACT_TYPE, app.EnemyDef.POP_INTERACT_TYPE_Fixed) -> System.Boolean
+  M getFixedFromSPECIES758017(app.EnemyDef.SPECIES, app.EnemyDef.SPECIES_Fixed) -> System.Boolean
+  M getFixedFromSTATE_SIGN_ACTION_TYPE758019(app.EnemyDef.STATE_SIGN_ACTION_TYPE, app.EnemyDef.STATE_SIGN_ACTION_TYPE_Fixed) -> System.Boolean
+  M getIDFromFixed757985(app.EnemyDef.ID_Fixed, app.EnemyDef.ID) -> System.Boolean
+  M getID_BITIndexFromFixed758022(app.EnemyDef.ID_Fixed, System.Int32) -> System.Boolean
+  M getINTERACT_ACTION_TYPEFromFixed757999(app.EnemyDef.INTERACT_ACTION_TYPE_Fixed, app.EnemyDef.INTERACT_ACTION_TYPE) -> System.Boolean
+  M getINTERACT_CATEGORYFromFixed758000(app.EnemyDef.INTERACT_CATEGORY_Fixed, app.EnemyDef.INTERACT_CATEGORY) -> System.Boolean
+  M getLEAD_CHASE_PHASEFromFixed758001(app.EnemyDef.LEAD_CHASE_PHASE_Fixed, app.EnemyDef.LEAD_CHASE_PHASE) -> System.Boolean
+  M getMCD_RESOURCE_IDFromFixed758003(app.EnemyDef.MCD_RESOURCE_ID_Fixed, app.EnemyDef.MCD_RESOURCE_ID) -> System.Boolean
+  M getMOVE_ACTION_TYPEFromFixed758004(app.EnemyDef.MOVE_ACTION_TYPE_Fixed, app.EnemyDef.MOVE_ACTION_TYPE) -> System.Boolean
+  M getMOVE_BANK_TYPEFromFixed758006(app.EnemyDef.MOVE_BANK_TYPE_Fixed, app.EnemyDef.MOVE_BANK_TYPE) -> System.Boolean
+  M getMULTI_PARTS_PRIORITY_CONDITION_TYPEBitFromFixed758026(app.EnemyDef.Damage.MULTI_PARTS_PRIORITY_CONDITION_TYPE_Fixed, app.EnemyDef.MULTI_PARTS_PRIORITY_CONDITION_TYPEBit) -> System.Boolean
+  M getMULTI_PARTS_PRIORITY_CONDITION_TYPEBitIndexFromFixed758027(app.EnemyDef.Damage.MULTI_PARTS_PRIORITY_CONDITION_TYPE_Fixed, System.Int32) -> System.Boolean
+  M getNAVI_SETTING_TYPEFromFixed758007(app.EnemyDef.NAVI_SETTING_TYPE_Fixed, app.EnemyDef.NAVI_SETTING_TYPE) -> System.Boolean
+  M getOBSTACLE_TYPEFromFixed758008(app.EnemyDef.OBSTACLE_TYPE_Fixed, app.EnemyDef.OBSTACLE_TYPE) -> System.Boolean
+  M getPARTS_TYPEFromFixed758010(app.EnemyDef.PARTS_TYPE_Fixed, app.EnemyDef.PARTS_TYPE) -> System.Boolean
+  M getPROCESS_CULLING_LEVELFromFixed758013(app.EnemyDef.PROCESS_CULLING_LEVEL_Fixed, app.EnemyDef.PROCESS_CULLING_LEVEL) -> System.Boolean
+  M getPROCESS_SEQUENCE_FLAGFromFixed758014(app.EnemyDef.PROCESS_SEQUENCE_FLAG_Fixed, app.EnemyDef.PROCESS_SEQUENCE_FLAG) -> System.Boolean
+  M getSPECIESFromFixed758016(app.EnemyDef.SPECIES_Fixed, app.EnemyDef.SPECIES) -> System.Boolean
+  M getSP_ATK_TYPEFromFixed758015(app.EnemyDef.SP_ATK_TYPE_Fixed, app.EnemyDef.SP_ATK_TYPE) -> System.Boolean
+  M getSTATE_SIGN_ACTION_TYPEFromFixed758018(app.EnemyDef.STATE_SIGN_ACTION_TYPE_Fixed, app.EnemyDef.STATE_SIGN_ACTION_TYPE) -> System.Boolean
+  M get_ReadID_BITFixedArray758020() -> System.ReadOnlySpan`1<System.Int32>
+  M get_ReadMULTI_PARTS_PRIORITY_CONDITION_TYPEBitFixedArray758023() -> System.ReadOnlySpan`1<System.Int32>

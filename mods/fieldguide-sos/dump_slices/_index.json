@@ -1,0 +1,1718 @@
+[
+  {
+    "name": "app.GUI040200",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.json"
+  },
+  {
+    "name": "app.GUI040200.FLAG",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.FLAG.json"
+  },
+  {
+    "name": "app.GUI040200.FLAG[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.FLAG_.json"
+  },
+  {
+    "name": "app.GUI040200.PAGE_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.PAGE_TYPE.json"
+  },
+  {
+    "name": "app.GUI040200.PAGE_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.PAGE_TYPE_.json"
+  },
+  {
+    "name": "app.GUI040200.POSITION",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.POSITION.json"
+  },
+  {
+    "name": "app.GUI040200.POSITION[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.POSITION_.json"
+  },
+  {
+    "name": "app.GUI040200.SE_NO",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.SE_NO.json"
+  },
+  {
+    "name": "app.GUI040200.SE_NO[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.SE_NO_.json"
+  },
+  {
+    "name": "app.GUI040200.SUB_MENU_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.SUB_MENU_TYPE.json"
+  },
+  {
+    "name": "app.GUI040200.SUB_MENU_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.SUB_MENU_TYPE_.json"
+  },
+  {
+    "name": "app.GUI040200.cCircleInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.cCircleInfo.json"
+  },
+  {
+    "name": "app.GUI040200.cCircleInfo[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200.cCircleInfo_.json"
+  },
+  {
+    "name": "app.GUI040200Accessor",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200Accessor.json"
+  },
+  {
+    "name": "app.GUI040200PartsAnimal",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsAnimal.json"
+  },
+  {
+    "name": "app.GUI040200PartsArena",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsArena.json"
+  },
+  {
+    "name": "app.GUI040200PartsBase",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsBase.json"
+  },
+  {
+    "name": "app.GUI040200PartsBase[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsBase_.json"
+  },
+  {
+    "name": "app.GUI040200PartsEnemyReport",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsEnemyReport.json"
+  },
+  {
+    "name": "app.GUI040200PartsFullScreenPicture",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsFullScreenPicture.json"
+  },
+  {
+    "name": "app.GUI040200PartsHunterEquip",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsHunterEquip.json"
+  },
+  {
+    "name": "app.GUI040200PartsHunterEquip.MODE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsHunterEquip.MODE.json"
+  },
+  {
+    "name": "app.GUI040200PartsHunterEquip.MODE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsHunterEquip.MODE_.json"
+  },
+  {
+    "name": "app.GUI040200PartsMedal",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMedal.json"
+  },
+  {
+    "name": "app.GUI040200PartsMedalTips",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMedalTips.json"
+  },
+  {
+    "name": "app.GUI040200PartsMenu",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMenu.json"
+  },
+  {
+    "name": "app.GUI040200PartsMenu.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMenu.cData.json"
+  },
+  {
+    "name": "app.GUI040200PartsMenu.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMenu.cData_.json"
+  },
+  {
+    "name": "app.GUI040200PartsMenu.cMainData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMenu.cMainData.json"
+  },
+  {
+    "name": "app.GUI040200PartsMenu.cMainData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsMenu.cMainData_.json"
+  },
+  {
+    "name": "app.GUI040200PartsOtomoEquip",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsOtomoEquip.json"
+  },
+  {
+    "name": "app.GUI040200PartsOtomoEquip.MODE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsOtomoEquip.MODE.json"
+  },
+  {
+    "name": "app.GUI040200PartsOtomoEquip.MODE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsOtomoEquip.MODE_.json"
+  },
+  {
+    "name": "app.GUI040200PartsQuestClear",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsQuestClear.json"
+  },
+  {
+    "name": "app.GUI040200PartsQuestClear.MISSION_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsQuestClear.MISSION_TYPE.json"
+  },
+  {
+    "name": "app.GUI040200PartsQuestClear.MISSION_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsQuestClear.MISSION_TYPE_.json"
+  },
+  {
+    "name": "app.GUI040200PartsQuestList",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsQuestList.json"
+  },
+  {
+    "name": "app.GUI040200PartsTitleSetting",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTitleSetting.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.DUPLICATE_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.DUPLICATE_TYPE.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.DUPLICATE_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.DUPLICATE_TYPE_.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.MODE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.MODE.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.MODE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.MODE_.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.MOUSE_CTRL_INFO",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.MOUSE_CTRL_INFO.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.MOUSE_CTRL_INFO[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.MOUSE_CTRL_INFO_.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.WidgetSelectData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.WidgetSelectData.json"
+  },
+  {
+    "name": "app.GUI040200PartsTop.WidgetSelectData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsTop.WidgetSelectData_.json"
+  },
+  {
+    "name": "app.GUI040200PartsWeaponGraph",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040200PartsWeaponGraph.json"
+  },
+  {
+    "name": "app.GUI040205",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205.json"
+  },
+  {
+    "name": "app.GUI040205.BossReportInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205.BossReportInfo.json"
+  },
+  {
+    "name": "app.GUI040205.BossReportInfo[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205.BossReportInfo_.json"
+  },
+  {
+    "name": "app.GUI040205PartsEnemyDetail",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205PartsEnemyDetail.json"
+  },
+  {
+    "name": "app.GUI040205PartsEnemyList",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205PartsEnemyList.json"
+  },
+  {
+    "name": "app.GUI040205PartsEnemyList.SORT_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205PartsEnemyList.SORT_TYPE.json"
+  },
+  {
+    "name": "app.GUI040205PartsEnemyList.SORT_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205PartsEnemyList.SORT_TYPE_.json"
+  },
+  {
+    "name": "app.GUI040205PartsEnemyList.VIEW_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205PartsEnemyList.VIEW_TYPE.json"
+  },
+  {
+    "name": "app.GUI040205PartsEnemyList.VIEW_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI040205PartsEnemyList.VIEW_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.json"
+  },
+  {
+    "name": "app.GUI050000.ACTIVE_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.ACTIVE_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000.ACTIVE_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.ACTIVE_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000.CATEGORY",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.CATEGORY.json"
+  },
+  {
+    "name": "app.GUI050000.CATEGORY[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.CATEGORY_.json"
+  },
+  {
+    "name": "app.GUI050000.CategoryDispData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.CategoryDispData.json"
+  },
+  {
+    "name": "app.GUI050000.CategoryDispData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.CategoryDispData_.json"
+  },
+  {
+    "name": "app.GUI050000.ERROR_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.ERROR_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000.ERROR_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.ERROR_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000.PARTS_UPDATE_ORDER",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.PARTS_UPDATE_ORDER.json"
+  },
+  {
+    "name": "app.GUI050000.PARTS_UPDATE_ORDER[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.PARTS_UPDATE_ORDER_.json"
+  },
+  {
+    "name": "app.GUI050000.QUEST_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.QUEST_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000.QUEST_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000.QUEST_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000CategoryDispDataInitializer",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000CategoryDispDataInitializer.json"
+  },
+  {
+    "name": "app.GUI050000CategoryParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000CategoryParts.json"
+  },
+  {
+    "name": "app.GUI050000MemberSetParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000MemberSetParts.json"
+  },
+  {
+    "name": "app.GUI050000MonsterListParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000MonsterListParts.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.GRID_INDEX",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.GRID_INDEX.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.GRID_INDEX[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.GRID_INDEX_.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_ITEM_RECRUTE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_ITEM_RECRUTE.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_ITEM_RECRUTE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_ITEM_RECRUTE_.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_ITEM_RESCUESEARCH",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_ITEM_RESCUESEARCH.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_ITEM_RESCUESEARCH[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_ITEM_RESCUESEARCH_.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_TA_SUPPORT",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_TA_SUPPORT.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_TA_SUPPORT[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_TA_SUPPORT_.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.SETTING_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.SETTING_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000PartsBase.cRescueSearchSettingParamHolder",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PartsBase.cRescueSearchSettingParamHolder.json"
+  },
+  {
+    "name": "app.GUI050000PrevQuestParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PrevQuestParts.json"
+  },
+  {
+    "name": "app.GUI050000PrevQuestParts.RESCUE_TARGET_INFO",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PrevQuestParts.RESCUE_TARGET_INFO.json"
+  },
+  {
+    "name": "app.GUI050000PrevQuestParts.RESCUE_TARGET_INFO[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PrevQuestParts.RESCUE_TARGET_INFO_.json"
+  },
+  {
+    "name": "app.GUI050000PrevQuestParts.SUBMENU_ACTION",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PrevQuestParts.SUBMENU_ACTION.json"
+  },
+  {
+    "name": "app.GUI050000PrevQuestParts.SUBMENU_ACTION[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000PrevQuestParts.SUBMENU_ACTION_.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.GRID_OR_LIST",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.GRID_OR_LIST.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.GRID_OR_LIST[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.GRID_OR_LIST_.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.LIST_DISP_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.LIST_DISP_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.LIST_DISP_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.LIST_DISP_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.SORT_CHANGE_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.SORT_CHANGE_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.SORT_CHANGE_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.SORT_CHANGE_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.SORT_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.SORT_TYPE.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.SORT_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.SORT_TYPE_.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.cQuestItemUpdater",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.cQuestItemUpdater.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.cQuestList_GridViewParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.cQuestList_GridViewParts.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.cQuestList_HomeViewParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.cQuestList_HomeViewParts.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.cQuestList_ListViewParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.cQuestList_ListViewParts.json"
+  },
+  {
+    "name": "app.GUI050000QuestListParts.cQuestList_ViewParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000QuestListParts.cQuestList_ViewParts.json"
+  },
+  {
+    "name": "app.GUI050000TitleParts",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUI050000TitleParts.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.FLOW_START",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.FLOW_START.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.FLOW_START[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.FLOW_START_.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.FLOW_STATE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.FLOW_STATE.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.FLOW_STATE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.FLOW_STATE_.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.CheckStreamQuest",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.CheckStreamQuest.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.CheckStreamQuest.STATE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.CheckStreamQuest.STATE.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.CheckStreamQuest.STATE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.CheckStreamQuest.STATE_.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.QuestCounter",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.QuestCounter.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.QuestCounterFlowBase",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.QuestCounterFlowBase.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.SelectStartingPoint",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.SelectStartingPoint.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_Clear",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_Clear.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_ConfirmUpload",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_ConfirmUpload.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_UnableUpload",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_UnableUpload.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_Upload",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.SendAgainRankingQuestScore_Upload.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.Flow.StartQuestOrder",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.Flow.StartQuestOrder.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.MODE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.MODE.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.MODE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.MODE_.json"
+  },
+  {
+    "name": "app.GUIFlowQuestCounter.cContext",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIFlowQuestCounter.cContext.json"
+  },
+  {
+    "name": "app.GUIUtilApp.QuestUtil",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIUtilApp.QuestUtil.json"
+  },
+  {
+    "name": "app.GUIUtilApp.QuestUtil.DISABLE_QUEST_ORDER_COMMON_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIUtilApp.QuestUtil.DISABLE_QUEST_ORDER_COMMON_TYPE.json"
+  },
+  {
+    "name": "app.GUIUtilApp.QuestUtil.DISABLE_QUEST_ORDER_COMMON_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.GUIUtilApp.QuestUtil.DISABLE_QUEST_ORDER_COMMON_TYPE_.json"
+  },
+  {
+    "name": "app.QuestCounterGUIContext",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.QuestCounterGUIContext.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.SUPPORT_HUNTER_TA_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.SUPPORT_HUNTER_TA_TYPE.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.SUPPORT_HUNTER_TA_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.SUPPORT_HUNTER_TA_TYPE_.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cData_.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cFieldData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cFieldData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cPasswordItemData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cPasswordItemData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cQuestDifficultyData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cQuestDifficultyData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cQuestTypeData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cQuestTypeData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cSelectSupportData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cSelectSupportData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cSubMenuData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cSubMenuData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cTargetData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cTargetData.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cTargetData.TARGET_DATA",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cTargetData.TARGET_DATA.json"
+  },
+  {
+    "name": "app.cGUI050000MemberSettingItemData.cTargetData.TARGET_DATA[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000MemberSettingItemData.cTargetData.TARGET_DATA_.json"
+  },
+  {
+    "name": "app.cGUI050000QuestSearchWindowCtrl",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000QuestSearchWindowCtrl.json"
+  },
+  {
+    "name": "app.cGUI050000QuestSearchWindowCtrl.SEARCH_STATE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000QuestSearchWindowCtrl.SEARCH_STATE.json"
+  },
+  {
+    "name": "app.cGUI050000QuestSearchWindowCtrl.SEARCH_STATE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000QuestSearchWindowCtrl.SEARCH_STATE_.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow.CategorySelect",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.CategorySelect.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow.QuestSelect",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.QuestSelect.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow.RecruitSetting",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.RecruitSetting.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow.RescueSetting",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.RescueSetting.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow.SearchQuest",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.SearchQuest.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.Flow.Start",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.Flow.Start.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.PREV_QUEST_ACTION",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.PREV_QUEST_ACTION.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.PREV_QUEST_ACTION[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.PREV_QUEST_ACTION_.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.cContext",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.cContext.json"
+  },
+  {
+    "name": "app.cGUI050000ViewFlow.cGUI050000ViewFlowBase",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUI050000ViewFlow.cGUI050000ViewFlowBase.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_ApprovalQuestJoin",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_ApprovalQuestJoin.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_EnemyReportAnimal",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_EnemyReportAnimal.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_EnemyReportAnimalFishing",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_EnemyReportAnimalFishing.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_EnemyReportBoss",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_EnemyReportBoss.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_EnemyReportZako",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_EnemyReportZako.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestCancel",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestCancel.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestClearActionSetting",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestClearActionSetting.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestCounter",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestCounter.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestDeparture",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestDeparture.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestInfo.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestOrder",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestOrder.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestOrderArena",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestOrderArena.json"
+  },
+  {
+    "name": "app.cGUICommonMenu_QuestRetry",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICommonMenu_QuestRetry.json"
+  },
+  {
+    "name": "app.cGUICreateQuestSessionHelper",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICreateQuestSessionHelper.json"
+  },
+  {
+    "name": "app.cGUICreateQuestSessionHelper.STATE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICreateQuestSessionHelper.STATE.json"
+  },
+  {
+    "name": "app.cGUICreateQuestSessionHelper.STATE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUICreateQuestSessionHelper.STATE_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalEcology",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalEcology.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalFishingEcology",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalFishingEcology.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalFishingMaterialList",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalFishingMaterialList.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalFishingMaterialList.cAnimalFishingMaterialListData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalFishingMaterialList.cAnimalFishingMaterialListData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalFishingMaterialList.cAnimalFishingMaterialListData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalFishingMaterialList.cAnimalFishingMaterialListData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalMaterialList",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalMaterialList.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalMaterialList.cAnimalMaterialListData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalMaterialList.cAnimalMaterialListData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportAnimalMaterialList.cAnimalMaterialListData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportAnimalMaterialList.cAnimalMaterialListData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossEcology",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossEcology.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossEcology.cSpecialAttackData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossEcology.cSpecialAttackData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossEcology.cSpecialAttackData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossEcology.cSpecialAttackData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION_LEVEL",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION_LEVEL.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION_LEVEL[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.EFFECTION_LEVEL_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.WEAK_PARTS",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.WEAK_PARTS.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.WEAK_PARTS[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.WEAK_PARTS_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.cPartsMeatData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.cPartsMeatData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossGuidance.cPartsMeatData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossGuidance.cPartsMeatData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.MATERIAL_PARTS",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.MATERIAL_PARTS.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.MATERIAL_PARTS[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.MATERIAL_PARTS_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListDetailData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListDetailData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListDetailData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListDetailData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListSearchData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListSearchData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListSearchData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialListSearchData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialPartsData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialPartsData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialPartsData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMaterialList.cBossMaterialPartsData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cMeasureData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cMeasureData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cRecommendAttributeAttackData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cRecommendAttributeAttackData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cRecommendAttributeAttackData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cRecommendAttributeAttackData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidConditionData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidConditionData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidConditionData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidConditionData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidItemData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidItemData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidItemData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossMeasureInfo.cValidItemData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossRecord",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossRecord.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossRecord.cTitleData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossRecord.cTitleData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportBossRecord.cTitleData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportBossRecord.cTitleData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.IN_PAGE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.IN_PAGE.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.IN_PAGE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.IN_PAGE_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.MATERIAL_CATEGORY",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.MATERIAL_CATEGORY.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.MATERIAL_CATEGORY[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.MATERIAL_CATEGORY_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.OVER_ICON_STATE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.OVER_ICON_STATE.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.OVER_ICON_STATE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.OVER_ICON_STATE_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.VALID_CONDITION_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.VALID_CONDITION_TYPE.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.VALID_CONDITION_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.VALID_CONDITION_TYPE_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.VALID_ITEM_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.VALID_ITEM_TYPE.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.VALID_ITEM_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.VALID_ITEM_TYPE_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.cDetailData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.cDetailData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase.cDetailData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase.cDetailData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportPageBase[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportPageBase_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoEcology",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoEcology.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListDetailData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListDetailData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListDetailData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListDetailData_.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListSearchData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListSearchData.json"
+  },
+  {
+    "name": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListSearchData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIPartsEnemyReportZakoMaterialList.cZakoMaterialListSearchData_.json"
+  },
+  {
+    "name": "app.cGUIQuestMemberIcon",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestMemberIcon.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderHelper",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderHelper.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderHelper.ORDER_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderHelper.ORDER_TYPE.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderHelper.ORDER_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderHelper.ORDER_TYPE_.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderHelper.cGUIQuestOrderRequest",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderHelper.cGUIQuestOrderRequest.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderHelper.cGUIQuestOrderRequest.STATE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderHelper.cGUIQuestOrderRequest.STATE.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderHelper.cGUIQuestOrderRequest.STATE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderHelper.cGUIQuestOrderRequest.STATE_.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderParam",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderParam.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderParam.QUEST_ORDER_FROM",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderParam.QUEST_ORDER_FROM.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderParam.QUEST_ORDER_FROM[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderParam.QUEST_ORDER_FROM_.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderParam.QUEST_START_TYPE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderParam.QUEST_START_TYPE.json"
+  },
+  {
+    "name": "app.cGUIQuestOrderParam.QUEST_START_TYPE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestOrderParam.QUEST_START_TYPE_.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.MODE",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.MODE.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.MODE[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.MODE_.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.TargetEnemyInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.TargetEnemyInfo.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.TargetEnemyInfo[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.TargetEnemyInfo_.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.TargetTransportInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.TargetTransportInfo.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.TargetTransportInfo[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.TargetTransportInfo_.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.cContributionInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.cContributionInfo.json"
+  },
+  {
+    "name": "app.cGUIQuestResultInfo.cContributionInfo[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestResultInfo.cContributionInfo_.json"
+  },
+  {
+    "name": "app.cGUIQuestViewData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestViewData.json"
+  },
+  {
+    "name": "app.cGUIQuestViewData.cGUISessionData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestViewData.cGUISessionData.json"
+  },
+  {
+    "name": "app.cGUIQuestViewData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cGUIQuestViewData_.json"
+  },
+  {
+    "name": "app.cQuestAcceptArg",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cQuestAcceptArg.json"
+  },
+  {
+    "name": "app.cQuestAcceptArg.cResueuSearchParam",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.cQuestAcceptArg.cResueuSearchParam.json"
+  },
+  {
+    "name": "app.net_quest_session.QuestMatchmakeSystem",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.net_quest_session.QuestMatchmakeSystem.json"
+  },
+  {
+    "name": "app.net_quest_session.QuestMatchmakeSystem.HunterInfo",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.net_quest_session.QuestMatchmakeSystem.HunterInfo.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossAnatomyTextureData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossAnatomyTextureData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossAnatomyTextureData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossAnatomyTextureData.cData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossAnatomyTextureData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossAnatomyTextureData.cData_.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossData.cData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossData.cData_.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossMaterialDispData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossMaterialDispData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossMaterialDispData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossMaterialDispData.cData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossMaterialDispData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossMaterialDispData.cData_.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossReleaseData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossReleaseData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossReleaseData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossReleaseData.cData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossReleaseData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossReleaseData.cData_.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossSketchTextureData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossSketchTextureData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossSketchTextureData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossSketchTextureData.cData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossSketchTextureData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossSketchTextureData.cData_.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossTitleData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossTitleData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossTitleData.cData",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossTitleData.cData.json"
+  },
+  {
+    "name": "app.user_data.EnemyReportBossTitleData.cData[]",
+    "methods": 0,
+    "fields": 0,
+    "file": "app.user_data.EnemyReportBossTitleData.cData_.json"
+  }
+]

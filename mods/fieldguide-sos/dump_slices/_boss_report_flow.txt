@@ -1,0 +1,174 @@
+System.Action`1<app.GUI040205.BossReportInfo>.Invoke661158(app.GUI040205.BossReportInfo)
+System.Array.IndexOf860270(app.GUI040205.BossReportInfo[], app.GUI040205.BossReportInfo, System.Int32, System.Int32)
+System.Array.Reverse863307(app.GUI040205.BossReportInfo[], System.Int32, System.Int32)
+System.Array.Sort866299(app.GUI040205.BossReportInfo[], System.Int32, System.Int32, System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Array.FunctorComparer`1<app.GUI040205.BossReportInfo>..ctor1777560(System.Comparison`1<app.GUI040205.BossReportInfo>)
+System.Array.FunctorComparer`1<app.GUI040205.BossReportInfo>.Compare1777561(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Buffer.Memmove904760(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo, System.UIntPtr)
+System.Collections.Generic.ArraySortHelper`1<app.GUI040205.BossReportInfo>.BinarySearch1777563(app.GUI040205.BossReportInfo[], System.Int32, System.Int32, app.GUI040205.BossReportInfo, System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.ArraySortHelper`1<app.GUI040205.BossReportInfo>.InternalBinarySearch1777564(app.GUI040205.BossReportInfo[], System.Int32, System.Int32, app.GUI040205.BossReportInfo, System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.ArraySortHelper`1<app.GUI040205.BossReportInfo>.Sort1777562(System.Span`1<app.GUI040205.BossReportInfo>, System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.ArraySortHelper`1<app.GUI040205.BossReportInfo>.Sort1777565(System.Span`1<app.GUI040205.BossReportInfo>, System.Type, System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.Comparer`1<app.GUI040205.BossReportInfo>.Compare1881941(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Collections.Generic.EqualityComparer`1<app.GUI040205.BossReportInfo>.Equals1881931(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Collections.Generic.EqualityComparer`1<app.GUI040205.BossReportInfo>.GetHashCode1881932(app.GUI040205.BossReportInfo)
+System.Collections.Generic.EqualityComparer`1<app.GUI040205.BossReportInfo>.IndexOf1881935(app.GUI040205.BossReportInfo[], app.GUI040205.BossReportInfo, System.Int32, System.Int32)
+System.Collections.Generic.ICollection`1<app.GUI040205.BossReportInfo>.Add661132(app.GUI040205.BossReportInfo)
+System.Collections.Generic.ICollection`1<app.GUI040205.BossReportInfo>.Contains661134(app.GUI040205.BossReportInfo)
+System.Collections.Generic.ICollection`1<app.GUI040205.BossReportInfo>.CopyTo661135(app.GUI040205.BossReportInfo[], System.Int32)
+System.Collections.Generic.ICollection`1<app.GUI040205.BossReportInfo>.Remove661136(app.GUI040205.BossReportInfo)
+System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>.Compare661166(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Collections.Generic.IEqualityComparer`1<app.GUI040205.BossReportInfo>.Equals1881938(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Collections.Generic.IEqualityComparer`1<app.GUI040205.BossReportInfo>.GetHashCode1881939(app.GUI040205.BossReportInfo)
+System.Collections.Generic.IList`1<app.GUI040205.BossReportInfo>.set_Item661128(System.Int32, app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1.Enumerator<app.GUI040205.BossReportInfo>..ctor661159(System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>..ctor661171(System.Collections.Generic.IEnumerable`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Add661178(app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.AddRange661180(System.Collections.Generic.IEnumerable`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.AddWithResize661179(app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Contains661183(app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.ConvertAll661184(System.Converter`2<app.GUI040205.BossReportInfo,!!0>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.CopyTo661185(app.GUI040205.BossReportInfo[])
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.CopyTo661186(app.GUI040205.BossReportInfo[], System.Int32)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Exists661189(System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Find661190(System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.FindAll661191(System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.FindIndex661192(System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.FindIndex661193(System.Int32, System.Int32, System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.ForEach661194(System.Action`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.IndexOf661199(app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Insert661200(System.Int32, app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.InsertRange661201(System.Int32, System.Collections.Generic.IEnumerable`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Remove661202(app.GUI040205.BossReportInfo)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.RemoveAll661203(System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Sort661209(System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Sort661210(System.Int32, System.Int32, System.Collections.Generic.IComparer`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.Sort661211(System.Comparison`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.TrueForAll661214(System.Predicate`1<app.GUI040205.BossReportInfo>)
+System.Collections.Generic.List`1<app.GUI040205.BossReportInfo>.set_Item661177(System.Int32, app.GUI040205.BossReportInfo)
+System.Collections.Generic.ObjectComparer`1<app.GUI040205.BossReportInfo>.Compare1944047(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Collections.Generic.ObjectEqualityComparer`1<app.GUI040205.BossReportInfo>.Equals1921187(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Collections.Generic.ObjectEqualityComparer`1<app.GUI040205.BossReportInfo>.GetHashCode1921188(app.GUI040205.BossReportInfo)
+System.Collections.Generic.ObjectEqualityComparer`1<app.GUI040205.BossReportInfo>.IndexOf1921186(app.GUI040205.BossReportInfo[], app.GUI040205.BossReportInfo, System.Int32, System.Int32)
+System.Collections.ObjectModel.ReadOnlyCollection`1<app.GUI040205.BossReportInfo>..ctor661137(System.Collections.Generic.IList`1<app.GUI040205.BossReportInfo>)
+System.Collections.ObjectModel.ReadOnlyCollection`1<app.GUI040205.BossReportInfo>.Contains661140(app.GUI040205.BossReportInfo)
+System.Collections.ObjectModel.ReadOnlyCollection`1<app.GUI040205.BossReportInfo>.CopyTo661141(app.GUI040205.BossReportInfo[], System.Int32)
+System.Collections.ObjectModel.ReadOnlyCollection`1<app.GUI040205.BossReportInfo>.System.Collections.Generic.ICollection<T>.Add661146(app.GUI040205.BossReportInfo)
+System.Collections.ObjectModel.ReadOnlyCollection`1<app.GUI040205.BossReportInfo>.System.Collections.Generic.ICollection<T>.Remove661148(app.GUI040205.BossReportInfo)
+System.Collections.ObjectModel.ReadOnlyCollection`1<app.GUI040205.BossReportInfo>.System.Collections.Generic.IList<T>.set_Item661145(System.Int32, app.GUI040205.BossReportInfo)
+System.Comparison`1<app.GUI040205.BossReportInfo>.Invoke661168(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Converter`2<app.GUI040205.BossReportInfo,!!0>.Invoke661154(app.GUI040205.BossReportInfo)
+System.Predicate`1<app.GUI040205.BossReportInfo>.Invoke661156(app.GUI040205.BossReportInfo)
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>..ctor1777517(app.GUI040205.BossReportInfo[])
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>..ctor1777518(app.GUI040205.BossReportInfo[], System.Int32, System.Int32)
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>..ctor1777520(app.GUI040205.BossReportInfo)
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>..ctor1777521(app.GUI040205.BossReportInfo, System.Int32)
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>.CopyTo1777530(System.Span`1<app.GUI040205.BossReportInfo>)
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>.op_Equality1777531(System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>, System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>)
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>.op_Implicit1777528(app.GUI040205.BossReportInfo[])
+System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>.op_Inequality1777525(System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>, System.ReadOnlySpan`1<app.GUI040205.BossReportInfo>)
+System.Runtime.CompilerServices.Unsafe.Add950187(app.GUI040205.BossReportInfo, System.Int32)
+System.Runtime.CompilerServices.Unsafe.Add953877(app.GUI040205.BossReportInfo, System.IntPtr)
+System.Runtime.CompilerServices.Unsafe.AreSame957472(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.As936425(app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.As936426(app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.As936427(app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.As936428(app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.As945156(app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.As945157(app.GUI040205.BossReportInfo)
+System.Runtime.CompilerServices.Unsafe.AsRef961081(app.GUI040205.BossReportInfo)
+System.Runtime.InteropServices.MemoryMarshal.GetArrayDataReference915899(app.GUI040205.BossReportInfo[])
+System.SpanHelpers.Fill910801(app.GUI040205.BossReportInfo, System.UIntPtr, app.GUI040205.BossReportInfo)
+System.Span`1<app.GUI040205.BossReportInfo>..ctor1777536(app.GUI040205.BossReportInfo[])
+System.Span`1<app.GUI040205.BossReportInfo>..ctor1777538(app.GUI040205.BossReportInfo[], System.Int32, System.Int32)
+System.Span`1<app.GUI040205.BossReportInfo>..ctor1777541(app.GUI040205.BossReportInfo)
+System.Span`1<app.GUI040205.BossReportInfo>..ctor1777542(app.GUI040205.BossReportInfo, System.Int32)
+System.Span`1<app.GUI040205.BossReportInfo>.CopyTo1777552(System.Span`1<app.GUI040205.BossReportInfo>)
+System.Span`1<app.GUI040205.BossReportInfo>.Fill1777551(app.GUI040205.BossReportInfo)
+System.Span`1<app.GUI040205.BossReportInfo>.TryCopyTo1777553(System.Span`1<app.GUI040205.BossReportInfo>)
+System.Span`1<app.GUI040205.BossReportInfo>.op_Equality1777554(System.Span`1<app.GUI040205.BossReportInfo>, System.Span`1<app.GUI040205.BossReportInfo>)
+System.Span`1<app.GUI040205.BossReportInfo>.op_Implicit1777549(app.GUI040205.BossReportInfo[])
+System.Span`1<app.GUI040205.BossReportInfo>.op_Implicit1777555(System.Span`1<app.GUI040205.BossReportInfo>)
+System.Span`1<app.GUI040205.BossReportInfo>.op_Inequality1777546(System.Span`1<app.GUI040205.BossReportInfo>, System.Span`1<app.GUI040205.BossReportInfo>)
+app.GUI040200.set_BossReports662713(app.GUI040205.BossReportInfo[])
+app.GUI040205.setCurrentEnemy661524(app.GUI040205.BossReportInfo)
+app.GUI040205.setData661523(app.GUI040205.BossReportInfo[])
+app.GUI040205.set_BossReports661517(app.GUI040205.BossReportInfo[])
+app.GUI040205.BossReportInfo[].Add661534(app.GUI040205.BossReportInfo)
+app.GUI040205.BossReportInfo[].Contains661536(app.GUI040205.BossReportInfo)
+app.GUI040205.BossReportInfo[].CopyTo661537(app.GUI040205.BossReportInfo[], System.Int32)
+app.GUI040205.BossReportInfo[].IndexOf661541(app.GUI040205.BossReportInfo)
+app.GUI040205.BossReportInfo[].Insert661542(System.Int32, app.GUI040205.BossReportInfo)
+app.GUI040205.BossReportInfo[].Remove661538(app.GUI040205.BossReportInfo)
+app.GUI040205.BossReportInfo[].Set661530(System.Int32, app.GUI040205.BossReportInfo)
+app.GUI040205.BossReportInfo[].set_Item661540(System.Int32, app.GUI040205.BossReportInfo)
+app.GUI040205PartsEnemyDetail.setEnemy661507(app.GUI040205.BossReportInfo)
+app.GUI040205PartsEnemyList.setCurrentEnemy661262(app.GUI040205.BossReportInfo)
+app.GUI040205PartsEnemyList.setupCrown661258(via.gui.Panel, app.GUI040205.BossReportInfo)
+app.GUI040205PartsEnemyList.setupGridEnemyName661263(app.GUI040205.BossReportInfo, via.gui.SelectItem)
+app.GUI040205PartsEnemyList.<>c__DisplayClass106_0.<sort>b__01193319(app.GUI040205.BossReportInfo, app.GUI040205.BossReportInfo)
+app.cGUI040200WidgetEmCount.setupCrown693675(via.gui.Panel, app.GUI040205.BossReportInfo)
+==== GUI040200 enemy/report methods
+  <onOpen>b__225_0662860(System.String) -> System.Void
+  <onOpen>b__225_1662861(System.Boolean, app.NETWORK_ERROR_CODE) -> System.Void
+  <setupReportEnemyList>b__269_0662863(app.EnemyDef.ID, app.EnemyDef.ID) -> System.Int32
+  <setupReportEnemyList>b__269_1662864(app.EnemyDef.ID, app.EnemyDef.ID) -> System.Int32
+  <setupReportEnemyList>b__269_2662865(app.EnemyDef.ID, app.EnemyDef.ID) -> System.Int32
+  get_AnimalReports662714() -> app.GUI040208.AnimalReportInfo[]
+  get_BossReports662712() -> app.GUI040205.BossReportInfo[]
+  get_FishingReports662716() -> app.GUI040208.FishingReportInfo[]
+  get_SelectedWidget662711() -> app.cGUI040200WidgetBase
+  isOpenHunterEquipPage662855() -> System.Boolean
+  onOpen662757() -> System.Void
+  openMedalTips662828(app.HunterProfileDef.MEDAL_ID, via.gui.Rect, via.gui.Rect) -> System.Void
+  openMenu662775() -> System.Void
+  openTitleSetting662776(System.Int32[], System.String) -> System.Void
+  selectAnimal662809(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectAnimalWidget662804(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectArena662803(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectCircle662802(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectDecorateTitle662777(System.Int32, System.Boolean) -> System.Void
+  selectEnemyForHuntingReport662800(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectFish662810(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectMedal662799(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectQuest662805(via.Uint2, System.Int32[], System.String) -> System.Void
+  selectWeaponType662808(via.Uint2, System.Int32[], System.String) -> System.Void
+  set_AnimalReports662715(app.GUI040208.AnimalReportInfo[]) -> System.Void
+  set_BossReports662713(app.GUI040205.BossReportInfo[]) -> System.Void
+  set_FishingReports662717(app.GUI040208.FishingReportInfo[]) -> System.Void
+  setupReportEnemyList662801() -> System.Void
+==== GUI040200Accessor
+  .ctor662874() -> System.Void
+  get_HunterProfileGUI662870() -> app.GUI040200
+  onRegister662871(ace.GUIBase`2[[app.GUIID.ID, application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[app.GUIFunc.TYPE, application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][]) -> System.Void
+  onUnRegister662872() -> System.Void
+  setGameObjectRef662873(via.GameObjectRef, via.GameObjectRef, via.GameObjectRef, app.GuildCardSceneController) -> System.Void
+  F _HunterProfileGUI: app.GUI040200
+==== GUIID related to 0402 / EnemyReport
+  UI040200 default=136
+  UI040201 default=137
+  UI040202 default=138
+  UI040203 default=139
+  UI040204 default=140
+  UI040205 default=141
+  UI040206 default=142
+  UI040207 default=143
+  UI040208 default=144
+  UI040209 default=145
+  UI040402 default=151
+  UI090402 default=226
+==== cGUICommonMenu_EnemyReportBoss
+  .ctor1197076() -> System.Void
+  execute1197074(app.MenuDef.ExecuteFrom, System.Object, app.cGUICommonMenuItemExecuteOptionBase, ace.IGUIFlowHandle) -> System.Void
+  get_OpenGUIID1197072() -> app.GUIID.ID
+  isEnable1197075(System.Guid) -> System.Boolean
+  isUpdate1197073() -> System.Boolean
+==== GUI0402* methods with EnemyDef.ID param
+app.GUI040200.<setupReportEnemyList>b__269_0662863(app.EnemyDef.ID, app.EnemyDef.ID)
+app.GUI040200.<setupReportEnemyList>b__269_1662864(app.EnemyDef.ID, app.EnemyDef.ID)
+app.GUI040200.<setupReportEnemyList>b__269_2662865(app.EnemyDef.ID, app.EnemyDef.ID)
+app.GUI040205.BossReportInfo..ctor661528(app.cHunterProfile_BossReport, app.EnemyDef.ID, System.Boolean)
+app.GUI040205PartsEnemyDetail.setSizeText661508(via.gui.Text, app.EnemyDef.ID, System.Int32, System.Boolean)
+app.GUI040208.AnimalReportInfo..ctor662196(app.cHunterProfile_AnimalReport, app.EnemyDef.ID, System.Boolean)
+app.GUI040208.FishingReportInfo..ctor661987(app.cHunterProfile_FishingReport, app.EnemyDef.ID, System.Boolean)
+app.GUI040208PartsAnimalDetail.setFishSizeText661893(via.gui.Text, app.EnemyDef.ID, System.Int32, System.Boolean)
