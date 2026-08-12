@@ -1,6 +1,6 @@
 # Handoff — mhwilds-companion
 
-Checkpoint: **FieldGuideSOS v1.4.12**. Baseline Tempered Arkveld (`em_id=27`) berhasil dua kali berturut-turut sampai `AUTO DONE` tanpa crash. Fix utama: settle 3 detik setelah search agar native category `NONE`/fail-search selesai sebelum soft category, ditambah settle 3 detik sebelum `orderQuest`.
+Checkpoint: **FieldGuideSOS v1.4.13** berhasil sampai native Accept & Depart tanpa crash. Mod memilih `ACCEPT_AND_START=0` melalui `GUI050001_AcceptList.callbackDecide`, lalu membiarkan game menjalankan `decideDepartLate → QuestDepart`; fallback tetap `orderQuest` bila item native tidak tersedia.
 
 ## Goal
 
@@ -104,7 +104,7 @@ Launch: `steam://rungameid/2246340`
 ## Cara tes
 
 1. Masuk dunia (online)
-2. Reset Scripts → pastikan log `MOD LOADED v1.4.12`
+2. Reset Scripts → pastikan log `MOD LOADED v1.4.13`
 3. F8 → F1 → F9
 4. Sukses = log sampai `===== AUTO DONE =====` tanpa crash
 5. Kalau gagal: kirim potongan `AUTO START` → akhir dari `fieldguide_sos_trace_v<VERSION>.txt`

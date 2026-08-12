@@ -8,7 +8,7 @@
 -- Depart: settle after join before decideDepartLate/QuestDepart
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.4.12"
+local VERSION = "1.4.13"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local UI050000, UI050001, UI050002 = 161, 162, 163
@@ -30,6 +30,7 @@ local ERR_LOCAL_SESSION_NOT_FOUND = 110002 -- NETWORK_ERROR_CODE.LOCAL_SESSION_N
 local LOG_FILE = "fieldguide_sos_trace_v" .. VERSION .. ".txt"
 local cfg = {
   auto_depart = true,
+  accept_and_depart = true,
   action_gap_s = 1.0,
   wait_alma_s = 12,
   wait_list_s = 15,
@@ -50,6 +51,7 @@ local state = {
   deadline = 0,
   next_action_at = 0,
   ordered = false,
+  native_depart_requested = false,
   suppress_popup = false, -- skip LOCAL_SESSION_NOT_FOUND + openDialog_faildSearchQuest
   post_search_ready_at = 0,
   order_ready_at = 0,
@@ -307,6 +309,14 @@ hook("app.GUI050000QuestListParts", "updateQuestDetailWindow", function(args) re
 hook("app.GUI050000QuestListParts", "decideQuest", function(args) return dump_view(sdk.to_managed_object(args[3])) end)
 hook("app.GUI050000QuestListParts", "set_ViewCategory", function(args) return "cat=" .. tostring(to_int(args[3])) end)
 hook("app.GUI050001", "orderQuest", function() return "orderQuest" end)
+hook("app.GUI050001_AcceptList", "callbackDecide", function(args)
+  local list = sdk.to_managed_object(args[2])
+  local item = sdk.to_managed_object(args[4])
+  local idx = nil
+  if list and item then pcall(function() idx = to_int(list:call("getItemIndex", item)) end) end
+  return "item=" .. tostring(idx)
+end)
+hook("app.GUI050001", "setActiveStartPointList", function(args) return "active=" .. tostring(to_int(args[3])) end)
 hook("app.cGUIQuestOrderHelper", "order", function(args) return "orderType=" .. tostring(to_int(args[4])) end)
 hook("app.cGUIQuestOrderHelper", "executeJoinSession", function() return "executeJoinSession" end)
 hook("app.GUIManager", "requestQuestCounter", function() return "requestQuestCounter" end)
@@ -485,6 +495,22 @@ end
 local function do_order()
   local gui = get_gui(UI050001)
   if not gui then return false, "no GUI050001" end
+  if cfg.auto_depart and cfg.accept_and_depart then
+    local accept_list, start_item = nil, nil
+    pcall(function() accept_list = gui:get_field("_AcceptList") end)
+    if accept_list then
+      pcall(function() start_item = accept_list:get_field("_MenuItem_AcceptAndStart") end)
+    end
+    if accept_list and start_item then
+      note("CALL callbackDecide ACCEPT_AND_START")
+      local ok, err = pcall(function()
+        accept_list:call("callbackDecide", start_item, start_item, 0)
+      end)
+      if not ok then return false, "accept-and-start: " .. tostring(err) end
+      return true, "accept-and-start"
+    end
+    note("fallback orderQuest (no AcceptAndStart item)")
+  end
   note("CALL orderQuest")
   local ok, err = pcall(function() gui:call("orderQuest") end)
   if not ok then return false, "order: " .. tostring(err) end
@@ -534,6 +560,7 @@ local function cancel_auto()
   state.deadline = 0
   state.next_action_at = 0
   state.ordered = false
+  state.native_depart_requested = false
   state.post_search_ready_at = 0
   state.order_ready_at = 0
   state.depart_ready_at = 0
@@ -543,6 +570,7 @@ local function start_auto()
   state.searches = 0
   state.next_action_at = 0
   state.ordered = false
+  state.native_depart_requested = false
   state.suppress_popup = false
   state.post_search_ready_at = 0
   state.order_ready_at = 0
@@ -683,6 +711,11 @@ local function tick_auto()
       if not action_ready() then return end
       arm_gap()
       state.suppress_popup = false -- join ok; allow real errors again
+      if state.native_depart_requested then
+        set_phase("done", "joined; native accept-and-depart")
+        write_file("===== AUTO DONE (NATIVE DEPART) =====")
+        return
+      end
       state.depart_ready_at = now + cfg.depart_settle_s
       state.deadline = now + cfg.wait_join_s
       set_phase("wait_depart", "joined; settle " .. tostring(cfg.depart_settle_s) .. "s")
@@ -702,6 +735,7 @@ local function tick_auto()
         arm_gap()
         if not ok then set_phase("error", detail) return end
         state.ordered = true
+        state.native_depart_requested = detail == "accept-and-start"
         state.msg = detail .. " — wait JoinSession"
         return
       end
@@ -792,6 +826,8 @@ re.on_draw_ui(function()
   imgui.text_wrapped(state.msg)
   local _, auto_d = imgui.checkbox("auto_depart", cfg.auto_depart)
   cfg.auto_depart = auto_d
+  local _, accept_depart = imgui.checkbox("accept_and_depart", cfg.accept_and_depart)
+  cfg.accept_and_depart = accept_depart
   local _, em = imgui.drag_int("em_id (0=Field Guide)", cfg.em_id, 1, 0, 200)
   cfg.em_id = em
   if imgui.button("Start") then start_auto() end

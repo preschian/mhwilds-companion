@@ -19,6 +19,9 @@ Config: REFramework → Script Generated UI → FieldGuideSOS. The default `em_i
 targets Arkveld. Set `em_id=0`, open `GUI060102`, and highlight a monster to use
 the Field Guide target; any other positive ID is a manual override.
 
+`accept_and_depart` uses the game's native **Accept & Depart** action. Disable it
+to retain the **Accept & Prep** flow followed by the mod's separate depart action.
+
 ## Files
 
 | File | Role |
