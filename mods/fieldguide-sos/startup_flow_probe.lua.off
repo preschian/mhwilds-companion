@@ -1,0 +1,195 @@
+-- Passive title/startup flow probe. Deploy without `.off`, then perform one
+-- normal startup into a recommended lobby. Writes a versioned trace only.
+
+local VERSION = "1"
+local OUT = "startup_flow_probe_v" .. VERSION .. ".txt"
+local last = {}
+local last_open_guis = ""
+
+local function as_int(value)
+  if value == nil then return nil end
+  local ok, number = pcall(function() return value:get_value() end)
+  if ok and number ~= nil then return tonumber(number) end
+  return tonumber(value)
+end
+
+local function field(object, name)
+  if not object then return nil end
+  local value = nil
+  pcall(function() value = object:get_field(name) end)
+  return as_int(value) or value
+end
+
+local function type_name(object)
+  if not object then return "nil" end
+  local name = nil
+  pcall(function() name = object:get_type_definition():get_full_name() end)
+  return name or tostring(object)
+end
+
+local function write(message)
+  local text = tostring(message)
+  pcall(function()
+    local file = io.open(OUT, "a")
+    if not file then return end
+    file:write(os.date("%H:%M:%S ") .. text .. "\n")
+    file:close()
+  end)
+  if type(log) == "table" and type(log.info) == "function" then
+    log.info("[STARTUP-FLOW-PROBE] " .. text)
+  end
+end
+
+local function changed(key, value)
+  value = tostring(value)
+  if last[key] == value then return false end
+  last[key] = value
+  return true
+end
+
+local function inspect_controller(object, label)
+  if not object then return end
+  local current, next_flow, param
+  pcall(function() current = object:call("get_CurFlow") end)
+  pcall(function() next_flow = object:call("get_NextFlow") end)
+  pcall(function() param = object:call("get_Param") end)
+  local value = string.format("cur=%s next=%s param=%s save=%s initial=%s select=%s",
+    type_name(current), type_name(next_flow), type_name(param),
+    tostring(field(param, "SaveIndex")), tostring(field(param, "_InitialStateIsGameStart")),
+    tostring(field(param, "_SelectScene")))
+  if changed(label, value) then write(label .. " " .. value) end
+end
+
+local function scan_open_guis()
+  local manager = sdk.get_managed_singleton("app.GUIManager")
+  if not manager then return end
+  local open = {}
+  for id = 0, 350 do
+    local is_open = false
+    pcall(function() is_open = manager:call("isOpenGUI", id) end)
+    if is_open then
+      local gui = nil
+      pcall(function() gui = manager:call("getGUI", id) end)
+      open[#open + 1] = tostring(id) .. ":" .. type_name(gui)
+    end
+  end
+  local value = table.concat(open, ",")
+  if value ~= last_open_guis then
+    last_open_guis = value
+    write("OPEN_GUIS " .. value)
+  end
+end
+
+local function hook_controller(type_name_value, method_name, label)
+  local definition = sdk.find_type_definition(type_name_value)
+  local method = definition and definition:get_method(method_name) or nil
+  if not method then write("MISS " .. type_name_value .. "." .. method_name); return end
+  sdk.hook(method, function(args)
+    inspect_controller(sdk.to_managed_object(args[2]), label)
+  end, function(retval) return retval end)
+end
+
+local function hook_event(type_name_value, method_name, formatter)
+  local definition = sdk.find_type_definition(type_name_value)
+  local method = definition and definition:get_method(method_name) or nil
+  if not method then write("MISS " .. type_name_value .. "." .. method_name); return end
+  sdk.hook(method, function(args)
+    local object = sdk.to_managed_object(args[2])
+    local extra = formatter and formatter(object, args) or ""
+    write(type_name_value .. "." .. method_name .. " " .. tostring(extra))
+  end, function(retval) return retval end)
+end
+
+hook_controller("app.LogoController", "doUpdate", "LogoController")
+hook_controller("app.TitleController", "doUpdate", "TitleController")
+
+hook_event("app.LogoController.cAutoSaveConfirm", "enter")
+hook_event("app.LogoController.cLogo", "enter")
+hook_event("app.TitleController.cTitle", "enter")
+hook_event("app.TitleController.cTitleMenu", "enter")
+hook_event("app.TitleController.cTitleMenu", "update", function(object)
+  local value = string.format("menu_flow=%s req_flow=%s", tostring(field(object, "menu_flow")), tostring(field(object, "req_flow")))
+  if field(object, "menu_flow") == 71 then pcall(scan_open_guis) end
+  if changed("TitleMenuFlow", value) then return value end
+  return "same " .. value
+end)
+
+hook_event("app.GUI010100", "startLogo")
+hook_event("app.GUI010101", "onOpen", function(object)
+  return string.format("open=%s selected=%s", tostring(field(object, "_OpenType")), tostring(field(object, "_SelectIndex")))
+end)
+hook_event("app.GUI010101", "callback_ListDecide", function(object, args)
+  return string.format("selected=%s arg_index=%s", tostring(field(object, "_SelectIndex")), tostring(as_int(args[5])))
+end)
+hook_event("app.GUI010102", "onOpen", function(object)
+  return string.format("open=%s close=%s", tostring(field(object, "_OpenType")), tostring(field(object, "_CloseType")))
+end)
+hook_event("app.GUI010102", "callback_ListDecide", function(object, args)
+  return string.format("open=%s close=%s arg_index=%s", tostring(field(object, "_OpenType")), tostring(field(object, "_CloseType")), tostring(as_int(args[5])))
+end)
+hook_event("app.GUI010102", "selectFinish", function(object)
+  return string.format("open=%s close=%s", tostring(field(object, "_OpenType")), tostring(field(object, "_CloseType")))
+end)
+hook_event("app.GUI800000", "onOpen", function(object)
+  return string.format("flow=%s close=%s list_num=%s", tostring(field(object, "_FlowType")), tostring(field(object, "_CloseType")), tostring(field(object, "_ListNum")))
+end)
+hook_event("app.GUI800000", "callback_ListDecide", function(object, args)
+  return string.format("flow=%s close=%s arg_index=%s", tostring(field(object, "_FlowType")), tostring(field(object, "_CloseType")), tostring(as_int(args[5])))
+end)
+hook_event("app.GUI800000", "selectYN", function(object)
+  return string.format("flow=%s close=%s", tostring(field(object, "_FlowType")), tostring(field(object, "_CloseType")))
+end)
+
+hook_event("app.cGUICommonMenu_Lobby00", "execute", function(object, args)
+  local owner = sdk.to_managed_object(args[4])
+  local option = sdk.to_managed_object(args[5])
+  local handle = sdk.to_managed_object(args[6])
+  return string.format("from=%s owner=%s option=%s handle=%s", tostring(as_int(args[3])), type_name(owner), type_name(option), type_name(handle))
+end)
+
+for index = 1, 10 do
+  local type_name_value = string.format("app.cGUICommonMenu_Lobby%02d", index)
+  hook_event(type_name_value, "execute", function(object, args)
+    local owner = sdk.to_managed_object(args[4])
+    local option = sdk.to_managed_object(args[5])
+    local handle = sdk.to_managed_object(args[6])
+    return string.format("from=%s owner=%s option=%s handle=%s", tostring(as_int(args[3])), type_name(owner), type_name(option), type_name(handle))
+  end)
+end
+
+hook_event("app.GUI000003", "onOpen", function(object)
+  local ctrl = nil
+  pcall(function() ctrl = object:get_field("_ListCtrl") end)
+  local selected = nil
+  pcall(function() selected = as_int(ctrl:call("getSelectedIndex")) end)
+  return "selected=" .. tostring(selected)
+end)
+
+hook_event("app.GUI000003", "callback_ListDecide", function(object, args)
+  local ctrl = nil
+  pcall(function() ctrl = object:get_field("_ListCtrl") end)
+  local selected = nil
+  pcall(function() selected = as_int(ctrl:call("getSelectedIndex")) end)
+  return "selected=" .. tostring(selected)
+end)
+
+do
+  local definition = sdk.find_type_definition("app.TitleController.cTitleMenu")
+  if definition then
+    for _, method in ipairs(definition:get_methods() or {}) do
+      local method_name = method:get_name()
+      if method_name:match("^<update>") then
+        sdk.hook(method, function(args)
+          local values = {}
+          for index = 3, 8 do
+            local managed = sdk.to_managed_object(args[index])
+            values[#values + 1] = string.format("a%d=%s/%s", index - 2, tostring(as_int(args[index])), type_name(managed))
+          end
+          write("TitleMenu." .. method_name .. " " .. table.concat(values, " "))
+        end, function(retval) return retval end)
+      end
+    end
+  end
+end
+
+write("===== STARTUP FLOW PROBE v" .. VERSION .. " LOADED =====")

@@ -6,6 +6,8 @@ Checkpoint: **FieldGuideSOS v1.5.0** berhasil dalam pengujian awal target Field 
 
 QoL MH Wilds (REFramework Lua standalone): dari monster yang disorot di Field Guide → auto search SOS varian terkuat yang tersedia → accept → depart, tanpa klik manual panjang.
 
+Eksperimen opt-in `StartupAutoJoin v0.1.6` mengotomatisasi startup native ke save slot pertama dan Recommended Lobby, termasuk logo startup dan Press Any Key. Ia memakai callback native `cGUICommonMenu_Lobby00` agar `NetworkRequestManager.autoMatching` benar-benar berjalan, lalu menonaktifkan runtime dan melepas referensi setelah title flow `FINISH_END`. Fitur tidak ikut `deploy.ps1` dan file yang terpasang saat ini dinonaktifkan sebagai `startup_autojoin.lua.off`; source `mods/fieldguide-sos/startup_autojoin.lua`, log per versi di `reframework/data/startup_autojoin_v<VERSION>.txt`.
+
 Target UX: Field Guide highlight monster → **F1** → SOS search/accept/depart. `em_id=0` membaca snapshot `GUI060102.get_TargetEmId` saat F1; angka positif tetap menjadi override manual, dan Arkveld (`27`) menjadi fallback.
 
 ## Paths
