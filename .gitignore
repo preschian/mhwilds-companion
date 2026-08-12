@@ -1,5 +1,6 @@
 # REFramework / game dumps (live outside repo or huge)
 il2cpp_dump.json
+mods/fieldguide-sos/dump_slices/
 *.dmp
 *.log
 
