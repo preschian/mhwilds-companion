@@ -6,7 +6,7 @@
 -- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.5.3"
+local VERSION = "1.5.4"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local UI050000, UI050001, UI050002 = 161, 162, 163
@@ -14,7 +14,6 @@ local UI060000, UI060001 = 169, 170
 local UI060102 = 179
 local ALMA_IDS = { 161, 162, 163, 164, 165 }
 
-local ARKVELD_ID = 27
 local ROLE_NORMAL = 0
 local ROLE_FRENZY = 3
 local LEGENDARY_NORMAL = 0
@@ -315,12 +314,11 @@ hook_skip_session_popup()
 ----------------------------------------------------------------
 local function resolve_em_id()
   local gui = get_gui(UI060102)
-  if gui then
-    local id = nil
-    pcall(function() id = to_int(gui:call("get_TargetEmId")) end)
-    if id and id >= 0 then return id, "Field Guide" end
-  end
-  return ARKVELD_ID, "fallback Arkveld"
+  if not gui then return nil, "no Field Guide target" end
+  local id = nil
+  pcall(function() id = to_int(gui:call("get_TargetEmId")) end)
+  if id and id >= 0 then return id, "Field Guide" end
+  return nil, "no Field Guide target"
 end
 
 local function open_alma()
@@ -377,6 +375,7 @@ local function do_search()
     em, state.target_source = resolve_em_id()
     state.target_em_id = em
   end
+  if em == nil or em < 0 then return false, "no Field Guide target" end
   local variants = get_search_variants(em)
   if #variants == 0 then return false, "no enabled variants for em_id=" .. tostring(em) end
   local variant_index = ((state.searches - 1) % #variants) + 1
@@ -569,7 +568,12 @@ end
 
 local function start_auto()
   reset_auto()
-  state.target_em_id, state.target_source = resolve_em_id()
+  local em, source = resolve_em_id()
+  if em == nil then
+    set_phase("error", "no Field Guide target")
+    return
+  end
+  state.target_em_id, state.target_source = em, source
   write_file("===== AUTO START v" .. VERSION .. " " .. os.date("%Y-%m-%d %H:%M:%S") .. " =====")
   note("target em_id=" .. tostring(state.target_em_id) .. " source=" .. tostring(state.target_source))
   if is_alma_open() then

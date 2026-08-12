@@ -18,7 +18,7 @@ After Lua edits: deploy, then **Reset Scripts** in REFramework (or restart). Tic
 
 ## UX
 
-Field Guide highlight (`GUI060102.get_TargetEmId`) → **F1** search/join/depart. Arkveld (`27`) is the fallback. **Esc** cancels. **F8**/**F9** start/stop the tracer.
+Field Guide highlight (`GUI060102.get_TargetEmId`) → **F1** search/join/depart. No target → error, no Arkveld fallback. **Esc** cancels. **F8**/**F9** start/stop the tracer.
 
 Retries rotate enabled High Rank variants strongest-first: Arch-tempered → Tempered → Frenzied → normal. Tempered is `RoleId=0`, `LegendaryId=1` (not RoleId=2). HR difficulty `300`. Rescue category `12`. Search `QuestNo`/`mission` uses `INVALID` (`4294967295`).
 
