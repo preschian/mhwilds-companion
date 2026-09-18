@@ -6,7 +6,13 @@
   "type": 0,
   "buy": 100,
   "sell": 10,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_001.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 2,
@@ -15,7 +21,13 @@
   "type": 0,
   "buy": 66,
   "sell": 8,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_010.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 3,
@@ -24,7 +36,13 @@
   "type": 0,
   "buy": 165,
   "sell": 16,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_010.png",
+   "tint": "#47B267",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 4,
@@ -33,7 +51,13 @@
   "type": 0,
   "buy": 60,
   "sell": 6,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_071.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 5,
@@ -42,7 +66,13 @@
   "type": 0,
   "buy": 2138,
   "sell": 210,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_013.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 6,
@@ -51,7 +81,13 @@
   "type": 0,
   "buy": 3454,
   "sell": 345,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_013.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 7,
@@ -60,7 +96,13 @@
   "type": 0,
   "buy": 1200,
   "sell": 120,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 8,
@@ -69,7 +111,13 @@
   "type": 0,
   "buy": 30,
   "sell": 3,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 9,
@@ -78,7 +126,13 @@
   "type": 0,
   "buy": 96,
   "sell": 48,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 10,
@@ -87,7 +141,13 @@
   "type": 0,
   "buy": 30,
   "sell": 3,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 11,
@@ -96,7 +156,13 @@
   "type": 0,
   "buy": 10,
   "sell": 1,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 12,
@@ -105,7 +171,13 @@
   "type": 0,
   "buy": 480,
   "sell": 190,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 13,
@@ -114,7 +186,13 @@
   "type": 0,
   "buy": 50,
   "sell": 5,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 14,
@@ -123,7 +201,13 @@
   "type": 0,
   "buy": 156,
   "sell": 16,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 15,
@@ -132,7 +216,13 @@
   "type": 0,
   "buy": 518,
   "sell": 52,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 16,
@@ -141,7 +231,13 @@
   "type": 0,
   "buy": 572,
   "sell": 57,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 17,
@@ -150,7 +246,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 18,
@@ -159,7 +261,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_063.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 19,
@@ -168,7 +276,13 @@
   "type": 0,
   "buy": 400,
   "sell": 200,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_019.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 20,
@@ -177,7 +291,13 @@
   "type": 0,
   "buy": 320,
   "sell": 160,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_019.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 21,
@@ -186,7 +306,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_012.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 23,
@@ -195,7 +321,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_025.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 24,
@@ -204,7 +336,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_061.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 25,
@@ -213,7 +351,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_027.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 26,
@@ -222,7 +366,13 @@
   "type": 0,
   "buy": 20,
   "sell": 2,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 27,
@@ -231,7 +381,13 @@
   "type": 0,
   "buy": 20,
   "sell": 2,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 28,
@@ -240,7 +396,13 @@
   "type": 0,
   "buy": 90,
   "sell": 45,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 29,
@@ -249,7 +411,13 @@
   "type": 0,
   "buy": 20,
   "sell": 2,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 30,
@@ -258,7 +426,13 @@
   "type": 0,
   "buy": 96,
   "sell": 48,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 31,
@@ -267,7 +441,13 @@
   "type": 0,
   "buy": 320,
   "sell": 120,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 32,
@@ -276,7 +456,13 @@
   "type": 0,
   "buy": 300,
   "sell": 80,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 33,
@@ -285,7 +471,13 @@
   "type": 2,
   "buy": 5700,
   "sell": 570,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 34,
@@ -294,7 +486,13 @@
   "type": 2,
   "buy": 3800,
   "sell": 380,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 35,
@@ -303,7 +501,13 @@
   "type": 2,
   "buy": 6840,
   "sell": 684,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 36,
@@ -312,7 +516,13 @@
   "type": 2,
   "buy": 8360,
   "sell": 836,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 37,
@@ -321,7 +531,13 @@
   "type": 2,
   "buy": 40000,
   "sell": 4000,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 38,
@@ -330,7 +546,13 @@
   "type": 3,
   "buy": 0,
   "sell": 0,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_033.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 39,
@@ -339,7 +561,13 @@
   "type": 3,
   "buy": 0,
   "sell": 0,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_068.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 40,
@@ -348,7 +576,13 @@
   "type": 3,
   "buy": 0,
   "sell": 0,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_067.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 41,
@@ -357,7 +591,13 @@
   "type": 3,
   "buy": 12,
   "sell": 2,
-  "max": 9
+  "max": 9,
+  "icon": {
+   "glyph": "items/itemglyph_069.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 42,
@@ -366,7 +606,13 @@
   "type": 3,
   "buy": 30,
   "sell": 6,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_070.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 43,
@@ -375,7 +621,13 @@
   "type": 3,
   "buy": 20,
   "sell": 2,
-  "max": 60
+  "max": 60,
+  "icon": {
+   "glyph": "items/itemglyph_068.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 44,
@@ -384,7 +636,13 @@
   "type": 3,
   "buy": 20,
   "sell": 2,
-  "max": 60
+  "max": 60,
+  "icon": {
+   "glyph": "items/itemglyph_068.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 45,
@@ -393,7 +651,13 @@
   "type": 3,
   "buy": 20,
   "sell": 2,
-  "max": 60
+  "max": 60,
+  "icon": {
+   "glyph": "items/itemglyph_068.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 46,
@@ -402,7 +666,13 @@
   "type": 3,
   "buy": 20,
   "sell": 2,
-  "max": 60
+  "max": 60,
+  "icon": {
+   "glyph": "items/itemglyph_068.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 47,
@@ -411,7 +681,13 @@
   "type": 3,
   "buy": 100,
   "sell": 10,
-  "max": 4
+  "max": 4,
+  "icon": {
+   "glyph": "items/itemglyph_068.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 48,
@@ -420,7 +696,13 @@
   "type": 3,
   "buy": 15,
   "sell": 2,
-  "max": 12
+  "max": 12,
+  "icon": {
+   "glyph": "items/itemglyph_033.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 49,
@@ -429,7 +711,13 @@
   "type": 3,
   "buy": 15,
   "sell": 3,
-  "max": 12
+  "max": 12,
+  "icon": {
+   "glyph": "items/itemglyph_033.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 50,
@@ -438,7 +726,13 @@
   "type": 3,
   "buy": 15,
   "sell": 2,
-  "max": 12
+  "max": 12,
+  "icon": {
+   "glyph": "items/itemglyph_033.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 51,
@@ -447,7 +741,13 @@
   "type": 3,
   "buy": 12,
   "sell": 3,
-  "max": 12
+  "max": 12,
+  "icon": {
+   "glyph": "items/itemglyph_069.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 52,
@@ -456,7 +756,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 53,
@@ -465,7 +771,13 @@
   "type": 2,
   "buy": 600,
   "sell": 60,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 54,
@@ -474,7 +786,13 @@
   "type": 2,
   "buy": 1600,
   "sell": 160,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 55,
@@ -483,7 +801,13 @@
   "type": 2,
   "buy": 4800,
   "sell": 480,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 56,
@@ -492,7 +816,13 @@
   "type": 2,
   "buy": 6800,
   "sell": 680,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 57,
@@ -501,7 +831,13 @@
   "type": 2,
   "buy": 800,
   "sell": 80,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 58,
@@ -510,7 +846,13 @@
   "type": 2,
   "buy": 10,
   "sell": 1,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 59,
@@ -519,7 +861,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 60,
@@ -528,7 +876,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 61,
@@ -537,7 +891,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 62,
@@ -546,7 +906,13 @@
   "type": 2,
   "buy": 16000,
   "sell": 1600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 66,
@@ -555,7 +921,13 @@
   "type": 0,
   "buy": 400,
   "sell": 40,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 67,
@@ -564,7 +936,13 @@
   "type": 0,
   "buy": 24,
   "sell": 2,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 69,
@@ -573,7 +951,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#98D9C9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 70,
@@ -582,7 +966,13 @@
   "type": 0,
   "buy": 450,
   "sell": 45,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 71,
@@ -591,7 +981,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 72,
@@ -600,7 +996,13 @@
   "type": 0,
   "buy": 120,
   "sell": 20,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 73,
@@ -609,7 +1011,13 @@
   "type": 0,
   "buy": 200,
   "sell": 20,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_018.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 74,
@@ -618,7 +1026,13 @@
   "type": 0,
   "buy": 180,
   "sell": 18,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 75,
@@ -627,7 +1041,13 @@
   "type": 0,
   "buy": 44,
   "sell": 4,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 76,
@@ -636,7 +1056,13 @@
   "type": 0,
   "buy": 75,
   "sell": 8,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 77,
@@ -645,7 +1071,13 @@
   "type": 0,
   "buy": 150,
   "sell": 30,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 80,
@@ -654,7 +1086,13 @@
   "type": 2,
   "buy": 4800,
   "sell": 480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 81,
@@ -663,7 +1101,13 @@
   "type": 2,
   "buy": 3200,
   "sell": 320,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 82,
@@ -672,7 +1116,13 @@
   "type": 2,
   "buy": 5760,
   "sell": 576,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 83,
@@ -681,7 +1131,13 @@
   "type": 2,
   "buy": 6400,
   "sell": 640,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 84,
@@ -690,7 +1146,13 @@
   "type": 2,
   "buy": 3600,
   "sell": 360,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 85,
@@ -699,7 +1161,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 86,
@@ -708,7 +1176,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 87,
@@ -717,7 +1191,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 88,
@@ -726,7 +1206,13 @@
   "type": 2,
   "buy": 2200,
   "sell": 220,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 89,
@@ -735,7 +1221,13 @@
   "type": 2,
   "buy": 3300,
   "sell": 330,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 90,
@@ -744,7 +1236,13 @@
   "type": 2,
   "buy": 4840,
   "sell": 484,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 91,
@@ -753,7 +1251,13 @@
   "type": 2,
   "buy": 4400,
   "sell": 440,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 92,
@@ -762,7 +1266,13 @@
   "type": 2,
   "buy": 40000,
   "sell": 4000,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 93,
@@ -771,7 +1281,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 94,
@@ -780,7 +1296,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 95,
@@ -789,7 +1311,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 96,
@@ -798,7 +1326,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 97,
@@ -807,7 +1341,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 98,
@@ -816,7 +1356,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 99,
@@ -825,7 +1371,13 @@
   "type": 0,
   "buy": 10,
   "sell": 1,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_040.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 100,
@@ -834,7 +1386,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_066.png",
+   "tint": "#98D9C9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 101,
@@ -843,7 +1401,13 @@
   "type": 0,
   "buy": 100,
   "sell": 10,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_040.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 102,
@@ -852,7 +1416,13 @@
   "type": 2,
   "buy": 12000,
   "sell": 1200,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 103,
@@ -861,7 +1431,13 @@
   "type": 2,
   "buy": 18000,
   "sell": 1800,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 104,
@@ -870,7 +1446,13 @@
   "type": 2,
   "buy": 21600,
   "sell": 2160,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 105,
@@ -879,7 +1461,13 @@
   "type": 2,
   "buy": 24000,
   "sell": 2400,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 106,
@@ -888,7 +1476,13 @@
   "type": 2,
   "buy": 72000,
   "sell": 7200,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 113,
@@ -897,7 +1491,13 @@
   "type": 0,
   "buy": 75,
   "sell": 8,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 114,
@@ -906,7 +1506,13 @@
   "type": 0,
   "buy": 150,
   "sell": 15,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 115,
@@ -915,7 +1521,13 @@
   "type": 0,
   "buy": 50,
   "sell": 5,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 116,
@@ -924,7 +1536,13 @@
   "type": 0,
   "buy": 44,
   "sell": 4,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 117,
@@ -933,7 +1551,13 @@
   "type": 0,
   "buy": 44,
   "sell": 4,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 118,
@@ -942,7 +1566,13 @@
   "type": 0,
   "buy": 64,
   "sell": 6,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 119,
@@ -951,7 +1581,13 @@
   "type": 0,
   "buy": 780,
   "sell": 78,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 120,
@@ -960,7 +1596,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_010.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 121,
@@ -969,7 +1611,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 122,
@@ -978,7 +1626,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 123,
@@ -987,7 +1641,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_019.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 124,
@@ -996,7 +1656,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_019.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 125,
@@ -1005,7 +1671,13 @@
   "type": 0,
   "buy": 400,
   "sell": 40,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 126,
@@ -1014,7 +1686,13 @@
   "type": 0,
   "buy": 280,
   "sell": 140,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 127,
@@ -1023,7 +1701,13 @@
   "type": 0,
   "buy": 220,
   "sell": 110,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 128,
@@ -1032,7 +1716,13 @@
   "type": 0,
   "buy": 60,
   "sell": 6,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 129,
@@ -1041,7 +1731,13 @@
   "type": 0,
   "buy": 600,
   "sell": 60,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 130,
@@ -1050,7 +1746,13 @@
   "type": 0,
   "buy": 40,
   "sell": 4,
-  "max": 30
+  "max": 30,
+  "icon": {
+   "glyph": "items/itemglyph_032.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 131,
@@ -1059,7 +1761,13 @@
   "type": 0,
   "buy": 40,
   "sell": 4,
-  "max": 30
+  "max": 30,
+  "icon": {
+   "glyph": "items/itemglyph_032.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 139,
@@ -1068,7 +1776,13 @@
   "type": 2,
   "buy": 6200,
   "sell": 620,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 140,
@@ -1077,7 +1791,13 @@
   "type": 2,
   "buy": 9300,
   "sell": 930,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 141,
@@ -1086,7 +1806,13 @@
   "type": 2,
   "buy": 13640,
   "sell": 1364,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 142,
@@ -1095,7 +1821,13 @@
   "type": 2,
   "buy": 11160,
   "sell": 1116,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 143,
@@ -1104,7 +1836,13 @@
   "type": 2,
   "buy": 12400,
   "sell": 1240,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 144,
@@ -1113,7 +1851,13 @@
   "type": 2,
   "buy": 37200,
   "sell": 3720,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_050.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 145,
@@ -1122,7 +1866,13 @@
   "type": 0,
   "buy": 45,
   "sell": 4,
-  "max": 8
+  "max": 8,
+  "icon": {
+   "glyph": "items/itemglyph_026.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 146,
@@ -1131,7 +1881,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_026.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 147,
@@ -1140,7 +1896,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_026.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 148,
@@ -1149,7 +1911,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_026.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 151,
@@ -1158,7 +1926,13 @@
   "type": 0,
   "buy": 100,
   "sell": 44,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 152,
@@ -1167,7 +1941,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 153,
@@ -1176,7 +1956,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 154,
@@ -1185,7 +1971,13 @@
   "type": 3,
   "buy": 62,
   "sell": 6,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_070.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 155,
@@ -1194,7 +1986,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 156,
@@ -1203,7 +2001,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_056.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_equip_tempered.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 157,
@@ -1212,7 +2016,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_056.png",
+   "tint": "#6687FF",
+   "badge": "items/itemadd_equip_tempered.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 158,
@@ -1221,7 +2031,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_056.png",
+   "tint": "#4EC3E5",
+   "badge": "items/itemadd_equip_tempered.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 159,
@@ -1230,7 +2046,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 160,
@@ -1239,7 +2061,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 161,
@@ -1248,7 +2076,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 162,
@@ -1257,7 +2091,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 163,
@@ -1266,7 +2106,13 @@
   "type": 0,
   "buy": 60,
   "sell": 6,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_071.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 164,
@@ -1275,7 +2121,13 @@
   "type": 0,
   "buy": 293,
   "sell": 29,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_072.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 165,
@@ -1284,7 +2136,13 @@
   "type": 0,
   "buy": 923,
   "sell": 92,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_072.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 166,
@@ -1293,7 +2151,13 @@
   "type": 0,
   "buy": 300,
   "sell": 30,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_071.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 167,
@@ -1302,7 +2166,13 @@
   "type": 0,
   "buy": 250,
   "sell": 25,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_071.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 168,
@@ -1311,7 +2181,13 @@
   "type": 0,
   "buy": 668,
   "sell": 67,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_072.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 169,
@@ -1320,7 +2196,13 @@
   "type": 0,
   "buy": 2831,
   "sell": 280,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_013.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 170,
@@ -1329,7 +2211,13 @@
   "type": 0,
   "buy": 2831,
   "sell": 283,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_072.png",
+   "tint": "#E15057",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 171,
@@ -1338,7 +2226,13 @@
   "type": 0,
   "buy": 578,
   "sell": 58,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_072.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 172,
@@ -1347,7 +2241,13 @@
   "type": 0,
   "buy": 2696,
   "sell": 260,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_013.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 173,
@@ -1356,7 +2256,13 @@
   "type": 0,
   "buy": 2696,
   "sell": 269,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_072.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 174,
@@ -1365,7 +2271,13 @@
   "type": 0,
   "buy": 250,
   "sell": 25,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_013.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 175,
@@ -1374,7 +2286,13 @@
   "type": 0,
   "buy": 6300,
   "sell": 315,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 176,
@@ -1383,7 +2301,13 @@
   "type": 0,
   "buy": 6300,
   "sell": 315,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 177,
@@ -1392,7 +2316,13 @@
   "type": 0,
   "buy": 6300,
   "sell": 315,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 178,
@@ -1401,7 +2331,13 @@
   "type": 0,
   "buy": 6900,
   "sell": 690,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 179,
@@ -1410,7 +2346,13 @@
   "type": 0,
   "buy": 140,
   "sell": 14,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_071.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 180,
@@ -1419,7 +2361,13 @@
   "type": 0,
   "buy": 600,
   "sell": 60,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 181,
@@ -1428,7 +2376,13 @@
   "type": 0,
   "buy": 350,
   "sell": 35,
-  "max": 8
+  "max": 8,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 182,
@@ -1437,7 +2391,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_026.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 183,
@@ -1446,7 +2406,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 184,
@@ -1455,7 +2421,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 186,
@@ -1464,7 +2436,13 @@
   "type": 0,
   "buy": 315,
   "sell": 32,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 188,
@@ -1473,7 +2451,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 189,
@@ -1482,7 +2466,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 190,
@@ -1491,7 +2481,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 191,
@@ -1500,7 +2496,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 192,
@@ -1509,7 +2511,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 195,
@@ -1518,7 +2526,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 196,
@@ -1527,7 +2541,13 @@
   "type": 0,
   "buy": 500,
   "sell": 50,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 197,
@@ -1536,7 +2556,13 @@
   "type": 0,
   "buy": 800,
   "sell": 80,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#E16D44",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 198,
@@ -1545,7 +2571,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_010.png",
+   "tint": "#47B267",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 199,
@@ -1554,7 +2586,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_013.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 200,
@@ -1563,7 +2601,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 201,
@@ -1572,7 +2616,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 202,
@@ -1581,7 +2631,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 203,
@@ -1590,7 +2646,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 204,
@@ -1599,7 +2661,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 205,
@@ -1608,7 +2676,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 8
+  "max": 8,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 206,
@@ -1617,7 +2691,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 207,
@@ -1626,7 +2706,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 208,
@@ -1635,7 +2721,13 @@
   "type": 0,
   "buy": 300,
   "sell": 30,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 209,
@@ -1644,7 +2736,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#E16D44",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 210,
@@ -1653,7 +2751,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 211,
@@ -1662,7 +2766,13 @@
   "type": 0,
   "buy": 188,
   "sell": 19,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 212,
@@ -1671,7 +2781,13 @@
   "type": 0,
   "buy": 80,
   "sell": 8,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_021.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 213,
@@ -1680,7 +2796,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_077.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 214,
@@ -1689,7 +2811,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_077.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 215,
@@ -1698,7 +2826,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_078.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 216,
@@ -1707,7 +2841,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_078.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 217,
@@ -1716,7 +2856,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_079.png",
+   "tint": "#E68A94",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 218,
@@ -1725,7 +2871,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_079.png",
+   "tint": "#E68A94",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 219,
@@ -1734,7 +2886,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_081.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 220,
@@ -1743,7 +2901,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_081.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 221,
@@ -1752,7 +2916,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_080.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 222,
@@ -1761,7 +2931,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_080.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 223,
@@ -1770,7 +2946,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#3D7F3A",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 224,
@@ -1779,7 +2961,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 225,
@@ -1788,7 +2976,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#E16D44",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 226,
@@ -1797,7 +2991,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_014.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 227,
@@ -1806,7 +3006,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#83B239",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 228,
@@ -1815,7 +3021,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#818182",
+   "badge": "items/itemadd_lock.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 229,
@@ -1824,7 +3036,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 230,
@@ -1833,7 +3051,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 231,
@@ -1842,7 +3066,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#83B239",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 232,
@@ -1851,7 +3081,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#83B239",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 233,
@@ -1860,7 +3096,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#3D7F3A",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 234,
@@ -1869,7 +3111,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#47B267",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 235,
@@ -1878,7 +3126,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#47B267",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 236,
@@ -1887,7 +3141,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#6687FF",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 237,
@@ -1896,7 +3156,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#6687FF",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 238,
@@ -1905,7 +3171,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#4C4CD9",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 239,
@@ -1914,7 +3186,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 240,
@@ -1923,7 +3201,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 241,
@@ -1932,7 +3216,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#BF3054",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 242,
@@ -1941,7 +3231,13 @@
   "type": 5,
   "buy": 10,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E68A94",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 243,
@@ -1950,7 +3246,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 244,
@@ -1959,7 +3261,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 245,
@@ -1968,7 +3276,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 246,
@@ -1977,7 +3291,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 247,
@@ -1986,7 +3306,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#9788D1",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 248,
@@ -1995,7 +3321,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#9788D1",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 249,
@@ -2004,7 +3336,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#56379E",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 250,
@@ -2013,7 +3351,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#9788D1",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 251,
@@ -2022,7 +3366,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 252,
@@ -2031,7 +3381,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 253,
@@ -2040,7 +3396,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#E6E600",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 254,
@@ -2049,7 +3411,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#E68A94",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 255,
@@ -2058,7 +3426,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#E68A94",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 256,
@@ -2067,7 +3441,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 257,
@@ -2076,7 +3456,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_036.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 258,
@@ -2085,7 +3471,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 259,
@@ -2094,7 +3486,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 260,
@@ -2103,7 +3501,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#4EC3E5",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 261,
@@ -2112,7 +3516,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#818182",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 262,
@@ -2121,7 +3531,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#98D9C9",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 263,
@@ -2130,7 +3546,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#98D9C9",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 264,
@@ -2139,7 +3561,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#83B239",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 265,
@@ -2148,7 +3576,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#83B239",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 266,
@@ -2157,7 +3591,13 @@
   "type": 5,
   "buy": 10,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#685ECD",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 267,
@@ -2166,7 +3606,13 @@
   "type": 5,
   "buy": 3,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 268,
@@ -2175,7 +3621,13 @@
   "type": 5,
   "buy": 5,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 269,
@@ -2184,7 +3636,13 @@
   "type": 5,
   "buy": 10,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E16D44",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 270,
@@ -2193,7 +3651,13 @@
   "type": 5,
   "buy": 10,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_087.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 271,
@@ -2202,7 +3666,13 @@
   "type": 0,
   "buy": 135,
   "sell": 45,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 272,
@@ -2211,7 +3681,13 @@
   "type": 0,
   "buy": 90,
   "sell": 45,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 273,
@@ -2220,7 +3696,13 @@
   "type": 2,
   "buy": 3750,
   "sell": 375,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 274,
@@ -2229,7 +3711,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 275,
@@ -2238,7 +3726,13 @@
   "type": 2,
   "buy": 5500,
   "sell": 550,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 276,
@@ -2247,7 +3741,13 @@
   "type": 2,
   "buy": 2500,
   "sell": 250,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 277,
@@ -2256,7 +3756,13 @@
   "type": 2,
   "buy": 2500,
   "sell": 250,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 278,
@@ -2265,7 +3771,13 @@
   "type": 0,
   "buy": 1,
   "sell": 1,
-  "max": 6
+  "max": 6,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 280,
@@ -2274,7 +3786,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 281,
@@ -2283,7 +3801,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 282,
@@ -2292,7 +3816,13 @@
   "type": 2,
   "buy": 15000,
   "sell": 1500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 283,
@@ -2301,7 +3831,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 284,
@@ -2310,7 +3846,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 285,
@@ -2319,7 +3861,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 286,
@@ -2328,7 +3876,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 287,
@@ -2337,7 +3891,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 288,
@@ -2346,7 +3906,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 289,
@@ -2355,7 +3921,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 290,
@@ -2364,7 +3936,13 @@
   "type": 0,
   "buy": 60,
   "sell": 12,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_032.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 291,
@@ -2373,7 +3951,13 @@
   "type": 0,
   "buy": 60,
   "sell": 12,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_032.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 292,
@@ -2382,7 +3966,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 293,
@@ -2391,7 +3981,13 @@
   "type": 2,
   "buy": 8500,
   "sell": 850,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 294,
@@ -2400,7 +3996,13 @@
   "type": 2,
   "buy": 15300,
   "sell": 1530,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 295,
@@ -2409,7 +4011,13 @@
   "type": 2,
   "buy": 12750,
   "sell": 1275,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 296,
@@ -2418,7 +4026,13 @@
   "type": 2,
   "buy": 17000,
   "sell": 1700,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 297,
@@ -2427,7 +4041,13 @@
   "type": 2,
   "buy": 8500,
   "sell": 850,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 298,
@@ -2436,7 +4056,13 @@
   "type": 2,
   "buy": 18200,
   "sell": 1820,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 299,
@@ -2445,7 +4071,13 @@
   "type": 2,
   "buy": 3960,
   "sell": 396,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 300,
@@ -2454,7 +4086,13 @@
   "type": 2,
   "buy": 2200,
   "sell": 220,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 301,
@@ -2463,7 +4101,13 @@
   "type": 2,
   "buy": 8700,
   "sell": 870,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 302,
@@ -2472,7 +4116,13 @@
   "type": 2,
   "buy": 13050,
   "sell": 1305,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 303,
@@ -2481,7 +4131,13 @@
   "type": 2,
   "buy": 15660,
   "sell": 1566,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 304,
@@ -2490,7 +4146,13 @@
   "type": 2,
   "buy": 19140,
   "sell": 1914,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 305,
@@ -2499,7 +4161,13 @@
   "type": 2,
   "buy": 8700,
   "sell": 870,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 306,
@@ -2508,7 +4176,13 @@
   "type": 2,
   "buy": 9000,
   "sell": 900,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 307,
@@ -2517,7 +4191,13 @@
   "type": 2,
   "buy": 13500,
   "sell": 1350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 308,
@@ -2526,7 +4206,13 @@
   "type": 2,
   "buy": 16200,
   "sell": 1620,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 309,
@@ -2535,7 +4221,13 @@
   "type": 2,
   "buy": 18000,
   "sell": 1800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 310,
@@ -2544,7 +4236,13 @@
   "type": 2,
   "buy": 9000,
   "sell": 900,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 311,
@@ -2553,7 +4251,13 @@
   "type": 2,
   "buy": 3200,
   "sell": 320,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 312,
@@ -2562,7 +4266,13 @@
   "type": 2,
   "buy": 10200,
   "sell": 1020,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 313,
@@ -2571,7 +4281,13 @@
   "type": 2,
   "buy": 15300,
   "sell": 1530,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 314,
@@ -2580,7 +4296,13 @@
   "type": 2,
   "buy": 18360,
   "sell": 1836,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 315,
@@ -2589,7 +4311,13 @@
   "type": 2,
   "buy": 10200,
   "sell": 1020,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 316,
@@ -2598,7 +4326,13 @@
   "type": 2,
   "buy": 3800,
   "sell": 380,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 317,
@@ -2607,7 +4341,13 @@
   "type": 2,
   "buy": 13000,
   "sell": 1300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 318,
@@ -2616,7 +4356,13 @@
   "type": 2,
   "buy": 19500,
   "sell": 1950,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 319,
@@ -2625,7 +4371,13 @@
   "type": 2,
   "buy": 23400,
   "sell": 2340,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 320,
@@ -2634,7 +4386,13 @@
   "type": 2,
   "buy": 28600,
   "sell": 2860,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 321,
@@ -2643,7 +4401,13 @@
   "type": 2,
   "buy": 13000,
   "sell": 1300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 322,
@@ -2652,7 +4416,13 @@
   "type": 2,
   "buy": 6000,
   "sell": 600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 323,
@@ -2661,7 +4431,13 @@
   "type": 2,
   "buy": 9000,
   "sell": 900,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 324,
@@ -2670,7 +4446,13 @@
   "type": 2,
   "buy": 10800,
   "sell": 1080,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 325,
@@ -2679,7 +4461,13 @@
   "type": 2,
   "buy": 12000,
   "sell": 1200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 326,
@@ -2688,7 +4476,13 @@
   "type": 2,
   "buy": 12000,
   "sell": 1200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 327,
@@ -2697,7 +4491,13 @@
   "type": 2,
   "buy": 36000,
   "sell": 3600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_050.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 328,
@@ -2706,7 +4506,13 @@
   "type": 2,
   "buy": 6000,
   "sell": 600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 329,
@@ -2715,7 +4521,13 @@
   "type": 2,
   "buy": 23500,
   "sell": 2350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 330,
@@ -2724,7 +4536,13 @@
   "type": 2,
   "buy": 35250,
   "sell": 3525,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 331,
@@ -2733,7 +4551,13 @@
   "type": 2,
   "buy": 42300,
   "sell": 4230,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 332,
@@ -2742,7 +4566,13 @@
   "type": 2,
   "buy": 47000,
   "sell": 4700,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 333,
@@ -2751,7 +4581,13 @@
   "type": 2,
   "buy": 47000,
   "sell": 4700,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 334,
@@ -2760,7 +4596,13 @@
   "type": 2,
   "buy": 141000,
   "sell": 14100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 335,
@@ -2769,7 +4611,13 @@
   "type": 2,
   "buy": 23500,
   "sell": 2350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 336,
@@ -2778,7 +4626,13 @@
   "type": 2,
   "buy": 3600,
   "sell": 360,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 337,
@@ -2787,7 +4641,13 @@
   "type": 2,
   "buy": 5400,
   "sell": 540,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 338,
@@ -2796,7 +4656,13 @@
   "type": 2,
   "buy": 6480,
   "sell": 648,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 339,
@@ -2805,7 +4671,13 @@
   "type": 2,
   "buy": 7920,
   "sell": 792,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 340,
@@ -2814,7 +4686,13 @@
   "type": 2,
   "buy": 3600,
   "sell": 360,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 341,
@@ -2823,7 +4701,13 @@
   "type": 2,
   "buy": 9900,
   "sell": 990,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 342,
@@ -2832,7 +4716,13 @@
   "type": 2,
   "buy": 14850,
   "sell": 1485,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 343,
@@ -2841,7 +4731,13 @@
   "type": 2,
   "buy": 17820,
   "sell": 1782,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 344,
@@ -2850,7 +4746,13 @@
   "type": 2,
   "buy": 21780,
   "sell": 2178,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 345,
@@ -2859,7 +4761,13 @@
   "type": 2,
   "buy": 9900,
   "sell": 990,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 346,
@@ -2868,7 +4776,13 @@
   "type": 2,
   "buy": 6200,
   "sell": 620,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 347,
@@ -2877,7 +4791,13 @@
   "type": 2,
   "buy": 24000,
   "sell": 2400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 348,
@@ -2886,7 +4806,13 @@
   "type": 2,
   "buy": 36000,
   "sell": 3600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 349,
@@ -2895,7 +4821,13 @@
   "type": 2,
   "buy": 52800,
   "sell": 5280,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 350,
@@ -2904,7 +4836,13 @@
   "type": 2,
   "buy": 48000,
   "sell": 4800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 351,
@@ -2913,7 +4851,13 @@
   "type": 2,
   "buy": 144000,
   "sell": 14400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 352,
@@ -2922,7 +4866,13 @@
   "type": 2,
   "buy": 24000,
   "sell": 2400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 353,
@@ -2931,7 +4881,13 @@
   "type": 2,
   "buy": 4400,
   "sell": 440,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 354,
@@ -2940,7 +4896,13 @@
   "type": 2,
   "buy": 6600,
   "sell": 660,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 355,
@@ -2949,7 +4911,13 @@
   "type": 2,
   "buy": 7920,
   "sell": 792,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 356,
@@ -2958,7 +4926,13 @@
   "type": 2,
   "buy": 8800,
   "sell": 880,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 357,
@@ -2967,7 +4941,13 @@
   "type": 2,
   "buy": 4400,
   "sell": 440,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 358,
@@ -2976,7 +4956,13 @@
   "type": 2,
   "buy": 11400,
   "sell": 1140,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 359,
@@ -2985,7 +4971,13 @@
   "type": 2,
   "buy": 17100,
   "sell": 1710,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 360,
@@ -2994,7 +4986,13 @@
   "type": 2,
   "buy": 20520,
   "sell": 2052,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 361,
@@ -3003,7 +5001,13 @@
   "type": 2,
   "buy": 22800,
   "sell": 2280,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 362,
@@ -3012,7 +5016,13 @@
   "type": 2,
   "buy": 11400,
   "sell": 1140,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 363,
@@ -3021,7 +5031,13 @@
   "type": 2,
   "buy": 4800,
   "sell": 480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 364,
@@ -3030,7 +5046,13 @@
   "type": 2,
   "buy": 7200,
   "sell": 720,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 365,
@@ -3039,7 +5061,13 @@
   "type": 2,
   "buy": 9600,
   "sell": 960,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 366,
@@ -3048,7 +5076,13 @@
   "type": 2,
   "buy": 9600,
   "sell": 960,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 367,
@@ -3057,7 +5091,13 @@
   "type": 2,
   "buy": 8640,
   "sell": 864,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 368,
@@ -3066,7 +5106,13 @@
   "type": 2,
   "buy": 28800,
   "sell": 2880,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 369,
@@ -3075,7 +5121,13 @@
   "type": 2,
   "buy": 4800,
   "sell": 480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 370,
@@ -3084,7 +5136,13 @@
   "type": 2,
   "buy": 13000,
   "sell": 1300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 371,
@@ -3093,7 +5151,13 @@
   "type": 2,
   "buy": 19500,
   "sell": 1950,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 372,
@@ -3102,7 +5166,13 @@
   "type": 2,
   "buy": 26000,
   "sell": 2600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 373,
@@ -3111,7 +5181,13 @@
   "type": 2,
   "buy": 23400,
   "sell": 2340,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 374,
@@ -3120,7 +5196,13 @@
   "type": 2,
   "buy": 78000,
   "sell": 7800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 375,
@@ -3129,7 +5211,13 @@
   "type": 2,
   "buy": 13000,
   "sell": 1300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 376,
@@ -3138,7 +5226,13 @@
   "type": 2,
   "buy": 6800,
   "sell": 680,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 377,
@@ -3147,7 +5241,13 @@
   "type": 2,
   "buy": 10200,
   "sell": 1020,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 378,
@@ -3156,7 +5256,13 @@
   "type": 2,
   "buy": 14960,
   "sell": 1496,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 379,
@@ -3165,7 +5271,13 @@
   "type": 2,
   "buy": 13600,
   "sell": 1360,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 380,
@@ -3174,7 +5286,13 @@
   "type": 2,
   "buy": 12240,
   "sell": 1224,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 381,
@@ -3183,7 +5301,13 @@
   "type": 2,
   "buy": 40800,
   "sell": 4080,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 382,
@@ -3192,7 +5316,13 @@
   "type": 2,
   "buy": 6800,
   "sell": 680,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 383,
@@ -3201,7 +5331,13 @@
   "type": 2,
   "buy": 24800,
   "sell": 2480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 384,
@@ -3210,7 +5346,13 @@
   "type": 2,
   "buy": 37200,
   "sell": 3720,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 385,
@@ -3219,7 +5361,13 @@
   "type": 2,
   "buy": 54560,
   "sell": 5456,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 386,
@@ -3228,7 +5376,13 @@
   "type": 2,
   "buy": 49600,
   "sell": 4960,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 387,
@@ -3237,7 +5391,13 @@
   "type": 2,
   "buy": 44640,
   "sell": 4464,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 388,
@@ -3246,7 +5406,13 @@
   "type": 2,
   "buy": 148800,
   "sell": 14880,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 389,
@@ -3255,7 +5421,13 @@
   "type": 2,
   "buy": 24800,
   "sell": 2480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 390,
@@ -3264,7 +5436,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 391,
@@ -3273,7 +5451,13 @@
   "type": 2,
   "buy": 7500,
   "sell": 750,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 392,
@@ -3282,7 +5466,13 @@
   "type": 2,
   "buy": 9000,
   "sell": 900,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 393,
@@ -3291,7 +5481,13 @@
   "type": 2,
   "buy": 11000,
   "sell": 1100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 394,
@@ -3300,7 +5496,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 395,
@@ -3309,7 +5511,13 @@
   "type": 2,
   "buy": 15000,
   "sell": 1500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 396,
@@ -3318,7 +5526,13 @@
   "type": 2,
   "buy": 22500,
   "sell": 2250,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 397,
@@ -3327,7 +5541,13 @@
   "type": 2,
   "buy": 27000,
   "sell": 2700,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 398,
@@ -3336,7 +5556,13 @@
   "type": 2,
   "buy": 33000,
   "sell": 3300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 399,
@@ -3345,7 +5571,13 @@
   "type": 2,
   "buy": 15000,
   "sell": 1500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 400,
@@ -3354,7 +5586,13 @@
   "type": 2,
   "buy": 5600,
   "sell": 560,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 401,
@@ -3363,7 +5601,13 @@
   "type": 2,
   "buy": 8400,
   "sell": 840,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 402,
@@ -3372,7 +5616,13 @@
   "type": 2,
   "buy": 10080,
   "sell": 1008,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 403,
@@ -3381,7 +5631,13 @@
   "type": 2,
   "buy": 11200,
   "sell": 1120,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 405,
@@ -3390,7 +5646,13 @@
   "type": 2,
   "buy": 5600,
   "sell": 560,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 406,
@@ -3399,7 +5661,13 @@
   "type": 2,
   "buy": 17000,
   "sell": 1700,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 407,
@@ -3408,7 +5676,13 @@
   "type": 2,
   "buy": 25500,
   "sell": 2550,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 408,
@@ -3417,7 +5691,13 @@
   "type": 2,
   "buy": 30600,
   "sell": 3060,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 409,
@@ -3426,7 +5706,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 410,
@@ -3435,7 +5721,13 @@
   "type": 2,
   "buy": 17000,
   "sell": 1700,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 411,
@@ -3444,7 +5736,13 @@
   "type": 2,
   "buy": 30360,
   "sell": 3036,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 413,
@@ -3453,7 +5751,13 @@
   "type": 3,
   "buy": 1,
   "sell": 9,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_069.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 414,
@@ -3462,7 +5766,13 @@
   "type": 3,
   "buy": 1,
   "sell": 7,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_069.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 415,
@@ -3471,7 +5781,13 @@
   "type": 3,
   "buy": 8,
   "sell": 2,
-  "max": 3
+  "max": 3,
+  "icon": {
+   "glyph": "items/itemglyph_069.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 416,
@@ -3480,7 +5796,13 @@
   "type": 3,
   "buy": 45,
   "sell": 4,
-  "max": 8
+  "max": 8,
+  "icon": {
+   "glyph": "items/itemglyph_033.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 417,
@@ -3489,7 +5811,13 @@
   "type": 3,
   "buy": 15,
   "sell": 3,
-  "max": 12
+  "max": 12,
+  "icon": {
+   "glyph": "items/itemglyph_033.png",
+   "tint": "#98D9C9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 418,
@@ -3498,7 +5826,13 @@
   "type": 2,
   "buy": 10000,
   "sell": 1000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_052.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 419,
@@ -3507,7 +5841,13 @@
   "type": 2,
   "buy": 23000,
   "sell": 2300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 420,
@@ -3516,7 +5856,13 @@
   "type": 2,
   "buy": 34500,
   "sell": 3450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 421,
@@ -3525,7 +5871,13 @@
   "type": 2,
   "buy": 41400,
   "sell": 4140,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 422,
@@ -3534,7 +5886,13 @@
   "type": 2,
   "buy": 46000,
   "sell": 4600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 423,
@@ -3543,7 +5901,13 @@
   "type": 2,
   "buy": 50600,
   "sell": 5060,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 424,
@@ -3552,7 +5916,13 @@
   "type": 2,
   "buy": 138000,
   "sell": 13800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 425,
@@ -3561,7 +5931,13 @@
   "type": 2,
   "buy": 23000,
   "sell": 2300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 426,
@@ -3570,7 +5946,13 @@
   "type": 2,
   "buy": 5400,
   "sell": 540,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 427,
@@ -3579,7 +5961,13 @@
   "type": 2,
   "buy": 8100,
   "sell": 810,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 428,
@@ -3588,7 +5976,13 @@
   "type": 2,
   "buy": 9720,
   "sell": 972,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 429,
@@ -3597,7 +5991,13 @@
   "type": 2,
   "buy": 11880,
   "sell": 1188,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 430,
@@ -3606,7 +6006,13 @@
   "type": 2,
   "buy": 10800,
   "sell": 1080,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 431,
@@ -3615,7 +6021,13 @@
   "type": 2,
   "buy": 32400,
   "sell": 3240,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_050.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 432,
@@ -3624,7 +6036,13 @@
   "type": 2,
   "buy": 5400,
   "sell": 540,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 433,
@@ -3633,7 +6051,13 @@
   "type": 2,
   "buy": 16600,
   "sell": 1660,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 434,
@@ -3642,7 +6066,13 @@
   "type": 2,
   "buy": 24900,
   "sell": 2490,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 435,
@@ -3651,7 +6081,13 @@
   "type": 2,
   "buy": 29880,
   "sell": 2988,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 436,
@@ -3660,7 +6096,13 @@
   "type": 2,
   "buy": 36520,
   "sell": 3652,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 437,
@@ -3669,7 +6111,13 @@
   "type": 2,
   "buy": 99600,
   "sell": 9960,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 438,
@@ -3678,7 +6126,13 @@
   "type": 2,
   "buy": 16600,
   "sell": 1660,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 439,
@@ -3687,7 +6141,13 @@
   "type": 0,
   "buy": 1220,
   "sell": 122,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 440,
@@ -3696,7 +6156,13 @@
   "type": 2,
   "buy": 5800,
   "sell": 580,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 441,
@@ -3705,7 +6171,13 @@
   "type": 2,
   "buy": 8700,
   "sell": 870,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 442,
@@ -3714,7 +6186,13 @@
   "type": 2,
   "buy": 11600,
   "sell": 1160,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 443,
@@ -3723,7 +6201,13 @@
   "type": 2,
   "buy": 10440,
   "sell": 1044,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 444,
@@ -3732,7 +6216,13 @@
   "type": 2,
   "buy": 12760,
   "sell": 1276,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 445,
@@ -3741,7 +6231,13 @@
   "type": 2,
   "buy": 34800,
   "sell": 3480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 446,
@@ -3750,7 +6246,13 @@
   "type": 2,
   "buy": 5800,
   "sell": 580,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 447,
@@ -3759,7 +6261,13 @@
   "type": 2,
   "buy": 18200,
   "sell": 1820,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 448,
@@ -3768,7 +6276,13 @@
   "type": 2,
   "buy": 27300,
   "sell": 2730,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 449,
@@ -3777,7 +6291,13 @@
   "type": 2,
   "buy": 40040,
   "sell": 4004,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 450,
@@ -3786,7 +6306,13 @@
   "type": 2,
   "buy": 32760,
   "sell": 3276,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 451,
@@ -3795,7 +6321,13 @@
   "type": 2,
   "buy": 36400,
   "sell": 3640,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 452,
@@ -3804,7 +6336,13 @@
   "type": 2,
   "buy": 109200,
   "sell": 10920,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 454,
@@ -3813,7 +6351,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 455,
@@ -3822,7 +6366,13 @@
   "type": 2,
   "buy": 15000,
   "sell": 1500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 456,
@@ -3831,7 +6381,13 @@
   "type": 2,
   "buy": 60000,
   "sell": 6000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 457,
@@ -3840,7 +6396,13 @@
   "type": 0,
   "buy": 240,
   "sell": 40,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 458,
@@ -3849,7 +6411,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 459,
@@ -3858,7 +6426,13 @@
   "type": 2,
   "buy": 30000,
   "sell": 3000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 460,
@@ -3867,7 +6441,13 @@
   "type": 2,
   "buy": 45000,
   "sell": 4500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 462,
@@ -3876,7 +6456,13 @@
   "type": 2,
   "buy": 54000,
   "sell": 5400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 463,
@@ -3885,7 +6471,13 @@
   "type": 2,
   "buy": 60000,
   "sell": 6000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 464,
@@ -3894,7 +6486,13 @@
   "type": 2,
   "buy": 66000,
   "sell": 6600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 465,
@@ -3903,7 +6501,13 @@
   "type": 2,
   "buy": 180000,
   "sell": 18000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 466,
@@ -3912,7 +6516,13 @@
   "type": 2,
   "buy": 30000,
   "sell": 3000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 467,
@@ -3921,7 +6531,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#D9CAAD",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 468,
@@ -3930,7 +6546,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 469,
@@ -3939,7 +6561,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 470,
@@ -3948,7 +6576,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_001.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 471,
@@ -3957,7 +6591,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_001.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 472,
@@ -3966,7 +6606,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 473,
@@ -3975,7 +6621,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 474,
@@ -3984,7 +6636,13 @@
   "type": 5,
   "buy": 10,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_031.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_wish_item.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 475,
@@ -3993,7 +6651,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#6687FF",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 476,
@@ -4002,7 +6666,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 477,
@@ -4011,7 +6681,13 @@
   "type": 0,
   "buy": 180,
   "sell": 18,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_006.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 478,
@@ -4020,7 +6696,13 @@
   "type": 0,
   "buy": 140,
   "sell": 14,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 479,
@@ -4029,7 +6711,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 480,
@@ -4038,7 +6726,13 @@
   "type": 2,
   "buy": 19800,
   "sell": 1980,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 481,
@@ -4047,7 +6741,13 @@
   "type": 2,
   "buy": 16000,
   "sell": 1600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 482,
@@ -4056,7 +6756,13 @@
   "type": 2,
   "buy": 24000,
   "sell": 2400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 483,
@@ -4065,7 +6771,13 @@
   "type": 2,
   "buy": 28000,
   "sell": 2800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 484,
@@ -4074,7 +6786,13 @@
   "type": 2,
   "buy": 35200,
   "sell": 3520,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 485,
@@ -4083,7 +6801,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 486,
@@ -4092,7 +6816,13 @@
   "type": 2,
   "buy": 96000,
   "sell": 9600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 487,
@@ -4101,7 +6831,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 488,
@@ -4110,7 +6846,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 489,
@@ -4119,7 +6861,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 490,
@@ -4128,7 +6876,13 @@
   "type": 2,
   "buy": 8500,
   "sell": 850,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 491,
@@ -4137,7 +6891,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 492,
@@ -4146,7 +6906,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 493,
@@ -4155,7 +6921,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 494,
@@ -4164,7 +6936,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 496,
@@ -4173,7 +6951,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 497,
@@ -4182,7 +6966,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 498,
@@ -4191,7 +6981,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 499,
@@ -4200,7 +6996,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 502,
@@ -4209,7 +7011,13 @@
   "type": 2,
   "buy": 2500,
   "sell": 250,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 503,
@@ -4218,7 +7026,13 @@
   "type": 2,
   "buy": 6500,
   "sell": 650,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 504,
@@ -4227,7 +7041,13 @@
   "type": 2,
   "buy": 2800,
   "sell": 280,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 505,
@@ -4236,7 +7056,13 @@
   "type": 2,
   "buy": 4200,
   "sell": 420,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 506,
@@ -4245,7 +7071,13 @@
   "type": 2,
   "buy": 5040,
   "sell": 504,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 507,
@@ -4254,7 +7086,13 @@
   "type": 2,
   "buy": 6160,
   "sell": 616,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 508,
@@ -4263,7 +7101,13 @@
   "type": 2,
   "buy": 2800,
   "sell": 280,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 509,
@@ -4272,7 +7116,13 @@
   "type": 2,
   "buy": 9300,
   "sell": 930,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 510,
@@ -4281,7 +7131,13 @@
   "type": 2,
   "buy": 13950,
   "sell": 1395,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 511,
@@ -4290,7 +7146,13 @@
   "type": 2,
   "buy": 16740,
   "sell": 1674,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 512,
@@ -4299,7 +7161,13 @@
   "type": 2,
   "buy": 20460,
   "sell": 2046,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 513,
@@ -4308,7 +7176,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 514,
@@ -4317,7 +7191,13 @@
   "type": 2,
   "buy": 7200,
   "sell": 720,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 515,
@@ -4326,7 +7206,13 @@
   "type": 2,
   "buy": 6000,
   "sell": 600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 516,
@@ -4335,7 +7221,13 @@
   "type": 2,
   "buy": 8000,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 517,
@@ -4344,7 +7236,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 518,
@@ -4353,7 +7251,13 @@
   "type": 2,
   "buy": 11000,
   "sell": 1100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 519,
@@ -4362,7 +7266,13 @@
   "type": 2,
   "buy": 16500,
   "sell": 1650,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 520,
@@ -4371,7 +7281,13 @@
   "type": 2,
   "buy": 22000,
   "sell": 2200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 521,
@@ -4380,7 +7296,13 @@
   "type": 2,
   "buy": 11000,
   "sell": 1100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 522,
@@ -4389,7 +7311,13 @@
   "type": 2,
   "buy": 9700,
   "sell": 970,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 523,
@@ -4398,7 +7326,13 @@
   "type": 2,
   "buy": 14550,
   "sell": 1455,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 524,
@@ -4407,7 +7341,13 @@
   "type": 2,
   "buy": 21340,
   "sell": 2134,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 525,
@@ -4416,7 +7356,13 @@
   "type": 2,
   "buy": 19400,
   "sell": 1940,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 526,
@@ -4425,7 +7371,13 @@
   "type": 2,
   "buy": 17460,
   "sell": 1746,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 527,
@@ -4434,7 +7386,13 @@
   "type": 2,
   "buy": 9700,
   "sell": 970,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 528,
@@ -4443,7 +7401,13 @@
   "type": 2,
   "buy": 8800,
   "sell": 880,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 529,
@@ -4452,7 +7416,13 @@
   "type": 2,
   "buy": 9500,
   "sell": 950,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 530,
@@ -4461,7 +7431,13 @@
   "type": 2,
   "buy": 14500,
   "sell": 1450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 531,
@@ -4470,7 +7446,13 @@
   "type": 2,
   "buy": 20900,
   "sell": 2090,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 532,
@@ -4479,7 +7461,13 @@
   "type": 2,
   "buy": 19000,
   "sell": 1900,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 533,
@@ -4488,7 +7476,13 @@
   "type": 2,
   "buy": 9500,
   "sell": 950,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 534,
@@ -4497,7 +7491,13 @@
   "type": 2,
   "buy": 40000,
   "sell": 4000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 535,
@@ -4506,7 +7506,13 @@
   "type": 0,
   "buy": 560,
   "sell": 56,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 536,
@@ -4515,7 +7521,13 @@
   "type": 2,
   "buy": 12000,
   "sell": 1200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 537,
@@ -4524,7 +7536,13 @@
   "type": 2,
   "buy": 13200,
   "sell": 1320,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 538,
@@ -4533,7 +7551,13 @@
   "type": 2,
   "buy": 19800,
   "sell": 1980,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 539,
@@ -4542,7 +7566,13 @@
   "type": 2,
   "buy": 29040,
   "sell": 2904,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 540,
@@ -4551,7 +7581,13 @@
   "type": 2,
   "buy": 26400,
   "sell": 2640,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 541,
@@ -4560,7 +7596,13 @@
   "type": 2,
   "buy": 13200,
   "sell": 1320,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 542,
@@ -4569,7 +7611,13 @@
   "type": 2,
   "buy": 14600,
   "sell": 1460,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 543,
@@ -4578,7 +7626,13 @@
   "type": 2,
   "buy": 32120,
   "sell": 3212,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_049.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 544,
@@ -4587,7 +7641,13 @@
   "type": 2,
   "buy": 29200,
   "sell": 2920,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 545,
@@ -4596,7 +7656,13 @@
   "type": 2,
   "buy": 87600,
   "sell": 8760,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 546,
@@ -4605,7 +7671,13 @@
   "type": 2,
   "buy": 21900,
   "sell": 2190,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 547,
@@ -4614,7 +7686,13 @@
   "type": 2,
   "buy": 14600,
   "sell": 1460,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 548,
@@ -4623,7 +7701,13 @@
   "type": 2,
   "buy": 22000,
   "sell": 2200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 549,
@@ -4632,7 +7716,13 @@
   "type": 2,
   "buy": 33000,
   "sell": 3300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 550,
@@ -4641,7 +7731,13 @@
   "type": 2,
   "buy": 39600,
   "sell": 3960,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 551,
@@ -4650,7 +7746,13 @@
   "type": 2,
   "buy": 48400,
   "sell": 4840,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 552,
@@ -4659,7 +7761,13 @@
   "type": 2,
   "buy": 44000,
   "sell": 4400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 553,
@@ -4668,7 +7776,13 @@
   "type": 2,
   "buy": 44000,
   "sell": 4400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 554,
@@ -4677,7 +7791,13 @@
   "type": 2,
   "buy": 132000,
   "sell": 13200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_050.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 555,
@@ -4686,7 +7806,13 @@
   "type": 2,
   "buy": 22000,
   "sell": 2200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 556,
@@ -4695,7 +7821,13 @@
   "type": 2,
   "buy": 13800,
   "sell": 1380,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 557,
@@ -4704,7 +7836,13 @@
   "type": 2,
   "buy": 20700,
   "sell": 2070,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 558,
@@ -4713,7 +7851,13 @@
   "type": 2,
   "buy": 24840,
   "sell": 2484,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 559,
@@ -4722,7 +7866,13 @@
   "type": 2,
   "buy": 27600,
   "sell": 2760,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 560,
@@ -4731,7 +7881,13 @@
   "type": 2,
   "buy": 82800,
   "sell": 8280,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 561,
@@ -4740,7 +7896,13 @@
   "type": 2,
   "buy": 13800,
   "sell": 1380,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 562,
@@ -4749,7 +7911,13 @@
   "type": 2,
   "buy": 23000,
   "sell": 2300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 563,
@@ -4758,7 +7926,13 @@
   "type": 2,
   "buy": 34500,
   "sell": 3450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 564,
@@ -4767,7 +7941,13 @@
   "type": 2,
   "buy": 41400,
   "sell": 4140,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 565,
@@ -4776,7 +7956,13 @@
   "type": 2,
   "buy": 41400,
   "sell": 4140,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 566,
@@ -4785,7 +7971,13 @@
   "type": 2,
   "buy": 46000,
   "sell": 4600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 567,
@@ -4794,7 +7986,13 @@
   "type": 2,
   "buy": 50600,
   "sell": 5060,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 568,
@@ -4803,7 +8001,13 @@
   "type": 2,
   "buy": 138000,
   "sell": 13800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 569,
@@ -4812,7 +8016,13 @@
   "type": 2,
   "buy": 23000,
   "sell": 2300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 570,
@@ -4821,7 +8031,13 @@
   "type": 2,
   "buy": 20000,
   "sell": 2000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_052.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 571,
@@ -4830,7 +8046,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 572,
@@ -4839,7 +8061,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 573,
@@ -4848,7 +8076,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 574,
@@ -4857,7 +8091,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 575,
@@ -4866,7 +8106,13 @@
   "type": 2,
   "buy": 1500,
   "sell": 150,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 576,
@@ -4875,7 +8121,13 @@
   "type": 2,
   "buy": 6370,
   "sell": 637,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_008.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 577,
@@ -4884,7 +8136,13 @@
   "type": 2,
   "buy": 4250,
   "sell": 425,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 578,
@@ -4893,7 +8151,13 @@
   "type": 2,
   "buy": 11500,
   "sell": 1150,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 579,
@@ -4902,7 +8166,13 @@
   "type": 2,
   "buy": 24400,
   "sell": 2440,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 580,
@@ -4911,7 +8181,13 @@
   "type": 2,
   "buy": 8600,
   "sell": 860,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 581,
@@ -4920,7 +8196,13 @@
   "type": 2,
   "buy": 17200,
   "sell": 1720,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 582,
@@ -4929,7 +8211,13 @@
   "type": 2,
   "buy": 10200,
   "sell": 1020,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 583,
@@ -4938,7 +8226,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 584,
@@ -4947,7 +8241,13 @@
   "type": 2,
   "buy": 16000,
   "sell": 1600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 585,
@@ -4956,7 +8256,13 @@
   "type": 2,
   "buy": 9300,
   "sell": 930,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 586,
@@ -4965,7 +8271,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 587,
@@ -4974,7 +8286,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 588,
@@ -4983,7 +8301,13 @@
   "type": 2,
   "buy": 6000,
   "sell": 600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 589,
@@ -4992,7 +8316,13 @@
   "type": 2,
   "buy": 7500,
   "sell": 750,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 590,
@@ -5001,7 +8331,13 @@
   "type": 2,
   "buy": 300,
   "sell": 30,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 591,
@@ -5010,7 +8346,13 @@
   "type": 2,
   "buy": 500,
   "sell": 50,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 592,
@@ -5019,7 +8361,13 @@
   "type": 2,
   "buy": 700,
   "sell": 70,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 593,
@@ -5028,7 +8376,13 @@
   "type": 2,
   "buy": 8400,
   "sell": 840,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 594,
@@ -5037,7 +8391,13 @@
   "type": 2,
   "buy": 14550,
   "sell": 1455,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 595,
@@ -5046,7 +8406,13 @@
   "type": 2,
   "buy": 4800,
   "sell": 480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 596,
@@ -5055,7 +8421,13 @@
   "type": 2,
   "buy": 15300,
   "sell": 1530,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 598,
@@ -5064,7 +8436,13 @@
   "type": 2,
   "buy": 24000,
   "sell": 2400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 599,
@@ -5073,7 +8451,13 @@
   "type": 2,
   "buy": 6600,
   "sell": 660,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 600,
@@ -5082,7 +8466,13 @@
   "type": 2,
   "buy": 17100,
   "sell": 1710,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 601,
@@ -5091,7 +8481,13 @@
   "type": 2,
   "buy": 5400,
   "sell": 540,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 602,
@@ -5100,7 +8496,13 @@
   "type": 2,
   "buy": 14850,
   "sell": 1485,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 603,
@@ -5109,7 +8511,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 604,
@@ -5118,7 +8526,13 @@
   "type": 2,
   "buy": 13500,
   "sell": 1350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 605,
@@ -5127,7 +8541,13 @@
   "type": 2,
   "buy": 6000,
   "sell": 600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 606,
@@ -5136,7 +8556,13 @@
   "type": 2,
   "buy": 16500,
   "sell": 1650,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 607,
@@ -5145,7 +8571,13 @@
   "type": 2,
   "buy": 11000,
   "sell": 1100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 608,
@@ -5154,7 +8586,13 @@
   "type": 2,
   "buy": 33000,
   "sell": 3300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 609,
@@ -5163,7 +8601,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_009.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 610,
@@ -5172,7 +8616,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 611,
@@ -5181,7 +8631,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 612,
@@ -5190,7 +8646,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 613,
@@ -5199,7 +8661,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 614,
@@ -5208,7 +8676,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 615,
@@ -5217,7 +8691,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 616,
@@ -5226,7 +8706,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 618,
@@ -5235,7 +8721,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 619,
@@ -5244,7 +8736,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_056.png",
+   "tint": "#E9EAEB",
+   "badge": "items/itemadd_for_armor.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 620,
@@ -5253,7 +8751,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_056.png",
+   "tint": "#B38F48",
+   "badge": "items/itemadd_for_armor.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 621,
@@ -5262,7 +8766,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_056.png",
+   "tint": "#E6E600",
+   "badge": "items/itemadd_for_armor.png",
+   "badgePos": "RT"
+  }
  },
  {
   "id": 622,
@@ -5271,7 +8781,13 @@
   "type": 2,
   "buy": 800,
   "sell": 80,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_055.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 623,
@@ -5280,7 +8796,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_055.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 624,
@@ -5289,7 +8811,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_055.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 625,
@@ -5298,7 +8826,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_055.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 626,
@@ -5307,7 +8841,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 627,
@@ -5316,7 +8856,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#83B239",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 628,
@@ -5325,7 +8871,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 629,
@@ -5334,7 +8886,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_074.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 630,
@@ -5343,7 +8901,13 @@
   "type": 2,
   "buy": 2500,
   "sell": 250,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_007.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 631,
@@ -5352,7 +8916,13 @@
   "type": 0,
   "buy": 800,
   "sell": 80,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 632,
@@ -5361,7 +8931,13 @@
   "type": 0,
   "buy": 98,
   "sell": 10,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_015.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 633,
@@ -5370,7 +8946,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 634,
@@ -5379,7 +8961,13 @@
   "type": 0,
   "buy": 480,
   "sell": 48,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 635,
@@ -5388,7 +8976,13 @@
   "type": 0,
   "buy": 90,
   "sell": 45,
-  "max": 20
+  "max": 20,
+  "icon": {
+   "glyph": "items/itemglyph_011.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 636,
@@ -5397,7 +8991,13 @@
   "type": 0,
   "buy": 80,
   "sell": 8,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_016.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 637,
@@ -5406,7 +9006,13 @@
   "type": 0,
   "buy": 210,
   "sell": 21,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_016.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 638,
@@ -5415,7 +9021,13 @@
   "type": 0,
   "buy": 60,
   "sell": 6,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_036.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 639,
@@ -5424,7 +9036,13 @@
   "type": 0,
   "buy": 108,
   "sell": 54,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_036.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 640,
@@ -5433,7 +9051,13 @@
   "type": 0,
   "buy": 300,
   "sell": 150,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 641,
@@ -5442,7 +9066,13 @@
   "type": 0,
   "buy": 90,
   "sell": 45,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 642,
@@ -5451,7 +9081,13 @@
   "type": 0,
   "buy": 270,
   "sell": 135,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 643,
@@ -5460,7 +9096,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 644,
@@ -5469,7 +9111,13 @@
   "type": 2,
   "buy": 10000,
   "sell": 1000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 645,
@@ -5478,7 +9126,13 @@
   "type": 2,
   "buy": 20000,
   "sell": 2000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 646,
@@ -5487,7 +9141,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 647,
@@ -5496,7 +9156,13 @@
   "type": 2,
   "buy": 100,
   "sell": 10,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 648,
@@ -5505,7 +9171,13 @@
   "type": 2,
   "buy": 500,
   "sell": 50,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 649,
@@ -5514,7 +9186,13 @@
   "type": 2,
   "buy": 100,
   "sell": 10,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 650,
@@ -5523,7 +9201,13 @@
   "type": 2,
   "buy": 500,
   "sell": 50,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 651,
@@ -5532,7 +9216,13 @@
   "type": 2,
   "buy": 10000,
   "sell": 1000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_007.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 652,
@@ -5541,7 +9231,13 @@
   "type": 2,
   "buy": 100000,
   "sell": 10000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_007.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 653,
@@ -5550,7 +9246,13 @@
   "type": 2,
   "buy": 200000,
   "sell": 20000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_007.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 654,
@@ -5559,7 +9261,13 @@
   "type": 2,
   "buy": 6000,
   "sell": 600,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_055.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 655,
@@ -5568,7 +9276,13 @@
   "type": 2,
   "buy": 8000,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 656,
@@ -5577,7 +9291,13 @@
   "type": 2,
   "buy": 12000,
   "sell": 1200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 657,
@@ -5586,7 +9306,13 @@
   "type": 2,
   "buy": 8000,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 658,
@@ -5595,7 +9321,13 @@
   "type": 2,
   "buy": 13000,
   "sell": 1300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 659,
@@ -5604,7 +9336,13 @@
   "type": 2,
   "buy": 10000,
   "sell": 1000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 660,
@@ -5613,7 +9351,13 @@
   "type": 2,
   "buy": 20000,
   "sell": 2000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 661,
@@ -5622,7 +9366,13 @@
   "type": 2,
   "buy": 30000,
   "sell": 3000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 662,
@@ -5631,7 +9381,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 663,
@@ -5640,7 +9396,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 664,
@@ -5649,7 +9411,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 665,
@@ -5658,7 +9426,13 @@
   "type": 2,
   "buy": 15000,
   "sell": 1500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 666,
@@ -5667,7 +9441,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 667,
@@ -5676,7 +9456,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 668,
@@ -5685,7 +9471,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 669,
@@ -5694,7 +9486,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#9788D1",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 670,
@@ -5703,7 +9501,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 671,
@@ -5712,7 +9516,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 672,
@@ -5721,7 +9531,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#3D7F3A",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 673,
@@ -5730,7 +9546,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 674,
@@ -5739,7 +9561,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 675,
@@ -5748,7 +9576,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_022.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 676,
@@ -5757,7 +9591,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 677,
@@ -5766,7 +9606,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 678,
@@ -5775,7 +9621,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 679,
@@ -5784,7 +9636,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#E6E600",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 680,
@@ -5793,7 +9651,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 681,
@@ -5802,7 +9666,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 682,
@@ -5811,7 +9681,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 683,
@@ -5820,7 +9696,13 @@
   "type": 4,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_035.png",
+   "tint": "#98D9C9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 684,
@@ -5829,7 +9711,13 @@
   "type": 0,
   "buy": 135,
   "sell": 45,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 685,
@@ -5838,7 +9726,13 @@
   "type": 0,
   "buy": 90,
   "sell": 45,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#DF9C65",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 686,
@@ -5847,7 +9741,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 687,
@@ -5856,7 +9756,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 688,
@@ -5865,7 +9771,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 689,
@@ -5874,7 +9786,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 690,
@@ -5883,7 +9801,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 698,
@@ -5892,7 +9816,13 @@
   "type": 2,
   "buy": 8000,
   "sell": 800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 699,
@@ -5901,7 +9831,13 @@
   "type": 2,
   "buy": 800,
   "sell": 80,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 700,
@@ -5910,7 +9846,13 @@
   "type": 2,
   "buy": 900,
   "sell": 90,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 701,
@@ -5919,7 +9861,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 702,
@@ -5928,7 +9876,13 @@
   "type": 2,
   "buy": 1100,
   "sell": 110,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 703,
@@ -5937,7 +9891,13 @@
   "type": 2,
   "buy": 1200,
   "sell": 120,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_038.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 704,
@@ -5946,7 +9906,13 @@
   "type": 2,
   "buy": 30000,
   "sell": 3000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 705,
@@ -5955,7 +9921,13 @@
   "type": 2,
   "buy": 102000,
   "sell": 10200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 706,
@@ -5964,7 +9936,13 @@
   "type": 2,
   "buy": 33600,
   "sell": 3360,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_050.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 707,
@@ -5973,7 +9951,13 @@
   "type": 2,
   "buy": 50600,
   "sell": 5060,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 708,
@@ -5982,7 +9966,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 710,
@@ -5991,7 +9981,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 711,
@@ -6000,7 +9996,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 712,
@@ -6009,7 +10011,13 @@
   "type": 2,
   "buy": 48000,
   "sell": 4800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 713,
@@ -6018,7 +10026,13 @@
   "type": 2,
   "buy": 57600,
   "sell": 5760,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 714,
@@ -6027,7 +10041,13 @@
   "type": 2,
   "buy": 64000,
   "sell": 6400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 715,
@@ -6036,7 +10056,13 @@
   "type": 2,
   "buy": 70400,
   "sell": 7040,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 717,
@@ -6045,7 +10071,13 @@
   "type": 2,
   "buy": 192000,
   "sell": 19200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 719,
@@ -6054,7 +10086,13 @@
   "type": 2,
   "buy": 64000,
   "sell": 6400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 720,
@@ -6063,7 +10101,13 @@
   "type": 2,
   "buy": 17500,
   "sell": 1750,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 721,
@@ -6072,7 +10116,13 @@
   "type": 2,
   "buy": 17500,
   "sell": 1750,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 722,
@@ -6081,7 +10131,13 @@
   "type": 2,
   "buy": 26250,
   "sell": 2625,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 723,
@@ -6090,7 +10146,13 @@
   "type": 2,
   "buy": 35000,
   "sell": 3500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 724,
@@ -6099,7 +10161,13 @@
   "type": 2,
   "buy": 35000,
   "sell": 3500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 726,
@@ -6108,7 +10176,13 @@
   "type": 2,
   "buy": 38500,
   "sell": 3850,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 727,
@@ -6117,7 +10191,13 @@
   "type": 2,
   "buy": 31500,
   "sell": 3150,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 728,
@@ -6126,7 +10206,13 @@
   "type": 2,
   "buy": 105000,
   "sell": 10500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 729,
@@ -6135,7 +10221,13 @@
   "type": 2,
   "buy": 22000,
   "sell": 2200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 730,
@@ -6144,7 +10236,13 @@
   "type": 2,
   "buy": 22000,
   "sell": 2200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 731,
@@ -6153,7 +10251,13 @@
   "type": 2,
   "buy": 33000,
   "sell": 3300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_044.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 732,
@@ -6162,7 +10266,13 @@
   "type": 2,
   "buy": 39600,
   "sell": 3960,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_041.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 733,
@@ -6171,7 +10281,13 @@
   "type": 2,
   "buy": 44000,
   "sell": 4400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 734,
@@ -6180,7 +10296,13 @@
   "type": 2,
   "buy": 48400,
   "sell": 4840,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 735,
@@ -6189,7 +10311,13 @@
   "type": 2,
   "buy": 44000,
   "sell": 4400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 736,
@@ -6198,7 +10326,13 @@
   "type": 2,
   "buy": 132000,
   "sell": 13200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 737,
@@ -6207,7 +10341,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 738,
@@ -6216,7 +10356,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 739,
@@ -6225,7 +10371,13 @@
   "type": 2,
   "buy": 48000,
   "sell": 4800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 740,
@@ -6234,7 +10386,13 @@
   "type": 2,
   "buy": 57600,
   "sell": 5760,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 741,
@@ -6243,7 +10401,13 @@
   "type": 2,
   "buy": 64000,
   "sell": 6400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_042.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 743,
@@ -6252,7 +10416,13 @@
   "type": 2,
   "buy": 64000,
   "sell": 6400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 744,
@@ -6261,7 +10431,13 @@
   "type": 2,
   "buy": 192000,
   "sell": 19200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 745,
@@ -6270,7 +10446,13 @@
   "type": 2,
   "buy": 64000,
   "sell": 6400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 747,
@@ -6279,7 +10461,13 @@
   "type": 2,
   "buy": 34000,
   "sell": 3400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 748,
@@ -6288,7 +10476,13 @@
   "type": 2,
   "buy": 34000,
   "sell": 3400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_043.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 749,
@@ -6297,7 +10491,13 @@
   "type": 2,
   "buy": 51000,
   "sell": 5100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_046.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 750,
@@ -6306,7 +10506,13 @@
   "type": 2,
   "buy": 61200,
   "sell": 6120,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 751,
@@ -6315,7 +10521,13 @@
   "type": 2,
   "buy": 61200,
   "sell": 6120,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_045.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 752,
@@ -6324,7 +10536,13 @@
   "type": 2,
   "buy": 68000,
   "sell": 6800,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_048.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 753,
@@ -6333,7 +10551,13 @@
   "type": 2,
   "buy": 74800,
   "sell": 7480,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_047.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 754,
@@ -6342,7 +10566,13 @@
   "type": 2,
   "buy": 204000,
   "sell": 20400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 755,
@@ -6351,7 +10581,13 @@
   "type": 2,
   "buy": 51000,
   "sell": 5100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_073.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 756,
@@ -6360,7 +10596,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_000.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 758,
@@ -6369,7 +10611,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 759,
@@ -6378,7 +10626,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#685ECD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 760,
@@ -6387,7 +10641,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 761,
@@ -6396,7 +10656,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 762,
@@ -6405,7 +10671,13 @@
   "type": 2,
   "buy": 32000,
   "sell": 3200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 763,
@@ -6414,7 +10686,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 764,
@@ -6423,7 +10701,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 765,
@@ -6432,7 +10716,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 766,
@@ -6441,7 +10731,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#BF3054",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 767,
@@ -6450,7 +10746,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 768,
@@ -6459,7 +10761,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 769,
@@ -6468,7 +10776,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_091.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 770,
@@ -6477,7 +10791,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 771,
@@ -6486,7 +10806,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 772,
@@ -6495,7 +10821,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 774,
@@ -6504,7 +10836,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 775,
@@ -6513,7 +10851,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 776,
@@ -6522,7 +10866,13 @@
   "type": 2,
   "buy": 4500,
   "sell": 450,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 778,
@@ -6531,7 +10881,13 @@
   "type": 2,
   "buy": 3000,
   "sell": 300,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_031.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 779,
@@ -6540,7 +10896,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_031.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 780,
@@ -6549,7 +10911,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 781,
@@ -6558,7 +10926,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 782,
@@ -6567,7 +10941,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_088.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 783,
@@ -6576,7 +10956,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_089.png",
+   "tint": "#56379E",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 784,
@@ -6585,7 +10971,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_090.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 785,
@@ -6594,7 +10986,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 786,
@@ -6603,7 +11001,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 787,
@@ -6612,7 +11016,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 788,
@@ -6621,7 +11031,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 789,
@@ -6630,7 +11046,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 790,
@@ -6639,7 +11061,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 791,
@@ -6648,7 +11076,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 792,
@@ -6657,7 +11091,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_001.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 794,
@@ -6666,7 +11106,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 795,
@@ -6675,7 +11121,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#B38F48",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 796,
@@ -6684,7 +11136,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 797,
@@ -6693,7 +11151,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 798,
@@ -6702,7 +11166,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4EC3E5",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 799,
@@ -6711,7 +11181,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_028.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 800,
@@ -6720,7 +11196,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 801,
@@ -6729,7 +11211,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_002.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 802,
@@ -6738,7 +11226,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 803,
@@ -6747,7 +11241,13 @@
   "type": 0,
   "buy": 518,
   "sell": 52,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#E68A94",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 804,
@@ -6756,7 +11256,13 @@
   "type": 0,
   "buy": 518,
   "sell": 52,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 805,
@@ -6765,7 +11271,13 @@
   "type": 0,
   "buy": 518,
   "sell": 52,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 806,
@@ -6774,7 +11286,13 @@
   "type": 0,
   "buy": 518,
   "sell": 52,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_017.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 807,
@@ -6783,7 +11301,13 @@
   "type": 2,
   "buy": 5000,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_031.png",
+   "tint": "#D9C357",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 808,
@@ -6792,7 +11316,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#D9CAAD",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 809,
@@ -6801,7 +11331,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#E16D44",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 810,
@@ -6810,7 +11346,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#98D9C9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 811,
@@ -6819,7 +11361,13 @@
   "type": 2,
   "buy": 4000,
   "sell": 400,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_029.png",
+   "tint": "#83B239",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 813,
@@ -6828,7 +11376,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 5
+  "max": 5,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#4EC3E5",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 814,
@@ -6837,7 +11391,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 815,
@@ -6846,7 +11406,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_096.png",
+   "tint": "#FFFFFF",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 816,
@@ -6855,7 +11421,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_095.png",
+   "tint": "#FFFFFF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 817,
@@ -6864,7 +11436,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_092.png",
+   "tint": "#FFFFFF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 818,
@@ -6873,7 +11451,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_093.png",
+   "tint": "#FFFFFF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 819,
@@ -6882,7 +11466,13 @@
   "type": 1,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_094.png",
+   "tint": "#FFFFFF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 820,
@@ -6891,7 +11481,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 2
+  "max": 2,
+  "icon": {
+   "glyph": "items/itemglyph_062.png",
+   "tint": "#E15057",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 821,
@@ -6900,7 +11496,13 @@
   "type": 0,
   "buy": 0,
   "sell": 0,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_097.png",
+   "tint": "#FFFFFF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 822,
@@ -6909,7 +11511,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_054.png",
+   "tint": "#9788D1",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 823,
@@ -6918,7 +11526,13 @@
   "type": 6,
   "buy": 90,
   "sell": 0,
-  "max": 10
+  "max": 10,
+  "icon": {
+   "glyph": "items/itemglyph_054.png",
+   "tint": "#E15057",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 824,
@@ -6927,7 +11541,13 @@
   "type": 2,
   "buy": 1000,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 825,
@@ -6936,7 +11556,13 @@
   "type": 2,
   "buy": 2000,
   "sell": 200,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#D9C357",
+   "badge": "items/itemadd_shell_lv1.png",
+   "badgePos": "LT"
+  }
  },
  {
   "id": 826,
@@ -6945,7 +11571,13 @@
   "type": 2,
   "buy": 40000,
   "sell": 4000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#DF9C65",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 827,
@@ -6954,7 +11586,13 @@
   "type": 5,
   "buy": 50,
   "sell": 500,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 828,
@@ -6963,7 +11601,13 @@
   "type": 5,
   "buy": 10,
   "sell": 100,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_037.png",
+   "tint": "#47B267",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 829,
@@ -6972,7 +11616,13 @@
   "type": 2,
   "buy": 1,
   "sell": 1,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 830,
@@ -6981,7 +11631,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 832,
@@ -6990,7 +11646,13 @@
   "type": 2,
   "buy": 10,
   "sell": 1,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_039.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 833,
@@ -6999,7 +11661,13 @@
   "type": 2,
   "buy": 10000,
   "sell": 1000,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_020.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 834,
@@ -7008,7 +11676,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_031.png",
+   "tint": "#6687FF",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 836,
@@ -7017,7 +11691,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#818182",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 837,
@@ -7026,7 +11706,13 @@
   "type": 2,
   "buy": 3500,
   "sell": 350,
-  "max": 99
+  "max": 99,
+  "icon": {
+   "glyph": "items/itemglyph_030.png",
+   "tint": "#4C4CD9",
+   "badge": null,
+   "badgePos": null
+  }
  },
  {
   "id": 838,
@@ -7035,6 +11721,12 @@
   "type": 2,
   "buy": 2500,
   "sell": 250,
-  "max": 1
+  "max": 1,
+  "icon": {
+   "glyph": "items/itemglyph_007.png",
+   "tint": "#E9EAEB",
+   "badge": null,
+   "badgePos": null
+  }
  }
 ]

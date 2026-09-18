@@ -3,7 +3,8 @@
 Extracts monster data, per-part hitzones, and monster icons from a local
 Monster Hunter Wilds install into `../data/` for the companion app.
 
-Requires: Windows, Python 3.10+ (stdlib only), ~15 GB free temp space.
+Requires: Windows, Python 3.10+ (stdlib only; Pillow needed just for
+step 8: `pip install pillow`), ~15 GB free temp space.
 Set `MHRESEARCH` to override the work dir (default: `%TEMP%\mhwilds-research`),
 `MHWILDS_GAME` to override the game dir.
 
@@ -43,6 +44,16 @@ python .\datamine\finalize.py
 #    Rathian wiki-oracle self-check)
 python .\datamine\reward_all.py
 python .\datamine\reward_finalize.py
+
+# 8. Item icons: extract glyph/badge atlases + AddIconData + tint palette,
+#    parse icon fields, crop 77 glyphs + 5 badges
+.\datamine\extract_itemicons.ps1
+.\datamine\build_itemicons.ps1
+python .\datamine\itemicons_all.py
+
+# 9. Finalize data/icons/items/*.png + data/item_palette.json, merge icon
+#    fields into data/materials.json
+python .\datamine\itemicons_finalize.py
 ```
 
 `il2cpp_dump.json` (REFramework SDK dump, 2 GB) must exist next to the game
@@ -68,6 +79,10 @@ exe; it is the struct database for the RSZ reader. It is never committed.
 | `finalize.py` | Add category/icon, copy PNGs to `data/` |
 | `reward_all.py` | Parse reward tables + item catalog → `rewards.json` |
 | `reward_finalize.py` | Merge rewards into dataset + `materials.json` |
+| `extract_itemicons.ps1` | Item atlas + AddIconData + palette extract |
+| `build_itemicons.ps1` | Atlas merge + TEX→DDS→PNG batch |
+| `itemicons_all.py` | Icon fields + palette parse, glyph/badge crop |
+| `itemicons_finalize.py` | `data/icons/items/` + palette + `materials.json` icons |
 
 ## Key findings (see `../docs/datamine.md`)
 
@@ -84,3 +99,6 @@ exe; it is the struct database for the RSZ reader. It is never committed.
   5xx target rolls, 6xx bonus), story slots = low rank, ex arrays = high
   rank. Breaks link via partsIndex == RewardTableIndex. Item names from
   `Item.msg.23` (`Item_IT_<id>`).
+- Item icons are composite: base glyph (atlas cell `max(0, IconType-1)`
+  in `tex000201_0`) × tint (`ColorPreset.TYPE` → `colorPreset.gcp.2`
+  slot 0) + corner badge (`AddIconData` pattern → `tex000201_20` cell).

@@ -13,6 +13,10 @@ below come from the installed game + patches (merged newest-wins).
 | Part names | `GameDesign/Text/Excel_Data/EnemyPartsTypeName.msg.23` |
 | Species/attributes | `EnemySpeciesName.msg.23`, `EnemyReport*.msg.23` |
 | Icons (512px BC7) | `GUI/ui_texture/tex000000/tex_EmIcon_*/tex_EmIcon_EM*.tex.*` |
+| Item glyphs (white) | `GUI/ui_texture/tex000000/tex000201_0_IMLM4.tex.*` (100px grid, 20 cols) |
+| Item badges (color) | `.../tex000201_20_IMLM4.tex.*` (64px grid, 8 cols) |
+| Badge table | `GameDesign/GUI/Common/_UserData/AddIconData.user.3` |
+| Tint palette | `GUI/colorPreset.gcp.2` (`GCPR`: count + 40B entries, 4×ABGR) + `app.ColorPreset.TYPE` enum |
 | Struct database | `il2cpp_dump.json` (REFramework SDK dump, beside the exe) |
 
 PAKs: gameplay data in `re_chunk_000.pak` + `patch_001..015`; textures in
@@ -90,6 +94,39 @@ community tables (Rathian oracle: 21/21 match):
 `PARTS_TYPE` and break linkage reuse the hitzone maps. Item catalog
 (`data/materials.json`, 782 items: id/name/rarity/prices) comes from
 `Common/Item/itemData.user.3` + `Item.msg.23`.
+
+## Item icon model
+
+Each item in `itemData.user.3` carries `_IconType` (77 used values),
+`_IconColor` (22 used: `I_NONE`..`I_DPURPLE`), `_AddIconType` (5 used) and
+`_EquipIcon` (artian shards only; smithy-side). The game renders
+base glyph × tint + corner badge:
+
+- Base glyph: atlas cell `max(0, IconType - 1)`, row-major. Verified
+  glyph-by-glyph against item names (~70/77: honeycomb, potion flask,
+  barrels, traps, ores, ammo...). Full-color cells (icons 92-97,
+  unreleased items) pair with `I_NONE` (no tint), confirming the rule.
+  `cell = icon` is ruled out: icon 5 is unused while cell 5 is the
+  mushroom, so icons 6+ must sit one cell left.
+- Tint: `ColorPreset.TYPE` value indexes `colorPreset.gcp.2` directly
+  (entry colors match the enum names: `I_GREEN` = green...). All item
+  colors have identical 4 slots; slot 0 ships in `data/item_palette.json`.
+- Badge: `AddIconData` maps AddIcon → corner (`LT/RT/LB/RB`) + sequence 0
+  + pattern. Patterns index the `tex000201_20` sheet, overwhelmingly
+  pattern+1; the 5 item-used badges are pinned by semantic match:
+  `SHELL_LV1` (Mega/Ancient, LT) → star, `WISH_ITEM` (trade-ins, RT) →
+  pouch, `LOCK` (village ingredients, RT) → padlock, `FOR_ARMOR` (orbs,
+  RT) → gauntlet, `EQUIP_TEMPERED` (orbs, RT) → plus. `.gui`/`.mov`
+  reference textures by hash (no path strings), so the exact pattern
+  rects are unverifiable short of a GUI format parser; the three
+  non-padlock/gauntlet picks are flagged best-effort.
+- `data/materials.json` gains per-item `icon: {glyph, tint, badge,
+  badgePos}`; glyphs/badges ship as 82 PNGs under `data/icons/items/`
+  (624 KB, tight alpha-bbox crops).
+
+Bonus found while surveying (not extracted): `tex000201_1` holds map
+icons + full-color monster minimap icons + white weapon/armor glyphs;
+`tex000201_2` holds ailment/buff icons + full-color endemic-life icons.
 
 ## Regenerating
 

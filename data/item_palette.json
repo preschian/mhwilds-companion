@@ -1,0 +1,466 @@
+{
+ "0": {
+  "name": "I_NONE",
+  "rgba": "#FFFFFF"
+ },
+ "1": {
+  "name": "I_WHITE",
+  "rgba": "#E9EAEB"
+ },
+ "2": {
+  "name": "I_GRAY",
+  "rgba": "#818182"
+ },
+ "3": {
+  "name": "I_ROSE",
+  "rgba": "#BF3054"
+ },
+ "4": {
+  "name": "I_PINK",
+  "rgba": "#E68A94"
+ },
+ "5": {
+  "name": "I_RED",
+  "rgba": "#E15057"
+ },
+ "6": {
+  "name": "I_VERMILION",
+  "rgba": "#E16D44"
+ },
+ "7": {
+  "name": "I_ORANGE",
+  "rgba": "#DF9C65"
+ },
+ "8": {
+  "name": "I_BROWN",
+  "rgba": "#B38F48"
+ },
+ "9": {
+  "name": "I_IVORY",
+  "rgba": "#D9CAAD"
+ },
+ "10": {
+  "name": "I_YELLOW",
+  "rgba": "#D9C357"
+ },
+ "11": {
+  "name": "I_LEMON",
+  "rgba": "#E6E600"
+ },
+ "12": {
+  "name": "I_SGREEN",
+  "rgba": "#83B239"
+ },
+ "13": {
+  "name": "I_MOS",
+  "rgba": "#3D7F3A"
+ },
+ "14": {
+  "name": "I_GREEN",
+  "rgba": "#47B267"
+ },
+ "15": {
+  "name": "I_EMERALD",
+  "rgba": "#98D9C9"
+ },
+ "16": {
+  "name": "I_SKY",
+  "rgba": "#4EC3E5"
+ },
+ "17": {
+  "name": "I_BLUE",
+  "rgba": "#6687FF"
+ },
+ "18": {
+  "name": "I_ULTRAMARINE",
+  "rgba": "#4C4CD9"
+ },
+ "19": {
+  "name": "I_BPURPLE",
+  "rgba": "#685ECD"
+ },
+ "20": {
+  "name": "I_PURPLE",
+  "rgba": "#9788D1"
+ },
+ "21": {
+  "name": "I_DPURPLE",
+  "rgba": "#56379E"
+ },
+ "22": {
+  "name": "RARE_01",
+  "rgba": "#969696"
+ },
+ "23": {
+  "name": "RARE_02",
+  "rgba": "#DEDEDE"
+ },
+ "24": {
+  "name": "RARE_03",
+  "rgba": "#A4C43B"
+ },
+ "25": {
+  "name": "RARE_04",
+  "rgba": "#47A33F"
+ },
+ "26": {
+  "name": "RARE_05",
+  "rgba": "#5CAEBB"
+ },
+ "27": {
+  "name": "RARE_06",
+  "rgba": "#575FD9"
+ },
+ "28": {
+  "name": "RARE_07",
+  "rgba": "#9272E3"
+ },
+ "29": {
+  "name": "RARE_08",
+  "rgba": "#C76D46"
+ },
+ "30": {
+  "name": "RARE_09",
+  "rgba": "#B3436A"
+ },
+ "31": {
+  "name": "RARE_10",
+  "rgba": "#2EC9E6"
+ },
+ "32": {
+  "name": "RARE_11",
+  "rgba": "#F2C21D"
+ },
+ "33": {
+  "name": "RARE_12",
+  "rgba": "#B4F5FF"
+ },
+ "34": {
+  "name": "Rank_Prog00",
+  "rgba": "#F0F0F0"
+ },
+ "35": {
+  "name": "Rank_Prog01",
+  "rgba": "#9BCC56"
+ },
+ "36": {
+  "name": "Rank_Prog02",
+  "rgba": "#6CA3D9"
+ },
+ "37": {
+  "name": "Rank_Prog03",
+  "rgba": "#E68545"
+ },
+ "38": {
+  "name": "TXT_White01",
+  "rgba": "#FDFDFD"
+ },
+ "39": {
+  "name": "TXT_White02",
+  "rgba": "#F5F5F5"
+ },
+ "40": {
+  "name": "TXT_White03",
+  "rgba": "#9C9C9C"
+ },
+ "41": {
+  "name": "TXT_Gray01",
+  "rgba": "#D9D9D9"
+ },
+ "42": {
+  "name": "TXT_Black01",
+  "rgba": "#040507"
+ },
+ "43": {
+  "name": "TXT_Safe",
+  "rgba": "#64D278"
+ },
+ "44": {
+  "name": "TXT_Danger",
+  "rgba": "#FA6E64"
+ },
+ "45": {
+  "name": "TXT_Accent",
+  "rgba": "#F0E678"
+ },
+ "46": {
+  "name": "TXT_Accent2",
+  "rgba": "#AAD7F5"
+ },
+ "47": {
+  "name": "TXT_Accent3",
+  "rgba": "#F7A944"
+ },
+ "48": {
+  "name": "TXT_Sub",
+  "rgba": "#999999"
+ },
+ "49": {
+  "name": "TXT_Max",
+  "rgba": "#F0B26C"
+ },
+ "50": {
+  "name": "TXT_CharaName",
+  "rgba": "#BFBFBF"
+ },
+ "51": {
+  "name": "TXT_Choice_01",
+  "rgba": "#F0E678"
+ },
+ "52": {
+  "name": "TXT_Choice_02",
+  "rgba": "#86A7BF"
+ },
+ "53": {
+  "name": "TXT_Title",
+  "rgba": "#FAEFBB"
+ },
+ "54": {
+  "name": "TXT_currency00num",
+  "rgba": "#F5D778"
+ },
+ "55": {
+  "name": "TXT_currency00unit",
+  "rgba": "#CCA93D"
+ },
+ "56": {
+  "name": "TXT_currency01num",
+  "rgba": "#8FCC92"
+ },
+ "57": {
+  "name": "TXT_currency01unit",
+  "rgba": "#4D9951"
+ },
+ "58": {
+  "name": "TXT_currency02num",
+  "rgba": "#D7A540"
+ },
+ "59": {
+  "name": "TXT_currency02unit",
+  "rgba": "#B48A36"
+ },
+ "60": {
+  "name": "TXT_currency03num",
+  "rgba": "#CE8AE6"
+ },
+ "61": {
+  "name": "TXT_currency03unit",
+  "rgba": "#B166CC"
+ },
+ "62": {
+  "name": "GUI_White",
+  "rgba": "#FF7040"
+ },
+ "63": {
+  "name": "GUI_Black",
+  "rgba": "#FFF066"
+ },
+ "64": {
+  "name": "GUI_Disable",
+  "rgba": "#FFFFFF"
+ },
+ "65": {
+  "name": "GUI_Safe",
+  "rgba": "#000000"
+ },
+ "66": {
+  "name": "GUI_Danger",
+  "rgba": "#9C9C9C"
+ },
+ "67": {
+  "name": "GUI_Acrtive01",
+  "rgba": "#64E682"
+ },
+ "68": {
+  "name": "GUI_Acrtive02",
+  "rgba": "#F0756C"
+ },
+ "69": {
+  "name": "GUI_DShadow",
+  "rgba": "#D5FF00"
+ },
+ "70": {
+  "name": "GUI_Psolo",
+  "rgba": "#F0FF00"
+ },
+ "71": {
+  "name": "GUI_P1",
+  "rgba": "#1A160D"
+ },
+ "72": {
+  "name": "GUI_P2",
+  "rgba": "#F1955E"
+ },
+ "73": {
+  "name": "GUI_P3",
+  "rgba": "#EB7578"
+ },
+ "74": {
+  "name": "GUI_P4",
+  "rgba": "#61ACF2"
+ },
+ "75": {
+  "name": "GUI_PNPC",
+  "rgba": "#F6DD6F"
+ },
+ "76": {
+  "name": "GUI_PStealth",
+  "rgba": "#62BC5E"
+ },
+ "77": {
+  "name": "GUI_Tab00",
+  "rgba": "#CAB7D4"
+ },
+ "78": {
+  "name": "GUI_Tab01",
+  "rgba": "#A764CA"
+ },
+ "79": {
+  "name": "GUI_Tab02",
+  "rgba": "#D4B24D"
+ },
+ "80": {
+  "name": "GUI_Tab03",
+  "rgba": "#7AA3CC"
+ },
+ "81": {
+  "name": "GUI_Tab04",
+  "rgba": "#C8705E"
+ },
+ "82": {
+  "name": "GUI_Tab05",
+  "rgba": "#A277DC"
+ },
+ "83": {
+  "name": "GUI_Tab06",
+  "rgba": "#5AA14E"
+ },
+ "84": {
+  "name": "GUI_MapEmWarningLv1",
+  "rgba": "#BB804D"
+ },
+ "85": {
+  "name": "GUI_MapEmWarningLv2",
+  "rgba": "#6CB1AD"
+ },
+ "86": {
+  "name": "GUI_MapEmWarningLv3",
+  "rgba": "#2ED9E6"
+ },
+ "87": {
+  "name": "GUI_MapEmWarningLv4",
+  "rgba": "#7DE645"
+ },
+ "88": {
+  "name": "GUI_MapEmWarningLv5",
+  "rgba": "#D4E639"
+ },
+ "89": {
+  "name": "GUI_Sharp00",
+  "rgba": "#E6AF2E"
+ },
+ "90": {
+  "name": "GUI_Sharp01",
+  "rgba": "#E6493A"
+ },
+ "91": {
+  "name": "GUI_Sharp02",
+  "rgba": "#E63A3A"
+ },
+ "92": {
+  "name": "GUI_Sharp03",
+  "rgba": "#E68A45"
+ },
+ "93": {
+  "name": "GUI_Sharp04",
+  "rgba": "#D9C541"
+ },
+ "94": {
+  "name": "GUI_Sharp05",
+  "rgba": "#68CC52"
+ },
+ "95": {
+  "name": "GUI_Sharp06",
+  "rgba": "#41A2D9"
+ },
+ "96": {
+  "name": "GUI_LSword_Spr00",
+  "rgba": "#D9D9D9"
+ },
+ "97": {
+  "name": "GUI_LSword_Spr01",
+  "rgba": "#C667E6"
+ },
+ "98": {
+  "name": "GUI_LSword_Spr02",
+  "rgba": "#F5F5F5"
+ },
+ "99": {
+  "name": "GUI_Insect_Ext00",
+  "rgba": "#F7D631"
+ },
+ "100": {
+  "name": "GUI_Insect_Ext01",
+  "rgba": "#FC4359"
+ },
+ "101": {
+  "name": "GUI_Insect_Ext02",
+  "rgba": "#64E682"
+ },
+ "102": {
+  "name": "GUI_Insect_Ext03",
+  "rgba": "#FC4359"
+ },
+ "103": {
+  "name": "GUI_Insect_Ext02_2",
+  "rgba": "#F5F5F5"
+ },
+ "104": {
+  "name": "GUI_Horn_Note00",
+  "rgba": "#F7A944"
+ },
+ "105": {
+  "name": "GUI_Horn_Note01",
+  "rgba": "#B3B3B3"
+ },
+ "106": {
+  "name": "GUI_Horn_Note02",
+  "rgba": "#F5F5F5"
+ },
+ "107": {
+  "name": "GUI_Horn_Note03",
+  "rgba": "#FF6363"
+ },
+ "108": {
+  "name": "GUI_Horn_Note04",
+  "rgba": "#7FA0FF"
+ },
+ "109": {
+  "name": "GUI_Horn_Note05",
+  "rgba": "#7BDEEB"
+ },
+ "110": {
+  "name": "GUI_Horn_Note06",
+  "rgba": "#79D783"
+ },
+ "111": {
+  "name": "GUI_Horn_Note07",
+  "rgba": "#F8D132"
+ },
+ "112": {
+  "name": "GUI_Horn_Activation",
+  "rgba": "#FF9E69"
+ },
+ "113": {
+  "name": "GUI_Horn_ActivationAdd",
+  "rgba": "#C47BFB"
+ },
+ "114": {
+  "name": "MAX",
+  "rgba": "#E6E65C"
+ },
+ "115": {
+  "name": null,
+  "rgba": "#CA79F2"
+ }
+}
