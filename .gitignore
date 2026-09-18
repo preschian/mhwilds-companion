@@ -17,3 +17,8 @@ Desktop.ini
 .env.*
 *.pem
 *.key
+
+# Datamine generated files stay local. Icons are committed (private repo only:
+# Capcom assets, do not publish publicly).
+__pycache__/
+*.pyc
