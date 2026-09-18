@@ -7,6 +7,7 @@
   "buy": 100,
   "sell": 10,
   "max": 10,
+  "desc": "---",
   "icon": {
    "glyph": "items/itemglyph_001.png",
    "tint": "#E9EAEB",
@@ -22,6 +23,7 @@
   "buy": 66,
   "sell": 8,
   "max": 10,
+  "desc": "Restores a small amount of health.",
   "icon": {
    "glyph": "items/itemglyph_010.png",
    "tint": "#47B267",
@@ -37,6 +39,7 @@
   "buy": 165,
   "sell": 16,
   "max": 10,
+  "desc": "Restores a moderate amount of health.",
   "icon": {
    "glyph": "items/itemglyph_010.png",
    "tint": "#47B267",
@@ -52,6 +55,7 @@
   "buy": 60,
   "sell": 6,
   "max": 10,
+  "desc": "A cure for poison.",
   "icon": {
    "glyph": "items/itemglyph_071.png",
    "tint": "#6687FF",
@@ -67,6 +71,7 @@
   "buy": 2138,
   "sell": 210,
   "max": 2,
+  "desc": "Fully restores health and temporarily maximizes the size of your Health Gauge.",
   "icon": {
    "glyph": "items/itemglyph_013.png",
    "tint": "#D9C357",
@@ -82,6 +87,7 @@
   "buy": 3454,
   "sell": 345,
   "max": 1,
+  "desc": "Fully restores health and temporarily maximizes the size of your Health and Stamina Gauges.",
   "icon": {
    "glyph": "items/itemglyph_013.png",
    "tint": "#D9C357",
@@ -97,6 +103,7 @@
   "buy": 1200,
   "sell": 120,
   "max": 10,
+  "desc": "A mysterious berry that cures various blights.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#6687FF",
@@ -112,6 +119,7 @@
   "buy": 30,
   "sell": 3,
   "max": 10,
+  "desc": "Food that restores a bit of stamina. It can also be used on the Portable BBQ Grill to have a meal.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#B38F48",
@@ -127,6 +135,7 @@
   "buy": 96,
   "sell": 48,
   "max": 5,
+  "desc": "A hearty roast that restores health and stamina and boosts both their max gauges. So tasty!",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#DF9C65",
@@ -142,6 +151,7 @@
   "buy": 30,
   "sell": 3,
   "max": 10,
+  "desc": "Restores health and stamina and moderately increases the size of your Health Gauge temporarily.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#D9CAAD",
@@ -157,6 +167,7 @@
   "buy": 10,
   "sell": 1,
   "max": 10,
+  "desc": "Restores stamina, but it may be a bit too charred to provide any healing effects...",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#818182",
@@ -172,6 +183,7 @@
   "buy": 480,
   "sell": 190,
   "max": 3,
+  "desc": "Produces a cloud that heals you and anyone nearby.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#D9CAAD",
@@ -187,6 +199,7 @@
   "buy": 50,
   "sell": 5,
   "max": 10,
+  "desc": "Meat carved from a monster. Can be cooked, combined,  or used to set a trap.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#E15057",
@@ -202,6 +215,7 @@
   "buy": 156,
   "sell": 16,
   "max": 10,
+  "desc": "A small time bomb.",
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#D9C357",
@@ -217,6 +231,7 @@
   "buy": 518,
   "sell": 52,
   "max": 2,
+  "desc": "A bomb that can be rolled after placing it on the ground. Strike it to trigger a powerful blast.",
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#E16D44",
@@ -232,6 +247,7 @@
   "buy": 572,
   "sell": 57,
   "max": 3,
+  "desc": "Slinger ammo that causes a violent flash on impact. Will temporarily blind monsters if used in front of them.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#D9C357",
@@ -247,6 +263,7 @@
   "buy": 0,
   "sell": 0,
   "max": 20,
+  "desc": "Slinger ammo that can be used to hit faraway plant life and bombs.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#818182",
@@ -262,6 +279,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A net that can be fired from your Slinger. Use it to capture small creatures.",
   "icon": {
    "glyph": "items/itemglyph_063.png",
    "tint": "#E9EAEB",
@@ -277,6 +295,7 @@
   "buy": 400,
   "sell": 200,
   "max": 1,
+  "desc": "A trap for catching large monsters. It is tripped by heavy weight.",
   "icon": {
    "glyph": "items/itemglyph_019.png",
    "tint": "#3D7F3A",
@@ -292,6 +311,7 @@
   "buy": 320,
   "sell": 160,
   "max": 1,
+  "desc": "A trap that immobilizes a target. Use it to capture monsters.",
   "icon": {
    "glyph": "items/itemglyph_019.png",
    "tint": "#E6E600",
@@ -307,6 +327,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A standard-sized whetstone. Use it to restore a weapon's sharpness.",
   "icon": {
    "glyph": "items/itemglyph_012.png",
    "tint": "#D9C357",
@@ -322,6 +343,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A tool that magnifies distant objects and lets you learn more about them.",
   "icon": {
    "glyph": "items/itemglyph_025.png",
    "tint": "#E9EAEB",
@@ -337,6 +359,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A kit with all the tools to make camp. Use to set up and edit Pop-up Camps in available campsites.",
   "icon": {
    "glyph": "items/itemglyph_061.png",
    "tint": "#E9EAEB",
@@ -352,6 +375,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A portable BBQ grill that can be used for grilling up raw meat and other ingredients.",
   "icon": {
    "glyph": "items/itemglyph_027.png",
    "tint": "#E15057",
@@ -367,6 +391,7 @@
   "buy": 20,
   "sell": 2,
   "max": 10,
+  "desc": "A primary ingredient in potions.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#47B267",
@@ -382,6 +407,7 @@
   "buy": 20,
   "sell": 2,
   "max": 10,
+  "desc": "A primary ingredient in antidotes.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#6687FF",
@@ -397,6 +423,7 @@
   "buy": 90,
   "sell": 45,
   "max": 10,
+  "desc": "Highly nutritious honey. Combine with potions to make the more potent mega potion.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#DF9C65",
@@ -412,6 +439,7 @@
   "buy": 20,
   "sell": 2,
   "max": 10,
+  "desc": "Bitterbug essence that has innate healing abilities. Used as a component in many medicines.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#6687FF",
@@ -427,6 +455,7 @@
   "buy": 96,
   "sell": 48,
   "max": 10,
+  "desc": "Luminous essence from an insect that emits a powerful flash when it dies. Used to craft flash pods.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#D9C357",
@@ -442,6 +471,7 @@
   "buy": 320,
   "sell": 120,
   "max": 10,
+  "desc": "Essence from an insect said to live a millennium. Combine it with other items to add their properties.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E9EAEB",
@@ -457,6 +487,7 @@
   "buy": 300,
   "sell": 80,
   "max": 10,
+  "desc": "Substance from an insect that emits electricity when struck. Required to craft Shock Traps and Thunder Ammo.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E6E600",
@@ -472,6 +503,7 @@
   "buy": 5700,
   "sell": 570,
   "max": 99,
+  "desc": "A Doshaguma hide. The numerous scars on its body are proof of its beastly, aggressive nature.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#B38F48",
@@ -487,6 +519,7 @@
   "buy": 3800,
   "sell": 380,
   "max": 99,
+  "desc": "Doshaguma fur. It makes a durable crafting material thanks to its stiff, bristly texture.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#B38F48",
@@ -502,6 +535,7 @@
   "buy": 6840,
   "sell": 684,
   "max": 99,
+  "desc": "A Doshaguma claw. Sharp as it is tough, it can cut through muscled prey without a single chip.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#B38F48",
@@ -517,6 +551,7 @@
   "buy": 8360,
   "sell": 836,
   "max": 99,
+  "desc": "A Doshaguma fang. They grow large and sharp so they can pierce their prey with ease.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#B38F48",
@@ -532,6 +567,7 @@
   "buy": 40000,
   "sell": 4000,
   "max": 10,
+  "desc": "A valuable jewel formed from coagulated juices inside a monster. Glows wildly.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#DF9C65",
@@ -547,6 +583,7 @@
   "buy": 0,
   "sell": 0,
   "max": 99,
+  "desc": "Standard ammo. Fires multiple shots with each pull of the trigger. Unlimited capacity.",
   "icon": {
    "glyph": "items/itemglyph_033.png",
    "tint": "#E9EAEB",
@@ -562,6 +599,7 @@
   "buy": 0,
   "sell": 0,
   "max": 99,
+  "desc": "Armor-piercing ammo. Depending on the monster, it can deal multiple hits. Unlimited capacity.",
   "icon": {
    "glyph": "items/itemglyph_068.png",
    "tint": "#6687FF",
@@ -577,6 +615,7 @@
   "buy": 0,
   "sell": 0,
   "max": 99,
+  "desc": "Ammo made for close combat. Short range but high power. Unlimited capacity.",
   "icon": {
    "glyph": "items/itemglyph_067.png",
    "tint": "#3D7F3A",
@@ -592,6 +631,7 @@
   "buy": 12,
   "sell": 2,
   "max": 9,
+  "desc": "Powerful ammo that lodges in a target and explodes. Headshots stun.",
   "icon": {
    "glyph": "items/itemglyph_069.png",
    "tint": "#E16D44",
@@ -607,6 +647,7 @@
   "buy": 30,
   "sell": 6,
   "max": 3,
+  "desc": "Ammo that fragments into multiple shells upon impact. Beware of friendly fire!",
   "icon": {
    "glyph": "items/itemglyph_070.png",
    "tint": "#BF3054",
@@ -622,6 +663,7 @@
   "buy": 20,
   "sell": 2,
   "max": 60,
+  "desc": "Ammo that packs a punch against monsters susceptible to fire.",
   "icon": {
    "glyph": "items/itemglyph_068.png",
    "tint": "#E15057",
@@ -637,6 +679,7 @@
   "buy": 20,
   "sell": 2,
   "max": 60,
+  "desc": "Ammo that packs a punch against monsters susceptible to water.",
   "icon": {
    "glyph": "items/itemglyph_068.png",
    "tint": "#4C4CD9",
@@ -652,6 +695,7 @@
   "buy": 20,
   "sell": 2,
   "max": 60,
+  "desc": "Ammo that packs a punch against monsters susceptible to thunder.",
   "icon": {
    "glyph": "items/itemglyph_068.png",
    "tint": "#D9C357",
@@ -667,6 +711,7 @@
   "buy": 20,
   "sell": 2,
   "max": 60,
+  "desc": "Ammo that packs a punch against monsters susceptible to ice.",
   "icon": {
    "glyph": "items/itemglyph_068.png",
    "tint": "#E9EAEB",
@@ -682,6 +727,7 @@
   "buy": 100,
   "sell": 10,
   "max": 4,
+  "desc": "Ammo that packs a punch against monsters weak to dragon.",
   "icon": {
    "glyph": "items/itemglyph_068.png",
    "tint": "#BF3054",
@@ -697,6 +743,7 @@
   "buy": 15,
   "sell": 2,
   "max": 12,
+  "desc": "Ammo that inflicts poison. Some targets require multiple shots in order for the status to take effect.",
   "icon": {
    "glyph": "items/itemglyph_033.png",
    "tint": "#9788D1",
@@ -712,6 +759,7 @@
   "buy": 15,
   "sell": 3,
   "max": 12,
+  "desc": "Ammo that causes paralysis. Some targets require multiple shots in order for the status to take effect.",
   "icon": {
    "glyph": "items/itemglyph_033.png",
    "tint": "#E6E600",
@@ -727,6 +775,7 @@
   "buy": 15,
   "sell": 2,
   "max": 12,
+  "desc": "Ammo that induces sleep. Some targets require multiple shots in order for the status to take effect.",
   "icon": {
    "glyph": "items/itemglyph_033.png",
    "tint": "#4EC3E5",
@@ -742,6 +791,7 @@
   "buy": 12,
   "sell": 3,
   "max": 12,
+  "desc": "Ammo that ejects sharp blades on impact, which can sever tails.",
   "icon": {
    "glyph": "items/itemglyph_069.png",
    "tint": "#E9EAEB",
@@ -757,6 +807,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Slinger ammo that lodges into a target. Attacking where it's lodged deals extra damage.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#DF9C65",
@@ -772,6 +823,7 @@
   "buy": 600,
   "sell": 60,
   "max": 10,
+  "desc": "Ore that can be smelted into a multi-purpose metal.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#818182",
@@ -787,6 +839,7 @@
   "buy": 1600,
   "sell": 160,
   "max": 10,
+  "desc": "Ore mined from mineral veins. Refined Machalite Steel is far sturdier than its iron cousin.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#6687FF",
@@ -802,6 +855,7 @@
   "buy": 4800,
   "sell": 480,
   "max": 10,
+  "desc": "Ore sourced from mining outcrops. A rare material coveted for its durability in armor crafting.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#47B267",
@@ -817,6 +871,7 @@
   "buy": 6800,
   "sell": 680,
   "max": 10,
+  "desc": "Ore obtained from mining outcrops. Still under research, but known to yield highly pure metal.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#9788D1",
@@ -832,6 +887,7 @@
   "buy": 800,
   "sell": 80,
   "max": 99,
+  "desc": "Crystallized microbes sourced from mining outcrops. Coveted as an abrasive for polishing equipment.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -847,6 +903,7 @@
   "buy": 10,
   "sell": 1,
   "max": 99,
+  "desc": "A weathered bone taken from a bonepile. Erosion has left it too fragile to use in crafting.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#818182",
@@ -862,6 +919,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "A rigid bone taken from a bonepile. Durable but light and easy to handle.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E9EAEB",
@@ -877,6 +935,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A sturdy bone from a beast. Easy to use in crafting.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E9EAEB",
@@ -892,6 +951,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A massive bone from a beast. Carefully cut out and used for crafting.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E9EAEB",
@@ -907,6 +967,7 @@
   "buy": 16000,
   "sell": 1600,
   "max": 99,
+  "desc": "A high-quality bone taken from a bonepile. The remains of a dragon that once roamed these lands.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#D9CAAD",
@@ -922,6 +983,7 @@
   "buy": 400,
   "sell": 40,
   "max": 10,
+  "desc": "A dangerous fungus said to draw the life out of people. Required to craft immunizers and max potions.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#DF9C65",
@@ -937,6 +999,7 @@
   "buy": 24,
   "sell": 2,
   "max": 10,
+  "desc": "A mushroom infused with power-enhancing effects. Used in restorative items.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#6687FF",
@@ -952,6 +1015,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo that detonates on impact. Use it to stagger a monster when you're in a pinch.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#98D9C9",
@@ -967,6 +1031,7 @@
   "buy": 450,
   "sell": 45,
   "max": 3,
+  "desc": "Slinger ammo that emits a harsh, high-frequency sound that can disrupt sensitive monsters.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#818182",
@@ -982,6 +1047,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Slinger ammo that can be used to inflict massive damage on monster wounds.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#3D7F3A",
@@ -997,6 +1063,7 @@
   "buy": 120,
   "sell": 20,
   "max": 10,
+  "desc": "Slinger ammo that releases a strong odor on impact. Causes certain monsters to flee.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#B38F48",
@@ -1012,6 +1079,7 @@
   "buy": 200,
   "sell": 20,
   "max": 2,
+  "desc": "A must-have item for putting together pitfall traps and shock traps.",
   "icon": {
    "glyph": "items/itemglyph_018.png",
    "tint": "#E9EAEB",
@@ -1027,6 +1095,7 @@
   "buy": 180,
   "sell": 18,
   "max": 10,
+  "desc": "Has a very strange aroma. Is it edible? Is it deadly? Required to make farcasters.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#3D7F3A",
@@ -1042,6 +1111,7 @@
   "buy": 44,
   "sell": 4,
   "max": 10,
+  "desc": "A nut that produces torrents of smoke. Combine with other items to add more effects.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#E9EAEB",
@@ -1057,6 +1127,7 @@
   "buy": 75,
   "sell": 8,
   "max": 10,
+  "desc": "A lightweight and extremely strong plant. Used to make nets for pitfall traps.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#3D7F3A",
@@ -1072,6 +1143,7 @@
   "buy": 150,
   "sell": 30,
   "max": 1,
+  "desc": "Call for a wingdrake to transport you to the nearest camp. Can also be used during combat.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#47B267",
@@ -1087,6 +1159,7 @@
   "buy": 4800,
   "sell": 480,
   "max": 99,
+  "desc": "A Balahara shell. The fulgurite it has absorbed enhances its hardness.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -1102,6 +1175,7 @@
   "buy": 3200,
   "sell": 320,
   "max": 99,
+  "desc": "A Balahara scale. The erosion caused by constant digging limits its usefulness in crafting.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#818182",
@@ -1117,6 +1191,7 @@
   "buy": 5760,
   "sell": 576,
   "max": 99,
+  "desc": "The skull of a Balahara. Stronger than most, it's built to withstand harsh dives into sand.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#818182",
@@ -1132,6 +1207,7 @@
   "buy": 6400,
   "sell": 640,
   "max": 99,
+  "desc": "A Balahara tail. Its unique, twisted shape allows it to propel itself through earth with great force.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#818182",
@@ -1147,6 +1223,7 @@
   "buy": 3600,
   "sell": 360,
   "max": 10,
+  "desc": "The mandible plating of a Chatacabra. Hard protrusions stud the thick but supple leather.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#47B267",
@@ -1162,6 +1239,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 10,
+  "desc": "The thick hide of a Chatacabra. Elastic and easy to mold thanks to the monster's gluttonous diet.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#47B267",
@@ -1177,6 +1255,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 10,
+  "desc": "Plating that covers a Chatacabra's forelimbs. A lifetime of licking has left it both smooth and sturdy.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#47B267",
@@ -1192,6 +1271,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 10,
+  "desc": "A jagged scale from a Chatacabra's hide, especially tough and well suited for use in crafting armor.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#47B267",
@@ -1207,6 +1287,7 @@
   "buy": 2200,
   "sell": 220,
   "max": 10,
+  "desc": "The scale of a Quematrice. Its fine texture acts as a natural file used to grind and polish armor.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#6687FF",
@@ -1222,6 +1303,7 @@
   "buy": 3300,
   "sell": 330,
   "max": 10,
+  "desc": "The hide of a Quematrice. Quite thick despite its wrinkly form, it is highly resistant to fire.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#6687FF",
@@ -1237,6 +1319,7 @@
   "buy": 4840,
   "sell": 484,
   "max": 10,
+  "desc": "The crest of a Quematrice. Its flamboyant red color serves as a decoy to would-be predators.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#E15057",
@@ -1252,6 +1335,7 @@
   "buy": 4400,
   "sell": 440,
   "max": 10,
+  "desc": "The tail of a Quematrice. Its many pleats scrape against each other to create sparks.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#6687FF",
@@ -1267,6 +1351,7 @@
   "buy": 40000,
   "sell": 4000,
   "max": 10,
+  "desc": "Throughout a wyvern's life, impurities gather and form this peculiar gem.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#4EC3E5",
@@ -1282,6 +1367,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 10,
+  "desc": "Part of a shell taken from an herbivore. Relatively sturdy for a small monster material.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#B38F48",
@@ -1297,6 +1383,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 10,
+  "desc": "A Bulaqchi shell. Great for crafting thanks to its advanced durability and light weight.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#D9C357",
@@ -1312,6 +1399,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 10,
+  "desc": "A Talioth scale. Conditioned in harsh environments, it is built to protect the body like armor.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#DF9C65",
@@ -1327,6 +1415,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 10,
+  "desc": "Fangs come in many shapes and sizes. Choose the right fang for the job.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#DF9C65",
@@ -1342,6 +1431,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 10,
+  "desc": "A material carved from wingdrakes. Lightweight and often used when crafting armor.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#D9CAAD",
@@ -1357,6 +1447,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 10,
+  "desc": "Fangs come in many shapes and sizes. This one is small but can still pierce scale.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#DF9C65",
@@ -1372,6 +1463,7 @@
   "buy": 10,
   "sell": 1,
   "max": 10,
+  "desc": "Its eye-watering stench makes useful Slinger ammo.",
   "icon": {
    "glyph": "items/itemglyph_040.png",
    "tint": "#B38F48",
@@ -1387,6 +1479,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_EXP_100",
   "icon": {
    "glyph": "items/itemglyph_066.png",
    "tint": "#98D9C9",
@@ -1402,6 +1495,7 @@
   "buy": 100,
   "sell": 10,
   "max": 10,
+  "desc": "A ball of condensed monster dung. Used to make dung pods for your Slinger.",
   "icon": {
    "glyph": "items/itemglyph_040.png",
    "tint": "#B38F48",
@@ -1417,6 +1511,7 @@
   "buy": 12000,
   "sell": 1200,
   "max": 10,
+  "desc": "A superior Rathian scale. Looks like a normal Rathian scale but is much harder.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#47B267",
@@ -1432,6 +1527,7 @@
   "buy": 18000,
   "sell": 1800,
   "max": 10,
+  "desc": "Rathian carapace prized for its lavish green coloration. An excellent armor material.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#47B267",
@@ -1447,6 +1543,7 @@
   "buy": 21600,
   "sell": 2160,
   "max": 10,
+  "desc": "A quality Rathian wing membrane. This heat-resistant material is often used as armor lining.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#47B267",
@@ -1462,6 +1559,7 @@
   "buy": 24000,
   "sell": 2400,
   "max": 10,
+  "desc": "Rathian hairs, keen as a sword. Longer and sturdier than normal, they also contain more poison.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#47B267",
@@ -1477,6 +1575,7 @@
   "buy": 72000,
   "sell": 7200,
   "max": 10,
+  "desc": "A rare, precious gem from inside a Rathian. Almost too nice to use.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#47B267",
@@ -1492,6 +1591,7 @@
   "buy": 75,
   "sell": 8,
   "max": 10,
+  "desc": "A mushroom with poison properties. Needed to craft Poison Ammo and smoke bombs.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#9788D1",
@@ -1507,6 +1607,7 @@
   "buy": 150,
   "sell": 15,
   "max": 10,
+  "desc": "A mushroom that induces paralysis. Needed to craft Paralysis Ammo and tranq bombs.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#E6E600",
@@ -1522,6 +1623,7 @@
   "buy": 50,
   "sell": 5,
   "max": 10,
+  "desc": "A plant containing sleeping agents. Needed to craft Sleep Ammo and tranq bombs.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#4EC3E5",
@@ -1537,6 +1639,7 @@
   "buy": 44,
   "sell": 4,
   "max": 20,
+  "desc": "A wondrous, flammable plant. Useful for crafting explosives and Flaming Ammo.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#E15057",
@@ -1552,6 +1655,7 @@
   "buy": 44,
   "sell": 4,
   "max": 20,
+  "desc": "This plant's leaves store a great amount of water. A component for making Water Ammo.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#4C4CD9",
@@ -1567,6 +1671,7 @@
   "buy": 64,
   "sell": 6,
   "max": 20,
+  "desc": "A plant that radiates ice-cold air. Use in combinations to create Freeze Ammo.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#E9EAEB",
@@ -1582,6 +1687,7 @@
   "buy": 780,
   "sell": 78,
   "max": 10,
+  "desc": "A mysterious berry rumored for eons to be loathed by dragons. Required to craft Dragon Ammo.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#BF3054",
@@ -1597,6 +1703,7 @@
   "buy": 0,
   "sell": 0,
   "max": 10,
+  "desc": "Restores a small amount of health. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_010.png",
    "tint": "#47B267",
@@ -1612,6 +1719,7 @@
   "buy": 0,
   "sell": 0,
   "max": 10,
+  "desc": "Restores a small amount of stamina. Not usable with Portable BBQ Grill. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#B38F48",
@@ -1627,6 +1735,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Slinger ammo that explodes with a bright flash after it's fired. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#D9C357",
@@ -1642,6 +1751,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A trap that immobilizes a target. Use it to capture monsters. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_019.png",
    "tint": "#E6E600",
@@ -1657,6 +1767,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Activates a pitfall to catch monsters with. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_019.png",
    "tint": "#3D7F3A",
@@ -1672,6 +1783,7 @@
   "buy": 400,
   "sell": 40,
   "max": 10,
+  "desc": "A plant with healing properties. Combine with Godbug essence to unleash its true potential.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#D9CAAD",
@@ -1687,6 +1799,7 @@
   "buy": 280,
   "sell": 140,
   "max": 10,
+  "desc": "Temporarily strengthens your attacks when ingested by improving energy flow.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#E15057",
@@ -1702,6 +1815,7 @@
   "buy": 220,
   "sell": 110,
   "max": 10,
+  "desc": "Temporarily raises your defense when ingested by hardening tissue.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#DF9C65",
@@ -1717,6 +1831,7 @@
   "buy": 60,
   "sell": 6,
   "max": 20,
+  "desc": "A hard-to-find mushroom with the power to generate blazing heat. Required to craft gunpowder.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#E15057",
@@ -1732,6 +1847,7 @@
   "buy": 600,
   "sell": 60,
   "max": 10,
+  "desc": "A very rare fungus that pulses with extreme heat. Add to a barrel bomb for a dramatically stronger blast.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#BF3054",
@@ -1747,6 +1863,7 @@
   "buy": 40,
   "sell": 4,
   "max": 30,
+  "desc": "A nut that explodes its hard contents on impact. Used to make Sticky Ammo.",
   "icon": {
    "glyph": "items/itemglyph_032.png",
    "tint": "#E16D44",
@@ -1762,6 +1879,7 @@
   "buy": 40,
   "sell": 4,
   "max": 30,
+  "desc": "A berry that shatters into razor-like pieces. Used to make Slicing Ammo.",
   "icon": {
    "glyph": "items/itemglyph_032.png",
    "tint": "#E9EAEB",
@@ -1777,6 +1895,7 @@
   "buy": 6200,
   "sell": 620,
   "max": 99,
+  "desc": "A Rey Dau scale. Its unique shape allows electricity from its organs to pass through.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -1792,6 +1911,7 @@
   "buy": 9300,
   "sell": 930,
   "max": 99,
+  "desc": "The shell from a Rey Dau. Highly conductive and capable of producing large electrical currents.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#D9C357",
@@ -1807,6 +1927,7 @@
   "buy": 13640,
   "sell": 1364,
   "max": 99,
+  "desc": "An electrically charged Rey Dau horn. The thick, flexible muscle at its base lets it move freely.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -1822,6 +1943,7 @@
   "buy": 11160,
   "sell": 1116,
   "max": 99,
+  "desc": "The claw-shaped energy conduit of a Rey Dau. Coated in sharp fulgurite blades formed by electric discharges.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#6687FF",
@@ -1837,6 +1959,7 @@
   "buy": 12400,
   "sell": 1240,
   "max": 99,
+  "desc": "A Rey Dau tail. Its fulgurite- covered spines rub together to produce a threatening melody.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#D9C357",
@@ -1852,6 +1975,7 @@
   "buy": 37200,
   "sell": 3720,
   "max": 99,
+  "desc": "A Rey Dau plate. The backward- facing scale accumulates a massive amount of energy.",
   "icon": {
    "glyph": "items/itemglyph_050.png",
    "tint": "#D9C357",
@@ -1867,6 +1991,7 @@
   "buy": 45,
   "sell": 4,
   "max": 8,
+  "desc": "A knife coated with a tranquilizer that can be shot from your Slinger to put trapped monsters to sleep.",
   "icon": {
    "glyph": "items/itemglyph_026.png",
    "tint": "#E68A94",
@@ -1882,6 +2007,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_026.png",
    "tint": "#9788D1",
@@ -1897,6 +2023,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_026.png",
    "tint": "#E6E600",
@@ -1912,6 +2039,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_026.png",
    "tint": "#4EC3E5",
@@ -1927,6 +2055,7 @@
   "buy": 100,
   "sell": 44,
   "max": 3,
+  "desc": "Creates a large cloud of smoke when thrown against the ground that can hide you from a monster's sight.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#E9EAEB",
@@ -1942,6 +2071,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "An amulet that strengthens attacks. Just carrying this gives you demonic strength.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E15057",
@@ -1957,6 +2087,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "An amulet that increases defense. Just carrying this makes your skin stone hard.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#DF9C65",
@@ -1972,6 +2103,7 @@
   "buy": 62,
   "sell": 6,
   "max": 5,
+  "desc": "Ammo created through years of research into Wyvern's Fire. Short ranged, but destructive.",
   "icon": {
    "glyph": "items/itemglyph_070.png",
    "tint": "#B38F48",
@@ -1987,6 +2119,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo that can dissipate electricity from the area it lands.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#D9C357",
@@ -2002,6 +2135,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A sphere with faint power that is revealed through appraisal. Becomes a defensive decoration.",
   "icon": {
    "glyph": "items/itemglyph_056.png",
    "tint": "#E9EAEB",
@@ -2017,6 +2151,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A sphere with hidden power that is revealed through appraisal. Becomes a defensive decoration.",
   "icon": {
    "glyph": "items/itemglyph_056.png",
    "tint": "#6687FF",
@@ -2032,6 +2167,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A sphere with incredible power that is revealed through appraisal. Becomes a defensive decoration.",
   "icon": {
    "glyph": "items/itemglyph_056.png",
    "tint": "#4EC3E5",
@@ -2047,6 +2183,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "An old, damaged weapon part. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E9EAEB",
@@ -2062,6 +2199,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "An old, rusted weapon part. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E68A94",
@@ -2077,6 +2215,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Temporarily conceal yourself from view. The effect ends if you perform an attack or take damage.",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#47B267",
@@ -2092,6 +2231,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A tool for fishing. Cast the lure into bodies of water and use the reel to wind in the line.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#E9EAEB",
@@ -2107,6 +2247,7 @@
   "buy": 60,
   "sell": 6,
   "max": 10,
+  "desc": "A Guild-approved beverage that boosts your stamina. Helps shake off sleep, too!",
   "icon": {
    "glyph": "items/itemglyph_071.png",
    "tint": "#E6E600",
@@ -2122,6 +2263,7 @@
   "buy": 293,
   "sell": 29,
   "max": 5,
+  "desc": "Recovers stamina and also temporarily reduces stamina depletion when performing actions.",
   "icon": {
    "glyph": "items/itemglyph_072.png",
    "tint": "#D9C357",
@@ -2137,6 +2279,7 @@
   "buy": 923,
   "sell": 92,
   "max": 10,
+  "desc": "Temporarily boosts your natural ability to recover lost health.",
   "icon": {
    "glyph": "items/itemglyph_072.png",
    "tint": "#D9CAAD",
@@ -2152,6 +2295,7 @@
   "buy": 300,
   "sell": 30,
   "max": 5,
+  "desc": "Provides temporary relief from extreme heat.",
   "icon": {
    "glyph": "items/itemglyph_071.png",
    "tint": "#E9EAEB",
@@ -2167,6 +2311,7 @@
   "buy": 250,
   "sell": 25,
   "max": 5,
+  "desc": "Provides temporary relief from extreme cold.",
   "icon": {
    "glyph": "items/itemglyph_071.png",
    "tint": "#E16D44",
@@ -2182,6 +2327,7 @@
   "buy": 668,
   "sell": 67,
   "max": 5,
+  "desc": "Temporarily boosts your attack power by filling you with demonic strength.",
   "icon": {
    "glyph": "items/itemglyph_072.png",
    "tint": "#E15057",
@@ -2197,6 +2343,7 @@
   "buy": 2831,
   "sell": 280,
   "max": 5,
+  "desc": "Temporarily endows you with the strength of a mighty god. Potent!",
   "icon": {
    "glyph": "items/itemglyph_013.png",
    "tint": "#E15057",
@@ -2212,6 +2359,7 @@
   "buy": 2831,
   "sell": 283,
   "max": 5,
+  "desc": "Temporarily boosts your attack power even more than a regular Demondrug.",
   "icon": {
    "glyph": "items/itemglyph_072.png",
    "tint": "#E15057",
@@ -2227,6 +2375,7 @@
   "buy": 578,
   "sell": 58,
   "max": 5,
+  "desc": "Temporarily boosts your defense by turning your skin as hard as rock.",
   "icon": {
    "glyph": "items/itemglyph_072.png",
    "tint": "#DF9C65",
@@ -2242,6 +2391,7 @@
   "buy": 2696,
   "sell": 260,
   "max": 5,
+  "desc": "Temporarily makes your skin as hard as adamant. Potent!",
   "icon": {
    "glyph": "items/itemglyph_013.png",
    "tint": "#DF9C65",
@@ -2257,6 +2407,7 @@
   "buy": 2696,
   "sell": 269,
   "max": 5,
+  "desc": "Temporarily boosts your defense even more than regular Armorskin.",
   "icon": {
    "glyph": "items/itemglyph_072.png",
    "tint": "#DF9C65",
@@ -2272,6 +2423,7 @@
   "buy": 250,
   "sell": 25,
   "max": 5,
+  "desc": "Removes all traces of poison and restores a slight amount of health.",
   "icon": {
    "glyph": "items/itemglyph_013.png",
    "tint": "#6687FF",
@@ -2287,6 +2439,7 @@
   "buy": 6300,
   "sell": 315,
   "max": 3,
+  "desc": "Produces a cloud that cures poison and heals you a bit.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#6687FF",
@@ -2302,6 +2455,7 @@
   "buy": 6300,
   "sell": 315,
   "max": 3,
+  "desc": "A mysterious powder that produces a cloud around the area that temporarily strengthens attacks.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E15057",
@@ -2317,6 +2471,7 @@
   "buy": 6300,
   "sell": 315,
   "max": 3,
+  "desc": "A mysterious powder; when dispersed, temporarily strengthens defense.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#DF9C65",
@@ -2332,6 +2487,7 @@
   "buy": 6900,
   "sell": 690,
   "max": 2,
+  "desc": "Produces a cloud that restores a large amount of health for you and anyone nearby.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#D9CAAD",
@@ -2347,6 +2503,7 @@
   "buy": 140,
   "sell": 14,
   "max": 10,
+  "desc": "Immediately removes any frost or webbing on your body.",
   "icon": {
    "glyph": "items/itemglyph_071.png",
    "tint": "#4EC3E5",
@@ -2362,6 +2519,7 @@
   "buy": 600,
   "sell": 60,
   "max": 5,
+  "desc": "Releases a cloud of toxic mist when used. Also popular as a household bug bomb.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#9788D1",
@@ -2377,6 +2535,7 @@
   "buy": 350,
   "sell": 35,
   "max": 8,
+  "desc": "A hand grenade used to capture monsters ensnared in traps. Can be slammed against the ground.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#E68A94",
@@ -2392,6 +2551,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A knife that can be equipped to your Slinger. Can be coated with a range of substances.",
   "icon": {
    "glyph": "items/itemglyph_026.png",
    "tint": "#E9EAEB",
@@ -2407,6 +2567,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Slinger ammo that inflicts  poison on a target upon  impact.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#9788D1",
@@ -2422,6 +2583,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Slinger ammo that inflicts paralysis on a target upon impact.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E6E600",
@@ -2437,6 +2599,7 @@
   "buy": 315,
   "sell": 32,
   "max": 10,
+  "desc": "Raw meat that puts whatever eats it to sleep. Makes great bait for traps.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#4EC3E5",
@@ -2452,6 +2615,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo that illuminates dark areas when fired and can dazzle flying monsters.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E68A94",
@@ -2467,6 +2631,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo that can be used to scare away creatures that don't like fire and draw in those that do.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E15057",
@@ -2482,6 +2647,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo imbued with water element. Can remove some statuses on monsters.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#4C4CD9",
@@ -2497,6 +2663,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Slinger ammo that explodes on impact.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E16D44",
@@ -2512,6 +2679,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Slinger ammo that deals piercing damage on impact.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#6687FF",
@@ -2527,6 +2695,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Slinger ammo that makes a monster or location temporarily easier to find.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E68A94",
@@ -2542,6 +2711,7 @@
   "buy": 500,
   "sell": 50,
   "max": 3,
+  "desc": "Slinger ammo that can be used to lure monsters toward yourself.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E15057",
@@ -2557,6 +2727,7 @@
   "buy": 800,
   "sell": 80,
   "max": 2,
+  "desc": "An upgraded large barrel bomb. Effective against large monsters. Can be rolled after placement.",
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#E16D44",
@@ -2572,6 +2743,7 @@
   "buy": 0,
   "sell": 0,
   "max": 10,
+  "desc": "Restores a moderate amount of health. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_010.png",
    "tint": "#47B267",
@@ -2587,6 +2759,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Fully restores health and maximizes the size of your Health Gauge. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_013.png",
    "tint": "#D9CAAD",
@@ -2602,6 +2775,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Produces a cloud that heals you and anyone nearby. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#D9CAAD",
@@ -2617,6 +2791,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Cures poison and restores a bit of health for everyone nearby. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#6687FF",
@@ -2632,6 +2807,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Temporarily strengthens attacks for everyone nearby. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E15057",
@@ -2647,6 +2823,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Temporarily increases defense for everyone nearby. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#DF9C65",
@@ -2662,6 +2839,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Releases a cloud that restores a large amount of health. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#D9CAAD",
@@ -2677,6 +2855,7 @@
   "buy": 0,
   "sell": 0,
   "max": 8,
+  "desc": "A hand grenade used to capture monsters ensnared in traps. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#E68A94",
@@ -2692,6 +2871,7 @@
   "buy": 0,
   "sell": 0,
   "max": 10,
+  "desc": "Releases a strong odor on impact. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#B38F48",
@@ -2707,6 +2887,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Slinger ammo that emits an earsplitting sonic blast. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#818182",
@@ -2722,6 +2903,7 @@
   "buy": 300,
   "sell": 30,
   "max": 10,
+  "desc": "Raw meat that paralyzes whatever eats it. Makes great bait for traps.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#E6E600",
@@ -2737,6 +2919,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "An improved large barrel bomb. Can be rolled after being placed. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#E16D44",
@@ -2752,6 +2935,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Call for a wingdrake to transport you to the nearest camp. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#47B267",
@@ -2767,6 +2951,7 @@
   "buy": 188,
   "sell": 19,
   "max": 10,
+  "desc": "Raw meat that poisons whatever eats it. Makes great bait for traps.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#9788D1",
@@ -2782,6 +2967,7 @@
   "buy": 80,
   "sell": 8,
   "max": 10,
+  "desc": "Produces a cloud of cleansing smoke that cures blastblight and stench.",
   "icon": {
    "glyph": "items/itemglyph_021.png",
    "tint": "#4EC3E5",
@@ -2797,6 +2983,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "An artisan cheese made in Kunafa, deliciously gooey when heated, and a great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_077.png",
    "tint": "#D9CAAD",
@@ -2812,6 +2999,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "A rich, decadent cheese made by skilled craftspeople. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_077.png",
    "tint": "#D9CAAD",
@@ -2827,6 +3015,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A mushroom that grows in a secret spot known only to Wudwuds. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_078.png",
    "tint": "#E9EAEB",
@@ -2842,6 +3031,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "An extremely rare delicacy that is cause for a Wudwud celebration. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_078.png",
    "tint": "#E9EAEB",
@@ -2857,6 +3047,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A nutritious shrimp native to Oilwell Basin and favored in Azuz. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_079.png",
    "tint": "#E68A94",
@@ -2872,6 +3063,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "A large, chewy shrimp packed to the gills with nutrients. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_079.png",
    "tint": "#E68A94",
@@ -2887,6 +3079,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "An egg with a yolk and white as fluffy as the Downy Crake that laid it. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_081.png",
    "tint": "#D9CAAD",
@@ -2902,6 +3095,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "A high-quality egg that sends you straight to flavor heaven. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_081.png",
    "tint": "#D9CAAD",
@@ -2917,6 +3111,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A highly nutritious and fragrant bulb of garlic grown in Sild. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_080.png",
    "tint": "#D9CAAD",
@@ -2932,6 +3127,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "The ultimate bulb of garlic, grown in just the right conditions. A great addition to any dish.",
   "icon": {
    "glyph": "items/itemglyph_080.png",
    "tint": "#D9CAAD",
@@ -2947,6 +3143,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "This herb's refreshing aroma can mask any foul odor. A great finishing touch to any dish.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#3D7F3A",
@@ -2962,6 +3159,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "Has a unique flavor, making it the perfect secret ingredient. A great finishing touch to any dish.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#DF9C65",
@@ -2977,6 +3175,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A powerful spice that enhances flavor and sweat production. A great finishing touch to any dish.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#E16D44",
@@ -2992,6 +3191,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "These fish eggs truly shine like diamonds. A great finishing touch to any dish.",
   "icon": {
    "glyph": "items/itemglyph_014.png",
    "tint": "#DF9C65",
@@ -3007,6 +3207,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "Oil that packs both flavor and the power of nature. A great finishing touch to any dish.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#83B239",
@@ -3022,6 +3223,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "Often dug up by its namesake, Congalala. A great finishing touch to any dish.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#818182",
@@ -3037,6 +3239,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "Suspicious cloth found somewhere in the Windward Plains. Drips with an aura of pure evil.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#818182",
@@ -3052,6 +3255,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "Found in the Scarlet Forest. An insect with a giant horn, huge shell, and butterfly wings.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#D9C357",
@@ -3067,6 +3271,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Found in the Windward Plains. The water stored within its plump leaves has saved many a parched traveler.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#83B239",
@@ -3082,6 +3287,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A rarity from the Windward Plains. A single drop of its delicious sap transforms water into ambrosia.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#83B239",
@@ -3097,6 +3303,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "A treasure of the Windward Plains. Its leaves hold enough water to fill a bath in the driest desert.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#3D7F3A",
@@ -3112,6 +3319,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Found in the Windward Plains. This dried spice lends a rich and aromatic heat to any dish.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#47B267",
@@ -3127,6 +3335,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A rarity from the Windward Plains. A spice so hot that a single bite opens the taster's third eye.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#47B267",
@@ -3142,6 +3351,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Found in the Windward Plains. The shape of this fulgurite was sculpted by a chance lightning strike.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#6687FF",
@@ -3157,6 +3367,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A rarity from the Windward Plains. Crystallized fulgurite, free of any impurity. Extremely delicate.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#6687FF",
@@ -3172,6 +3383,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "A treasure of the Windward Plains. A colossal fulgurite crystal, born of a sky-splitting thunderstrike.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#4C4CD9",
@@ -3187,6 +3399,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Amber from the Scarlet Forest. The bodies of fossilized insects float in its scarlet confines.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -3202,6 +3415,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "Rare amber from the Scarlet Forest. Immaculate insect specimens sleep in this amber, red as fine liquor.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -3217,6 +3431,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "Colossal amber from the Scarlet Forest. Ancient life has been sealed away inside it for eons.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#BF3054",
@@ -3232,6 +3447,7 @@
   "buy": 10,
   "sell": 800,
   "max": 99,
+  "desc": "Pollen from a giant flower in the Scarlet Forest, as regal as it is massive. Makes a heady perfume.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E68A94",
@@ -3247,6 +3463,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "An ancient artifact Wudwuds found in the Scarlet Forest. Purely aesthetic in nature.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#B38F48",
@@ -3262,6 +3479,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A rarity of the Scarlet Forest. The fine detail and lavish use of gold show quite advanced techniques.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#B38F48",
@@ -3277,6 +3495,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "The sheer scale of this Scarlet Forest rarity makes it the object of obsession for all Wudwuds.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#D9CAAD",
@@ -3292,6 +3511,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "Exceptionally pure, golden mineral oil from Oilwell Basin. Used widely in Flameborn crafts.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#D9C357",
@@ -3307,6 +3527,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "A mineral from Oilwell Basin with a unique sheen. Used by the Flameborn in alloy production.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#9788D1",
@@ -3322,6 +3543,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "An Oilwell Basin rarity too pure to be worked by any but the Flameborn artisans.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#9788D1",
@@ -3337,6 +3559,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "A hulking antimite formation that produces strange reactions not yet understood by science.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#56379E",
@@ -3352,6 +3575,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "Skin shed from a Hirabami. Treasured by the people of the Iceshard Cliffs as a curative.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#9788D1",
@@ -3367,6 +3591,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "An ancient ornamental vase found in the Iceshard Cliffs. The techniques used to craft it are lost to time.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#D9C357",
@@ -3382,6 +3607,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "Each individual scale ornamenting this vase from the Iceshard Cliffs sparkles with a fiery brilliance.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#D9C357",
@@ -3397,6 +3623,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "An exquisite, inscribed vase from the Iceshard Cliffs. A treasure worthy of kings, lost to the world.",
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#E6E600",
@@ -3412,6 +3639,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Fruit encased in a mesh shell, found in the Ruins of Wyveria. A precious source of sustenance to the natives.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#E68A94",
@@ -3427,6 +3655,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A rarity in the Ruins of Wyveria. The ripening process imbues the fruit with medicinal properties.",
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#E68A94",
@@ -3442,6 +3671,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "A precious find from the Ruins of Wyveria. More transparent than other Wylkdrops and has considerable heft.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E9EAEB",
@@ -3457,6 +3687,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "A curious fiber found in the Ruins of Wyveria. A resource treasured by the Keepers.",
   "icon": {
    "glyph": "items/itemglyph_036.png",
    "tint": "#E9EAEB",
@@ -3472,6 +3703,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Small stones found across the East. A rich source of energy, they are often burned for fuel.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -3487,6 +3719,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A beautiful, faintly luminescent stone occasionally found inside Wylkdrops harvested in the East.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -3502,6 +3735,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "The size of this rare find from the East is the result of an eons- long natural formation process.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#4EC3E5",
@@ -3517,6 +3751,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "The blackened, stony remains of old bones unearthed in the East. When polished, it gains a velvety sheen.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#818182",
@@ -3532,6 +3767,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "A species of translucent sea squirts found in the East. When salt-dried, it becomes a fine preserved food.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#98D9C9",
@@ -3547,6 +3783,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "A rare, meatier species of sea squirt found in the East. Keeps its rich flavor, even when preserved.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#98D9C9",
@@ -3562,6 +3799,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "Algae that grows in the East. It resembles a ceremonial cup— Cheers for finding such a beauty!",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#83B239",
@@ -3577,6 +3815,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "Care must be taken not to disturb the delicate form of this rare and stunning algae when harvesting it.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#83B239",
@@ -3592,6 +3831,7 @@
   "buy": 10,
   "sell": 800,
   "max": 99,
+  "desc": "Pollen from a flower that blooms under a full moon. It exudes an ethereal pale glow.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#685ECD",
@@ -3607,6 +3847,7 @@
   "buy": 3,
   "sell": 100,
   "max": 99,
+  "desc": "A mass of organic material fossilized into opal over time. It has a deep crimson shine.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#DF9C65",
@@ -3622,6 +3863,7 @@
   "buy": 5,
   "sell": 200,
   "max": 99,
+  "desc": "This gorgeous fossil is marked by an exceptionally clear and fiery opal. A truly radiant rarity.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#DF9C65",
@@ -3637,6 +3879,7 @@
   "buy": 10,
   "sell": 500,
   "max": 99,
+  "desc": "The opal inclusion in this fossil burns with the fire of creation that first shaped this world.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E16D44",
@@ -3652,6 +3895,7 @@
   "buy": 10,
   "sell": 800,
   "max": 99,
+  "desc": "A parasitic fungus that grows on the bodies of dead monsters. Prized as a symbol of reincarnation.",
   "icon": {
    "glyph": "items/itemglyph_087.png",
    "tint": "#B38F48",
@@ -3667,6 +3911,7 @@
   "buy": 135,
   "sell": 45,
   "max": 10,
+  "desc": "A fish fin that greatly restores sharpness and requires fewer strokes than a whetstone.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -3682,6 +3927,7 @@
   "buy": 90,
   "sell": 45,
   "max": 10,
+  "desc": "A scale from a Sushifish. Slightly restores health and treats bleeding.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#DF9C65",
@@ -3697,6 +3943,7 @@
   "buy": 3750,
   "sell": 375,
   "max": 99,
+  "desc": "The outer shell of a Lala Barina. Has a dark luster and is wonderfully lightweight.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -3712,6 +3959,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "A claw from a Lala Barina. Vivid scarlet decorates its keen edge.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#BF3054",
@@ -3727,6 +3975,7 @@
   "buy": 5500,
   "sell": 550,
   "max": 99,
+  "desc": "The stinger from a Lala Barina. Sharp as a sword, one thrust is all it takes to subdue prey.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#818182",
@@ -3742,6 +3991,7 @@
   "buy": 2500,
   "sell": 250,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Lala Barina. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#BF3054",
@@ -3757,6 +4007,7 @@
   "buy": 2500,
   "sell": 250,
   "max": 99,
+  "desc": "Hair from a Lala Barina. So white and pristine that it could pass for a high quality pelt.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -3772,6 +4023,7 @@
   "buy": 1,
   "sell": 1,
   "max": 6,
+  "desc": "Used as ammo for your Slinger. Emits a harsh, high-frequency sound that can disrupt sensitive monsters.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#818182",
@@ -3787,6 +4039,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_EXP_280",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#DF9C65",
@@ -3802,6 +4055,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "Copper pyrite from a Kranodath's shell. Its luster makes it a prime material for decorations.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#D9C357",
@@ -3817,6 +4071,7 @@
   "buy": 15000,
   "sell": 1500,
   "max": 99,
+  "desc": "High-quality copper pyrite from a Kranodath's shell. Its brilliant sheen is stunning to behold.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#D9C357",
@@ -3832,6 +4087,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_EXP_283",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E9EAEB",
@@ -3847,6 +4103,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_EXP_284",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#818182",
@@ -3862,6 +4119,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo imbued with thunder element.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#D9C357",
@@ -3877,6 +4135,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo imbued with ice element.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E9EAEB",
@@ -3892,6 +4151,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo imbued with dragon element.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#BF3054",
@@ -3907,6 +4167,7 @@
   "buy": 0,
   "sell": 0,
   "max": 3,
+  "desc": "Special honey gathered from Y'sai's spot. Can be delivered to Provisions, who's running low.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#DF9C65",
@@ -3922,6 +4183,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": "Slinger ammo imbued with the ice element. Use it to stagger a monster when you're in a pinch.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E9EAEB",
@@ -3937,6 +4199,7 @@
   "buy": 60,
   "sell": 12,
   "max": 5,
+  "desc": "A nut that explodes on impact. Used to make Wyvern Ammo.",
   "icon": {
    "glyph": "items/itemglyph_032.png",
    "tint": "#B38F48",
@@ -3952,6 +4215,7 @@
   "buy": 60,
   "sell": 12,
   "max": 10,
+  "desc": "A berry that ruptures on impact. Used to make cluster bombs.",
   "icon": {
    "glyph": "items/itemglyph_032.png",
    "tint": "#BF3054",
@@ -3967,6 +4231,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Chatacabra. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#47B267",
@@ -3982,6 +4247,7 @@
   "buy": 8500,
   "sell": 850,
   "max": 99,
+  "desc": "A high-quality Chatacabra scale. Its enhanced durability makes it impervious to most blows.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#47B267",
@@ -3997,6 +4263,7 @@
   "buy": 15300,
   "sell": 1530,
   "max": 99,
+  "desc": "Fine plating from a Chatacabra's hulking jaw. Its density and heft are quite impressive.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#47B267",
@@ -4012,6 +4279,7 @@
   "buy": 12750,
   "sell": 1275,
   "max": 99,
+  "desc": "A high-quality Chatacabra hide. Tempered by its harsh environment. Makes a fine crafting material.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#47B267",
@@ -4027,6 +4295,7 @@
   "buy": 17000,
   "sell": 1700,
   "max": 99,
+  "desc": "Stout plating from a Chatacabra's arms. Constant friction with the ground has polished it to gleam.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#47B267",
@@ -4042,6 +4311,7 @@
   "buy": 8500,
   "sell": 850,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Chatacabra. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#47B267",
@@ -4057,6 +4327,7 @@
   "buy": 18200,
   "sell": 1820,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Xu Wu. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -4072,6 +4343,7 @@
   "buy": 3960,
   "sell": 396,
   "max": 99,
+  "desc": "Flammable fluids from a Quematrice, expelled as a gas then ignited by sparks from its coarse tail.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E15057",
@@ -4087,6 +4359,7 @@
   "buy": 2200,
   "sell": 220,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Quematrice. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#6687FF",
@@ -4102,6 +4375,7 @@
   "buy": 8700,
   "sell": 870,
   "max": 99,
+  "desc": "A high-quality Quematrice scale. Its keen ridges allow it to cleave stone in a single stroke.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#6687FF",
@@ -4117,6 +4391,7 @@
   "buy": 13050,
   "sell": 1305,
   "max": 99,
+  "desc": "Fine Quematrice hide, hardened by the struggle to survive. Offers exceptional fire protection.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#6687FF",
@@ -4132,6 +4407,7 @@
   "buy": 15660,
   "sell": 1566,
   "max": 99,
+  "desc": "Especially viscous fluid from a Quematrice. The gas it releases burns at a perilous temperature.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E15057",
@@ -4147,6 +4423,7 @@
   "buy": 19140,
   "sell": 1914,
   "max": 99,
+  "desc": "The large crest of a Quematrice. Colored an angry red and shaken violently in a show of aggression.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#E15057",
@@ -4162,6 +4439,7 @@
   "buy": 8700,
   "sell": 870,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Quematrice. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#6687FF",
@@ -4177,6 +4455,7 @@
   "buy": 9000,
   "sell": 900,
   "max": 99,
+  "desc": "High-quality hair from a Lala Barina. Its delicate, transparent strands dance in the wind.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -4192,6 +4471,7 @@
   "buy": 13500,
   "sell": 1350,
   "max": 99,
+  "desc": "The hard carapace of a Lala Barina. A bit of polish will make it shine black as night.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -4207,6 +4487,7 @@
   "buy": 16200,
   "sell": 1620,
   "max": 99,
+  "desc": "A sharp claw from a Lala Barina. The deep crimson tip mirrors the blood of countless victims.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#BF3054",
@@ -4222,6 +4503,7 @@
   "buy": 18000,
   "sell": 1800,
   "max": 99,
+  "desc": "The razor-sharp stinger of a Lala Barina. Capable of piercing even the thickest armor.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#818182",
@@ -4237,6 +4519,7 @@
   "buy": 9000,
   "sell": 900,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Lala Barina. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#BF3054",
@@ -4252,6 +4535,7 @@
   "buy": 3200,
   "sell": 320,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Balahara. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -4267,6 +4551,7 @@
   "buy": 10200,
   "sell": 1020,
   "max": 99,
+  "desc": "A high-quality Balahara scale. Thick and durable enough to carve through stone without a scratch.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#818182",
@@ -4282,6 +4567,7 @@
   "buy": 15300,
   "sell": 1530,
   "max": 99,
+  "desc": "A hard Balahara carapace. A quality material from a specimen wrapped in pure fulgurite.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -4297,6 +4583,7 @@
   "buy": 18360,
   "sell": 1836,
   "max": 99,
+  "desc": "A Balahara's pointy skull. An incredibly tough shell that digs through hard bedrock with ease.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#818182",
@@ -4312,6 +4599,7 @@
   "buy": 10200,
   "sell": 1020,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Balahara. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -4327,6 +4615,7 @@
   "buy": 3800,
   "sell": 380,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Doshaguma. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#B38F48",
@@ -4342,6 +4631,7 @@
   "buy": 13000,
   "sell": 1300,
   "max": 99,
+  "desc": "High-quality Doshaguma fur. So accustomed to harsh climes that it's akin to armor.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#B38F48",
@@ -4357,6 +4647,7 @@
   "buy": 19500,
   "sell": 1950,
   "max": 99,
+  "desc": "High-quality Doshaguma hide. Its thick, comfortable weight gives reassurance to those who wear it.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#B38F48",
@@ -4372,6 +4663,7 @@
   "buy": 23400,
   "sell": 2340,
   "max": 99,
+  "desc": "A sharp Doshaguma claw. One poke pierces skin, and one swipe tears flesh from bone.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#B38F48",
@@ -4387,6 +4679,7 @@
   "buy": 28600,
   "sell": 2860,
   "max": 99,
+  "desc": "A sharp Doshaguma fang. Proof of its owner's feral nature in its ability to chew through even bone.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#B38F48",
@@ -4402,6 +4695,7 @@
   "buy": 13000,
   "sell": 1300,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Doshaguma. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#B38F48",
@@ -4417,6 +4711,7 @@
   "buy": 6000,
   "sell": 600,
   "max": 99,
+  "desc": "A scale from an Uth Duna. Glistens in a kaleidoscope of colors.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#685ECD",
@@ -4432,6 +4727,7 @@
   "buy": 9000,
   "sell": 900,
   "max": 99,
+  "desc": "The hide of an Uth Duna. Highly prized for its density and spectacularly vibrant pattern.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#685ECD",
@@ -4447,6 +4743,7 @@
   "buy": 10800,
   "sell": 1080,
   "max": 99,
+  "desc": "Extremely fine hair from an Uth Duna. When woven together, it forms a thin, watery membrane.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E68A94",
@@ -4462,6 +4759,7 @@
   "buy": 12000,
   "sell": 1200,
   "max": 99,
+  "desc": "A tentacle from the back of an Uth Duna. Covered in a gelatinous mix of water and body fluid.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E68A94",
@@ -4477,6 +4775,7 @@
   "buy": 12000,
   "sell": 1200,
   "max": 99,
+  "desc": "A claw from an Uth Duna. Its curvature helps to anchor it against the waves it creates.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#685ECD",
@@ -4492,6 +4791,7 @@
   "buy": 36000,
   "sell": 3600,
   "max": 99,
+  "desc": "A rare plate from an Uth Duna. Hailed as a symbol of Plenty due to the amount of water it holds.",
   "icon": {
    "glyph": "items/itemglyph_050.png",
    "tint": "#685ECD",
@@ -4507,6 +4807,7 @@
   "buy": 6000,
   "sell": 600,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted an Uth Duna. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#685ECD",
@@ -4522,6 +4823,7 @@
   "buy": 23500,
   "sell": 2350,
   "max": 99,
+  "desc": "A high-quality scale from an Uth Duna. Thin grooves allow it to store water to strengthen itself.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#685ECD",
@@ -4537,6 +4839,7 @@
   "buy": 35250,
   "sell": 3525,
   "max": 99,
+  "desc": "A high-quality hide from an Uth Duna. Its pattern holds an almost divine beauty.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#685ECD",
@@ -4552,6 +4855,7 @@
   "buy": 42300,
   "sell": 4230,
   "max": 99,
+  "desc": "High-quality Uth Duna hair. Weak to cutting force, but can hold a vast amount of water.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E68A94",
@@ -4567,6 +4871,7 @@
   "buy": 47000,
   "sell": 4700,
   "max": 99,
+  "desc": "An elegant and flexible tentacle from an Uth Duna. A membrane of water surrounds it like a veil.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E68A94",
@@ -4582,6 +4887,7 @@
   "buy": 47000,
   "sell": 4700,
   "max": 99,
+  "desc": "A sharp claw from an Uth Duna. Heavy enough to easily crush even the thickest trees.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#685ECD",
@@ -4597,6 +4903,7 @@
   "buy": 141000,
   "sell": 14100,
   "max": 99,
+  "desc": "A rare jewel that developed within an Uth Duna. Said to wield the power of a devastating flood.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#685ECD",
@@ -4612,6 +4919,7 @@
   "buy": 23500,
   "sell": 2350,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted an Uth Duna. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#685ECD",
@@ -4627,6 +4935,7 @@
   "buy": 3600,
   "sell": 360,
   "max": 99,
+  "desc": "A Rompopolo hide. It returns to its original shape even if stretched to its limit.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#4C4CD9",
@@ -4642,6 +4951,7 @@
   "buy": 5400,
   "sell": 540,
   "max": 99,
+  "desc": "A claw from a Rompopolo. Developed for the specific purpose of piercing prey.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#4C4CD9",
@@ -4657,6 +4967,7 @@
   "buy": 6480,
   "sell": 648,
   "max": 99,
+  "desc": "A poisonous hide from a Rompopolo. The vibrant speckles warn of its inherent danger.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#4C4CD9",
@@ -4672,6 +4983,7 @@
   "buy": 7920,
   "sell": 792,
   "max": 99,
+  "desc": "The beak of a Rompopolo. Its disturbing shape evokes an indescribable sense of unease.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#4C4CD9",
@@ -4687,6 +4999,7 @@
   "buy": 3600,
   "sell": 360,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Rompopolo. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4C4CD9",
@@ -4702,6 +5015,7 @@
   "buy": 9900,
   "sell": 990,
   "max": 99,
+  "desc": "A high-quality Rompopolo hide. Can expand to extreme lengths when filled with gas.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#4C4CD9",
@@ -4717,6 +5031,7 @@
   "buy": 14850,
   "sell": 1485,
   "max": 99,
+  "desc": "A sharp claw from a Rompopolo. Perfectly suited to piercing vitals with acute precision.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#4C4CD9",
@@ -4732,6 +5047,7 @@
   "buy": 17820,
   "sell": 1782,
   "max": 99,
+  "desc": "A highly poisonous hide from a Rompopolo. The more striking the pattern, the more poisonous it is.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#4C4CD9",
@@ -4747,6 +5063,7 @@
   "buy": 21780,
   "sell": 2178,
   "max": 99,
+  "desc": "A large beak from a Rompopolo. Its sharp point and gentle curve strike untold fear into its prey.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#4C4CD9",
@@ -4762,6 +5079,7 @@
   "buy": 9900,
   "sell": 990,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Rompopolo. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4C4CD9",
@@ -4777,6 +5095,7 @@
   "buy": 6200,
   "sell": 620,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Rey Dau. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -4792,6 +5111,7 @@
   "buy": 24000,
   "sell": 2400,
   "max": 99,
+  "desc": "A high-quality Rey Dau scale. Constant exposure to the Sandtide made it as sturdy as it is smooth.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -4807,6 +5127,7 @@
   "buy": 36000,
   "sell": 3600,
   "max": 99,
+  "desc": "The tough carapace of a Rey Dau. Its complex but consistent pattern enhances its conductivity.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#D9C357",
@@ -4822,6 +5143,7 @@
   "buy": 52800,
   "sell": 5280,
   "max": 99,
+  "desc": "A Rey Dau horn crackling with lightning. Durable enough to sustain great bolts of electricity.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -4837,6 +5159,7 @@
   "buy": 48000,
   "sell": 4800,
   "max": 99,
+  "desc": "A Rey Dau wingtalon with an azure glow. Coated with pure, razor-sharp fulgurite.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#6687FF",
@@ -4852,6 +5175,7 @@
   "buy": 144000,
   "sell": 14400,
   "max": 99,
+  "desc": "A rare jewel that developed within a Rey Dau. Said to wield the power of ten thousand storms.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#D9C357",
@@ -4867,6 +5191,7 @@
   "buy": 24000,
   "sell": 2400,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Rey Dau. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -4882,6 +5207,7 @@
   "buy": 4400,
   "sell": 440,
   "max": 99,
+  "desc": "A scale from a Hirabami. Though small and lightweight, it's very strong and easy to process.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#9788D1",
@@ -4897,6 +5223,7 @@
   "buy": 6600,
   "sell": 660,
   "max": 99,
+  "desc": "The hide of a Hirabami. Light and smooth like cloth, it is known for its unique texture.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#9788D1",
@@ -4912,6 +5239,7 @@
   "buy": 7920,
   "sell": 792,
   "max": 99,
+  "desc": "Webbing from a Hirabami. Its superb elasticity allows the monster to float in the air.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#9788D1",
@@ -4927,6 +5255,7 @@
   "buy": 8800,
   "sell": 880,
   "max": 99,
+  "desc": "A claw from the tail of a Hirabami. Its curved shape allows it to easily trap prey.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#9788D1",
@@ -4942,6 +5271,7 @@
   "buy": 4400,
   "sell": 440,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Hirabami. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#9788D1",
@@ -4957,6 +5287,7 @@
   "buy": 11400,
   "sell": 1140,
   "max": 99,
+  "desc": "A high-quality scale from a Hirabami. Not only is it strong, but also exceedingly light.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#9788D1",
@@ -4972,6 +5303,7 @@
   "buy": 17100,
   "sell": 1710,
   "max": 99,
+  "desc": "A high-quality Hirabami hide. Soft as the finest fabric, with the warmth to endure a blizzard.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#9788D1",
@@ -4987,6 +5319,7 @@
   "buy": 20520,
   "sell": 2052,
   "max": 99,
+  "desc": "High-quality Hirabami webbing. Can manipulate air currents even in the fiercest blizzards.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#9788D1",
@@ -5002,6 +5335,7 @@
   "buy": 22800,
   "sell": 2280,
   "max": 99,
+  "desc": "A high-quality claw from the tail of a Hirabami. No prey can escape its scythe-like bite.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#9788D1",
@@ -5017,6 +5351,7 @@
   "buy": 11400,
   "sell": 1140,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Hirabami. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#9788D1",
@@ -5032,6 +5367,7 @@
   "buy": 4800,
   "sell": 480,
   "max": 99,
+  "desc": "A scale from an Ajarakan.  Extremely resistant, not even the hardest of stone will scratch it.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E16D44",
@@ -5047,6 +5383,7 @@
   "buy": 7200,
   "sell": 720,
   "max": 99,
+  "desc": "The shell of an Ajarakan. Capable of producing a shower of sparks with the slightest scrape.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E16D44",
@@ -5062,6 +5399,7 @@
   "buy": 9600,
   "sell": 960,
   "max": 99,
+  "desc": "The hard casing that runs along the back of an Ajarakan. Its bright scarlet color echoes a raging fire.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E16D44",
@@ -5077,6 +5415,7 @@
   "buy": 9600,
   "sell": 960,
   "max": 99,
+  "desc": "The tail of an Ajarakan. Its uneven spikes are highly combustible.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E16D44",
@@ -5092,6 +5431,7 @@
   "buy": 8640,
   "sell": 864,
   "max": 99,
+  "desc": "A rare jewel that developed in an Ajarakan's body. Said to wield enough force to explode bedrock.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E16D44",
@@ -5107,6 +5447,7 @@
   "buy": 28800,
   "sell": 2880,
   "max": 99,
+  "desc": "Bone marrow from an Ajarakan. Almost too hot to handle.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E16D44",
@@ -5122,6 +5463,7 @@
   "buy": 4800,
   "sell": 480,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted an Ajarakan. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E16D44",
@@ -5137,6 +5479,7 @@
   "buy": 13000,
   "sell": 1300,
   "max": 99,
+  "desc": "A high-quality scale from an Ajarakan. The flame-like spikes project the monster's hot fury.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E16D44",
@@ -5152,6 +5495,7 @@
   "buy": 19500,
   "sell": 1950,
   "max": 99,
+  "desc": "A tough Ajarakan carapace. Even fierce explosions can't damage it.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E16D44",
@@ -5167,6 +5511,7 @@
   "buy": 26000,
   "sell": 2600,
   "max": 99,
+  "desc": "A rock-solid ridge from an Ajarakan. Reminiscent of a fire in its color and uneven curves.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E16D44",
@@ -5182,6 +5527,7 @@
   "buy": 23400,
   "sell": 2340,
   "max": 99,
+  "desc": "A large jewel that developed in an Ajarakan. Glows red, as if holding an inferno within.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E16D44",
@@ -5197,6 +5543,7 @@
   "buy": 78000,
   "sell": 7800,
   "max": 99,
+  "desc": "The brainstem of an Ajarakan. Constantly burning, as if all its body heat is concentrated within.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E16D44",
@@ -5212,6 +5559,7 @@
   "buy": 13000,
   "sell": 1300,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted an Ajarakan. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E16D44",
@@ -5227,6 +5575,7 @@
   "buy": 6800,
   "sell": 680,
   "max": 99,
+  "desc": "A highly-elastic Nu Udra hide. It looks smooth but has a subtle roughness.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#818182",
@@ -5242,6 +5591,7 @@
   "buy": 10200,
   "sell": 1020,
   "max": 99,
+  "desc": "A Nu Udra spike. Requires a skilled hand to handle its twisted, non-uniform shape.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -5257,6 +5607,7 @@
   "buy": 14960,
   "sell": 1496,
   "max": 99,
+  "desc": "A Nu Udra Horn. Curved to protect the eyes and smattered with small spines.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -5272,6 +5623,7 @@
   "buy": 13600,
   "sell": 1360,
   "max": 99,
+  "desc": "A Nu Udra tentacle. Incredibly flexible and elastic, only the sharpest of blades can pierce it.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#818182",
@@ -5287,6 +5639,7 @@
   "buy": 12240,
   "sell": 1224,
   "max": 99,
+  "desc": "A viscous liquid made from a Nu Udra's body fluids and oil. Adding oil to it makes it more flammable.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#818182",
@@ -5302,6 +5655,7 @@
   "buy": 40800,
   "sell": 4080,
   "max": 99,
+  "desc": "A strange fluid formed inside a Nu Udra. It glows blue and can strengthen materials.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#4EC3E5",
@@ -5317,6 +5671,7 @@
   "buy": 6800,
   "sell": 680,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Nu Udra. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -5332,6 +5687,7 @@
   "buy": 24800,
   "sell": 2480,
   "max": 99,
+  "desc": "High-quality Nu Udra hide. Especially elastic and fire resistant. Eternally slimy.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#818182",
@@ -5347,6 +5703,7 @@
   "buy": 37200,
   "sell": 3720,
   "max": 99,
+  "desc": "A quality Nu Udra spike. Will gouge out the surrounding flesh when removed from its victim.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -5362,6 +5719,7 @@
   "buy": 54560,
   "sell": 5456,
   "max": 99,
+  "desc": "A sharp Nu Udra Horn. Each one twists eerily outward, as if in search of something.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -5377,6 +5735,7 @@
   "buy": 49600,
   "sell": 4960,
   "max": 99,
+  "desc": "A large Nu Udra tentacle. A huge slab of muscle that will thrash uncontrollably even when cut off.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#818182",
@@ -5392,6 +5751,7 @@
   "buy": 44640,
   "sell": 4464,
   "max": 99,
+  "desc": "Dense Nu Udra Oilmucus. Burns unbelievably hot and long once ignited.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#818182",
@@ -5407,6 +5767,7 @@
   "buy": 148800,
   "sell": 14880,
   "max": 99,
+  "desc": "A mysterious gem formed inside a Nu Udra. Said to hold the power to burn the world to the ground.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E15057",
@@ -5422,6 +5783,7 @@
   "buy": 24800,
   "sell": 2480,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Nu Udra. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -5437,6 +5799,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "The fur of a Guardian Doshaguma. Energy coursing through it has turned it white and strengthened it.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -5452,6 +5815,7 @@
   "buy": 7500,
   "sell": 750,
   "max": 99,
+  "desc": "The hide of a Guardian Doshaguma. It is especially thick and tough, with a distinctive white pattern.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -5467,6 +5831,7 @@
   "buy": 9000,
   "sell": 900,
   "max": 99,
+  "desc": "The claw of a Guardian Doshaguma. Energy coursing through it has turned it white and rigid.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -5482,6 +5847,7 @@
   "buy": 11000,
   "sell": 1100,
   "max": 99,
+  "desc": "The fang of a Guardian Doshaguma. Tough enough to withstand the Doshaguma's fiercely acidic saliva.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -5497,6 +5863,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Doshaguma. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -5512,6 +5879,7 @@
   "buy": 15000,
   "sell": 1500,
   "max": 99,
+  "desc": "High-quality fur from a Guardian Doshaguma. Energy coursing through it has rendered it hard as steel.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -5527,6 +5895,7 @@
   "buy": 22500,
   "sell": 2250,
   "max": 99,
+  "desc": "A high-quality hide from a Guardian Doshaguma. Tough as iron and able to withstand any kind of attack.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -5542,6 +5911,7 @@
   "buy": 27000,
   "sell": 2700,
   "max": 99,
+  "desc": "An especially sharp claw from a Guardian Doshaguma. Filled with energy, it easily cuts through armor.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -5557,6 +5927,7 @@
   "buy": 33000,
   "sell": 3300,
   "max": 99,
+  "desc": "An especially sharp fang from a Guardian Doshaguma. Mercilessly crushes anything in its way.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -5572,6 +5943,7 @@
   "buy": 15000,
   "sell": 1500,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Doshaguma. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -5587,6 +5959,7 @@
   "buy": 5600,
   "sell": 560,
   "max": 99,
+  "desc": "A scale from a Guardian Rathalos. Made thick and tough by the energy coursing through it.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -5602,6 +5975,7 @@
   "buy": 8400,
   "sell": 840,
   "max": 99,
+  "desc": "The shell of a Guardian Rathalos. Still radiates heat from the energy coursing through it.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -5617,6 +5991,7 @@
   "buy": 10080,
   "sell": 1008,
   "max": 99,
+  "desc": "Webbing from a Guardian Rathalos. The energy coursing through it has enhanced its flight capabilities.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#E9EAEB",
@@ -5632,6 +6007,7 @@
   "buy": 11200,
   "sell": 1120,
   "max": 99,
+  "desc": "The tail of a Guardian Rathalos. The energy coursing through it has made it into an adaptable material.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E9EAEB",
@@ -5647,6 +6023,7 @@
   "buy": 5600,
   "sell": 560,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Rathalos. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -5662,6 +6039,7 @@
   "buy": 17000,
   "sell": 1700,
   "max": 99,
+  "desc": "A high-quality scale from a Guardian Rathalos. Accumulated energy has made it scorching hot.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -5677,6 +6055,7 @@
   "buy": 25500,
   "sell": 2550,
   "max": 99,
+  "desc": "The tough carapace of a Guardian Rathalos. Durable enough to withstand even the fiercest flames.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -5692,6 +6071,7 @@
   "buy": 30600,
   "sell": 3060,
   "max": 99,
+  "desc": "A wing from a Guardian Rathalos. Energy courses through each vein, producing gale-force winds.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#E9EAEB",
@@ -5707,6 +6087,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "The selected mantle in Change Equipment will be reflected in your Radial Menu/Loadouts.",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#E9EAEB",
@@ -5722,6 +6103,7 @@
   "buy": 17000,
   "sell": 1700,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Rathalos. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -5737,6 +6119,7 @@
   "buy": 30360,
   "sell": 3036,
   "max": 99,
+  "desc": "Only recently extractable due to advances in carving techniques. Hard to forge.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E15057",
@@ -5752,6 +6135,7 @@
   "buy": 1,
   "sell": 9,
   "max": 3,
+  "desc": "Ammo that produces a cloud that temporarily strengthens attacks in the impact zone of where it lands.",
   "icon": {
    "glyph": "items/itemglyph_069.png",
    "tint": "#E15057",
@@ -5767,6 +6151,7 @@
   "buy": 1,
   "sell": 7,
   "max": 3,
+  "desc": "Ammo that produces a cloud that temporarily strengthens defense in the impact zone of where it lands.",
   "icon": {
    "glyph": "items/itemglyph_069.png",
    "tint": "#DF9C65",
@@ -5782,6 +6167,7 @@
   "buy": 8,
   "sell": 2,
   "max": 3,
+  "desc": "Ammo that produces a healing cloud in the impact zone of where it lands.",
   "icon": {
    "glyph": "items/itemglyph_069.png",
    "tint": "#47B267",
@@ -5797,6 +6183,7 @@
   "buy": 45,
   "sell": 4,
   "max": 8,
+  "desc": "Ammo used to capture monsters ensnared in traps.",
   "icon": {
    "glyph": "items/itemglyph_033.png",
    "tint": "#E68A94",
@@ -5812,6 +6199,7 @@
   "buy": 15,
   "sell": 3,
   "max": 12,
+  "desc": "Ammo that drains a monster's stamina.",
   "icon": {
    "glyph": "items/itemglyph_033.png",
    "tint": "#98D9C9",
@@ -5827,6 +6215,7 @@
   "buy": 10000,
   "sell": 1000,
   "max": 99,
+  "desc": "A fragment of a disturbing crystal that possesses a hidden power.",
   "icon": {
    "glyph": "items/itemglyph_052.png",
    "tint": "#9788D1",
@@ -5842,6 +6231,7 @@
   "buy": 23000,
   "sell": 2300,
   "max": 99,
+  "desc": "A high-quality Jin Dahaad scale. Its metallic properties prevent it from freezing.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#B38F48",
@@ -5857,6 +6247,7 @@
   "buy": 34500,
   "sell": 3450,
   "max": 99,
+  "desc": "The tough carapace of a Jin Dahaad. Tough as steel without impeding movement.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#B38F48",
@@ -5872,6 +6263,7 @@
   "buy": 41400,
   "sell": 4140,
   "max": 99,
+  "desc": "From the back of a Jin Dahaad, this plate's metallic properties allow it to freeze the surrounding air.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#B38F48",
@@ -5887,6 +6279,7 @@
   "buy": 46000,
   "sell": 4600,
   "max": 99,
+  "desc": "A sharp claw from a Jin Dahaad. Terrifyingly cold, it freezes everything it touches.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#B38F48",
@@ -5902,6 +6295,7 @@
   "buy": 50600,
   "sell": 5060,
   "max": 99,
+  "desc": "A layered horn from a Jin Dahaad. Also acts as a heat vent.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#B38F48",
@@ -5917,6 +6311,7 @@
   "buy": 138000,
   "sell": 13800,
   "max": 99,
+  "desc": "A rare jewel developed within a Jin Dahaad. Said to wield the power to freeze entire cliffs.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#4EC3E5",
@@ -5932,6 +6327,7 @@
   "buy": 23000,
   "sell": 2300,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Jin Dahaad. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#B38F48",
@@ -5947,6 +6343,7 @@
   "buy": 5400,
   "sell": 540,
   "max": 99,
+  "desc": "A scale from a Guardian Ebony Odogaron. Energy coursing through it has turned parts of it white.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -5962,6 +6359,7 @@
   "buy": 8100,
   "sell": 810,
   "max": 99,
+  "desc": "Tightly packed sinew from a Guardian Ebony Odogaron. Especially strong and heavy.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E9EAEB",
@@ -5977,6 +6375,7 @@
   "buy": 9720,
   "sell": 972,
   "max": 99,
+  "desc": "A Guardian Ebony Odogaron claw. Made for ripping things open, even the slightest touch is dangerous.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -5992,6 +6391,7 @@
   "buy": 11880,
   "sell": 1188,
   "max": 99,
+  "desc": "A Guardian Ebony Odogaron fang. Its sharp point allows it to pierce the vitals of any prey.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -6007,6 +6407,7 @@
   "buy": 10800,
   "sell": 1080,
   "max": 99,
+  "desc": "A Guardian Ebony Odogaron tail. Covered in bristled scales that call to mind its terrible rage.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E9EAEB",
@@ -6022,6 +6423,7 @@
   "buy": 32400,
   "sell": 3240,
   "max": 99,
+  "desc": "A Guardian Ebony Odogaron plate. Energy has bolstered its draconic power to incredible heights.",
   "icon": {
    "glyph": "items/itemglyph_050.png",
    "tint": "#E9EAEB",
@@ -6037,6 +6439,7 @@
   "buy": 5400,
   "sell": 540,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Ebony Odogaron. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -6052,6 +6455,7 @@
   "buy": 16600,
   "sell": 1660,
   "max": 99,
+  "desc": "A high-quality Guardian Ebony Odogaron scale. The flow of pure energy has strengthened it.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -6067,6 +6471,7 @@
   "buy": 24900,
   "sell": 2490,
   "max": 99,
+  "desc": "A large piece of sinew from a Guardian Ebony Odogaron. Excess energy has strengthened it greatly.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E9EAEB",
@@ -6082,6 +6487,7 @@
   "buy": 29880,
   "sell": 2988,
   "max": 99,
+  "desc": "A sharp claw from a Guardian Ebony Odogaron. Its saw-like form lets it mercilessly rip apart its prey.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -6097,6 +6503,7 @@
   "buy": 36520,
   "sell": 3652,
   "max": 99,
+  "desc": "A sharp Guardian Ebony Odogaron fang. Shrouded in misfortune, only the bravest dare touch it.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -6112,6 +6519,7 @@
   "buy": 99600,
   "sell": 9960,
   "max": 99,
+  "desc": "A rare jewel that developed within a Guardian Ebony Odogaron. Said to hold a strange draconic power.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E9EAEB",
@@ -6127,6 +6535,7 @@
   "buy": 16600,
   "sell": 1660,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Ebony Odogaron. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -6142,6 +6551,7 @@
   "buy": 1220,
   "sell": 122,
   "max": 20,
+  "desc": "Can be obtained from some large monsters. Has the ability to amplify the effects of certain medicines.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E9EAEB",
@@ -6157,6 +6567,7 @@
   "buy": 5800,
   "sell": 580,
   "max": 99,
+  "desc": "The hide of a Xu Wu. Covered in mucus and uniquely flexible, it's quite a trial to work with.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#818182",
@@ -6172,6 +6583,7 @@
   "buy": 8700,
   "sell": 870,
   "max": 99,
+  "desc": "The golden corneum of a Xu Wu. Formed by hardened secretions that glisten with a disturbing light.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#D9C357",
@@ -6187,6 +6599,7 @@
   "buy": 11600,
   "sell": 1160,
   "max": 99,
+  "desc": "A Xu Wu tentacle. It's flexible musculature makes it perfect for weapon and armor crafting.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#818182",
@@ -6202,6 +6615,7 @@
   "buy": 10440,
   "sell": 1044,
   "max": 99,
+  "desc": "A claw from a Xu Wu. Sharp as a knife and able to pierce prey without a sound.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -6217,6 +6631,7 @@
   "buy": 12760,
   "sell": 1276,
   "max": 99,
+  "desc": "A fang from a Xu Wu. Tough enough to crush any matter of prey.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -6232,6 +6647,7 @@
   "buy": 34800,
   "sell": 3480,
   "max": 99,
+  "desc": "Cerebrospinal fluid from a Xu Wu. A great deal of energy is concealed within, causing it to glow.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#818182",
@@ -6247,6 +6663,7 @@
   "buy": 5800,
   "sell": 580,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Xu Wu. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -6262,6 +6679,7 @@
   "buy": 18200,
   "sell": 1820,
   "max": 99,
+  "desc": "A high-quality Xu Wu hide. Tough enough to repel a Guardian's claws and fangs.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#818182",
@@ -6277,6 +6695,7 @@
   "buy": 27300,
   "sell": 2730,
   "max": 99,
+  "desc": "A glittering golden corneum of a Xu Wu. Further hardened by its extremely pure secretions.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#D9C357",
@@ -6292,6 +6711,7 @@
   "buy": 40040,
   "sell": 4004,
   "max": 99,
+  "desc": "A high-quality Xu Wu tentacle. Continues to squirm while being processed, displaying its vitality.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#818182",
@@ -6307,6 +6727,7 @@
   "buy": 32760,
   "sell": 3276,
   "max": 99,
+  "desc": "A sharp claw from a Xu Wu. It's longer and keener, allowing it to more easily bring down prey.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -6322,6 +6743,7 @@
   "buy": 36400,
   "sell": 3640,
   "max": 99,
+  "desc": "A sharp fang from a Xu Wu. Dyed with the blood of all the prey it has mercilessly crushed.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -6337,6 +6759,7 @@
   "buy": 109200,
   "sell": 10920,
   "max": 99,
+  "desc": "A rare jewel developed within a Xu Wu's body. Harbors a deep and impenetrable darkness.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#818182",
@@ -6352,6 +6775,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "Contains an unknown substance. It has lost any color it previously had and possesses unique properties.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -6367,6 +6791,7 @@
   "buy": 15000,
   "sell": 1500,
   "max": 99,
+  "desc": "A high-quality Guardian scale. Sparkles like snow, as if it had always been pure white.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -6382,6 +6807,7 @@
   "buy": 60000,
   "sell": 6000,
   "max": 99,
+  "desc": "The tail of an Arkveld. Highly prized for the thick muscle hidden beneath its skin and hair.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E9EAEB",
@@ -6397,6 +6823,7 @@
   "buy": 240,
   "sell": 40,
   "max": 10,
+  "desc": "Slinger ammo that releases a strong odor on impact, causing any surrounding monsters to flee.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#B38F48",
@@ -6412,6 +6839,7 @@
   "buy": 0,
   "sell": 0,
   "max": 10,
+  "desc": "Releases a foul odor over a wide area on impact. Returned after quest completion.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#B38F48",
@@ -6427,6 +6855,7 @@
   "buy": 30000,
   "sell": 3000,
   "max": 99,
+  "desc": "A high-quality Arkveld scale. Despite being incredibly dense and hard, the edges chip easily.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -6442,6 +6871,7 @@
   "buy": 45000,
   "sell": 4500,
   "max": 99,
+  "desc": "A durable Arkveld carapace. Named for how its scales overlap like plate armor.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -6457,6 +6887,7 @@
   "buy": 54000,
   "sell": 5400,
   "max": 99,
+  "desc": "A white Arkveld pelt. Strong, naturally twining strands create extra protection against attacks.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -6472,6 +6903,7 @@
   "buy": 60000,
   "sell": 6000,
   "max": 99,
+  "desc": "A linked Arkveld carapace that is connected by flexible sinew, allowing it to move like a chain.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#E9EAEB",
@@ -6487,6 +6919,7 @@
   "buy": 66000,
   "sell": 6600,
   "max": 99,
+  "desc": "A sharp, pointed Arkveld horn. So menacing, its mere sight dispirits any who must stand against it.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -6502,6 +6935,7 @@
   "buy": 180000,
   "sell": 18000,
   "max": 99,
+  "desc": "A mysterious gem that formed inside an Arkveld. Its pulsating white light seems to absorb life.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E9EAEB",
@@ -6517,6 +6951,7 @@
   "buy": 30000,
   "sell": 3000,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted an Arkveld. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -6532,6 +6967,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Slinger ammo that inflicts massive blunt damage where it lands.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#D9CAAD",
@@ -6547,6 +6983,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Slinger ammo that inflicts massive severing damage where it lands.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E9EAEB",
@@ -6562,6 +6999,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Slinger ammo that explodes on impact, causing massive damage.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#DF9C65",
@@ -6577,6 +7015,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Assorted materials from target monster obtained as bonus rewards.",
   "icon": {
    "glyph": "items/itemglyph_001.png",
    "tint": "#E9EAEB",
@@ -6592,6 +7031,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Valuable materials from target monster obtained as bonus rewards.",
   "icon": {
    "glyph": "items/itemglyph_001.png",
    "tint": "#DF9C65",
@@ -6607,6 +7047,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "Metal scraps manufactured in Azuz. Can be used as a material once smelted.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#818182",
@@ -6622,6 +7063,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A material found in the Iceshard Cliffs. Despite its scarring, it remains tough as any other scale.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9CAAD",
@@ -6637,6 +7079,7 @@
   "buy": 10,
   "sell": 200,
   "max": 99,
+  "desc": "A rarity found in the East. A coin bearing a delicate etched relief, long out of use.",
   "icon": {
    "glyph": "items/itemglyph_031.png",
    "tint": "#B38F48",
@@ -6652,6 +7095,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": "Slinger ammo that inflicts massive piercing damage on impact.",
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#6687FF",
@@ -6667,6 +7111,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_EXP_476",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#E9EAEB",
@@ -6682,6 +7127,7 @@
   "buy": 180,
   "sell": 18,
   "max": 10,
+  "desc": "This frosty mushroom is a primary ingredient in cool drinks.",
   "icon": {
    "glyph": "items/itemglyph_006.png",
    "tint": "#E9EAEB",
@@ -6697,6 +7143,7 @@
   "buy": 140,
   "sell": 14,
   "max": 10,
+  "desc": "A plant spicy enough to set your mouth on fire. Used for making hot drinks.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#E16D44",
@@ -6712,6 +7159,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "Part of an ancient weapon. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E15057",
@@ -6727,6 +7175,7 @@
   "buy": 19800,
   "sell": 1980,
   "max": 99,
+  "desc": "A flexible, venomous Nerscylla fang. Beware its lethal poison when handling it!",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -6742,6 +7191,7 @@
   "buy": 16000,
   "sell": 1600,
   "max": 99,
+  "desc": "A high-quality Guardian Fulgur Anjanath scale. Surprisingly heavy, and zaps you when touched.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -6757,6 +7207,7 @@
   "buy": 24000,
   "sell": 2400,
   "max": 99,
+  "desc": "A high-quality Guardian Fulgur Anjanath pelt. Wild patterns have overshadowed its original form.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -6772,6 +7223,7 @@
   "buy": 28000,
   "sell": 2800,
   "max": 99,
+  "desc": "A sharp fang from a Guardian Fulgur Anjanath. Built to withstand the fierce crushing power of its jaw.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -6787,6 +7239,7 @@
   "buy": 35200,
   "sell": 3520,
   "max": 99,
+  "desc": "The nasal bone of a Guardian Fulgur Anjanath. The mucus from it is charged with electricity.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E9EAEB",
@@ -6802,6 +7255,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": "A Guardian Fulgur Anjanath tail. Packed with thick muscles that help it maintain balance.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E9EAEB",
@@ -6817,6 +7271,7 @@
   "buy": 96000,
   "sell": 9600,
   "max": 99,
+  "desc": "A rare jewel that developed within a Guardian Fulgur Anjanath. Said to hold the might of the heavens.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E9EAEB",
@@ -6832,6 +7287,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A thick carapace from an herbivore. Even the smallest ones are incredibly durable.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#B38F48",
@@ -6847,6 +7303,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A high-quality Bulaqchi carapace. Easy to process and incredibly tough.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#D9C357",
@@ -6862,6 +7319,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A liquid bugs suck from monsters. Mixes with insect fluids to form an adhesive.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#4EC3E5",
@@ -6877,6 +7335,7 @@
   "buy": 8500,
   "sell": 850,
   "max": 99,
+  "desc": "A broth made from only the thickest of a monster's juices. Quite rich.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#6687FF",
@@ -6892,6 +7351,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A high-quality Talioth scale. Built to survive fierce battles, but still not much to look at.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#DF9C65",
@@ -6907,6 +7367,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A rare material carved from wingdrakes. It's both tough and easy to work with.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#D9CAAD",
@@ -6922,6 +7383,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A Piragill fin. Its sharp edge cuts into prey like a knife through butter.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E15057",
@@ -6937,6 +7399,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A high-quality Piragill fin. A deep scarlet, it will slice flesh at the slightest touch.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E15057",
@@ -6952,6 +7415,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A Kranodath skull. Its incredible resilience makes it a great material for armor.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#9788D1",
@@ -6967,6 +7431,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "An extra hard Kranodath skull. So tough that it won't crack even if you pound on it with all your might.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#9788D1",
@@ -6982,6 +7447,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A Comaqchi shell. Incredibly smooth with an attractive luster.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#E68A94",
@@ -6997,6 +7463,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A high-quality Comaqchi shell. Its glorious color bewitches all those who see it.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#E68A94",
@@ -7012,6 +7479,7 @@
   "buy": 2500,
   "sell": 250,
   "max": 99,
+  "desc": "A Guardian Seikret feather. Strong enough to deflect blades.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#47B267",
@@ -7027,6 +7495,7 @@
   "buy": 6500,
   "sell": 650,
   "max": 99,
+  "desc": "A high-quality Guardian Seikret feather. Astoundingly lightweight, yet perfectly resilient.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#47B267",
@@ -7042,6 +7511,7 @@
   "buy": 2800,
   "sell": 280,
   "max": 99,
+  "desc": "The pink fur of a Congalala. The tufts of fluffy hair are an ideal material for clothing.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E68A94",
@@ -7057,6 +7527,7 @@
   "buy": 4200,
   "sell": 420,
   "max": 99,
+  "desc": "The long claw of a Congalala. Large and sharp, it gouges anything it touches.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E68A94",
@@ -7072,6 +7543,7 @@
   "buy": 5040,
   "sell": 504,
   "max": 99,
+  "desc": "A Congalala incisor. While blunt, it is tough enough to crush even the hardest of substances.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E68A94",
@@ -7087,6 +7559,7 @@
   "buy": 6160,
   "sell": 616,
   "max": 99,
+  "desc": "Vibrant hair that grows on the head of a Congalala. The lovely colors are proof of its position in its pack.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#D9C357",
@@ -7102,6 +7575,7 @@
   "buy": 2800,
   "sell": 280,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Congalala. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E68A94",
@@ -7117,6 +7591,7 @@
   "buy": 9300,
   "sell": 930,
   "max": 99,
+  "desc": "High-quality Congalala fur. Stout and resilient, an important crafting material once processed.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E68A94",
@@ -7132,6 +7607,7 @@
   "buy": 13950,
   "sell": 1395,
   "max": 99,
+  "desc": "A long, hard, sharp claw from the wildest of Congalala, and no less tricky to manage than its source.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E68A94",
@@ -7147,6 +7623,7 @@
   "buy": 16740,
   "sell": 1674,
   "max": 99,
+  "desc": "An extra large Congalala fang. Its sturdiness is better suited for crushing than tearing.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E68A94",
@@ -7162,6 +7639,7 @@
   "buy": 20460,
   "sell": 2046,
   "max": 99,
+  "desc": "Vibrant hair from a Congalala's head. The tuft works as crown of sorts, establishing its status as leader.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#D9C357",
@@ -7177,6 +7655,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": "The outer shell of a Nerscylla. Extremely light, with a distinctly aposematic coloration.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -7192,6 +7671,7 @@
   "buy": 7200,
   "sell": 720,
   "max": 99,
+  "desc": "The retractable venomous fang of a Nerscylla. Handle with care!",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -7207,6 +7687,7 @@
   "buy": 6000,
   "sell": 600,
   "max": 99,
+  "desc": "A lightweight, scythe-like claw that enables the Nerscylla's swift and deadly attacks.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -7222,6 +7703,7 @@
   "buy": 8000,
   "sell": 800,
   "max": 99,
+  "desc": "A dorsal spike and poison sac used to drip poison onto prey passing under the Nerscylla's nest.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E9EAEB",
@@ -7237,6 +7719,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Nerscylla. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -7252,6 +7735,7 @@
   "buy": 11000,
   "sell": 1100,
   "max": 99,
+  "desc": "A sturdy Nerscylla carapace. The porcelain-white material is highly prized, particularly among women.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -7267,6 +7751,7 @@
   "buy": 16500,
   "sell": 1650,
   "max": 99,
+  "desc": "This keen Nerscylla claw lashes out from the shadows to claim an ever-growing list of victims.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -7282,6 +7767,7 @@
   "buy": 22000,
   "sell": 2200,
   "max": 99,
+  "desc": "An especially large Nerscylla spike, prized more for its lethal poison sac than its sharpness.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E9EAEB",
@@ -7297,6 +7783,7 @@
   "buy": 11000,
   "sell": 1100,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Nerscylla. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -7312,6 +7799,7 @@
   "buy": 9700,
   "sell": 970,
   "max": 99,
+  "desc": "Quality scale from a Yian Kut-Ku. Its size and weight make it even more impressive than normal.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E68A94",
@@ -7327,6 +7815,7 @@
   "buy": 14550,
   "sell": 1455,
   "max": 99,
+  "desc": "Unyielding Yian Kut-Ku carapace. Its vivid red hue won't dim even when exposed to intense heat.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E68A94",
@@ -7342,6 +7831,7 @@
   "buy": 21340,
   "sell": 2134,
   "max": 99,
+  "desc": "The distinctive ear of a Yian Kut-Ku. Stretchy and resistant to fire, it makes fine armor lining.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E68A94",
@@ -7357,6 +7847,7 @@
   "buy": 19400,
   "sell": 1940,
   "max": 99,
+  "desc": "The massive beak of a Yian Kut-Ku. Sturdy enough to peck through even the rockiest of terrain.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#E68A94",
@@ -7372,6 +7863,7 @@
   "buy": 17460,
   "sell": 1746,
   "max": 99,
+  "desc": "Quality Yian Kut-Ku wing membrane. A triple threat of sturdiness, flexibility, and fire resistance.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#E68A94",
@@ -7387,6 +7879,7 @@
   "buy": 9700,
   "sell": 970,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Yian Kut-Ku. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E68A94",
@@ -7402,6 +7895,7 @@
   "buy": 8800,
   "sell": 880,
   "max": 99,
+  "desc": "Elastic, electricity-resistant hide worn by a Nerscylla. Thought to be from another monster.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#6687FF",
@@ -7417,6 +7911,7 @@
   "buy": 9500,
   "sell": 950,
   "max": 99,
+  "desc": "The quality hide of a Gypceros. The baggy, stretchy feel of it is oddly pleasing to the wearer.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#6687FF",
@@ -7432,6 +7927,7 @@
   "buy": 14500,
   "sell": 1450,
   "max": 99,
+  "desc": "A quality Gypceros wing membrane. Offers the same shock and poison protection—now with comfy stretch!",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#6687FF",
@@ -7447,6 +7943,7 @@
   "buy": 20900,
   "sell": 2090,
   "max": 99,
+  "desc": "The uniquely shaped head of a Gypceros. A must-have for Gypceros lovers!",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#6687FF",
@@ -7462,6 +7959,7 @@
   "buy": 19000,
   "sell": 1900,
   "max": 99,
+  "desc": "The tail of a Gypceros. The most pliant body part, and thus the most difficult part to damage.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#6687FF",
@@ -7477,6 +7975,7 @@
   "buy": 9500,
   "sell": 950,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Gypceros. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#6687FF",
@@ -7492,6 +7991,7 @@
   "buy": 40000,
   "sell": 4000,
   "max": 99,
+  "desc": "A valuable gem that can be harvested from bird wyverns. Said to fetch a high price on the market.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#6687FF",
@@ -7507,6 +8007,7 @@
   "buy": 560,
   "sell": 56,
   "max": 20,
+  "desc": "A mysterious substance culled from certain monsters that increases endurance.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#D9C357",
@@ -7522,6 +8023,7 @@
   "buy": 12000,
   "sell": 1200,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Rathian. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#47B267",
@@ -7537,6 +8039,7 @@
   "buy": 13200,
   "sell": 1320,
   "max": 99,
+  "desc": "Fine fur from a Blangonga. Its springy resilience and warmth make it prized in cold regions.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -7552,6 +8055,7 @@
   "buy": 19800,
   "sell": 1980,
   "max": 99,
+  "desc": "A Blangonga canine. As large as a human thigh, it's basically a weapon already.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -7567,6 +8071,7 @@
   "buy": 29040,
   "sell": 2904,
   "max": 99,
+  "desc": "A glorious mustache is the mark and pride of a Blangonga leader, a symbol of its might.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E9EAEB",
@@ -7582,6 +8087,7 @@
   "buy": 26400,
   "sell": 2640,
   "max": 99,
+  "desc": "The tail of a Blangonga. The silky, lustrous coat is heavenly to the touch.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E9EAEB",
@@ -7597,6 +8103,7 @@
   "buy": 13200,
   "sell": 1320,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Blangonga. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -7612,6 +8119,7 @@
   "buy": 14600,
   "sell": 1460,
   "max": 99,
+  "desc": "The sturdy carapace of a Gravios. Fused with ore by intense heat, it has grown abnormally tough.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -7627,6 +8135,7 @@
   "buy": 32120,
   "sell": 3212,
   "max": 99,
+  "desc": "The head armor of a Gravios, hardened by its own heat. Makes it hard to work with, too.",
   "icon": {
    "glyph": "items/itemglyph_049.png",
    "tint": "#E9EAEB",
@@ -7642,6 +8151,7 @@
   "buy": 29200,
   "sell": 2920,
   "max": 99,
+  "desc": "Shell that covers a Gravios's torso. It's grown so thick over time that average attacks do nothing to it.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -7657,6 +8167,7 @@
   "buy": 87600,
   "sell": 8760,
   "max": 99,
+  "desc": "Though hard to extract and hard to craft, the brain stem is an especially precious Gravios part.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E15057",
@@ -7672,6 +8183,7 @@
   "buy": 21900,
   "sell": 2190,
   "max": 99,
+  "desc": "The hefty wing of a Gravios. Recently, the demand and value of the material has been rising.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#E9EAEB",
@@ -7687,6 +8199,7 @@
   "buy": 14600,
   "sell": 1460,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Gravios. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -7702,6 +8215,7 @@
   "buy": 22000,
   "sell": 2200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -7717,6 +8231,7 @@
   "buy": 33000,
   "sell": 3300,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -7732,6 +8247,7 @@
   "buy": 39600,
   "sell": 3960,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -7747,6 +8263,7 @@
   "buy": 48400,
   "sell": 4840,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#D9C357",
@@ -7762,6 +8279,7 @@
   "buy": 44000,
   "sell": 4400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -7777,6 +8295,7 @@
   "buy": 44000,
   "sell": 4400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#D9C357",
@@ -7792,6 +8311,7 @@
   "buy": 132000,
   "sell": 13200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_050.png",
    "tint": "#D9C357",
@@ -7807,6 +8327,7 @@
   "buy": 22000,
   "sell": 2200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -7822,6 +8343,7 @@
   "buy": 13800,
   "sell": 1380,
   "max": 99,
+  "desc": "An extraordinarily durable scale carved from the body of a Rathalos.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E15057",
@@ -7837,6 +8359,7 @@
   "buy": 20700,
   "sell": 2070,
   "max": 99,
+  "desc": "This Rathalos carapace emanates a nobility befitting the King of the Skies.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E15057",
@@ -7852,6 +8375,7 @@
   "buy": 24840,
   "sell": 2484,
   "max": 99,
+  "desc": "The wing of a Rathalos. Skilled artisans can craft it into strong equipment.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#E15057",
@@ -7867,6 +8391,7 @@
   "buy": 27600,
   "sell": 2760,
   "max": 99,
+  "desc": "A severed Rathalos tail covered in plates and keen spines. It has any number of uses.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E15057",
@@ -7882,6 +8407,7 @@
   "buy": 82800,
   "sell": 8280,
   "max": 99,
+  "desc": "A rare, precious gem from inside a Rathalos. Almost too nice to use.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E15057",
@@ -7897,6 +8423,7 @@
   "buy": 13800,
   "sell": 1380,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Rathalos. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E15057",
@@ -7912,6 +8439,7 @@
   "buy": 23000,
   "sell": 2300,
   "max": 99,
+  "desc": "A deep black scale that seems to devour surrounding light, not reflect it.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#818182",
@@ -7927,6 +8455,7 @@
   "buy": 34500,
   "sell": 3450,
   "max": 99,
+  "desc": "The Gore Magala's handsome black suit of armor, said to negate all blows.",
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -7942,6 +8471,7 @@
   "buy": 41400,
   "sell": 4140,
   "max": 99,
+  "desc": "A horrifying wing that casts a hungry shadow over prey and drives them insane.",
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#818182",
@@ -7957,6 +8487,7 @@
   "buy": 41400,
   "sell": 4140,
   "max": 99,
+  "desc": "A claw from a Gore Magala's second foreleg. It inflicts Frenzy and generations of suffering.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#818182",
@@ -7972,6 +8503,7 @@
   "buy": 46000,
   "sell": 4600,
   "max": 99,
+  "desc": "A pliant tail covered in reverse scales that strikes like a whip, not a blade.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#818182",
@@ -7987,6 +8519,7 @@
   "buy": 50600,
   "sell": 5060,
   "max": 99,
+  "desc": "A well-honed sensory organ from a Gore Magala that oozes violet melancholy from its infected tip.",
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#818182",
@@ -8002,6 +8535,7 @@
   "buy": 138000,
   "sell": 13800,
   "max": 99,
+  "desc": "A pure, jet-black jewel that imprisons and swallows all nearby light.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#818182",
@@ -8017,6 +8551,7 @@
   "buy": 23000,
   "sell": 2300,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Gore Magala. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -8032,6 +8567,7 @@
   "buy": 20000,
   "sell": 2000,
   "max": 99,
+  "desc": "An unsettling crystal wreathed in Frenzied power. Handle with extreme care.",
   "icon": {
    "glyph": "items/itemglyph_052.png",
    "tint": "#9788D1",
@@ -8047,6 +8583,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A Conga pelt. Sturdy and soft to the touch but must be deodorized before it's processed.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E68A94",
@@ -8062,6 +8599,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A high-quality Conga pelt. The thick fur can be used to make long-lasting equipment.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E68A94",
@@ -8077,6 +8615,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A Vespoid shell. If processed correctly, it can become just as tough as a wyvern's hide.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#D9C357",
@@ -8092,6 +8631,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "The hard carapace of a Vespoid. It takes on a unique quality once processed.",
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#D9C357",
@@ -8107,6 +8647,7 @@
   "buy": 1500,
   "sell": 150,
   "max": 99,
+  "desc": "The wing of a Vespoid. Extremely difficult to process and produces widely varying results.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#D9C357",
@@ -8122,6 +8663,7 @@
   "buy": 6370,
   "sell": 637,
   "max": 99,
+  "desc": "The innerwing of a Vespoid. Sharp and elegant, like a blade.",
   "icon": {
    "glyph": "items/itemglyph_008.png",
    "tint": "#D9C357",
@@ -8137,6 +8679,7 @@
   "buy": 4250,
   "sell": 425,
   "max": 99,
+  "desc": "A high-quality Blango pelt. Difficult to process, but valuable nonetheless.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -8152,6 +8695,7 @@
   "buy": 11500,
   "sell": 1150,
   "max": 99,
+  "desc": "A precious and extremely hard substance with a faint glow. Sometimes used for crafting tools.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#818182",
@@ -8167,6 +8711,7 @@
   "buy": 24400,
   "sell": 2440,
   "max": 99,
+  "desc": "High quality Lightcrystal. Highly coveted for its rarity, it's used for only the finest of metalworking.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -8182,6 +8727,7 @@
   "buy": 8600,
   "sell": 860,
   "max": 99,
+  "desc": "Ore that is scorching even at room temperature. Its heat can be used to fuse materials.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E16D44",
@@ -8197,6 +8743,7 @@
   "buy": 17200,
   "sell": 1720,
   "max": 99,
+  "desc": "A magma-like deposit that only trained hands can handle. Armor made from it is first-class.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#DF9C65",
@@ -8212,6 +8759,7 @@
   "buy": 10200,
   "sell": 1020,
   "max": 99,
+  "desc": "A mysterious metal found in the Ruins of Wyveria, capable of fusing any other materials together.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E68A94",
@@ -8227,6 +8775,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "Precious metal from the Iceshard Cliffs. Shines bright white when the light catches it.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -8242,6 +8791,7 @@
   "buy": 16000,
   "sell": 1600,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Guardian Fulgur Anjanath. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -8257,6 +8807,7 @@
   "buy": 9300,
   "sell": 930,
   "max": 99,
+  "desc": "A Guild certificate awarded to those who have hunted a Congalala. Used to make equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E68A94",
@@ -8272,6 +8823,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": "A bone found in the Oilwell Basin. Covered in a thick coat of oil that built up over many years.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#818182",
@@ -8287,6 +8839,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": "A bone found in the Iceshard Cliffs. Tempered over millennia deep within the frozen earth.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E9EAEB",
@@ -8302,6 +8855,7 @@
   "buy": 6000,
   "sell": 600,
   "max": 99,
+  "desc": "A bone found in the Ruins of Wyveria. Its peculiar shape is unique to the local wildlife.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#4EC3E5",
@@ -8317,6 +8871,7 @@
   "buy": 7500,
   "sell": 750,
   "max": 99,
+  "desc": "A bone used as crafting material. Its ease of use and hardness allow it to be shaped into better gear.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#D9C357",
@@ -8332,6 +8887,7 @@
   "buy": 300,
   "sell": 30,
   "max": 99,
+  "desc": "A shard of crystal carved from the carcass of a Guardian. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -8347,6 +8903,7 @@
   "buy": 500,
   "sell": 50,
   "max": 99,
+  "desc": "A hazy crystal carved from the carcass of a Guardian. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -8362,6 +8919,7 @@
   "buy": 700,
   "sell": 70,
   "max": 99,
+  "desc": "A glittering crystal carved from the carcass of a Guardian. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -8377,6 +8935,7 @@
   "buy": 8400,
   "sell": 840,
   "max": 99,
+  "desc": "A monster organ filled with flammable powder. Handle with extreme care.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E15057",
@@ -8392,6 +8951,7 @@
   "buy": 14550,
   "sell": 1455,
   "max": 99,
+  "desc": "A monster organ filled with powder that ignites if it so much as touches air. Danger!",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E15057",
@@ -8407,6 +8967,7 @@
   "buy": 4800,
   "sell": 480,
   "max": 99,
+  "desc": "A monster organ designed to hold and preserve water.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#6687FF",
@@ -8422,6 +8983,7 @@
   "buy": 15300,
   "sell": 1530,
   "max": 99,
+  "desc": "A monster organ designed to hold and preserve copious amounts of water.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#6687FF",
@@ -8437,6 +8999,7 @@
   "buy": 24000,
   "sell": 2400,
   "max": 99,
+  "desc": "A monster organ that can store up large amounts of high voltage electricity.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#D9C357",
@@ -8452,6 +9015,7 @@
   "buy": 6600,
   "sell": 660,
   "max": 99,
+  "desc": "A monster organ filled with extremely cold fluid. Handle with care.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E9EAEB",
@@ -8467,6 +9031,7 @@
   "buy": 17100,
   "sell": 1710,
   "max": 99,
+  "desc": "A monster organ with tremendous chilling power. Flash-freezes its surroundings.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E9EAEB",
@@ -8482,6 +9047,7 @@
   "buy": 5400,
   "sell": 540,
   "max": 99,
+  "desc": "A monster organ filled with a lethal toxin. Handle with extreme care.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#9788D1",
@@ -8497,6 +9063,7 @@
   "buy": 14850,
   "sell": 1485,
   "max": 99,
+  "desc": "A monster organ filled with an extremely potent toxin. Even one touch can be risky.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#9788D1",
@@ -8512,6 +9079,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": "Body fluid from a Lala Barina. A sticky, red liquid that causes paralysis.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#BF3054",
@@ -8527,6 +9095,7 @@
   "buy": 13500,
   "sell": 1350,
   "max": 99,
+  "desc": "Thick body fluid from a Lala Barina. As red as fresh blood, it contains a powerful paralytic.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#BF3054",
@@ -8542,6 +9111,7 @@
   "buy": 6000,
   "sell": 600,
   "max": 99,
+  "desc": "A monster organ filled with a knockout powder capable of inducing sleep.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#4EC3E5",
@@ -8557,6 +9127,7 @@
   "buy": 16500,
   "sell": 1650,
   "max": 99,
+  "desc": "A monster organ filled with a dangerous powder. One whiff can induce a coma.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#4EC3E5",
@@ -8572,6 +9143,7 @@
   "buy": 11000,
   "sell": 1100,
   "max": 99,
+  "desc": "Guardian blood containing an unknown substance. A valuable research material.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E9EAEB",
@@ -8587,6 +9159,7 @@
   "buy": 33000,
   "sell": 3300,
   "max": 99,
+  "desc": "Guardian blood with rather peculiar properties. Requires further research.",
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#E9EAEB",
@@ -8602,6 +9175,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A large, brightly colored flower found in the Ruins of Wyveria. Spreads its seeds through the air.",
   "icon": {
    "glyph": "items/itemglyph_009.png",
    "tint": "#E15057",
@@ -8617,6 +9191,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A product of Kunafa. Perfectly suited for desert life. Try bringing it to the Smithy.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#D9CAAD",
@@ -8632,6 +9207,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A product of Azuz. The leather is repeatedly repaired for extended use. Try taking it to the Smithy.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#B38F48",
@@ -8647,6 +9223,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A product of Suja. Its unique pattern has roots in Wyverian tradition. Try taking it to the Smithy.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#6687FF",
@@ -8662,6 +9239,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A product of Sild. A high-quality material that can be used as-is. Try bringing it to the Smithy.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -8677,6 +9255,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "The hide of a Gajau. Covered in a thick slime that grants water resistance.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#B38F48",
@@ -8692,6 +9271,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "The sharp fin of a Speartuna. Might be useful for something if you bring it to the Smithy.",
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E9EAEB",
@@ -8707,6 +9287,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A ticket in the image of a hunter who traveled to the New World. Try taking it to the Smithy.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9CAAD",
@@ -8722,6 +9303,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A ticket depicting the ecology of Mimiphyta. Give it to the Smithy to get special equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -8737,6 +9319,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A sphere with faint power that is revealed through appraisal. Becomes an offensive decoration.",
   "icon": {
    "glyph": "items/itemglyph_056.png",
    "tint": "#E9EAEB",
@@ -8752,6 +9335,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A sphere with hidden power that can be revealed through appraisal. Becomes an offensive decoration.",
   "icon": {
    "glyph": "items/itemglyph_056.png",
    "tint": "#B38F48",
@@ -8767,6 +9351,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A sphere with incredible power that can be revealed through appraisal. Becomes an offensive decoration.",
   "icon": {
    "glyph": "items/itemglyph_056.png",
    "tint": "#E6E600",
@@ -8782,6 +9367,7 @@
   "buy": 800,
   "sell": 80,
   "max": 99,
+  "desc": "Reacts uniquely to heat. Fuse this to armor to improve it by a tiny amount.",
   "icon": {
    "glyph": "items/itemglyph_055.png",
    "tint": "#6687FF",
@@ -8797,6 +9383,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "Reacts uniquely to heat. Fuse this to armor to improve it by a small amount.",
   "icon": {
    "glyph": "items/itemglyph_055.png",
    "tint": "#47B267",
@@ -8812,6 +9399,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "Reacts uniquely to heat. Fuse this to armor to improve it.",
   "icon": {
    "glyph": "items/itemglyph_055.png",
    "tint": "#DF9C65",
@@ -8827,6 +9415,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": "A rigid, high-density armor sphere. Fuse this to armor to improve it by a great amount.",
   "icon": {
    "glyph": "items/itemglyph_055.png",
    "tint": "#9788D1",
@@ -8842,6 +9431,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Negates damage reactions, protects hearing, grants wind and tremor resistance, and reduces damage.",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#818182",
@@ -8857,6 +9447,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Steadily restores health over a set amount of time.",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#83B239",
@@ -8872,6 +9463,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Upon just evading a blow, triggers a special evasive maneuver that boosts attack and alters combos.",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#E9EAEB",
@@ -8887,6 +9479,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "Decreases health, but raises affinity and weapon stats. Attack and affinity further increased in certain conditions.",
   "icon": {
    "glyph": "items/itemglyph_074.png",
    "tint": "#56379E",
@@ -8902,6 +9495,7 @@
   "buy": 2500,
   "sell": 250,
   "max": 1,
+  "desc": "A flying wyvern's egg. Deliver it back to camp...if you can.",
   "icon": {
    "glyph": "items/itemglyph_007.png",
    "tint": "#E9EAEB",
@@ -8917,6 +9511,7 @@
   "buy": 800,
   "sell": 80,
   "max": 10,
+  "desc": "A lizard charred crispy by Wudwuds. Removes all traces of poison and restores both health and stamina.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#818182",
@@ -8932,6 +9527,7 @@
   "buy": 98,
   "sell": 10,
   "max": 5,
+  "desc": "Dried meat beloved for its wild flavor and toughness. Increases natural healing and cures bleeding.",
   "icon": {
    "glyph": "items/itemglyph_015.png",
    "tint": "#E68A94",
@@ -8947,6 +9543,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#47B267",
@@ -8962,6 +9559,7 @@
   "buy": 480,
   "sell": 48,
   "max": 5,
+  "desc": "Works with other materials to enhance their effects. Cannot be used by itself.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#3D7F3A",
@@ -8977,6 +9575,7 @@
   "buy": 90,
   "sell": 45,
   "max": 20,
+  "desc": "A dangerous substance that explodes when struck or heated. Used in Large Barrel Bombs.",
   "icon": {
    "glyph": "items/itemglyph_011.png",
    "tint": "#E16D44",
@@ -8992,6 +9591,7 @@
   "buy": 80,
   "sell": 8,
   "max": 10,
+  "desc": "A small, empty barrel. Combine with fire herbs to make it into a bomb.",
   "icon": {
    "glyph": "items/itemglyph_016.png",
    "tint": "#D9C357",
@@ -9007,6 +9607,7 @@
   "buy": 210,
   "sell": 21,
   "max": 5,
+  "desc": "A large, empty barrel. Combine with gunpowder to make it into a bomb.",
   "icon": {
    "glyph": "items/itemglyph_016.png",
    "tint": "#E16D44",
@@ -9022,6 +9623,7 @@
   "buy": 60,
   "sell": 6,
   "max": 10,
+  "desc": "A very sticky web. Used to craft pitfall traps.",
   "icon": {
    "glyph": "items/itemglyph_036.png",
    "tint": "#E9EAEB",
@@ -9037,6 +9639,7 @@
   "buy": 108,
   "sell": 54,
   "max": 10,
+  "desc": "A sturdy net that supports a certain amount of weight without breaking. Perfect for pitfall traps.",
   "icon": {
    "glyph": "items/itemglyph_036.png",
    "tint": "#3D7F3A",
@@ -9052,6 +9655,7 @@
   "buy": 300,
   "sell": 150,
   "max": 5,
+  "desc": "A Gunpowderfish scale. Combine with a large barrel bomb to dramatically increase its firepower.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#818182",
@@ -9067,6 +9671,7 @@
   "buy": 90,
   "sell": 45,
   "max": 5,
+  "desc": "A Burst Arowana scale. Combine with Normal Ammo to make a large amount of Slicing Ammo.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#47B267",
@@ -9082,6 +9687,7 @@
   "buy": 270,
   "sell": 135,
   "max": 5,
+  "desc": "A Bomb Arowana scale. Combine with Normal Ammo to make a large amount of Sticky Ammo.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#9788D1",
@@ -9097,6 +9703,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "A Goldenfry scale. Used by artisans in their crafts.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -9112,6 +9719,7 @@
   "buy": 10000,
   "sell": 1000,
   "max": 99,
+  "desc": "A Goldenfish scale. They shimmer like only pure gold can.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -9127,6 +9735,7 @@
   "buy": 20000,
   "sell": 2000,
   "max": 99,
+  "desc": "A Platinumfish scale. They give off a beautiful gleam.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -9142,6 +9751,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#D9C357",
@@ -9157,6 +9767,7 @@
   "buy": 100,
   "sell": 10,
   "max": 99,
+  "desc": "A ticket used by Wyverians. Hand it over when melding decorations to get a slight discount.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -9172,6 +9783,7 @@
   "buy": 500,
   "sell": 50,
   "max": 99,
+  "desc": "A ticket used by Wyverians. Hand it over when melding decorations to get a discount.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -9187,6 +9799,7 @@
   "buy": 100,
   "sell": 10,
   "max": 99,
+  "desc": "A ticket used by Wyverians. Hand it over when melding relics to get a slight discount.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -9202,6 +9815,7 @@
   "buy": 500,
   "sell": 50,
   "max": 99,
+  "desc": "A ticket used by Wyverians. Hand it over when melding relics to get a discount.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -9217,6 +9831,7 @@
   "buy": 10000,
   "sell": 1000,
   "max": 99,
+  "desc": "An egg of glittering steel. Rare but useless to hunters. Sells for a good price.",
   "icon": {
    "glyph": "items/itemglyph_007.png",
    "tint": "#818182",
@@ -9232,6 +9847,7 @@
   "buy": 100000,
   "sell": 10000,
   "max": 99,
+  "desc": "An egg of glittering silver. Rare but useless to hunters. Sells for a very good price.",
   "icon": {
    "glyph": "items/itemglyph_007.png",
    "tint": "#E9EAEB",
@@ -9247,6 +9863,7 @@
   "buy": 200000,
   "sell": 20000,
   "max": 99,
+  "desc": "An egg of glittering gold. Valuable but useless to hunters. Sells for a fortune.",
   "icon": {
    "glyph": "items/itemglyph_007.png",
    "tint": "#D9C357",
@@ -9262,6 +9879,7 @@
   "buy": 6000,
   "sell": 600,
   "max": 99,
+  "desc": "A solid, high-density armor sphere. Fuse this to armor to improve it by a vast amount.",
   "icon": {
    "glyph": "items/itemglyph_055.png",
    "tint": "#E15057",
@@ -9277,6 +9895,7 @@
   "buy": 8000,
   "sell": 800,
   "max": 99,
+  "desc": "Bone obtained from high-rank large monsters. It has a razor sharp tip that retains its strength after forging.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E68A94",
@@ -9292,6 +9911,7 @@
   "buy": 12000,
   "sell": 1200,
   "max": 99,
+  "desc": "Precious bone obtained from high rank large monsters. Their rarity makes them highly sought after.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E15057",
@@ -9307,6 +9927,7 @@
   "buy": 8000,
   "sell": 800,
   "max": 99,
+  "desc": "The bone of a large, high ranking monster. Very sturdy.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#818182",
@@ -9322,6 +9943,7 @@
   "buy": 13000,
   "sell": 1300,
   "max": 99,
+  "desc": "The bone of a large, high ranking monster. Extremely solid and durable.",
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#E9EAEB",
@@ -9337,6 +9959,7 @@
   "buy": 10000,
   "sell": 1000,
   "max": 99,
+  "desc": "Proof that you've hunted a tempered monster, certifying your strength.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9CAAD",
@@ -9352,6 +9975,7 @@
   "buy": 20000,
   "sell": 2000,
   "max": 99,
+  "desc": "Proof that you've hunted a fierce tempered monster, certifying your fearlessness.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -9367,6 +9991,7 @@
   "buy": 30000,
   "sell": 3000,
   "max": 99,
+  "desc": "Proof that you've hunted a vicious tempered monster, certifying your heroism.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E6E600",
@@ -9382,6 +10007,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A ticket used by Wyverians. Hand it over when melding decorations to get a great discount.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -9397,6 +10023,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A ticket used by Wyverians. Hand it over when melding relics to get a great discount.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -9412,6 +10039,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": "Contains an unknown substance. It has lost any color it previously had and courses with energy.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -9427,6 +10055,7 @@
   "buy": 15000,
   "sell": 1500,
   "max": 99,
+  "desc": "A high-quality Guardian pelt. Exceptionally smooth and tough.",
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#E9EAEB",
@@ -9442,6 +10071,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "A mysterious material smelted in Azuz. Has been used to make equipment since ancient times.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#818182",
@@ -9457,6 +10087,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": "A mysterious material smelted in Azuz. Not as pure as it could be, but still of impeccable quality.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#4EC3E5",
@@ -9472,6 +10103,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": "A mysterious material smelted in Azuz. It's apparently primarily used in high-quality equipment.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E9EAEB",
@@ -9487,6 +10119,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": "A mysterious, high-quality material smelted in Azuz. Equipment made from it is second to none.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#9788D1",
@@ -9502,6 +10135,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A common wooden lure shaped like a small fish. Good for any kind of fish.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#B38F48",
@@ -9517,6 +10151,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A lure that looks like a shining beetle. Good for catching gaudy fish, like Goldenfish.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#E6E600",
@@ -9532,6 +10167,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A lure with a blade made of ore. Good for catching useful fish, like Sushifish.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#3D7F3A",
@@ -9547,6 +10183,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A lure shaped like a Cephalos. Good for catching large, swift fish, like Gastronome Tuna.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#E16D44",
@@ -9562,6 +10199,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A lure shaped like a Starduster. Good for catching fish that like dark or muddy places, like Gajau.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#4EC3E5",
@@ -9577,6 +10215,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A lure made with thorngrass. Good for catching aquatic creatures that have tentacles or feelers.",
   "icon": {
    "glyph": "items/itemglyph_022.png",
    "tint": "#BF3054",
@@ -9592,6 +10231,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating designed to deal more damage to nearby targets, at the cost of a reduced maximum range.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#E9EAEB",
@@ -9607,6 +10247,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that increases the attack power of arrows.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#E15057",
@@ -9622,6 +10263,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that increases piercing ability. Depending on the monster, it can deal multiple hits.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#6687FF",
@@ -9637,6 +10279,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that applies paralysis effects to arrows.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#E6E600",
@@ -9652,6 +10295,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that applies poison effects to arrows.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#9788D1",
@@ -9667,6 +10311,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that applies sleep effects to arrows.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#4EC3E5",
@@ -9682,6 +10327,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that applies explosive powder to arrows.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#E16D44",
@@ -9697,6 +10343,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "A coating that applies a fluid which induces exhaust to arrows.",
   "icon": {
    "glyph": "items/itemglyph_035.png",
    "tint": "#98D9C9",
@@ -9712,6 +10359,7 @@
   "buy": 135,
   "sell": 45,
   "max": 5,
+  "desc": "A fish fin used to sharpen weapons. Works better than a whetstone and can be reused if you're lucky.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#D9C357",
@@ -9727,6 +10375,7 @@
   "buy": 90,
   "sell": 45,
   "max": 5,
+  "desc": "Scale from a Sushifish. Eat to get a large health/natural healing boost or to treat bleeding.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#DF9C65",
@@ -9742,6 +10391,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A piece of a discarded, old blade. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E15057",
@@ -9757,6 +10407,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A cylindrical part of an old weapon that's been thrown away. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E15057",
@@ -9772,6 +10423,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A disc-like part of an old weapon that's been thrown away. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E15057",
@@ -9787,6 +10439,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": "A part of an old weapon that has some sort of device on it. Needs to be appraised.",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#E15057",
@@ -9802,6 +10455,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_EXP_690",
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#D9CAAD",
@@ -9817,6 +10471,7 @@
   "buy": 8000,
   "sell": 800,
   "max": 99,
+  "desc": "Precious ore from the Iceshard Cliffs. Swathed in frigid air that shines pale blue when the light catches it.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#6687FF",
@@ -9832,6 +10487,7 @@
   "buy": 800,
   "sell": 80,
   "max": 99,
+  "desc": "Obtained from destroying a tempered wound. Has a deep sanguine hue. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -9847,6 +10503,7 @@
   "buy": 900,
   "sell": 90,
   "max": 99,
+  "desc": "Obtained from destroying a tempered wound. Has a deep sanguine hue. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -9862,6 +10519,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": "Obtained from destroying a tempered wound. Has a deep sanguine hue. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -9877,6 +10535,7 @@
   "buy": 1100,
   "sell": 110,
   "max": 99,
+  "desc": "Obtained from destroying a tempered wound. Larger than most of its type. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -9892,6 +10551,7 @@
   "buy": 1200,
   "sell": 120,
   "max": 99,
+  "desc": "Obtained from destroying a tempered wound. One of the largest of its kind. Can be used as a melding material.",
   "icon": {
    "glyph": "items/itemglyph_038.png",
    "tint": "#E15057",
@@ -9907,6 +10567,7 @@
   "buy": 30000,
   "sell": 3000,
   "max": 99,
+  "desc": "A jewel formed from ore that spent years inside a Balahara. Bewitchingly beautiful.",
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#818182",
@@ -9922,6 +10583,7 @@
   "buy": 102000,
   "sell": 10200,
   "max": 99,
+  "desc": "A rare jewel that developed in a Guardian Rathalos' body. Said to wield the power of an inferno.",
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E9EAEB",
@@ -9937,6 +10599,7 @@
   "buy": 33600,
   "sell": 3360,
   "max": 99,
+  "desc": "A plate from a Guardian Rathalos. Strengthened by the flow of energy, its inherent heat blazes forth.",
   "icon": {
    "glyph": "items/itemglyph_050.png",
    "tint": "#E9EAEB",
@@ -9952,6 +10615,7 @@
   "buy": 50600,
   "sell": 5060,
   "max": 99,
+  "desc": "The tail of a Jin Dahaad. Has a cooling organ that continues to make cold air even when severed.",
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#B38F48",
@@ -9967,6 +10631,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": "A ticket inscribed with the emblem of the expedition. Give it to the Smithy to get special equipment.",
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -9982,6 +10647,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -9997,6 +10663,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -10012,6 +10679,7 @@
   "buy": 48000,
   "sell": 4800,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#E9EAEB",
@@ -10027,6 +10695,7 @@
   "buy": 57600,
   "sell": 5760,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -10042,6 +10711,7 @@
   "buy": 64000,
   "sell": 6400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#E9EAEB",
@@ -10057,6 +10727,7 @@
   "buy": 70400,
   "sell": 7040,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#E9EAEB",
@@ -10072,6 +10743,7 @@
   "buy": 192000,
   "sell": 19200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E9EAEB",
@@ -10087,6 +10759,7 @@
   "buy": 64000,
   "sell": 6400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#818182",
@@ -10102,6 +10775,7 @@
   "buy": 17500,
   "sell": 1750,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#56379E",
@@ -10117,6 +10791,7 @@
   "buy": 17500,
   "sell": 1750,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#E9EAEB",
@@ -10132,6 +10807,7 @@
   "buy": 26250,
   "sell": 2625,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#56379E",
@@ -10147,6 +10823,7 @@
   "buy": 35000,
   "sell": 3500,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#56379E",
@@ -10162,6 +10839,7 @@
   "buy": 35000,
   "sell": 3500,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#E68A94",
@@ -10177,6 +10855,7 @@
   "buy": 38500,
   "sell": 3850,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#56379E",
@@ -10192,6 +10871,7 @@
   "buy": 31500,
   "sell": 3150,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#9788D1",
@@ -10207,6 +10887,7 @@
   "buy": 105000,
   "sell": 10500,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#56379E",
@@ -10222,6 +10903,7 @@
   "buy": 22000,
   "sell": 2200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4EC3E5",
@@ -10237,6 +10919,7 @@
   "buy": 22000,
   "sell": 2200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#4EC3E5",
@@ -10252,6 +10935,7 @@
   "buy": 33000,
   "sell": 3300,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_044.png",
    "tint": "#4EC3E5",
@@ -10267,6 +10951,7 @@
   "buy": 39600,
   "sell": 3960,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_041.png",
    "tint": "#4EC3E5",
@@ -10282,6 +10967,7 @@
   "buy": 44000,
   "sell": 4400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#4EC3E5",
@@ -10297,6 +10983,7 @@
   "buy": 48400,
   "sell": 4840,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#4EC3E5",
@@ -10312,6 +10999,7 @@
   "buy": 44000,
   "sell": 4400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#4EC3E5",
@@ -10327,6 +11015,7 @@
   "buy": 132000,
   "sell": 13200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#4EC3E5",
@@ -10342,6 +11031,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -10357,6 +11047,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#818182",
@@ -10372,6 +11063,7 @@
   "buy": 48000,
   "sell": 4800,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#818182",
@@ -10387,6 +11079,7 @@
   "buy": 57600,
   "sell": 5760,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -10402,6 +11095,7 @@
   "buy": 64000,
   "sell": 6400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_042.png",
    "tint": "#818182",
@@ -10417,6 +11111,7 @@
   "buy": 64000,
   "sell": 6400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#818182",
@@ -10432,6 +11127,7 @@
   "buy": 192000,
   "sell": 19200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#818182",
@@ -10447,6 +11143,7 @@
   "buy": 64000,
   "sell": 6400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -10462,6 +11159,7 @@
   "buy": 34000,
   "sell": 3400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#6687FF",
@@ -10477,6 +11175,7 @@
   "buy": 34000,
   "sell": 3400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_043.png",
    "tint": "#6687FF",
@@ -10492,6 +11191,7 @@
   "buy": 51000,
   "sell": 5100,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_046.png",
    "tint": "#6687FF",
@@ -10507,6 +11207,7 @@
   "buy": 61200,
   "sell": 6120,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#6687FF",
@@ -10522,6 +11223,7 @@
   "buy": 61200,
   "sell": 6120,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_045.png",
    "tint": "#6687FF",
@@ -10537,6 +11239,7 @@
   "buy": 68000,
   "sell": 6800,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_048.png",
    "tint": "#6687FF",
@@ -10552,6 +11255,7 @@
   "buy": 74800,
   "sell": 7480,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_047.png",
    "tint": "#6687FF",
@@ -10567,6 +11271,7 @@
   "buy": 204000,
   "sell": 20400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#E15057",
@@ -10582,6 +11287,7 @@
   "buy": 51000,
   "sell": 5100,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_073.png",
    "tint": "#6687FF",
@@ -10597,6 +11303,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_000.png",
    "tint": "#6687FF",
@@ -10612,6 +11319,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -10627,6 +11335,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#685ECD",
@@ -10642,6 +11351,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E15057",
@@ -10657,6 +11367,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4EC3E5",
@@ -10672,6 +11383,7 @@
   "buy": 32000,
   "sell": 3200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -10687,6 +11399,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E68A94",
@@ -10702,6 +11415,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E68A94",
@@ -10717,6 +11431,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E68A94",
@@ -10732,6 +11447,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#BF3054",
@@ -10747,6 +11463,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#6687FF",
@@ -10762,6 +11479,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#6687FF",
@@ -10777,6 +11495,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_091.png",
    "tint": "#818182",
@@ -10792,6 +11511,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#9788D1",
@@ -10807,6 +11527,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#DF9C65",
@@ -10822,6 +11543,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#9788D1",
@@ -10837,6 +11559,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -10852,6 +11575,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -10867,6 +11591,7 @@
   "buy": 4500,
   "sell": 450,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -10882,6 +11607,7 @@
   "buy": 3000,
   "sell": 300,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_031.png",
    "tint": "#E9EAEB",
@@ -10897,6 +11623,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_031.png",
    "tint": "#47B267",
@@ -10912,6 +11639,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -10927,6 +11655,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#9788D1",
@@ -10942,6 +11671,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_088.png",
    "tint": "#4EC3E5",
@@ -10957,6 +11687,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_089.png",
    "tint": "#56379E",
@@ -10972,6 +11703,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_090.png",
    "tint": "#E15057",
@@ -10987,6 +11719,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -11002,6 +11735,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#E68A94",
@@ -11017,6 +11751,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#6687FF",
@@ -11032,6 +11767,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#DF9C65",
@@ -11047,6 +11783,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#E9EAEB",
@@ -11062,6 +11799,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#E15057",
@@ -11077,6 +11815,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -11092,6 +11831,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_001.png",
    "tint": "#E15057",
@@ -11107,6 +11847,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4EC3E5",
@@ -11122,6 +11863,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#B38F48",
@@ -11137,6 +11879,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -11152,6 +11895,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -11167,6 +11911,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4EC3E5",
@@ -11182,6 +11927,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_028.png",
    "tint": "#DF9C65",
@@ -11197,6 +11943,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -11212,6 +11959,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_002.png",
    "tint": "#D9CAAD",
@@ -11227,6 +11975,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -11242,6 +11991,7 @@
   "buy": 518,
   "sell": 52,
   "max": 2,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#E68A94",
@@ -11257,6 +12007,7 @@
   "buy": 518,
   "sell": 52,
   "max": 2,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#6687FF",
@@ -11272,6 +12023,7 @@
   "buy": 518,
   "sell": 52,
   "max": 2,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#9788D1",
@@ -11287,6 +12039,7 @@
   "buy": 518,
   "sell": 52,
   "max": 2,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_017.png",
    "tint": "#D9CAAD",
@@ -11302,6 +12055,7 @@
   "buy": 5000,
   "sell": 500,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_031.png",
    "tint": "#D9C357",
@@ -11317,6 +12071,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#D9CAAD",
@@ -11332,6 +12087,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#E16D44",
@@ -11347,6 +12103,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#98D9C9",
@@ -11362,6 +12119,7 @@
   "buy": 4000,
   "sell": 400,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_029.png",
    "tint": "#83B239",
@@ -11377,6 +12135,7 @@
   "buy": 0,
   "sell": 0,
   "max": 5,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#4EC3E5",
@@ -11392,6 +12151,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#D9C357",
@@ -11407,6 +12167,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_096.png",
    "tint": "#FFFFFF",
@@ -11422,6 +12183,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_095.png",
    "tint": "#FFFFFF",
@@ -11437,6 +12199,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_092.png",
    "tint": "#FFFFFF",
@@ -11452,6 +12215,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_093.png",
    "tint": "#FFFFFF",
@@ -11467,6 +12231,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_094.png",
    "tint": "#FFFFFF",
@@ -11482,6 +12247,7 @@
   "buy": 0,
   "sell": 0,
   "max": 2,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_062.png",
    "tint": "#E15057",
@@ -11497,6 +12263,7 @@
   "buy": 0,
   "sell": 0,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_097.png",
    "tint": "#FFFFFF",
@@ -11512,6 +12279,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_054.png",
    "tint": "#9788D1",
@@ -11527,6 +12295,7 @@
   "buy": 90,
   "sell": 0,
   "max": 10,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_054.png",
    "tint": "#E15057",
@@ -11542,6 +12311,7 @@
   "buy": 1000,
   "sell": 100,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -11557,6 +12327,7 @@
   "buy": 2000,
   "sell": 200,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#D9C357",
@@ -11572,6 +12343,7 @@
   "buy": 40000,
   "sell": 4000,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#DF9C65",
@@ -11587,6 +12359,7 @@
   "buy": 50,
   "sell": 500,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#47B267",
@@ -11602,6 +12375,7 @@
   "buy": 10,
   "sell": 100,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_037.png",
    "tint": "#47B267",
@@ -11617,6 +12391,7 @@
   "buy": 1,
   "sell": 1,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#E9EAEB",
@@ -11632,6 +12407,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#6687FF",
@@ -11647,6 +12423,7 @@
   "buy": 10,
   "sell": 1,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_039.png",
    "tint": "#818182",
@@ -11662,6 +12439,7 @@
   "buy": 10000,
   "sell": 1000,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_020.png",
    "tint": "#818182",
@@ -11677,6 +12455,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_031.png",
    "tint": "#6687FF",
@@ -11692,6 +12471,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#818182",
@@ -11707,6 +12487,7 @@
   "buy": 3500,
   "sell": 350,
   "max": 99,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_030.png",
    "tint": "#4C4CD9",
@@ -11722,6 +12503,7 @@
   "buy": 2500,
   "sell": 250,
   "max": 1,
+  "desc": null,
   "icon": {
    "glyph": "items/itemglyph_007.png",
    "tint": "#E9EAEB",

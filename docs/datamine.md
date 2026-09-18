@@ -92,8 +92,30 @@ community tables (Rathian oracle: 21/21 match):
 | 800/900s | Gather | Endemic life (fish/insects) |
 
 `PARTS_TYPE` and break linkage reuse the hitzone maps. Item catalog
-(`data/materials.json`, 782 items: id/name/rarity/prices) comes from
-`Common/Item/itemData.user.3` + `Item.msg.23`.
+(`data/materials.json`, 782 items: id/name/rarity/prices + English `desc`)
+comes from `Common/Item/itemData.user.3` + `Item.msg.23`
+(`Item_IT_<id>` names, `Item_IT_EXP_<id>` explains; 652/782 — every named
+item covered, the rest are unreleased `ITEM<…>` placeholders).
+
+### Item catalog field values
+
+`type` is `app.ItemDef.TYPE`: 0 EXPENDABLE (consumables: Potion, Honey),
+1 TOOL (reusables: Whetstone, Capture Net), 2 MATERIAL (crafting parts:
+507 items), 3 SHELL (bowgun ammo), 4 BOTTLE (bow coatings),
+5 POINT (village exchange items), 6 GEM (decoration orbs).
+
+`rarity` (`_Rare`) spans 11–18, **lower is rarer**: Potion 18, Mega 17,
+Max 16, Ancient 14, Rathian Scale+ 13, Rathian Ruby 12. Suspected
+in-game display is R1–R8 via `19 − value` (unverified: the display
+mapping lives in game code, not data).
+
+`icon.badge`/`icon.badgePos`: corner overlay marker (89/782 items have
+one; rest `null`). `LT`/`RT` = left/right-top corner. The 5 used badges
+(`AddIcon` → glyph): `SHELL_LV1` → star = upgraded consumables
+(Mega/Ancient) + Valuable Material; `WISH_ITEM` → pouch = trade-ins
+(aloe, treasures); `LOCK` → padlock = village cooking ingredients;
+`FOR_ARMOR` → gauntlet = Sword orbs; `EQUIP_TEMPERED` → plus = Armor
+orbs. Full render = glyph × tint + badge at its corner.
 
 ## Item icon model
 

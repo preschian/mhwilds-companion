@@ -43,9 +43,17 @@ def main():
     mmap = build_map()
     pnames = json.load(open(os.path.join(HERE, 'part_names.json'), encoding='utf-8'))
     catalog = json.load(open(os.path.join(HERE, 'items.json'), encoding='utf-8'))
+    iexp = {e['name']: e['eng'] for e in
+            json.load(open(os.path.join(HERE, 'item_text.json'), encoding='utf-8'))}
+
+    def desc(iid):
+        raw = iexp.get(f'Item_IT_EXP_{iid}')
+        if not raw:
+            return None
+        return raw.replace('\r\n\r\n', '\n\n').replace('\r\n', ' ').strip()
 
     mats = [{'id': int(iid), 'name': c['name'], 'rarity': c['rare'], 'type': c['type'],
-             'buy': c['buy'], 'sell': c['sell'], 'max': c['max']}
+             'buy': c['buy'], 'sell': c['sell'], 'max': c['max'], 'desc': desc(iid)}
             for iid, c in sorted(catalog.items(), key=lambda kv: int(kv[0]))]
     json.dump(mats, open(os.path.join(REPO, 'data', 'materials.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=1)
