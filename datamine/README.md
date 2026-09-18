@@ -24,8 +24,13 @@ Set `MHRESEARCH` to override the work dir (default: `%TEMP%\mhwilds-research`),
 
 # 4. Name maps
 python .\datamine\build_partnames.py
+$R = $env:MHRESEARCH; if (-not $R) { $R = Join-Path $env:TEMP 'mhwilds-research' }
+python .\datamine\enum_dump.py 'app.EnemyDef.PARTS_TYPE' 'app.Hit.ROD_EXTRACT' > (Join-Path $R 'parts_enums.json')
+python .\datamine\msg_parse.py (Join-Path $R 'extract_full\merged\natives\STM\GameDesign\Text\Excel_Data\EnemyText.msg.23') --json (Join-Path $R 'enemy_text_merged.json')
 
-# 5. Full hitzone dataset + Kiranico cross-check report
+# 5. Full hitzone dataset (+ Kiranico cross-check if the optional reference
+#    clone exists under $MHRESEARCH; otherwise validation is skipped)
+#    Reference: https://github.com/sockbats/MH-Wilds-Monster-Database
 python .\datamine\meat_all.py
 
 # 6. Finalize data/monsters.json + data/icons/*.png (icons committed:

@@ -11,6 +11,8 @@ Write all repo docs, comments, UI copy, and commit messages in English.
 | Game | `D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds` |
 | Variant matrix | `docs/high-rank-monster-variants.md` |
 | Trace log | `reframework/data/fieldguide_sos_trace_v<VERSION>.txt` |
+| Datamine | `datamine/` → `data/monsters.json` (+ local `data/icons/`) |
+| Datamine notes | `docs/datamine.md` |
 
 Steam AppID `2246340`. Do not commit `il2cpp_dump.json` or trace logs.
 
