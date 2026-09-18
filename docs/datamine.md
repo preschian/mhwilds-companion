@@ -69,6 +69,28 @@ Cross-checked against independent Kiranico-derived data
 Our data additionally covers monsters missing from that source: Lagiacrus,
 Seregios, Gogmazios, Omega Planetes/Micros.
 
+## Rewards model (`EnemyRewardData`)
+
+Per-monster tables in `GameDesign/Common/Enemy/EMXXXX_*.user.3`, one
+`cData` entry per lottery line: story slot (low rank: item/count/rate) +
+ex arrays (high rank). dataId hundreds digit = category, verified against
+community tables (Rathian oracle: 21/21 match):
+
+| dataId | Category | Notes |
+|--------|----------|-------|
+| 100s | Body carve | One lottery (lines sum 100); carve count in `Param_Hagitori` (`Nullable<Int32>` = flag + value; null = game default) |
+| 200s | Tail carve | RW016 head; small-monster 200s with other heads are drops |
+| 300s | Part break | Per-part when partsIndex ≥ 0 (= `RewardTableIndex` in the monster's `Param_PartsBreakReward`); one shared pool when -1 |
+| 400s | Wound destroy | One lottery |
+| 500s | Target rewards | One table per roll (8 rolls); ex[0] is the primary, rest kept as `alts` |
+| 110/120/150/210s | Field drops | Inferred: shiny/pickup lots (contents exact, trigger unverified) |
+| 600s | Bonus | Wyverian bloodstones |
+| 800/900s | Gather | Endemic life (fish/insects) |
+
+`PARTS_TYPE` and break linkage reuse the hitzone maps. Item catalog
+(`data/materials.json`, 782 items: id/name/rarity/prices) comes from
+`Common/Item/itemData.user.3` + `Item.msg.23`.
+
 ## Regenerating
 
 Follow `datamine/README.md`. After a game patch, re-run the extraction

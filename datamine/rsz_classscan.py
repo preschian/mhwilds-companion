@@ -54,6 +54,11 @@ def main():
     mmap = build_map()
     print(f'map size={len(mmap)}', flush=True)
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    global ROOT
+    if '--root' in sys.argv:
+        _ri = sys.argv.index('--root')
+        ROOT = sys.argv[_ri + 1]
+        args = [a for a in args if a != sys.argv[_ri + 1]]
     if '--all-meat' in sys.argv:
         n_files, n_hit = 0, 0
         for dp, _, fns in os.walk(ROOT):

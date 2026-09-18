@@ -43,7 +43,7 @@ def read_wstring(cur):
     return b[:-2].decode('utf-16-le')
 
 
-def read_value(cur, code, size, objs, layouts, mmap):
+def read_value(cur, code, size, objs, layouts, mmap, ftype=''):
     """Read one non-array field value; returns python value (Object->ref dict)."""
     if code in PRIM:
         fmt, n = PRIM[code]
@@ -56,6 +56,10 @@ def read_value(cur, code, size, objs, layouts, mmap):
         return {'$ref': idx - 1} if idx > 0 else None
     if code == 'String':
         return read_wstring(cur)
+    if code == 'Struct' and ftype.startswith('System.Nullable'):
+        has = struct.unpack('<i', cur.read(4))[0]
+        val = struct.unpack('<i', cur.read(4))[0]
+        return val if has else None
     # Embedded fixed-size struct (via.vec3 etc.): honour declared size.
     b = cur.read(size)
     if code == 'Vec3':
@@ -76,7 +80,7 @@ def read_field(cur, f, objs, layouts, mmap):
     code_align = 4 if (f.get('array') or code == 'Object') else f['align']
     cur.align(code_align)
     if not f.get('array'):
-        return read_value(cur, code, size, objs, layouts, mmap)
+        return read_value(cur, code, size, objs, layouts, mmap, f.get('type') or '')
     count = cur.s32()
     if count < 0 or count > 100000:
         raise ValueError(f"bad array count {count} for {f.get('potential_name')}")

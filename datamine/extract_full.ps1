@@ -15,7 +15,12 @@ if (-not (Test-Path $listFile)) {
     $sel = $L | Where-Object {
         $_ -like 'natives/STM/GameDesign/Enemy/*' -or
         ($_ -like 'natives/STM/GameDesign/Text/Excel_Data/Enemy*.msg.*') -or
-        $_ -like 'natives/STM/GameDesign/Catalog/00_00/Data/EnemyPackageList.user.3'
+        $_ -like 'natives/STM/GameDesign/Catalog/00_00/Data/EnemyPackageList.user.3' -or
+        $_ -like 'natives/STM/GameDesign/Common/Enemy/*' -or
+        $_ -like 'natives/STM/GameDesign/Common/Item/*' -or
+        $_ -like 'natives/STM/GameDesign/Mission/_UserData/*' -or
+        $_ -like 'natives/STM/GameDesign/Text/Excel_Data/Item.msg.*' -or
+        $_ -like 'natives/STM/GameDesign/Text/Reference/RefItem.msg.*'
     }
     $sel | Set-Content $listFile
 }

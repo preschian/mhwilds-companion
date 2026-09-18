@@ -1,0 +1,7040 @@
+[
+ {
+  "id": 1,
+  "name": "---",
+  "rarity": 18,
+  "type": 0,
+  "buy": 100,
+  "sell": 10,
+  "max": 10
+ },
+ {
+  "id": 2,
+  "name": "Potion",
+  "rarity": 18,
+  "type": 0,
+  "buy": 66,
+  "sell": 8,
+  "max": 10
+ },
+ {
+  "id": 3,
+  "name": "Mega Potion",
+  "rarity": 17,
+  "type": 0,
+  "buy": 165,
+  "sell": 16,
+  "max": 10
+ },
+ {
+  "id": 4,
+  "name": "Antidote",
+  "rarity": 18,
+  "type": 0,
+  "buy": 60,
+  "sell": 6,
+  "max": 10
+ },
+ {
+  "id": 5,
+  "name": "Max Potion",
+  "rarity": 16,
+  "type": 0,
+  "buy": 2138,
+  "sell": 210,
+  "max": 2
+ },
+ {
+  "id": 6,
+  "name": "Ancient Potion",
+  "rarity": 14,
+  "type": 0,
+  "buy": 3454,
+  "sell": 345,
+  "max": 1
+ },
+ {
+  "id": 7,
+  "name": "Nulberry",
+  "rarity": 17,
+  "type": 0,
+  "buy": 1200,
+  "sell": 120,
+  "max": 10
+ },
+ {
+  "id": 8,
+  "name": "Ration",
+  "rarity": 18,
+  "type": 0,
+  "buy": 30,
+  "sell": 3,
+  "max": 10
+ },
+ {
+  "id": 9,
+  "name": "Well-done Steak",
+  "rarity": 17,
+  "type": 0,
+  "buy": 96,
+  "sell": 48,
+  "max": 5
+ },
+ {
+  "id": 10,
+  "name": "Rare Steak",
+  "rarity": 18,
+  "type": 0,
+  "buy": 30,
+  "sell": 3,
+  "max": 10
+ },
+ {
+  "id": 11,
+  "name": "Burnt Meat",
+  "rarity": 18,
+  "type": 0,
+  "buy": 10,
+  "sell": 1,
+  "max": 10
+ },
+ {
+  "id": 12,
+  "name": "Lifepowder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 480,
+  "sell": 190,
+  "max": 3
+ },
+ {
+  "id": 13,
+  "name": "Raw Meat",
+  "rarity": 18,
+  "type": 0,
+  "buy": 50,
+  "sell": 5,
+  "max": 10
+ },
+ {
+  "id": 14,
+  "name": "Barrel Bomb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 156,
+  "sell": 16,
+  "max": 10
+ },
+ {
+  "id": 15,
+  "name": "Large Barrel Bomb",
+  "rarity": 16,
+  "type": 0,
+  "buy": 518,
+  "sell": 52,
+  "max": 2
+ },
+ {
+  "id": 16,
+  "name": "Flash Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 572,
+  "sell": 57,
+  "max": 3
+ },
+ {
+  "id": 17,
+  "name": "Stone",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 20
+ },
+ {
+  "id": 18,
+  "name": "Capture Net",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 19,
+  "name": "Pitfall Trap",
+  "rarity": 16,
+  "type": 0,
+  "buy": 400,
+  "sell": 200,
+  "max": 1
+ },
+ {
+  "id": 20,
+  "name": "Shock Trap",
+  "rarity": 16,
+  "type": 0,
+  "buy": 320,
+  "sell": 160,
+  "max": 1
+ },
+ {
+  "id": 21,
+  "name": "Whetstone",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 23,
+  "name": "Binoculars",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 24,
+  "name": "Camping Kit",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 25,
+  "name": "Portable BBQ Grill",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 26,
+  "name": "Herb",
+  "rarity": 18,
+  "type": 0,
+  "buy": 20,
+  "sell": 2,
+  "max": 10
+ },
+ {
+  "id": 27,
+  "name": "Antidote Herb",
+  "rarity": 18,
+  "type": 0,
+  "buy": 20,
+  "sell": 2,
+  "max": 10
+ },
+ {
+  "id": 28,
+  "name": "Honey",
+  "rarity": 17,
+  "type": 0,
+  "buy": 90,
+  "sell": 45,
+  "max": 10
+ },
+ {
+  "id": 29,
+  "name": "Bitterbug Broth",
+  "rarity": 18,
+  "type": 0,
+  "buy": 20,
+  "sell": 2,
+  "max": 10
+ },
+ {
+  "id": 30,
+  "name": "Flashbug Phosphor",
+  "rarity": 17,
+  "type": 0,
+  "buy": 96,
+  "sell": 48,
+  "max": 10
+ },
+ {
+  "id": 31,
+  "name": "Godbug Essence",
+  "rarity": 15,
+  "type": 0,
+  "buy": 320,
+  "sell": 120,
+  "max": 10
+ },
+ {
+  "id": 32,
+  "name": "Thunderbug Capacitor",
+  "rarity": 15,
+  "type": 0,
+  "buy": 300,
+  "sell": 80,
+  "max": 10
+ },
+ {
+  "id": 33,
+  "name": "Doshaguma Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5700,
+  "sell": 570,
+  "max": 99
+ },
+ {
+  "id": 34,
+  "name": "Doshaguma Fur",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3800,
+  "sell": 380,
+  "max": 99
+ },
+ {
+  "id": 35,
+  "name": "Doshaguma Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6840,
+  "sell": 684,
+  "max": 99
+ },
+ {
+  "id": 36,
+  "name": "Doshaguma Fang",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8360,
+  "sell": 836,
+  "max": 99
+ },
+ {
+  "id": 37,
+  "name": "Beast Gem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 40000,
+  "sell": 4000,
+  "max": 10
+ },
+ {
+  "id": 38,
+  "name": "Normal Ammo",
+  "rarity": 18,
+  "type": 3,
+  "buy": 0,
+  "sell": 0,
+  "max": 99
+ },
+ {
+  "id": 39,
+  "name": "Pierce Ammo",
+  "rarity": 18,
+  "type": 3,
+  "buy": 0,
+  "sell": 0,
+  "max": 99
+ },
+ {
+  "id": 40,
+  "name": "Spread Ammo",
+  "rarity": 18,
+  "type": 3,
+  "buy": 0,
+  "sell": 0,
+  "max": 99
+ },
+ {
+  "id": 41,
+  "name": "Sticky Ammo",
+  "rarity": 18,
+  "type": 3,
+  "buy": 12,
+  "sell": 2,
+  "max": 9
+ },
+ {
+  "id": 42,
+  "name": "Cluster Bomb",
+  "rarity": 17,
+  "type": 3,
+  "buy": 30,
+  "sell": 6,
+  "max": 3
+ },
+ {
+  "id": 43,
+  "name": "Flaming Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 20,
+  "sell": 2,
+  "max": 60
+ },
+ {
+  "id": 44,
+  "name": "Water Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 20,
+  "sell": 2,
+  "max": 60
+ },
+ {
+  "id": 45,
+  "name": "Thunder Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 20,
+  "sell": 2,
+  "max": 60
+ },
+ {
+  "id": 46,
+  "name": "Freeze Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 20,
+  "sell": 2,
+  "max": 60
+ },
+ {
+  "id": 47,
+  "name": "Dragon Ammo",
+  "rarity": 16,
+  "type": 3,
+  "buy": 100,
+  "sell": 10,
+  "max": 4
+ },
+ {
+  "id": 48,
+  "name": "Poison Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 15,
+  "sell": 2,
+  "max": 12
+ },
+ {
+  "id": 49,
+  "name": "Paralysis Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 15,
+  "sell": 3,
+  "max": 12
+ },
+ {
+  "id": 50,
+  "name": "Sleep Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 15,
+  "sell": 2,
+  "max": 12
+ },
+ {
+  "id": 51,
+  "name": "Slicing Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 12,
+  "sell": 3,
+  "max": 12
+ },
+ {
+  "id": 52,
+  "name": "Thorngrass Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 53,
+  "name": "Iron Ore",
+  "rarity": 15,
+  "type": 2,
+  "buy": 600,
+  "sell": 60,
+  "max": 10
+ },
+ {
+  "id": 54,
+  "name": "Machalite Ore",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1600,
+  "sell": 160,
+  "max": 10
+ },
+ {
+  "id": 55,
+  "name": "Dragonite Ore",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4800,
+  "sell": 480,
+  "max": 10
+ },
+ {
+  "id": 56,
+  "name": "Carbalite Ore",
+  "rarity": 13,
+  "type": 2,
+  "buy": 6800,
+  "sell": 680,
+  "max": 10
+ },
+ {
+  "id": 57,
+  "name": "Earth Crystal",
+  "rarity": 15,
+  "type": 2,
+  "buy": 800,
+  "sell": 80,
+  "max": 99
+ },
+ {
+  "id": 58,
+  "name": "Mystery Bone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10,
+  "sell": 1,
+  "max": 99
+ },
+ {
+  "id": 59,
+  "name": "Sturdy Bone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 60,
+  "name": "Brute Bone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 61,
+  "name": "Colossal Bone",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 62,
+  "name": "Dragonbone Relic",
+  "rarity": 12,
+  "type": 2,
+  "buy": 16000,
+  "sell": 1600,
+  "max": 99
+ },
+ {
+  "id": 66,
+  "name": "Mandragora",
+  "rarity": 16,
+  "type": 0,
+  "buy": 400,
+  "sell": 40,
+  "max": 10
+ },
+ {
+  "id": 67,
+  "name": "Blue Mushroom",
+  "rarity": 17,
+  "type": 0,
+  "buy": 24,
+  "sell": 2,
+  "max": 10
+ },
+ {
+  "id": 69,
+  "name": "Burst Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 70,
+  "name": "Screamer Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 450,
+  "sell": 45,
+  "max": 3
+ },
+ {
+  "id": 71,
+  "name": "Bleeding Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 72,
+  "name": "Dung Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 120,
+  "sell": 20,
+  "max": 10
+ },
+ {
+  "id": 73,
+  "name": "Trap Tool",
+  "rarity": 16,
+  "type": 0,
+  "buy": 200,
+  "sell": 20,
+  "max": 2
+ },
+ {
+  "id": 74,
+  "name": "Exciteshroom",
+  "rarity": 16,
+  "type": 0,
+  "buy": 180,
+  "sell": 18,
+  "max": 10
+ },
+ {
+  "id": 75,
+  "name": "Smokenut",
+  "rarity": 18,
+  "type": 0,
+  "buy": 44,
+  "sell": 4,
+  "max": 10
+ },
+ {
+  "id": 76,
+  "name": "Ivy",
+  "rarity": 18,
+  "type": 0,
+  "buy": 75,
+  "sell": 8,
+  "max": 10
+ },
+ {
+  "id": 77,
+  "name": "Farcaster",
+  "rarity": 16,
+  "type": 0,
+  "buy": 150,
+  "sell": 30,
+  "max": 1
+ },
+ {
+  "id": 80,
+  "name": "Balahara Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4800,
+  "sell": 480,
+  "max": 99
+ },
+ {
+  "id": 81,
+  "name": "Balahara Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3200,
+  "sell": 320,
+  "max": 99
+ },
+ {
+  "id": 82,
+  "name": "Balahara Skull",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5760,
+  "sell": 576,
+  "max": 99
+ },
+ {
+  "id": 83,
+  "name": "Balahara Tail",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6400,
+  "sell": 640,
+  "max": 99
+ },
+ {
+  "id": 84,
+  "name": "Chatacabra Jaw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3600,
+  "sell": 360,
+  "max": 10
+ },
+ {
+  "id": 85,
+  "name": "Chatacabra Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 10
+ },
+ {
+  "id": 86,
+  "name": "Chatacabra Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 10
+ },
+ {
+  "id": 87,
+  "name": "Chatacabra Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 10
+ },
+ {
+  "id": 88,
+  "name": "Quematrice Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2200,
+  "sell": 220,
+  "max": 10
+ },
+ {
+  "id": 89,
+  "name": "Quematrice Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3300,
+  "sell": 330,
+  "max": 10
+ },
+ {
+  "id": 90,
+  "name": "Quematrice Crest",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4840,
+  "sell": 484,
+  "max": 10
+ },
+ {
+  "id": 91,
+  "name": "Quematrice Tail",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4400,
+  "sell": 440,
+  "max": 10
+ },
+ {
+  "id": 92,
+  "name": "Wyvern Gem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 40000,
+  "sell": 4000,
+  "max": 10
+ },
+ {
+  "id": 93,
+  "name": "Herbivore Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 10
+ },
+ {
+  "id": 94,
+  "name": "Bulaqchi Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 10
+ },
+ {
+  "id": 95,
+  "name": "Talioth Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 10
+ },
+ {
+  "id": 96,
+  "name": "Sharp Fang",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 10
+ },
+ {
+  "id": 97,
+  "name": "Wingdrake Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 10
+ },
+ {
+  "id": 98,
+  "name": "Acute Fang",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 10
+ },
+ {
+  "id": 99,
+  "name": "Dung",
+  "rarity": 18,
+  "type": 0,
+  "buy": 10,
+  "sell": 1,
+  "max": 10
+ },
+ {
+  "id": 100,
+  "name": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_100",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 101,
+  "name": "Rolled-up Dung",
+  "rarity": 18,
+  "type": 0,
+  "buy": 100,
+  "sell": 10,
+  "max": 10
+ },
+ {
+  "id": 102,
+  "name": "Rathian Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 12000,
+  "sell": 1200,
+  "max": 10
+ },
+ {
+  "id": 103,
+  "name": "Rathian Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 18000,
+  "sell": 1800,
+  "max": 10
+ },
+ {
+  "id": 104,
+  "name": "Rathian Webbing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 21600,
+  "sell": 2160,
+  "max": 10
+ },
+ {
+  "id": 105,
+  "name": "Rathian Spike+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24000,
+  "sell": 2400,
+  "max": 10
+ },
+ {
+  "id": 106,
+  "name": "Rathian Ruby",
+  "rarity": 12,
+  "type": 2,
+  "buy": 72000,
+  "sell": 7200,
+  "max": 10
+ },
+ {
+  "id": 113,
+  "name": "Toadstool",
+  "rarity": 17,
+  "type": 0,
+  "buy": 75,
+  "sell": 8,
+  "max": 10
+ },
+ {
+  "id": 114,
+  "name": "Parashroom",
+  "rarity": 16,
+  "type": 0,
+  "buy": 150,
+  "sell": 15,
+  "max": 10
+ },
+ {
+  "id": 115,
+  "name": "Sleep Herb",
+  "rarity": 18,
+  "type": 0,
+  "buy": 50,
+  "sell": 5,
+  "max": 10
+ },
+ {
+  "id": 116,
+  "name": "Fire Herb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 44,
+  "sell": 4,
+  "max": 20
+ },
+ {
+  "id": 117,
+  "name": "Flowfern",
+  "rarity": 18,
+  "type": 0,
+  "buy": 44,
+  "sell": 4,
+  "max": 20
+ },
+ {
+  "id": 118,
+  "name": "Snow Herb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 64,
+  "sell": 6,
+  "max": 20
+ },
+ {
+  "id": 119,
+  "name": "Dragonfell Berry",
+  "rarity": 15,
+  "type": 0,
+  "buy": 780,
+  "sell": 78,
+  "max": 10
+ },
+ {
+  "id": 120,
+  "name": "First-aid Med",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 121,
+  "name": "EZ Ration",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 122,
+  "name": "EZ Flash Bomb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 123,
+  "name": "EZ Shock Trap",
+  "rarity": 16,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 124,
+  "name": "EZ Pitfall Trap",
+  "rarity": 16,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 125,
+  "name": "Gloamgrass Bud",
+  "rarity": 15,
+  "type": 0,
+  "buy": 400,
+  "sell": 40,
+  "max": 10
+ },
+ {
+  "id": 126,
+  "name": "Might Seed",
+  "rarity": 17,
+  "type": 0,
+  "buy": 280,
+  "sell": 140,
+  "max": 10
+ },
+ {
+  "id": 127,
+  "name": "Adamant Seed",
+  "rarity": 17,
+  "type": 0,
+  "buy": 220,
+  "sell": 110,
+  "max": 10
+ },
+ {
+  "id": 128,
+  "name": "Nitroshroom",
+  "rarity": 17,
+  "type": 0,
+  "buy": 60,
+  "sell": 6,
+  "max": 20
+ },
+ {
+  "id": 129,
+  "name": "Devil's Blight",
+  "rarity": 16,
+  "type": 0,
+  "buy": 600,
+  "sell": 60,
+  "max": 10
+ },
+ {
+  "id": 130,
+  "name": "Blastnut",
+  "rarity": 18,
+  "type": 0,
+  "buy": 40,
+  "sell": 4,
+  "max": 30
+ },
+ {
+  "id": 131,
+  "name": "Slashberry",
+  "rarity": 18,
+  "type": 0,
+  "buy": 40,
+  "sell": 4,
+  "max": 30
+ },
+ {
+  "id": 139,
+  "name": "Rey Dau Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6200,
+  "sell": 620,
+  "max": 99
+ },
+ {
+  "id": 140,
+  "name": "Rey Dau Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 9300,
+  "sell": 930,
+  "max": 99
+ },
+ {
+  "id": 141,
+  "name": "Rey Dau Thunderhorn",
+  "rarity": 15,
+  "type": 2,
+  "buy": 13640,
+  "sell": 1364,
+  "max": 99
+ },
+ {
+  "id": 142,
+  "name": "Rey Dau Wingtalon",
+  "rarity": 15,
+  "type": 2,
+  "buy": 11160,
+  "sell": 1116,
+  "max": 99
+ },
+ {
+  "id": 143,
+  "name": "Rey Dau Tail",
+  "rarity": 15,
+  "type": 2,
+  "buy": 12400,
+  "sell": 1240,
+  "max": 99
+ },
+ {
+  "id": 144,
+  "name": "Rey Dau Plate",
+  "rarity": 14,
+  "type": 2,
+  "buy": 37200,
+  "sell": 3720,
+  "max": 99
+ },
+ {
+  "id": 145,
+  "name": "Tranq Blade",
+  "rarity": 16,
+  "type": 0,
+  "buy": 45,
+  "sell": 4,
+  "max": 8
+ },
+ {
+  "id": 146,
+  "name": "ITEM<146>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 147,
+  "name": "ITEM<147>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 148,
+  "name": "ITEM<148>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 151,
+  "name": "Smoke Bomb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 100,
+  "sell": 44,
+  "max": 3
+ },
+ {
+  "id": 152,
+  "name": "Powercharm",
+  "rarity": 14,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 153,
+  "name": "Armorcharm",
+  "rarity": 14,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 154,
+  "name": "Wyvern Ammo",
+  "rarity": 16,
+  "type": 3,
+  "buy": 62,
+  "sell": 6,
+  "max": 5
+ },
+ {
+  "id": 155,
+  "name": "Grounding Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 156,
+  "name": "Mystery Orb - Armor",
+  "rarity": 15,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 157,
+  "name": "Glowing Orb - Armor",
+  "rarity": 14,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 158,
+  "name": "Ancient Orb - Armor",
+  "rarity": 13,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 159,
+  "name": "Damaged Weapon Shard",
+  "rarity": 14,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 160,
+  "name": "Rusted Weapon Shard",
+  "rarity": 13,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 161,
+  "name": "Ghillie Mantle",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 162,
+  "name": "Fishing Rod",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 163,
+  "name": "Energy Drink",
+  "rarity": 17,
+  "type": 0,
+  "buy": 60,
+  "sell": 6,
+  "max": 10
+ },
+ {
+  "id": 164,
+  "name": "Dash Juice",
+  "rarity": 15,
+  "type": 0,
+  "buy": 293,
+  "sell": 29,
+  "max": 5
+ },
+ {
+  "id": 165,
+  "name": "Immunizer",
+  "rarity": 16,
+  "type": 0,
+  "buy": 923,
+  "sell": 92,
+  "max": 10
+ },
+ {
+  "id": 166,
+  "name": "Cool Drink",
+  "rarity": 18,
+  "type": 0,
+  "buy": 300,
+  "sell": 30,
+  "max": 5
+ },
+ {
+  "id": 167,
+  "name": "Hot Drink",
+  "rarity": 18,
+  "type": 0,
+  "buy": 250,
+  "sell": 25,
+  "max": 5
+ },
+ {
+  "id": 168,
+  "name": "Demondrug",
+  "rarity": 15,
+  "type": 0,
+  "buy": 668,
+  "sell": 67,
+  "max": 5
+ },
+ {
+  "id": 169,
+  "name": "Might Pill",
+  "rarity": 15,
+  "type": 0,
+  "buy": 2831,
+  "sell": 280,
+  "max": 5
+ },
+ {
+  "id": 170,
+  "name": "Mega Demondrug",
+  "rarity": 14,
+  "type": 0,
+  "buy": 2831,
+  "sell": 283,
+  "max": 5
+ },
+ {
+  "id": 171,
+  "name": "Armorskin",
+  "rarity": 15,
+  "type": 0,
+  "buy": 578,
+  "sell": 58,
+  "max": 5
+ },
+ {
+  "id": 172,
+  "name": "Adamant Pill",
+  "rarity": 15,
+  "type": 0,
+  "buy": 2696,
+  "sell": 260,
+  "max": 5
+ },
+ {
+  "id": 173,
+  "name": "Mega Armorskin",
+  "rarity": 14,
+  "type": 0,
+  "buy": 2696,
+  "sell": 269,
+  "max": 5
+ },
+ {
+  "id": 174,
+  "name": "Herbal Medicine",
+  "rarity": 17,
+  "type": 0,
+  "buy": 250,
+  "sell": 25,
+  "max": 5
+ },
+ {
+  "id": 175,
+  "name": "Herbal Powder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 6300,
+  "sell": 315,
+  "max": 3
+ },
+ {
+  "id": 176,
+  "name": "Demon Powder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 6300,
+  "sell": 315,
+  "max": 3
+ },
+ {
+  "id": 177,
+  "name": "Hardshell Powder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 6300,
+  "sell": 315,
+  "max": 3
+ },
+ {
+  "id": 178,
+  "name": "Dust of Life",
+  "rarity": 13,
+  "type": 0,
+  "buy": 6900,
+  "sell": 690,
+  "max": 2
+ },
+ {
+  "id": 179,
+  "name": "Cleanser",
+  "rarity": 17,
+  "type": 0,
+  "buy": 140,
+  "sell": 14,
+  "max": 10
+ },
+ {
+  "id": 180,
+  "name": "Poison Smoke Bomb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 600,
+  "sell": 60,
+  "max": 5
+ },
+ {
+  "id": 181,
+  "name": "Tranq Bomb",
+  "rarity": 16,
+  "type": 0,
+  "buy": 350,
+  "sell": 35,
+  "max": 8
+ },
+ {
+  "id": 182,
+  "name": "Throwing Knife",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 183,
+  "name": "Poison Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 184,
+  "name": "Para Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 186,
+  "name": "Drugged Meat",
+  "rarity": 17,
+  "type": 0,
+  "buy": 315,
+  "sell": 32,
+  "max": 10
+ },
+ {
+  "id": 188,
+  "name": "Brightmoss",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 189,
+  "name": "Torch Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 190,
+  "name": "Puddle Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 191,
+  "name": "Bomb Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 192,
+  "name": "Piercing Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 195,
+  "name": "Paint Pod",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 196,
+  "name": "Luring Pod",
+  "rarity": 16,
+  "type": 0,
+  "buy": 500,
+  "sell": 50,
+  "max": 3
+ },
+ {
+  "id": 197,
+  "name": "Mega Barrel Bomb",
+  "rarity": 15,
+  "type": 0,
+  "buy": 800,
+  "sell": 80,
+  "max": 2
+ },
+ {
+  "id": 198,
+  "name": "First-aid Med+",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 199,
+  "name": "EZ Max Potion",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 200,
+  "name": "EZ Lifepowder",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 201,
+  "name": "EZ Herbal Powder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 202,
+  "name": "EZ Demon Powder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 203,
+  "name": "EZ Hardshell Powder",
+  "rarity": 15,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 204,
+  "name": "EZ Dust of Life",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 205,
+  "name": "EZ Tranq Bomb",
+  "rarity": 16,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 8
+ },
+ {
+  "id": 206,
+  "name": "EZ Dung Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 207,
+  "name": "EZ Sonic Bomb",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 208,
+  "name": "Tinged Meat",
+  "rarity": 17,
+  "type": 0,
+  "buy": 300,
+  "sell": 30,
+  "max": 10
+ },
+ {
+  "id": 209,
+  "name": "EZ Large Barrel Bomb",
+  "rarity": 16,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 210,
+  "name": "EZ Farcaster",
+  "rarity": 16,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 211,
+  "name": "Poisoned Meat",
+  "rarity": 17,
+  "type": 0,
+  "buy": 188,
+  "sell": 19,
+  "max": 10
+ },
+ {
+  "id": 212,
+  "name": "Deodorant",
+  "rarity": 17,
+  "type": 0,
+  "buy": 80,
+  "sell": 8,
+  "max": 10
+ },
+ {
+  "id": 213,
+  "name": "Kunafa Cheese",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 214,
+  "name": "Sharp Kunafa Cheese",
+  "rarity": 14,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 215,
+  "name": "Droolshroom",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 216,
+  "name": "Delishroom",
+  "rarity": 14,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 217,
+  "name": "Mud Shrimp",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 218,
+  "name": "Turbid Shrimp",
+  "rarity": 14,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 219,
+  "name": "Fluffy Egg",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 220,
+  "name": "Airy Egg",
+  "rarity": 14,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 221,
+  "name": "Sild Garlic",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 222,
+  "name": "Specialty Sild Garlic",
+  "rarity": 14,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 223,
+  "name": "Wild Herb",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 224,
+  "name": "Eastern Honey",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 225,
+  "name": "Monster Chili",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 226,
+  "name": "Jeweled Mullet Roe",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 227,
+  "name": "Wild Seed Oil",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 228,
+  "name": "Truffle Du Conga",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 229,
+  "name": "Sinister Cloth",
+  "rarity": 13,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 230,
+  "name": "Great Hornfly",
+  "rarity": 13,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 231,
+  "name": "Windward Aloe",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 232,
+  "name": "Fine Windward Aloe",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 233,
+  "name": "Great Windward Aloe",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 234,
+  "name": "Sandpepper",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 235,
+  "name": "Fiery Sandpepper",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 236,
+  "name": "Fulgurite Shard",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 237,
+  "name": "Pure Fulgurite",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 238,
+  "name": "Thundering Fulgurite",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 239,
+  "name": "Scarlet Amber Shard",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 240,
+  "name": "Fine Scarlet Amber",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 241,
+  "name": "Eternal Scarlet Amber",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 242,
+  "name": "Queensbloom Pollen",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 243,
+  "name": "Shiny Treasure",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 244,
+  "name": "Sparkly Treasure",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 245,
+  "name": "Bulky Treasure",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 246,
+  "name": "Auric Oil",
+  "rarity": 14,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 247,
+  "name": "Antimite",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 248,
+  "name": "Fine Antimite",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 249,
+  "name": "Antimite Mass",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 250,
+  "name": "Hirabami Molting",
+  "rarity": 14,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 251,
+  "name": "Wyvernscale Vase",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 252,
+  "name": "Dragonscale Vase",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 253,
+  "name": "Large Goldenscale Vase",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 254,
+  "name": "Wyveria Lantern",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 255,
+  "name": "Mature Wyveria Lantern",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 256,
+  "name": "Origin Wylk Gem",
+  "rarity": 14,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 257,
+  "name": "Milky Cocoon Web",
+  "rarity": 14,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 258,
+  "name": "Wylk Pebble",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 259,
+  "name": "Wylk Gem",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 260,
+  "name": "Time-honed Wylk Gem",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 261,
+  "name": "Ancient Fossil",
+  "rarity": 14,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 262,
+  "name": "Drifting Sea Pot",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 263,
+  "name": "Royal Sea Pot",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 264,
+  "name": "Gobletweed",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 265,
+  "name": "Chaliceweed",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 266,
+  "name": "Nightflower Pollen",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 267,
+  "name": "Fossilized Opal",
+  "rarity": 15,
+  "type": 5,
+  "buy": 3,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 268,
+  "name": "Fossilized Fire Opal",
+  "rarity": 14,
+  "type": 5,
+  "buy": 5,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 269,
+  "name": "Genesis Opal",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 270,
+  "name": "Wyvernsprout",
+  "rarity": 13,
+  "type": 5,
+  "buy": 10,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 271,
+  "name": "Whetfish Fin",
+  "rarity": 17,
+  "type": 0,
+  "buy": 135,
+  "sell": 45,
+  "max": 10
+ },
+ {
+  "id": 272,
+  "name": "Sushifish Scale",
+  "rarity": 17,
+  "type": 0,
+  "buy": 90,
+  "sell": 45,
+  "max": 10
+ },
+ {
+  "id": 273,
+  "name": "Lala Barina Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3750,
+  "sell": 375,
+  "max": 99
+ },
+ {
+  "id": 274,
+  "name": "Lala Barina Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 275,
+  "name": "Lala Barina Stinger",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5500,
+  "sell": 550,
+  "max": 99
+ },
+ {
+  "id": 276,
+  "name": "Lala Barina Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2500,
+  "sell": 250,
+  "max": 99
+ },
+ {
+  "id": 277,
+  "name": "Lala Barina Floret",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2500,
+  "sell": 250,
+  "max": 99
+ },
+ {
+  "id": 278,
+  "name": "Screamer Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 1,
+  "sell": 1,
+  "max": 6
+ },
+ {
+  "id": 280,
+  "name": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_280",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 281,
+  "name": "Krano Copper",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 282,
+  "name": "Krano Pyrite",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15000,
+  "sell": 1500,
+  "max": 99
+ },
+ {
+  "id": 283,
+  "name": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_283",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 284,
+  "name": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_284",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 285,
+  "name": "Thunder Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 286,
+  "name": "Frost Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 287,
+  "name": "Dragon Pod",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 288,
+  "name": "Fresh Honey",
+  "rarity": 15,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 3
+ },
+ {
+  "id": 289,
+  "name": "Frostburst",
+  "rarity": 18,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 290,
+  "name": "Dragonstrike Nut",
+  "rarity": 17,
+  "type": 0,
+  "buy": 60,
+  "sell": 12,
+  "max": 5
+ },
+ {
+  "id": 291,
+  "name": "Bomberry",
+  "rarity": 17,
+  "type": 0,
+  "buy": 60,
+  "sell": 12,
+  "max": 10
+ },
+ {
+  "id": 292,
+  "name": "Chatacabra Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 293,
+  "name": "Chatacabra Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8500,
+  "sell": 850,
+  "max": 99
+ },
+ {
+  "id": 294,
+  "name": "Chatacabra Jaw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15300,
+  "sell": 1530,
+  "max": 99
+ },
+ {
+  "id": 295,
+  "name": "Chatacabra Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 12750,
+  "sell": 1275,
+  "max": 99
+ },
+ {
+  "id": 296,
+  "name": "Chatacabra Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17000,
+  "sell": 1700,
+  "max": 99
+ },
+ {
+  "id": 297,
+  "name": "Chatacabra Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8500,
+  "sell": 850,
+  "max": 99
+ },
+ {
+  "id": 298,
+  "name": "Xu Wu Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 18200,
+  "sell": 1820,
+  "max": 99
+ },
+ {
+  "id": 299,
+  "name": "Quematrice Igniter",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3960,
+  "sell": 396,
+  "max": 99
+ },
+ {
+  "id": 300,
+  "name": "Quematrice Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2200,
+  "sell": 220,
+  "max": 99
+ },
+ {
+  "id": 301,
+  "name": "Quematrice Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8700,
+  "sell": 870,
+  "max": 99
+ },
+ {
+  "id": 302,
+  "name": "Quematrice Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13050,
+  "sell": 1305,
+  "max": 99
+ },
+ {
+  "id": 303,
+  "name": "Quematrice Igniter+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15660,
+  "sell": 1566,
+  "max": 99
+ },
+ {
+  "id": 304,
+  "name": "Quematrice Crest+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19140,
+  "sell": 1914,
+  "max": 99
+ },
+ {
+  "id": 305,
+  "name": "Quematrice Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8700,
+  "sell": 870,
+  "max": 99
+ },
+ {
+  "id": 306,
+  "name": "Lala Barina Floret+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9000,
+  "sell": 900,
+  "max": 99
+ },
+ {
+  "id": 307,
+  "name": "Lala Barina Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13500,
+  "sell": 1350,
+  "max": 99
+ },
+ {
+  "id": 308,
+  "name": "Lala Barina Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16200,
+  "sell": 1620,
+  "max": 99
+ },
+ {
+  "id": 309,
+  "name": "Lala Barina Stinger+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 18000,
+  "sell": 1800,
+  "max": 99
+ },
+ {
+  "id": 310,
+  "name": "Lala Barina Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9000,
+  "sell": 900,
+  "max": 99
+ },
+ {
+  "id": 311,
+  "name": "Balahara Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3200,
+  "sell": 320,
+  "max": 99
+ },
+ {
+  "id": 312,
+  "name": "Balahara Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 10200,
+  "sell": 1020,
+  "max": 99
+ },
+ {
+  "id": 313,
+  "name": "Balahara Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15300,
+  "sell": 1530,
+  "max": 99
+ },
+ {
+  "id": 314,
+  "name": "Balahara Skull+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 18360,
+  "sell": 1836,
+  "max": 99
+ },
+ {
+  "id": 315,
+  "name": "Balahara Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 10200,
+  "sell": 1020,
+  "max": 99
+ },
+ {
+  "id": 316,
+  "name": "Doshaguma Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3800,
+  "sell": 380,
+  "max": 99
+ },
+ {
+  "id": 317,
+  "name": "Doshaguma Fur+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13000,
+  "sell": 1300,
+  "max": 99
+ },
+ {
+  "id": 318,
+  "name": "Doshaguma Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19500,
+  "sell": 1950,
+  "max": 99
+ },
+ {
+  "id": 319,
+  "name": "Doshaguma Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23400,
+  "sell": 2340,
+  "max": 99
+ },
+ {
+  "id": 320,
+  "name": "Doshaguma Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 28600,
+  "sell": 2860,
+  "max": 99
+ },
+ {
+  "id": 321,
+  "name": "Doshaguma Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13000,
+  "sell": 1300,
+  "max": 99
+ },
+ {
+  "id": 322,
+  "name": "Uth Duna Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6000,
+  "sell": 600,
+  "max": 99
+ },
+ {
+  "id": 323,
+  "name": "Uth Duna Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 9000,
+  "sell": 900,
+  "max": 99
+ },
+ {
+  "id": 324,
+  "name": "Uth Duna Cilia",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10800,
+  "sell": 1080,
+  "max": 99
+ },
+ {
+  "id": 325,
+  "name": "Uth Duna Tentacle",
+  "rarity": 15,
+  "type": 2,
+  "buy": 12000,
+  "sell": 1200,
+  "max": 99
+ },
+ {
+  "id": 326,
+  "name": "Uth Duna Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 12000,
+  "sell": 1200,
+  "max": 99
+ },
+ {
+  "id": 327,
+  "name": "Uth Duna Plate",
+  "rarity": 14,
+  "type": 2,
+  "buy": 36000,
+  "sell": 3600,
+  "max": 99
+ },
+ {
+  "id": 328,
+  "name": "Uth Duna Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6000,
+  "sell": 600,
+  "max": 99
+ },
+ {
+  "id": 329,
+  "name": "Uth Duna Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23500,
+  "sell": 2350,
+  "max": 99
+ },
+ {
+  "id": 330,
+  "name": "Uth Duna Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 35250,
+  "sell": 3525,
+  "max": 99
+ },
+ {
+  "id": 331,
+  "name": "Uth Duna Cilia+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 42300,
+  "sell": 4230,
+  "max": 99
+ },
+ {
+  "id": 332,
+  "name": "Uth Duna Tentacle+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 47000,
+  "sell": 4700,
+  "max": 99
+ },
+ {
+  "id": 333,
+  "name": "Uth Duna Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 47000,
+  "sell": 4700,
+  "max": 99
+ },
+ {
+  "id": 334,
+  "name": "Uth Duna Watergem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 141000,
+  "sell": 14100,
+  "max": 99
+ },
+ {
+  "id": 335,
+  "name": "Uth Duna Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23500,
+  "sell": 2350,
+  "max": 99
+ },
+ {
+  "id": 336,
+  "name": "Rompopolo Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3600,
+  "sell": 360,
+  "max": 99
+ },
+ {
+  "id": 337,
+  "name": "Rompopolo Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5400,
+  "sell": 540,
+  "max": 99
+ },
+ {
+  "id": 338,
+  "name": "Spotted Poison Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6480,
+  "sell": 648,
+  "max": 99
+ },
+ {
+  "id": 339,
+  "name": "Rompopolo Beak",
+  "rarity": 15,
+  "type": 2,
+  "buy": 7920,
+  "sell": 792,
+  "max": 99
+ },
+ {
+  "id": 340,
+  "name": "Rompopolo Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 3600,
+  "sell": 360,
+  "max": 99
+ },
+ {
+  "id": 341,
+  "name": "Rompopolo Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9900,
+  "sell": 990,
+  "max": 99
+ },
+ {
+  "id": 342,
+  "name": "Rompopolo Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14850,
+  "sell": 1485,
+  "max": 99
+ },
+ {
+  "id": 343,
+  "name": "Spotted Poison Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17820,
+  "sell": 1782,
+  "max": 99
+ },
+ {
+  "id": 344,
+  "name": "Rompopolo Beak+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 21780,
+  "sell": 2178,
+  "max": 99
+ },
+ {
+  "id": 345,
+  "name": "Rompopolo Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9900,
+  "sell": 990,
+  "max": 99
+ },
+ {
+  "id": 346,
+  "name": "Rey Dau Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6200,
+  "sell": 620,
+  "max": 99
+ },
+ {
+  "id": 347,
+  "name": "Rey Dau Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24000,
+  "sell": 2400,
+  "max": 99
+ },
+ {
+  "id": 348,
+  "name": "Rey Dau Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 36000,
+  "sell": 3600,
+  "max": 99
+ },
+ {
+  "id": 349,
+  "name": "Rey Dau Bolthorn",
+  "rarity": 13,
+  "type": 2,
+  "buy": 52800,
+  "sell": 5280,
+  "max": 99
+ },
+ {
+  "id": 350,
+  "name": "Rey Dau Fulgurtalon",
+  "rarity": 13,
+  "type": 2,
+  "buy": 48000,
+  "sell": 4800,
+  "max": 99
+ },
+ {
+  "id": 351,
+  "name": "Rey Dau Boltgem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 144000,
+  "sell": 14400,
+  "max": 99
+ },
+ {
+  "id": 352,
+  "name": "Rey Dau Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24000,
+  "sell": 2400,
+  "max": 99
+ },
+ {
+  "id": 353,
+  "name": "Hirabami Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4400,
+  "sell": 440,
+  "max": 99
+ },
+ {
+  "id": 354,
+  "name": "Hirabami Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6600,
+  "sell": 660,
+  "max": 99
+ },
+ {
+  "id": 355,
+  "name": "Hirabami Webbing",
+  "rarity": 15,
+  "type": 2,
+  "buy": 7920,
+  "sell": 792,
+  "max": 99
+ },
+ {
+  "id": 356,
+  "name": "Hirabami Tail Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8800,
+  "sell": 880,
+  "max": 99
+ },
+ {
+  "id": 357,
+  "name": "Hirabami Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4400,
+  "sell": 440,
+  "max": 99
+ },
+ {
+  "id": 358,
+  "name": "Hirabami Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 11400,
+  "sell": 1140,
+  "max": 99
+ },
+ {
+  "id": 359,
+  "name": "Hirabami Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17100,
+  "sell": 1710,
+  "max": 99
+ },
+ {
+  "id": 360,
+  "name": "Hirabami Webbing+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 20520,
+  "sell": 2052,
+  "max": 99
+ },
+ {
+  "id": 361,
+  "name": "Hirabami Tail Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22800,
+  "sell": 2280,
+  "max": 99
+ },
+ {
+  "id": 362,
+  "name": "Hirabami Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 11400,
+  "sell": 1140,
+  "max": 99
+ },
+ {
+  "id": 363,
+  "name": "Ajarakan Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4800,
+  "sell": 480,
+  "max": 99
+ },
+ {
+  "id": 364,
+  "name": "Ajarakan Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 7200,
+  "sell": 720,
+  "max": 99
+ },
+ {
+  "id": 365,
+  "name": "Ajarakan Ridge",
+  "rarity": 15,
+  "type": 2,
+  "buy": 9600,
+  "sell": 960,
+  "max": 99
+ },
+ {
+  "id": 366,
+  "name": "Ajarakan Tail",
+  "rarity": 15,
+  "type": 2,
+  "buy": 9600,
+  "sell": 960,
+  "max": 99
+ },
+ {
+  "id": 367,
+  "name": "Ajarakan Jewel",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8640,
+  "sell": 864,
+  "max": 99
+ },
+ {
+  "id": 368,
+  "name": "Ajarakan Marrow",
+  "rarity": 14,
+  "type": 2,
+  "buy": 28800,
+  "sell": 2880,
+  "max": 99
+ },
+ {
+  "id": 369,
+  "name": "Ajarakan Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4800,
+  "sell": 480,
+  "max": 99
+ },
+ {
+  "id": 370,
+  "name": "Ajarakan Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13000,
+  "sell": 1300,
+  "max": 99
+ },
+ {
+  "id": 371,
+  "name": "Ajarakan Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19500,
+  "sell": 1950,
+  "max": 99
+ },
+ {
+  "id": 372,
+  "name": "Ajarakan Ridge+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 26000,
+  "sell": 2600,
+  "max": 99
+ },
+ {
+  "id": 373,
+  "name": "Ajarakan Jewel+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23400,
+  "sell": 2340,
+  "max": 99
+ },
+ {
+  "id": 374,
+  "name": "Ajarakan Medulla",
+  "rarity": 12,
+  "type": 2,
+  "buy": 78000,
+  "sell": 7800,
+  "max": 99
+ },
+ {
+  "id": 375,
+  "name": "Ajarakan Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13000,
+  "sell": 1300,
+  "max": 99
+ },
+ {
+  "id": 376,
+  "name": "Nu Udra Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6800,
+  "sell": 680,
+  "max": 99
+ },
+ {
+  "id": 377,
+  "name": "Nu Udra Spike",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10200,
+  "sell": 1020,
+  "max": 99
+ },
+ {
+  "id": 378,
+  "name": "Nu Udra Horn",
+  "rarity": 15,
+  "type": 2,
+  "buy": 14960,
+  "sell": 1496,
+  "max": 99
+ },
+ {
+  "id": 379,
+  "name": "Nu Udra Tentacle",
+  "rarity": 15,
+  "type": 2,
+  "buy": 13600,
+  "sell": 1360,
+  "max": 99
+ },
+ {
+  "id": 380,
+  "name": "Nu Udra Oilmucus",
+  "rarity": 15,
+  "type": 2,
+  "buy": 12240,
+  "sell": 1224,
+  "max": 99
+ },
+ {
+  "id": 381,
+  "name": "Nu Udra Cerebrospinal Fluid",
+  "rarity": 14,
+  "type": 2,
+  "buy": 40800,
+  "sell": 4080,
+  "max": 99
+ },
+ {
+  "id": 382,
+  "name": "Nu Udra Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6800,
+  "sell": 680,
+  "max": 99
+ },
+ {
+  "id": 383,
+  "name": "Nu Udra Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24800,
+  "sell": 2480,
+  "max": 99
+ },
+ {
+  "id": 384,
+  "name": "Nu Udra Spike+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 37200,
+  "sell": 3720,
+  "max": 99
+ },
+ {
+  "id": 385,
+  "name": "Nu Udra Horn+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 54560,
+  "sell": 5456,
+  "max": 99
+ },
+ {
+  "id": 386,
+  "name": "Nu Udra Tentacle+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 49600,
+  "sell": 4960,
+  "max": 99
+ },
+ {
+  "id": 387,
+  "name": "Nu Udra Oilmucus+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 44640,
+  "sell": 4464,
+  "max": 99
+ },
+ {
+  "id": 388,
+  "name": "Nu Udra Flamegem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 148800,
+  "sell": 14880,
+  "max": 99
+ },
+ {
+  "id": 389,
+  "name": "Nu Udra Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24800,
+  "sell": 2480,
+  "max": 99
+ },
+ {
+  "id": 390,
+  "name": "Guardian Doshaguma Fur",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 391,
+  "name": "Guardian Doshaguma Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 7500,
+  "sell": 750,
+  "max": 99
+ },
+ {
+  "id": 392,
+  "name": "Guardian Doshaguma Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 9000,
+  "sell": 900,
+  "max": 99
+ },
+ {
+  "id": 393,
+  "name": "Guardian Doshaguma Fang",
+  "rarity": 15,
+  "type": 2,
+  "buy": 11000,
+  "sell": 1100,
+  "max": 99
+ },
+ {
+  "id": 394,
+  "name": "G. Doshaguma Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 395,
+  "name": "Guardian Doshaguma Fur+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15000,
+  "sell": 1500,
+  "max": 99
+ },
+ {
+  "id": 396,
+  "name": "Guardian Doshaguma Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22500,
+  "sell": 2250,
+  "max": 99
+ },
+ {
+  "id": 397,
+  "name": "Guardian Doshaguma Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 27000,
+  "sell": 2700,
+  "max": 99
+ },
+ {
+  "id": 398,
+  "name": "Guardian Doshaguma Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 33000,
+  "sell": 3300,
+  "max": 99
+ },
+ {
+  "id": 399,
+  "name": "G. Doshaguma Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15000,
+  "sell": 1500,
+  "max": 99
+ },
+ {
+  "id": 400,
+  "name": "Guardian Rathalos Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5600,
+  "sell": 560,
+  "max": 99
+ },
+ {
+  "id": 401,
+  "name": "Guardian Rathalos Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8400,
+  "sell": 840,
+  "max": 99
+ },
+ {
+  "id": 402,
+  "name": "Guardian Rathalos Webbing",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10080,
+  "sell": 1008,
+  "max": 99
+ },
+ {
+  "id": 403,
+  "name": "Guardian Rathalos Tail",
+  "rarity": 15,
+  "type": 2,
+  "buy": 11200,
+  "sell": 1120,
+  "max": 99
+ },
+ {
+  "id": 405,
+  "name": "G. Rathalos Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5600,
+  "sell": 560,
+  "max": 99
+ },
+ {
+  "id": 406,
+  "name": "Guardian Rathalos Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17000,
+  "sell": 1700,
+  "max": 99
+ },
+ {
+  "id": 407,
+  "name": "Guardian Rathalos Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 25500,
+  "sell": 2550,
+  "max": 99
+ },
+ {
+  "id": 408,
+  "name": "Guardian Rathalos Wing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 30600,
+  "sell": 3060,
+  "max": 99
+ },
+ {
+  "id": 409,
+  "name": "Equipped Mantles",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 410,
+  "name": "G. Rathalos Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17000,
+  "sell": 1700,
+  "max": 99
+ },
+ {
+  "id": 411,
+  "name": "Rath Medulla",
+  "rarity": 13,
+  "type": 2,
+  "buy": 30360,
+  "sell": 3036,
+  "max": 99
+ },
+ {
+  "id": 413,
+  "name": "Demon Ammo",
+  "rarity": 15,
+  "type": 3,
+  "buy": 1,
+  "sell": 9,
+  "max": 3
+ },
+ {
+  "id": 414,
+  "name": "Armor Ammo",
+  "rarity": 15,
+  "type": 3,
+  "buy": 1,
+  "sell": 7,
+  "max": 3
+ },
+ {
+  "id": 415,
+  "name": "Recover Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 8,
+  "sell": 2,
+  "max": 3
+ },
+ {
+  "id": 416,
+  "name": "Tranq Ammo",
+  "rarity": 16,
+  "type": 3,
+  "buy": 45,
+  "sell": 4,
+  "max": 8
+ },
+ {
+  "id": 417,
+  "name": "Exhaust Ammo",
+  "rarity": 17,
+  "type": 3,
+  "buy": 15,
+  "sell": 3,
+  "max": 12
+ },
+ {
+  "id": 418,
+  "name": "Frenzy Shard",
+  "rarity": 13,
+  "type": 2,
+  "buy": 10000,
+  "sell": 1000,
+  "max": 99
+ },
+ {
+  "id": 419,
+  "name": "Jin Dahaad Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23000,
+  "sell": 2300,
+  "max": 99
+ },
+ {
+  "id": 420,
+  "name": "Jin Dahaad Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 34500,
+  "sell": 3450,
+  "max": 99
+ },
+ {
+  "id": 421,
+  "name": "Jin Dahaad Iceplate",
+  "rarity": 13,
+  "type": 2,
+  "buy": 41400,
+  "sell": 4140,
+  "max": 99
+ },
+ {
+  "id": 422,
+  "name": "Jin Dahaad Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 46000,
+  "sell": 4600,
+  "max": 99
+ },
+ {
+  "id": 423,
+  "name": "Jin Dahaad Horn",
+  "rarity": 13,
+  "type": 2,
+  "buy": 50600,
+  "sell": 5060,
+  "max": 99
+ },
+ {
+  "id": 424,
+  "name": "Jin Dahaad Icegem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 138000,
+  "sell": 13800,
+  "max": 99
+ },
+ {
+  "id": 425,
+  "name": "Jin Dahaad Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23000,
+  "sell": 2300,
+  "max": 99
+ },
+ {
+  "id": 426,
+  "name": "Guardian Ebony Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5400,
+  "sell": 540,
+  "max": 99
+ },
+ {
+  "id": 427,
+  "name": "Guardian Ebony Sinew",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8100,
+  "sell": 810,
+  "max": 99
+ },
+ {
+  "id": 428,
+  "name": "Guardian Ebony Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 9720,
+  "sell": 972,
+  "max": 99
+ },
+ {
+  "id": 429,
+  "name": "Guardian Ebony Fang",
+  "rarity": 15,
+  "type": 2,
+  "buy": 11880,
+  "sell": 1188,
+  "max": 99
+ },
+ {
+  "id": 430,
+  "name": "Guardian Ebony Tail",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10800,
+  "sell": 1080,
+  "max": 99
+ },
+ {
+  "id": 431,
+  "name": "Guardian Ebony Plate",
+  "rarity": 14,
+  "type": 2,
+  "buy": 32400,
+  "sell": 3240,
+  "max": 99
+ },
+ {
+  "id": 432,
+  "name": "G. Ebony Odogaron Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5400,
+  "sell": 540,
+  "max": 99
+ },
+ {
+  "id": 433,
+  "name": "Guardian Ebony Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16600,
+  "sell": 1660,
+  "max": 99
+ },
+ {
+  "id": 434,
+  "name": "Guardian Ebony Sinew+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24900,
+  "sell": 2490,
+  "max": 99
+ },
+ {
+  "id": 435,
+  "name": "Guardian Ebony Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 29880,
+  "sell": 2988,
+  "max": 99
+ },
+ {
+  "id": 436,
+  "name": "Guardian Ebony Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 36520,
+  "sell": 3652,
+  "max": 99
+ },
+ {
+  "id": 437,
+  "name": "Guardian Ebony Gem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 99600,
+  "sell": 9960,
+  "max": 99
+ },
+ {
+  "id": 438,
+  "name": "G. Ebony Odogaron Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16600,
+  "sell": 1660,
+  "max": 99
+ },
+ {
+  "id": 439,
+  "name": "Nourishing Extract",
+  "rarity": 15,
+  "type": 0,
+  "buy": 1220,
+  "sell": 122,
+  "max": 20
+ },
+ {
+  "id": 440,
+  "name": "Xu Wu Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5800,
+  "sell": 580,
+  "max": 99
+ },
+ {
+  "id": 441,
+  "name": "Golden Corneum",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8700,
+  "sell": 870,
+  "max": 99
+ },
+ {
+  "id": 442,
+  "name": "Xu Wu Tentacle",
+  "rarity": 15,
+  "type": 2,
+  "buy": 11600,
+  "sell": 1160,
+  "max": 99
+ },
+ {
+  "id": 443,
+  "name": "Xu Wu Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10440,
+  "sell": 1044,
+  "max": 99
+ },
+ {
+  "id": 444,
+  "name": "Xu Wu Fang",
+  "rarity": 15,
+  "type": 2,
+  "buy": 12760,
+  "sell": 1276,
+  "max": 99
+ },
+ {
+  "id": 445,
+  "name": "Xu Wu Cerebrospinal Fluid",
+  "rarity": 14,
+  "type": 2,
+  "buy": 34800,
+  "sell": 3480,
+  "max": 99
+ },
+ {
+  "id": 446,
+  "name": "Xu Wu Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5800,
+  "sell": 580,
+  "max": 99
+ },
+ {
+  "id": 447,
+  "name": "Xu Wu Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 18200,
+  "sell": 1820,
+  "max": 99
+ },
+ {
+  "id": 448,
+  "name": "Golden Corneum+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 27300,
+  "sell": 2730,
+  "max": 99
+ },
+ {
+  "id": 449,
+  "name": "Xu Wu Tentacle+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 40040,
+  "sell": 4004,
+  "max": 99
+ },
+ {
+  "id": 450,
+  "name": "Xu Wu Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32760,
+  "sell": 3276,
+  "max": 99
+ },
+ {
+  "id": 451,
+  "name": "Xu Wu Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 36400,
+  "sell": 3640,
+  "max": 99
+ },
+ {
+  "id": 452,
+  "name": "Xu Wu Umbragem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 109200,
+  "sell": 10920,
+  "max": 99
+ },
+ {
+  "id": 454,
+  "name": "Guardian Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 455,
+  "name": "Guardian Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15000,
+  "sell": 1500,
+  "max": 99
+ },
+ {
+  "id": 456,
+  "name": "Arkveld Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 60000,
+  "sell": 6000,
+  "max": 99
+ },
+ {
+  "id": 457,
+  "name": "Large Dung Pod",
+  "rarity": 16,
+  "type": 0,
+  "buy": 240,
+  "sell": 40,
+  "max": 10
+ },
+ {
+  "id": 458,
+  "name": "EZ Large Dung Pod",
+  "rarity": 16,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 459,
+  "name": "Arkveld Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 30000,
+  "sell": 3000,
+  "max": 99
+ },
+ {
+  "id": 460,
+  "name": "Arkveld Armorplate",
+  "rarity": 13,
+  "type": 2,
+  "buy": 45000,
+  "sell": 4500,
+  "max": 99
+ },
+ {
+  "id": 462,
+  "name": "White Arkveld Pelt",
+  "rarity": 13,
+  "type": 2,
+  "buy": 54000,
+  "sell": 5400,
+  "max": 99
+ },
+ {
+  "id": 463,
+  "name": "Arkveld Calloushell",
+  "rarity": 13,
+  "type": 2,
+  "buy": 60000,
+  "sell": 6000,
+  "max": 99
+ },
+ {
+  "id": 464,
+  "name": "Arkveld Horn+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 66000,
+  "sell": 6600,
+  "max": 99
+ },
+ {
+  "id": 465,
+  "name": "Arkveld Gem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 180000,
+  "sell": 18000,
+  "max": 99
+ },
+ {
+  "id": 466,
+  "name": "Arkveld Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 30000,
+  "sell": 3000,
+  "max": 99
+ },
+ {
+  "id": 467,
+  "name": "Heavy Blunt Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 468,
+  "name": "Heavy Slicing Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 469,
+  "name": "Heavy Explosion Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 470,
+  "name": "Basic Material",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 471,
+  "name": "Valuable Material",
+  "rarity": 14,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 472,
+  "name": "Drearisite Scraps",
+  "rarity": 13,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 473,
+  "name": "Scarred Scale",
+  "rarity": 13,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 474,
+  "name": "Ancient Wyvern Coin",
+  "rarity": 14,
+  "type": 5,
+  "buy": 10,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 475,
+  "name": "Heavy Piercing Pod",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 476,
+  "name": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_476",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 477,
+  "name": "Chillshroom",
+  "rarity": 16,
+  "type": 0,
+  "buy": 180,
+  "sell": 18,
+  "max": 10
+ },
+ {
+  "id": 478,
+  "name": "Hot Pepper",
+  "rarity": 18,
+  "type": 0,
+  "buy": 140,
+  "sell": 14,
+  "max": 10
+ },
+ {
+  "id": 479,
+  "name": "Ancient Weapon Fragment",
+  "rarity": 12,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 480,
+  "name": "Nerscylla Shear",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19800,
+  "sell": 1980,
+  "max": 99
+ },
+ {
+  "id": 481,
+  "name": "Guardian Fulgur Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16000,
+  "sell": 1600,
+  "max": 99
+ },
+ {
+  "id": 482,
+  "name": "Guardian Fulgur Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24000,
+  "sell": 2400,
+  "max": 99
+ },
+ {
+  "id": 483,
+  "name": "Guardian Fulgur Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 28000,
+  "sell": 2800,
+  "max": 99
+ },
+ {
+  "id": 484,
+  "name": "Guardian Fulgur Nosebone+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 35200,
+  "sell": 3520,
+  "max": 99
+ },
+ {
+  "id": 485,
+  "name": "Guardian Fulgur Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 486,
+  "name": "Guardian Fulgur Gem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 96000,
+  "sell": 9600,
+  "max": 99
+ },
+ {
+  "id": 487,
+  "name": "Herbivore Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 488,
+  "name": "Bulaqchi Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 489,
+  "name": "Monster Fluid",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 490,
+  "name": "Monster Broth",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8500,
+  "sell": 850,
+  "max": 99
+ },
+ {
+  "id": 491,
+  "name": "Talioth Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 492,
+  "name": "Wingdrake Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 493,
+  "name": "Piragill Fin",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 494,
+  "name": "Piragill Fin+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 496,
+  "name": "Kranodath Skull",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 497,
+  "name": "Kranodath Skull+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 498,
+  "name": "Comaqchi Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 499,
+  "name": "Comaqchi Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 502,
+  "name": "Guardian Seikret Feather",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2500,
+  "sell": 250,
+  "max": 99
+ },
+ {
+  "id": 503,
+  "name": "Guardian Seikret Feather+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 6500,
+  "sell": 650,
+  "max": 99
+ },
+ {
+  "id": 504,
+  "name": "Congalala Pelt",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2800,
+  "sell": 280,
+  "max": 99
+ },
+ {
+  "id": 505,
+  "name": "Congalala Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4200,
+  "sell": 420,
+  "max": 99
+ },
+ {
+  "id": 506,
+  "name": "Congalala Fang",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5040,
+  "sell": 504,
+  "max": 99
+ },
+ {
+  "id": 507,
+  "name": "Vibrant Pelt",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6160,
+  "sell": 616,
+  "max": 99
+ },
+ {
+  "id": 508,
+  "name": "Congalala Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2800,
+  "sell": 280,
+  "max": 99
+ },
+ {
+  "id": 509,
+  "name": "Congalala Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9300,
+  "sell": 930,
+  "max": 99
+ },
+ {
+  "id": 510,
+  "name": "Congalala Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13950,
+  "sell": 1395,
+  "max": 99
+ },
+ {
+  "id": 511,
+  "name": "Congalala Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16740,
+  "sell": 1674,
+  "max": 99
+ },
+ {
+  "id": 512,
+  "name": "Vibrant Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 20460,
+  "sell": 2046,
+  "max": 99
+ },
+ {
+  "id": 513,
+  "name": "Nerscylla Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 514,
+  "name": "Nerscylla Chelicera",
+  "rarity": 15,
+  "type": 2,
+  "buy": 7200,
+  "sell": 720,
+  "max": 99
+ },
+ {
+  "id": 515,
+  "name": "Nerscylla Claw",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6000,
+  "sell": 600,
+  "max": 99
+ },
+ {
+  "id": 516,
+  "name": "Nerscylla Spike",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8000,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 517,
+  "name": "Nerscylla Certificate",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 518,
+  "name": "Nerscylla Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 11000,
+  "sell": 1100,
+  "max": 99
+ },
+ {
+  "id": 519,
+  "name": "Nerscylla Claw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16500,
+  "sell": 1650,
+  "max": 99
+ },
+ {
+  "id": 520,
+  "name": "Nerscylla Spike+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22000,
+  "sell": 2200,
+  "max": 99
+ },
+ {
+  "id": 521,
+  "name": "Nerscylla Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 11000,
+  "sell": 1100,
+  "max": 99
+ },
+ {
+  "id": 522,
+  "name": "Kut-Ku Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9700,
+  "sell": 970,
+  "max": 99
+ },
+ {
+  "id": 523,
+  "name": "Kut-Ku Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14550,
+  "sell": 1455,
+  "max": 99
+ },
+ {
+  "id": 524,
+  "name": "Kut-Ku Ear",
+  "rarity": 13,
+  "type": 2,
+  "buy": 21340,
+  "sell": 2134,
+  "max": 99
+ },
+ {
+  "id": 525,
+  "name": "Giant Beak",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19400,
+  "sell": 1940,
+  "max": 99
+ },
+ {
+  "id": 526,
+  "name": "Kut-Ku Wing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17460,
+  "sell": 1746,
+  "max": 99
+ },
+ {
+  "id": 527,
+  "name": "Yian Kut-Ku Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9700,
+  "sell": 970,
+  "max": 99
+ },
+ {
+  "id": 528,
+  "name": "Rubbery Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8800,
+  "sell": 880,
+  "max": 99
+ },
+ {
+  "id": 529,
+  "name": "Rubbery Hide+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9500,
+  "sell": 950,
+  "max": 99
+ },
+ {
+  "id": 530,
+  "name": "Gypceros Wing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14500,
+  "sell": 1450,
+  "max": 99
+ },
+ {
+  "id": 531,
+  "name": "Gypceros Head",
+  "rarity": 13,
+  "type": 2,
+  "buy": 20900,
+  "sell": 2090,
+  "max": 99
+ },
+ {
+  "id": 532,
+  "name": "Gypceros Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19000,
+  "sell": 1900,
+  "max": 99
+ },
+ {
+  "id": 533,
+  "name": "Gypceros Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9500,
+  "sell": 950,
+  "max": 99
+ },
+ {
+  "id": 534,
+  "name": "Bird Wyvern Gem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 40000,
+  "sell": 4000,
+  "max": 99
+ },
+ {
+  "id": 535,
+  "name": "Dash Extract",
+  "rarity": 15,
+  "type": 0,
+  "buy": 560,
+  "sell": 56,
+  "max": 20
+ },
+ {
+  "id": 536,
+  "name": "Rathian Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 12000,
+  "sell": 1200,
+  "max": 99
+ },
+ {
+  "id": 537,
+  "name": "Blangonga Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13200,
+  "sell": 1320,
+  "max": 99
+ },
+ {
+  "id": 538,
+  "name": "Blangonga Fang+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 19800,
+  "sell": 1980,
+  "max": 99
+ },
+ {
+  "id": 539,
+  "name": "Blangonga Whisker",
+  "rarity": 13,
+  "type": 2,
+  "buy": 29040,
+  "sell": 2904,
+  "max": 99
+ },
+ {
+  "id": 540,
+  "name": "Blangonga Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 26400,
+  "sell": 2640,
+  "max": 99
+ },
+ {
+  "id": 541,
+  "name": "Blangonga Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13200,
+  "sell": 1320,
+  "max": 99
+ },
+ {
+  "id": 542,
+  "name": "Gravios Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14600,
+  "sell": 1460,
+  "max": 99
+ },
+ {
+  "id": 543,
+  "name": "Gravios Skull",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32120,
+  "sell": 3212,
+  "max": 99
+ },
+ {
+  "id": 544,
+  "name": "Gravios Pleura+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 29200,
+  "sell": 2920,
+  "max": 99
+ },
+ {
+  "id": 545,
+  "name": "Gravios Medulla",
+  "rarity": 12,
+  "type": 2,
+  "buy": 87600,
+  "sell": 8760,
+  "max": 99
+ },
+ {
+  "id": 546,
+  "name": "Gravios Wing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 21900,
+  "sell": 2190,
+  "max": 99
+ },
+ {
+  "id": 547,
+  "name": "Gravios Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14600,
+  "sell": 1460,
+  "max": 99
+ },
+ {
+  "id": 548,
+  "name": "ITEM<548>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22000,
+  "sell": 2200,
+  "max": 99
+ },
+ {
+  "id": 549,
+  "name": "ITEM<549>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 33000,
+  "sell": 3300,
+  "max": 99
+ },
+ {
+  "id": 550,
+  "name": "ITEM<550>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 39600,
+  "sell": 3960,
+  "max": 99
+ },
+ {
+  "id": 551,
+  "name": "ITEM<551>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 48400,
+  "sell": 4840,
+  "max": 99
+ },
+ {
+  "id": 552,
+  "name": "ITEM<552>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 44000,
+  "sell": 4400,
+  "max": 99
+ },
+ {
+  "id": 553,
+  "name": "ITEM<553>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 44000,
+  "sell": 4400,
+  "max": 99
+ },
+ {
+  "id": 554,
+  "name": "ITEM<554>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 132000,
+  "sell": 13200,
+  "max": 99
+ },
+ {
+  "id": 555,
+  "name": "ITEM<555>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22000,
+  "sell": 2200,
+  "max": 99
+ },
+ {
+  "id": 556,
+  "name": "Rathalos Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13800,
+  "sell": 1380,
+  "max": 99
+ },
+ {
+  "id": 557,
+  "name": "Rathalos Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 20700,
+  "sell": 2070,
+  "max": 99
+ },
+ {
+  "id": 558,
+  "name": "Rathalos Wing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24840,
+  "sell": 2484,
+  "max": 99
+ },
+ {
+  "id": 559,
+  "name": "Rathalos Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 27600,
+  "sell": 2760,
+  "max": 99
+ },
+ {
+  "id": 560,
+  "name": "Rathalos Ruby",
+  "rarity": 12,
+  "type": 2,
+  "buy": 82800,
+  "sell": 8280,
+  "max": 99
+ },
+ {
+  "id": 561,
+  "name": "Rathalos Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13800,
+  "sell": 1380,
+  "max": 99
+ },
+ {
+  "id": 562,
+  "name": "Gore Magala Scale+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23000,
+  "sell": 2300,
+  "max": 99
+ },
+ {
+  "id": 563,
+  "name": "Gore Magala Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 34500,
+  "sell": 3450,
+  "max": 99
+ },
+ {
+  "id": 564,
+  "name": "Gore Magala Wing+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 41400,
+  "sell": 4140,
+  "max": 99
+ },
+ {
+  "id": 565,
+  "name": "Gore Magala Ripclaw+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 41400,
+  "sell": 4140,
+  "max": 99
+ },
+ {
+  "id": 566,
+  "name": "Gore Magala Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 46000,
+  "sell": 4600,
+  "max": 99
+ },
+ {
+  "id": 567,
+  "name": "Gore Magala Feeler+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 50600,
+  "sell": 5060,
+  "max": 99
+ },
+ {
+  "id": 568,
+  "name": "Gore Magala Nyctgem",
+  "rarity": 12,
+  "type": 2,
+  "buy": 138000,
+  "sell": 13800,
+  "max": 99
+ },
+ {
+  "id": 569,
+  "name": "Gore Magala Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 23000,
+  "sell": 2300,
+  "max": 99
+ },
+ {
+  "id": 570,
+  "name": "Frenzy Crystal",
+  "rarity": 12,
+  "type": 2,
+  "buy": 20000,
+  "sell": 2000,
+  "max": 99
+ },
+ {
+  "id": 571,
+  "name": "Conga Pelt",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 572,
+  "name": "Conga Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 573,
+  "name": "Vespoid Shell",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 574,
+  "name": "Vespoid Carapace",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 575,
+  "name": "Vespoid Wing",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1500,
+  "sell": 150,
+  "max": 99
+ },
+ {
+  "id": 576,
+  "name": "Vespoid Innerwing",
+  "rarity": 13,
+  "type": 2,
+  "buy": 6370,
+  "sell": 637,
+  "max": 99
+ },
+ {
+  "id": 577,
+  "name": "Blango Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4250,
+  "sell": 425,
+  "max": 99
+ },
+ {
+  "id": 578,
+  "name": "Lightcrystal",
+  "rarity": 14,
+  "type": 2,
+  "buy": 11500,
+  "sell": 1150,
+  "max": 99
+ },
+ {
+  "id": 579,
+  "name": "Novacrystal",
+  "rarity": 12,
+  "type": 2,
+  "buy": 24400,
+  "sell": 2440,
+  "max": 99
+ },
+ {
+  "id": 580,
+  "name": "Firestone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8600,
+  "sell": 860,
+  "max": 99
+ },
+ {
+  "id": 581,
+  "name": "Firecell Stone",
+  "rarity": 12,
+  "type": 2,
+  "buy": 17200,
+  "sell": 1720,
+  "max": 99
+ },
+ {
+  "id": 582,
+  "name": "Fucium Ore",
+  "rarity": 13,
+  "type": 2,
+  "buy": 10200,
+  "sell": 1020,
+  "max": 99
+ },
+ {
+  "id": 583,
+  "name": "Icium",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 584,
+  "name": "Guardian Fulgur Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16000,
+  "sell": 1600,
+  "max": 99
+ },
+ {
+  "id": 585,
+  "name": "Congalala Certificate S",
+  "rarity": 13,
+  "type": 2,
+  "buy": 9300,
+  "sell": 930,
+  "max": 99
+ },
+ {
+  "id": 586,
+  "name": "Charred Oilbone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 587,
+  "name": "Frozen Icebone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 588,
+  "name": "Tough Guardian Bone",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6000,
+  "sell": 600,
+  "max": 99
+ },
+ {
+  "id": 589,
+  "name": "Quality Bone",
+  "rarity": 13,
+  "type": 2,
+  "buy": 7500,
+  "sell": 750,
+  "max": 99
+ },
+ {
+  "id": 590,
+  "name": "Crushed Crystal",
+  "rarity": 15,
+  "type": 2,
+  "buy": 300,
+  "sell": 30,
+  "max": 99
+ },
+ {
+  "id": 591,
+  "name": "Cloudy Crystal",
+  "rarity": 13,
+  "type": 2,
+  "buy": 500,
+  "sell": 50,
+  "max": 99
+ },
+ {
+  "id": 592,
+  "name": "Coruscating Crystal",
+  "rarity": 13,
+  "type": 2,
+  "buy": 700,
+  "sell": 70,
+  "max": 99
+ },
+ {
+  "id": 593,
+  "name": "Flame Sac",
+  "rarity": 15,
+  "type": 2,
+  "buy": 8400,
+  "sell": 840,
+  "max": 99
+ },
+ {
+  "id": 594,
+  "name": "Inferno Sac",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14550,
+  "sell": 1455,
+  "max": 99
+ },
+ {
+  "id": 595,
+  "name": "Aqua Sac",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4800,
+  "sell": 480,
+  "max": 99
+ },
+ {
+  "id": 596,
+  "name": "Torrent Sac",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15300,
+  "sell": 1530,
+  "max": 99
+ },
+ {
+  "id": 598,
+  "name": "Thunder Sac",
+  "rarity": 13,
+  "type": 2,
+  "buy": 24000,
+  "sell": 2400,
+  "max": 99
+ },
+ {
+  "id": 599,
+  "name": "Frost Sac",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6600,
+  "sell": 660,
+  "max": 99
+ },
+ {
+  "id": 600,
+  "name": "Freezer Sac",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17100,
+  "sell": 1710,
+  "max": 99
+ },
+ {
+  "id": 601,
+  "name": "Poison Sac",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5400,
+  "sell": 540,
+  "max": 99
+ },
+ {
+  "id": 602,
+  "name": "Toxin Sac",
+  "rarity": 13,
+  "type": 2,
+  "buy": 14850,
+  "sell": 1485,
+  "max": 99
+ },
+ {
+  "id": 603,
+  "name": "Lala Barina Mucus",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 604,
+  "name": "Lala Barina Mucus+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13500,
+  "sell": 1350,
+  "max": 99
+ },
+ {
+  "id": 605,
+  "name": "Sleep Sac",
+  "rarity": 15,
+  "type": 2,
+  "buy": 6000,
+  "sell": 600,
+  "max": 99
+ },
+ {
+  "id": 606,
+  "name": "Coma Sac",
+  "rarity": 13,
+  "type": 2,
+  "buy": 16500,
+  "sell": 1650,
+  "max": 99
+ },
+ {
+  "id": 607,
+  "name": "Guardian Blood",
+  "rarity": 15,
+  "type": 2,
+  "buy": 11000,
+  "sell": 1100,
+  "max": 99
+ },
+ {
+  "id": 608,
+  "name": "Guardian Blood+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 33000,
+  "sell": 3300,
+  "max": 99
+ },
+ {
+  "id": 609,
+  "name": "Great Hibiscus",
+  "rarity": 13,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 610,
+  "name": "Dalthydon Wool",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 611,
+  "name": "Azuz Tanned Leather",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 612,
+  "name": "Suja Textiles",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 613,
+  "name": "Sild Cotton",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 614,
+  "name": "Gajau Hide",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 615,
+  "name": "Speartuna Fin",
+  "rarity": 15,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 616,
+  "name": "Commission Ticket",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 618,
+  "name": "Mimiphyta Ticket",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 619,
+  "name": "Mystery Orb - Sword",
+  "rarity": 15,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 620,
+  "name": "Glowing Orb - Sword",
+  "rarity": 14,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 621,
+  "name": "Ancient Orb - Sword",
+  "rarity": 13,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 622,
+  "name": "Armor Sphere",
+  "rarity": 15,
+  "type": 2,
+  "buy": 800,
+  "sell": 80,
+  "max": 99
+ },
+ {
+  "id": 623,
+  "name": "Armor Sphere+",
+  "rarity": 14,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 624,
+  "name": "Advanced Armor Sphere",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 625,
+  "name": "Hard Armor Sphere",
+  "rarity": 12,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 626,
+  "name": "Rocksteady Mantle",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 627,
+  "name": "Mending Mantle",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 628,
+  "name": "Evasion Mantle",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 629,
+  "name": "Corrupted Mantle",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 630,
+  "name": "Wyvern Egg",
+  "rarity": 14,
+  "type": 2,
+  "buy": 2500,
+  "sell": 250,
+  "max": 1
+ },
+ {
+  "id": 631,
+  "name": "Charred Lizard",
+  "rarity": 15,
+  "type": 0,
+  "buy": 800,
+  "sell": 80,
+  "max": 10
+ },
+ {
+  "id": 632,
+  "name": "Wild Jerky",
+  "rarity": 17,
+  "type": 0,
+  "buy": 98,
+  "sell": 10,
+  "max": 5
+ },
+ {
+  "id": 633,
+  "name": "ITEM<633>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 634,
+  "name": "Catalyst",
+  "rarity": 17,
+  "type": 0,
+  "buy": 480,
+  "sell": 48,
+  "max": 5
+ },
+ {
+  "id": 635,
+  "name": "Gunpowder",
+  "rarity": 17,
+  "type": 0,
+  "buy": 90,
+  "sell": 45,
+  "max": 20
+ },
+ {
+  "id": 636,
+  "name": "Small Barrel",
+  "rarity": 18,
+  "type": 0,
+  "buy": 80,
+  "sell": 8,
+  "max": 10
+ },
+ {
+  "id": 637,
+  "name": "Large Barrel",
+  "rarity": 17,
+  "type": 0,
+  "buy": 210,
+  "sell": 21,
+  "max": 5
+ },
+ {
+  "id": 638,
+  "name": "Spider Web",
+  "rarity": 18,
+  "type": 0,
+  "buy": 60,
+  "sell": 6,
+  "max": 10
+ },
+ {
+  "id": 639,
+  "name": "Net",
+  "rarity": 17,
+  "type": 0,
+  "buy": 108,
+  "sell": 54,
+  "max": 10
+ },
+ {
+  "id": 640,
+  "name": "Gunpowderfish Scale",
+  "rarity": 16,
+  "type": 0,
+  "buy": 300,
+  "sell": 150,
+  "max": 5
+ },
+ {
+  "id": 641,
+  "name": "Burst Arowana Scale",
+  "rarity": 17,
+  "type": 0,
+  "buy": 90,
+  "sell": 45,
+  "max": 5
+ },
+ {
+  "id": 642,
+  "name": "Bomb Arowana Scale",
+  "rarity": 17,
+  "type": 0,
+  "buy": 270,
+  "sell": 135,
+  "max": 5
+ },
+ {
+  "id": 643,
+  "name": "Gilded Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 644,
+  "name": "Golden Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10000,
+  "sell": 1000,
+  "max": 99
+ },
+ {
+  "id": 645,
+  "name": "Platinum Scale",
+  "rarity": 15,
+  "type": 2,
+  "buy": 20000,
+  "sell": 2000,
+  "max": 99
+ },
+ {
+  "id": 646,
+  "name": "ITEM<646>",
+  "rarity": 14,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 647,
+  "name": "Steel Melding Ticket",
+  "rarity": 14,
+  "type": 2,
+  "buy": 100,
+  "sell": 10,
+  "max": 99
+ },
+ {
+  "id": 648,
+  "name": "Silver Melding Ticket",
+  "rarity": 13,
+  "type": 2,
+  "buy": 500,
+  "sell": 50,
+  "max": 99
+ },
+ {
+  "id": 649,
+  "name": "Steel Relic Ticket",
+  "rarity": 14,
+  "type": 2,
+  "buy": 100,
+  "sell": 10,
+  "max": 99
+ },
+ {
+  "id": 650,
+  "name": "Silver Relic Ticket",
+  "rarity": 13,
+  "type": 2,
+  "buy": 500,
+  "sell": 50,
+  "max": 99
+ },
+ {
+  "id": 651,
+  "name": "Steel Egg",
+  "rarity": 15,
+  "type": 2,
+  "buy": 10000,
+  "sell": 1000,
+  "max": 99
+ },
+ {
+  "id": 652,
+  "name": "Silver Egg",
+  "rarity": 15,
+  "type": 2,
+  "buy": 100000,
+  "sell": 10000,
+  "max": 99
+ },
+ {
+  "id": 653,
+  "name": "Golden Egg",
+  "rarity": 15,
+  "type": 2,
+  "buy": 200000,
+  "sell": 20000,
+  "max": 99
+ },
+ {
+  "id": 654,
+  "name": "Heavy Armor Sphere",
+  "rarity": 11,
+  "type": 2,
+  "buy": 6000,
+  "sell": 600,
+  "max": 99
+ },
+ {
+  "id": 655,
+  "name": "Monster Keenbone",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8000,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 656,
+  "name": "Monster Hardbone",
+  "rarity": 13,
+  "type": 2,
+  "buy": 12000,
+  "sell": 1200,
+  "max": 99
+ },
+ {
+  "id": 657,
+  "name": "Stoutbone",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8000,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 658,
+  "name": "Great Stoutbone",
+  "rarity": 13,
+  "type": 2,
+  "buy": 13000,
+  "sell": 1300,
+  "max": 99
+ },
+ {
+  "id": 659,
+  "name": "Hunter Symbol I",
+  "rarity": 13,
+  "type": 2,
+  "buy": 10000,
+  "sell": 1000,
+  "max": 99
+ },
+ {
+  "id": 660,
+  "name": "Hunter Symbol II",
+  "rarity": 12,
+  "type": 2,
+  "buy": 20000,
+  "sell": 2000,
+  "max": 99
+ },
+ {
+  "id": 661,
+  "name": "Hunter Symbol III",
+  "rarity": 11,
+  "type": 2,
+  "buy": 30000,
+  "sell": 3000,
+  "max": 99
+ },
+ {
+  "id": 662,
+  "name": "Gold Melding Ticket",
+  "rarity": 12,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 663,
+  "name": "Gold Relic Ticket",
+  "rarity": 12,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 664,
+  "name": "Guardian Pelt",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 665,
+  "name": "Guardian Pelt+",
+  "rarity": 13,
+  "type": 2,
+  "buy": 15000,
+  "sell": 1500,
+  "max": 99
+ },
+ {
+  "id": 666,
+  "name": "Drearisite",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 667,
+  "name": "Specklite",
+  "rarity": 14,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 668,
+  "name": "Argecite",
+  "rarity": 14,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 669,
+  "name": "Oricalcite",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 670,
+  "name": "Common Wood Minnow",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 671,
+  "name": "Golden Bughead",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 672,
+  "name": "Emerald Jitterbait",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 673,
+  "name": "Tuff Joint Bait",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 674,
+  "name": "Duster Rig",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 675,
+  "name": "Tentacle Jig",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 676,
+  "name": "Close-range Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 677,
+  "name": "Power Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 678,
+  "name": "Pierce Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 679,
+  "name": "Paralysis Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 680,
+  "name": "Poison Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 681,
+  "name": "Sleep Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 682,
+  "name": "Blast Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 683,
+  "name": "Exhaust Coating",
+  "rarity": 15,
+  "type": 4,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 684,
+  "name": "Whetfish Fin+",
+  "rarity": 15,
+  "type": 0,
+  "buy": 135,
+  "sell": 45,
+  "max": 5
+ },
+ {
+  "id": 685,
+  "name": "Great Sushifish Scale",
+  "rarity": 15,
+  "type": 0,
+  "buy": 90,
+  "sell": 45,
+  "max": 5
+ },
+ {
+  "id": 686,
+  "name": "Old Weapon Shard - Blade",
+  "rarity": 12,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 687,
+  "name": "Old Weapon Shard - Tube",
+  "rarity": 12,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 688,
+  "name": "Old Weapon Shard - Disc",
+  "rarity": 12,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 689,
+  "name": "Old Weapon Shard - Device",
+  "rarity": 12,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 690,
+  "name": "<COLOR FF0000>#Rejected#</COLOR> Item_IT_690",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 698,
+  "name": "Gracium",
+  "rarity": 13,
+  "type": 2,
+  "buy": 8000,
+  "sell": 800,
+  "max": 99
+ },
+ {
+  "id": 699,
+  "name": "Wyverian Bloodstone Shard",
+  "rarity": 13,
+  "type": 2,
+  "buy": 800,
+  "sell": 80,
+  "max": 99
+ },
+ {
+  "id": 700,
+  "name": "Wyverian Bloodstone (S)",
+  "rarity": 13,
+  "type": 2,
+  "buy": 900,
+  "sell": 90,
+  "max": 99
+ },
+ {
+  "id": 701,
+  "name": "Wyverian Bloodstone",
+  "rarity": 12,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 702,
+  "name": "Wyverian Bloodstone (L)",
+  "rarity": 12,
+  "type": 2,
+  "buy": 1100,
+  "sell": 110,
+  "max": 99
+ },
+ {
+  "id": 703,
+  "name": "Wyverian Bloodstone Chunk",
+  "rarity": 11,
+  "type": 2,
+  "buy": 1200,
+  "sell": 120,
+  "max": 99
+ },
+ {
+  "id": 704,
+  "name": "Balahara Black Pearl",
+  "rarity": 15,
+  "type": 2,
+  "buy": 30000,
+  "sell": 3000,
+  "max": 99
+ },
+ {
+  "id": 705,
+  "name": "Guardian Rathalos Ruby",
+  "rarity": 12,
+  "type": 2,
+  "buy": 102000,
+  "sell": 10200,
+  "max": 99
+ },
+ {
+  "id": 706,
+  "name": "Guardian Rathalos Plate",
+  "rarity": 14,
+  "type": 2,
+  "buy": 33600,
+  "sell": 3360,
+  "max": 99
+ },
+ {
+  "id": 707,
+  "name": "Jin Dahaad Tail",
+  "rarity": 13,
+  "type": 2,
+  "buy": 50600,
+  "sell": 5060,
+  "max": 99
+ },
+ {
+  "id": 708,
+  "name": "Expedition Headgear Ticket",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 710,
+  "name": "ITEM<710>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 711,
+  "name": "ITEM<711>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 712,
+  "name": "ITEM<712>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 48000,
+  "sell": 4800,
+  "max": 99
+ },
+ {
+  "id": 713,
+  "name": "ITEM<713>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 57600,
+  "sell": 5760,
+  "max": 99
+ },
+ {
+  "id": 714,
+  "name": "ITEM<714>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 64000,
+  "sell": 6400,
+  "max": 99
+ },
+ {
+  "id": 715,
+  "name": "ITEM<715>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 70400,
+  "sell": 7040,
+  "max": 99
+ },
+ {
+  "id": 717,
+  "name": "ITEM<717>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 192000,
+  "sell": 19200,
+  "max": 99
+ },
+ {
+  "id": 719,
+  "name": "ITEM<719>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 64000,
+  "sell": 6400,
+  "max": 99
+ },
+ {
+  "id": 720,
+  "name": "ITEM<720>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17500,
+  "sell": 1750,
+  "max": 99
+ },
+ {
+  "id": 721,
+  "name": "ITEM<721>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 17500,
+  "sell": 1750,
+  "max": 99
+ },
+ {
+  "id": 722,
+  "name": "ITEM<722>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 26250,
+  "sell": 2625,
+  "max": 99
+ },
+ {
+  "id": 723,
+  "name": "ITEM<723>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 35000,
+  "sell": 3500,
+  "max": 99
+ },
+ {
+  "id": 724,
+  "name": "ITEM<724>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 35000,
+  "sell": 3500,
+  "max": 99
+ },
+ {
+  "id": 726,
+  "name": "ITEM<726>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 38500,
+  "sell": 3850,
+  "max": 99
+ },
+ {
+  "id": 727,
+  "name": "ITEM<727>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 31500,
+  "sell": 3150,
+  "max": 99
+ },
+ {
+  "id": 728,
+  "name": "ITEM<728>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 105000,
+  "sell": 10500,
+  "max": 99
+ },
+ {
+  "id": 729,
+  "name": "ITEM<729>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22000,
+  "sell": 2200,
+  "max": 99
+ },
+ {
+  "id": 730,
+  "name": "ITEM<730>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 22000,
+  "sell": 2200,
+  "max": 99
+ },
+ {
+  "id": 731,
+  "name": "ITEM<731>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 33000,
+  "sell": 3300,
+  "max": 99
+ },
+ {
+  "id": 732,
+  "name": "ITEM<732>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 39600,
+  "sell": 3960,
+  "max": 99
+ },
+ {
+  "id": 733,
+  "name": "ITEM<733>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 44000,
+  "sell": 4400,
+  "max": 99
+ },
+ {
+  "id": 734,
+  "name": "ITEM<734>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 48400,
+  "sell": 4840,
+  "max": 99
+ },
+ {
+  "id": 735,
+  "name": "ITEM<735>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 44000,
+  "sell": 4400,
+  "max": 99
+ },
+ {
+  "id": 736,
+  "name": "ITEM<736>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 132000,
+  "sell": 13200,
+  "max": 99
+ },
+ {
+  "id": 737,
+  "name": "ITEM<737>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 738,
+  "name": "ITEM<738>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 739,
+  "name": "ITEM<739>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 48000,
+  "sell": 4800,
+  "max": 99
+ },
+ {
+  "id": 740,
+  "name": "ITEM<740>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 57600,
+  "sell": 5760,
+  "max": 99
+ },
+ {
+  "id": 741,
+  "name": "ITEM<741>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 64000,
+  "sell": 6400,
+  "max": 99
+ },
+ {
+  "id": 743,
+  "name": "ITEM<743>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 64000,
+  "sell": 6400,
+  "max": 99
+ },
+ {
+  "id": 744,
+  "name": "ITEM<744>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 192000,
+  "sell": 19200,
+  "max": 99
+ },
+ {
+  "id": 745,
+  "name": "ITEM<745>",
+  "rarity": 11,
+  "type": 2,
+  "buy": 64000,
+  "sell": 6400,
+  "max": 99
+ },
+ {
+  "id": 747,
+  "name": "ITEM<747>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 34000,
+  "sell": 3400,
+  "max": 99
+ },
+ {
+  "id": 748,
+  "name": "ITEM<748>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 34000,
+  "sell": 3400,
+  "max": 99
+ },
+ {
+  "id": 749,
+  "name": "ITEM<749>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 51000,
+  "sell": 5100,
+  "max": 99
+ },
+ {
+  "id": 750,
+  "name": "ITEM<750>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 61200,
+  "sell": 6120,
+  "max": 99
+ },
+ {
+  "id": 751,
+  "name": "ITEM<751>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 61200,
+  "sell": 6120,
+  "max": 99
+ },
+ {
+  "id": 752,
+  "name": "ITEM<752>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 68000,
+  "sell": 6800,
+  "max": 99
+ },
+ {
+  "id": 753,
+  "name": "ITEM<753>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 74800,
+  "sell": 7480,
+  "max": 99
+ },
+ {
+  "id": 754,
+  "name": "ITEM<754>",
+  "rarity": 11,
+  "type": 2,
+  "buy": 204000,
+  "sell": 20400,
+  "max": 99
+ },
+ {
+  "id": 755,
+  "name": "ITEM<755>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 51000,
+  "sell": 5100,
+  "max": 99
+ },
+ {
+  "id": 756,
+  "name": "ITEM<756>",
+  "rarity": 11,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 758,
+  "name": "ITEM<758>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 759,
+  "name": "ITEM<759>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 760,
+  "name": "ITEM<760>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 761,
+  "name": "ITEM<761>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 762,
+  "name": "ITEM<762>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 32000,
+  "sell": 3200,
+  "max": 99
+ },
+ {
+  "id": 763,
+  "name": "ITEM<763>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 764,
+  "name": "ITEM<764>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 765,
+  "name": "ITEM<765>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 766,
+  "name": "ITEM<766>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 767,
+  "name": "ITEM<767>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 768,
+  "name": "ITEM<768>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 769,
+  "name": "ITEM<769>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 770,
+  "name": "ITEM<770>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 771,
+  "name": "ITEM<771>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 772,
+  "name": "ITEM<772>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 774,
+  "name": "ITEM<774>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 775,
+  "name": "ITEM<775>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 776,
+  "name": "ITEM<776>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4500,
+  "sell": 450,
+  "max": 99
+ },
+ {
+  "id": 778,
+  "name": "ITEM<778>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3000,
+  "sell": 300,
+  "max": 99
+ },
+ {
+  "id": 779,
+  "name": "ITEM<779>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 99
+ },
+ {
+  "id": 780,
+  "name": "ITEM<780>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 781,
+  "name": "ITEM<781>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 782,
+  "name": "ITEM<782>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 783,
+  "name": "ITEM<783>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 784,
+  "name": "ITEM<784>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 785,
+  "name": "ITEM<785>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 786,
+  "name": "ITEM<786>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 787,
+  "name": "ITEM<787>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 788,
+  "name": "ITEM<788>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 789,
+  "name": "ITEM<789>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 790,
+  "name": "ITEM<790>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 1
+ },
+ {
+  "id": 791,
+  "name": "ITEM<791>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 792,
+  "name": "ITEM<792>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 794,
+  "name": "ITEM<794>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 795,
+  "name": "ITEM<795>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 796,
+  "name": "ITEM<796>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 797,
+  "name": "ITEM<797>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 798,
+  "name": "ITEM<798>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 799,
+  "name": "ITEM<799>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 800,
+  "name": "ITEM<800>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 801,
+  "name": "ITEM<801>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 802,
+  "name": "ITEM<802>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 803,
+  "name": "ITEM<803>",
+  "rarity": 15,
+  "type": 0,
+  "buy": 518,
+  "sell": 52,
+  "max": 2
+ },
+ {
+  "id": 804,
+  "name": "ITEM<804>",
+  "rarity": 15,
+  "type": 0,
+  "buy": 518,
+  "sell": 52,
+  "max": 2
+ },
+ {
+  "id": 805,
+  "name": "ITEM<805>",
+  "rarity": 15,
+  "type": 0,
+  "buy": 518,
+  "sell": 52,
+  "max": 2
+ },
+ {
+  "id": 806,
+  "name": "ITEM<806>",
+  "rarity": 15,
+  "type": 0,
+  "buy": 518,
+  "sell": 52,
+  "max": 2
+ },
+ {
+  "id": 807,
+  "name": "ITEM<807>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 5000,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 808,
+  "name": "ITEM<808>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 1
+ },
+ {
+  "id": 809,
+  "name": "ITEM<809>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 1
+ },
+ {
+  "id": 810,
+  "name": "ITEM<810>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 1
+ },
+ {
+  "id": 811,
+  "name": "ITEM<811>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 4000,
+  "sell": 400,
+  "max": 1
+ },
+ {
+  "id": 813,
+  "name": "ITEM<813>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 5
+ },
+ {
+  "id": 814,
+  "name": "ITEM<814>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 815,
+  "name": "ITEM<815>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 816,
+  "name": "ITEM<816>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 817,
+  "name": "ITEM<817>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 818,
+  "name": "ITEM<818>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 819,
+  "name": "ITEM<819>",
+  "rarity": 15,
+  "type": 1,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 820,
+  "name": "ITEM<820>",
+  "rarity": 17,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 2
+ },
+ {
+  "id": 821,
+  "name": "ITEM<821>",
+  "rarity": 14,
+  "type": 0,
+  "buy": 0,
+  "sell": 0,
+  "max": 1
+ },
+ {
+  "id": 822,
+  "name": "ITEM<822>",
+  "rarity": 12,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 823,
+  "name": "ITEM<823>",
+  "rarity": 11,
+  "type": 6,
+  "buy": 90,
+  "sell": 0,
+  "max": 10
+ },
+ {
+  "id": 824,
+  "name": "ITEM<824>",
+  "rarity": 12,
+  "type": 2,
+  "buy": 1000,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 825,
+  "name": "ITEM<825>",
+  "rarity": 11,
+  "type": 2,
+  "buy": 2000,
+  "sell": 200,
+  "max": 99
+ },
+ {
+  "id": 826,
+  "name": "ITEM<826>",
+  "rarity": 11,
+  "type": 2,
+  "buy": 40000,
+  "sell": 4000,
+  "max": 99
+ },
+ {
+  "id": 827,
+  "name": "ITEM<827>",
+  "rarity": 16,
+  "type": 5,
+  "buy": 50,
+  "sell": 500,
+  "max": 99
+ },
+ {
+  "id": 828,
+  "name": "ITEM<828>",
+  "rarity": 17,
+  "type": 5,
+  "buy": 10,
+  "sell": 100,
+  "max": 99
+ },
+ {
+  "id": 829,
+  "name": "ITEM<829>",
+  "rarity": 15,
+  "type": 2,
+  "buy": 1,
+  "sell": 1,
+  "max": 99
+ },
+ {
+  "id": 830,
+  "name": "ITEM<830>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 832,
+  "name": "ITEM<832>",
+  "rarity": 18,
+  "type": 2,
+  "buy": 10,
+  "sell": 1,
+  "max": 99
+ },
+ {
+  "id": 833,
+  "name": "ITEM<833>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 10000,
+  "sell": 1000,
+  "max": 99
+ },
+ {
+  "id": 834,
+  "name": "ITEM<834>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 836,
+  "name": "ITEM<836>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 837,
+  "name": "ITEM<837>",
+  "rarity": 13,
+  "type": 2,
+  "buy": 3500,
+  "sell": 350,
+  "max": 99
+ },
+ {
+  "id": 838,
+  "name": "ITEM<838>",
+  "rarity": 14,
+  "type": 2,
+  "buy": 2500,
+  "sell": 250,
+  "max": 1
+ }
+]

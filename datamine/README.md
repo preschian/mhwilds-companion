@@ -27,6 +27,7 @@ python .\datamine\build_partnames.py
 $R = $env:MHRESEARCH; if (-not $R) { $R = Join-Path $env:TEMP 'mhwilds-research' }
 python .\datamine\enum_dump.py 'app.EnemyDef.PARTS_TYPE' 'app.Hit.ROD_EXTRACT' > (Join-Path $R 'parts_enums.json')
 python .\datamine\msg_parse.py (Join-Path $R 'extract_full\merged\natives\STM\GameDesign\Text\Excel_Data\EnemyText.msg.23') --json (Join-Path $R 'enemy_text_merged.json')
+python .\datamine\msg_parse.py (Join-Path $R 'extract_full\merged\natives\STM\GameDesign\Text\Excel_Data\Item.msg.23') --json (Join-Path $R 'item_text.json')
 
 # 5. Full hitzone dataset (+ Kiranico cross-check if the optional reference
 #    clone exists under $MHRESEARCH; otherwise validation is skipped)
@@ -36,6 +37,12 @@ python .\datamine\meat_all.py
 # 6. Finalize data/monsters.json + data/icons/*.png (icons committed:
 #    private repo only, Capcom assets)
 python .\datamine\finalize.py
+
+# 7. Rewards: parse per-monster reward tables + item catalog, extend
+#    monsters.json with rewards, write data/materials.json (includes a
+#    Rathian wiki-oracle self-check)
+python .\datamine\reward_all.py
+python .\datamine\reward_finalize.py
 ```
 
 `il2cpp_dump.json` (REFramework SDK dump, 2 GB) must exist next to the game
@@ -59,6 +66,8 @@ exe; it is the struct database for the RSZ reader. It is never committed.
 | `meat_extract.py` | One monster: `EmXXXX VV` → hitzone printout |
 | `meat_all.py` | All monsters → `monsters.json` + validation |
 | `finalize.py` | Add category/icon, copy PNGs to `data/` |
+| `reward_all.py` | Parse reward tables + item catalog → `rewards.json` |
+| `reward_finalize.py` | Merge rewards into dataset + `materials.json` |
 
 ## Key findings (see `../docs/datamine.md`)
 
@@ -70,3 +79,8 @@ exe; it is the struct database for the RSZ reader. It is never committed.
 - `Em0160_50` (Guardian Arkveld) shares `Em0160_00` parts; `Em1062` is a
   debug dummy (HP 999999, no name, no icon); `EM0000` is the `?` placeholder.
 - Validation vs Kiranico-derived data: 99.3% of normal-state cells match.
+- Rewards live in `GameDesign/Common/Enemy/EM*.user.3` (`EnemyRewardData`):
+  dataId hundreds = category (1xx carve, 2xx tail, 3xx break, 4xx wound,
+  5xx target rolls, 6xx bonus), story slots = low rank, ex arrays = high
+  rank. Breaks link via partsIndex == RewardTableIndex. Item names from
+  `Item.msg.23` (`Item_IT_<id>`).

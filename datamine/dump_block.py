@@ -3,6 +3,7 @@
 Usage: python dump_block.py <ClassName> [--methods-only] [--fields-only]
 ClassName without quotes, e.g. app.EnemyReportDef
 """
+import os
 import sys
 
 GAME_DIR = os.environ.get('MHWILDS_GAME', r'D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds')
@@ -54,7 +55,7 @@ def main():
         return
     if '--methods-only' in sys.argv or '--fields-only' in sys.argv:
         import json
-        obj = json.loads('{' + block + '}')
+        obj = json.loads('{' + block.rstrip().rstrip(',') + '}')
         cls = obj[name]
         section = 'methods' if '--methods-only' in sys.argv else 'fields'
         print(f'== {name} :: {section} ({len(cls.get(section, {}))}) ==')

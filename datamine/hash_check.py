@@ -5,6 +5,7 @@ Usage:
   python hash_check.py --collide <HEX> [...]    -> find all dump names with hash
 """
 import re
+import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
