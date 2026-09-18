@@ -54,6 +54,18 @@ python .\datamine\itemicons_all.py
 # 9. Finalize data/icons/items/*.png + data/item_palette.json, merge icon
 #    fields into data/materials.json
 python .\datamine\itemicons_finalize.py
+
+# 10. Guide/mission extraction (Field Guide tables, 291 missions, texts)
+.\datamine\extract_guide.ps1
+
+# 11. Parse extras + missions + guide tables into $MHRESEARCH JSONs
+python .\datamine\monster_extra.py
+python .\datamine\mission_all.py
+python .\datamine\guide_all.py
+
+# 12. Merge into data/monsters.json + data/quests.json +
+#     data/endemics.json + data/guide_meta.json
+python .\datamine\guide_finalize.py
 ```
 
 `il2cpp_dump.json` (REFramework SDK dump, 2 GB) must exist next to the game
@@ -83,6 +95,11 @@ exe; it is the struct database for the RSZ reader. It is never committed.
 | `build_itemicons.ps1` | Atlas merge + TEX→DDS→PNG batch |
 | `itemicons_all.py` | Icon fields + palette parse, glyph/badge crop |
 | `itemicons_finalize.py` | `data/icons/items/` + palette + `materials.json` icons |
+| `extract_guide.ps1` | Guide/mission/text extract (`lists/*.list`) + merge |
+| `monster_extra.py` | RSZ auto-parse + extras/texts/sizes → research JSONs |
+| `mission_all.py` | 291 missions → `mission_index.json` |
+| `guide_all.py` | Guide tables + texts → `guide.json` |
+| `guide_finalize.py` | Merge → `monsters.json` + `quests/endemics/guide_meta.json` |
 
 ## Key findings (see `../docs/datamine.md`)
 

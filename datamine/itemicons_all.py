@@ -65,7 +65,7 @@ def parse_user(path, classes):
     insts = [struct.unpack_from('<I', raw, base + inst_off + 8 * i)[0] for i in range(n_inst)]
     objs, end = parse_instances(raw, base, data_off, insts, layouts, mmap)
     assert end == len(raw), f'{path}: end 0x{end:X} != len 0x{len(raw):X}'
-    return resolve_refs(objs, [objs[e - 1] for e in eps])[0]
+    return resolve_refs(objs, [objs[e] for e in eps])[0]
 
 
 def abgr(u):

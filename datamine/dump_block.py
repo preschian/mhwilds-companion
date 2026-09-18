@@ -3,11 +3,70 @@
 Usage: python dump_block.py <ClassName> [--methods-only] [--fields-only]
 ClassName without quotes, e.g. app.EnemyReportDef
 """
+import json
 import os
 import sys
+import tempfile
 
 GAME_DIR = os.environ.get('MHWILDS_GAME', r'D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds')
 DUMP = os.path.join(GAME_DIR, 'il2cpp_dump.json')
+RESEARCH = os.environ.get('MHRESEARCH', os.path.join(tempfile.gettempdir(), 'mhwilds-research'))
+LAYOUT_CACHE = os.path.join(RESEARCH, 'rsz_layouts.json')
+PARENT_CACHE = os.path.join(RESEARCH, 'rsz_parents.json')
+_cache = None
+_parents = None
+
+
+def get_parent(name):
+    """Base class name from the dump ('parent' field), cached."""
+    global _parents
+    if _parents is None:
+        try:
+            with open(PARENT_CACHE, encoding='utf-8') as f:
+                _parents = json.load(f)
+        except Exception:
+            _parents = {}
+    if name not in _parents:
+        b = extract(name)
+        _parents[name] = (json.loads('{' + b.rstrip().rstrip(',') + '}')[name].get('parent')
+                          if b else None)
+        try:
+            with open(PARENT_CACHE, 'w', encoding='utf-8') as f:
+                json.dump(_parents, f)
+        except Exception:
+            pass
+    return _parents[name]
+
+
+def is_derived(actual, expected):
+    """True if actual == expected or inherits from it (dump parents)."""
+    seen = set()
+    while actual and actual not in seen:
+        if actual == expected:
+            return True
+        seen.add(actual)
+        actual = get_parent(actual)
+    return False
+
+
+def get_rsz(name):
+    """RSZ field list for a class, via persistent cache (None if absent)."""
+    global _cache
+    if _cache is None:
+        try:
+            with open(LAYOUT_CACHE, encoding='utf-8') as f:
+                _cache = json.load(f)
+        except Exception:
+            _cache = {}
+    if name not in _cache:
+        b = extract(name)
+        _cache[name] = json.loads('{' + b.rstrip().rstrip(',') + '}')[name].get('RSZ') if b else None
+        try:
+            with open(LAYOUT_CACHE, 'w', encoding='utf-8') as f:
+                json.dump(_cache, f)
+        except Exception:
+            pass
+    return _cache[name]
 
 
 def extract(name):

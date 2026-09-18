@@ -1,0 +1,630 @@
+[
+ {
+  "em": "EM5203",
+  "variant": "00",
+  "name": "Amstrigian",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5204",
+  "variant": "19",
+  "name": "Azure Rufflizard",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5101",
+  "variant": "20",
+  "name": "Bitterbug",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5200",
+  "variant": "09",
+  "name": "Black Windrustler",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5215",
+  "variant": "10",
+  "name": "Blink Angler",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5004",
+  "variant": "10",
+  "name": "Bomb Beetle",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5010",
+  "variant": "00",
+  "name": "Cactuar",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5005",
+  "variant": "10",
+  "name": "Chillmantle Bug",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5216",
+  "variant": "10",
+  "name": "Crudeshell Crab",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5216",
+  "variant": "09",
+  "name": "Curioshell Crab",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5218",
+  "variant": "00",
+  "name": "Dapperwing",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5007",
+  "variant": "00",
+  "name": "Dark Hornet",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5218",
+  "variant": "09",
+  "name": "Dazzlewing",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5226",
+  "variant": "00",
+  "name": "Downy Crake",
+  "habitat": [
+   "Iceshard Cliffs"
+  ]
+ },
+ {
+  "em": "EM5004",
+  "variant": "00",
+  "name": "Dung Beetle",
+  "habitat": [
+   "Windward Plains",
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5204",
+  "variant": "10",
+  "name": "Ember Rufflizard",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5207",
+  "variant": "00",
+  "name": "Emperor Hopper",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5101",
+  "variant": "00",
+  "name": "Flashbug",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5003",
+  "variant": "00",
+  "name": "Flashflies",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5216",
+  "variant": "00",
+  "name": "Florashell Crab",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5214",
+  "variant": "10",
+  "name": "Gawkie",
+  "habitat": [
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5002",
+  "variant": "01",
+  "name": "Giant Vigorwasp",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5224",
+  "variant": "09",
+  "name": "Gillopod",
+  "habitat": [
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5217",
+  "variant": "10",
+  "name": "Gloom Gekko",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5101",
+  "variant": "10",
+  "name": "Godbug",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5208",
+  "variant": "10",
+  "name": "Gold Hercudrome",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5008",
+  "variant": "00",
+  "name": "Great Thunderbugs",
+  "habitat": [
+   "Windward Plains",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5005",
+  "variant": "20",
+  "name": "Heatmantle Bug",
+  "habitat": [
+   "Iceshard Cliffs"
+  ]
+ },
+ {
+  "em": "EM5208",
+  "variant": "00",
+  "name": "Hercudrome",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5203",
+  "variant": "09",
+  "name": "Hymstrigian",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5211",
+  "variant": "00",
+  "name": "Jewel Scarab",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5202",
+  "variant": "00",
+  "name": "Landlight Shrimp",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5102",
+  "variant": "00",
+  "name": "Leaflugger Ant",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5214",
+  "variant": "00",
+  "name": "Mimiphyta",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5011",
+  "variant": "00",
+  "name": "Morbol Seedling",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5210",
+  "variant": "00",
+  "name": "Myriads",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5001",
+  "variant": "10",
+  "name": "Nitrotoad",
+  "habitat": [
+   "Oilwell Basin",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5201",
+  "variant": "00",
+  "name": "Nothpecker",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5222",
+  "variant": "00",
+  "name": "Nu Yaya",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5213",
+  "variant": "00",
+  "name": "Omenfly",
+  "habitat": [
+   "Scarlet Forest",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5205",
+  "variant": "00",
+  "name": "Pallbug",
+  "habitat": [
+   "Windward Plains",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5001",
+  "variant": "00",
+  "name": "Paratoad",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5221",
+  "variant": "09",
+  "name": "Peony Sparklerjelly",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5225",
+  "variant": "00",
+  "name": "Petalfly",
+  "habitat": [
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5224",
+  "variant": "00",
+  "name": "Pillopod",
+  "habitat": [
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5202",
+  "variant": "10",
+  "name": "Pink Landlight Shrimp",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5208",
+  "variant": "20",
+  "name": "Prism Hercudrome",
+  "habitat": [
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5002",
+  "variant": "10",
+  "name": "Purewasp",
+  "habitat": [
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5209",
+  "variant": "00",
+  "name": "Quatreflies",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5211",
+  "variant": "09",
+  "name": "Regal Jewel Scarab",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5004",
+  "variant": "20",
+  "name": "Rime Beetle",
+  "habitat": [
+   "Iceshard Cliffs"
+  ]
+ },
+ {
+  "em": "EM5204",
+  "variant": "00",
+  "name": "Rufflizard",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5219",
+  "variant": "00",
+  "name": "Sandstar",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5220",
+  "variant": "00",
+  "name": "Scalebat",
+  "habitat": [
+   "Scarlet Forest",
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5215",
+  "variant": "00",
+  "name": "Scarlet Joyperch",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5001",
+  "variant": "20",
+  "name": "Sleeptoad",
+  "habitat": [
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5217",
+  "variant": "00",
+  "name": "Smokeshroud Gekko",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5223",
+  "variant": "00",
+  "name": "Solanaria",
+  "habitat": [
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5221",
+  "variant": "00",
+  "name": "Sparklerjelly",
+  "habitat": [
+   "Oilwell Basin"
+  ]
+ },
+ {
+  "em": "EM5300",
+  "variant": "00",
+  "name": "Starduster",
+  "habitat": [
+   "Scarlet Forest"
+  ]
+ },
+ {
+  "em": "EM5100",
+  "variant": "00",
+  "name": "Thunderbug",
+  "habitat": [
+   "Windward Plains",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5206",
+  "variant": "00",
+  "name": "Tracktail Lizard",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5207",
+  "variant": "10",
+  "name": "Tyrant Hopper",
+  "habitat": [
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5212",
+  "variant": "00",
+  "name": "Vaporonid",
+  "habitat": [
+   "Scarlet Forest",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5005",
+  "variant": "00",
+  "name": "Vigormantle Bug",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5002",
+  "variant": "00",
+  "name": "Vigorwasp",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5009",
+  "variant": "00",
+  "name": "Wedge Beetle",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5006",
+  "variant": "00",
+  "name": "Wiggly Litchi",
+  "habitat": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
+ },
+ {
+  "em": "EM5200",
+  "variant": "00",
+  "name": "Windrustler",
+  "habitat": [
+   "Windward Plains"
+  ]
+ },
+ {
+  "em": "EM5222",
+  "variant": "10",
+  "name": "Xu Yo",
+  "habitat": [
+   "Ruins of Wyveria"
+  ]
+ }
+]

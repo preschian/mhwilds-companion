@@ -24,6 +24,14 @@ MEAT_RE = re.compile(r'Meat|Hitzone|HitZone|DamageRate|Niku|MeatQuality|Flesh', 
 
 
 def build_map():
+    import pickle
+    cache = os.path.join(RESEARCH, 'murmur_map.pkl')
+    try:
+        if os.path.exists(cache) and os.path.getmtime(cache) > os.path.getmtime(DUMP):
+            with open(cache, 'rb') as f:
+                return pickle.load(f)
+    except Exception:
+        pass
     m = {}
     top = re.compile(r'^    "(.+)": \{$')
     with open(DUMP, encoding='utf-8') as f:
@@ -32,6 +40,11 @@ def build_map():
             if mt:
                 name = mt.group(1)
                 m[murmur3_x86_32(name.encode('utf-8'), SEED)] = name
+    try:
+        with open(cache, 'wb') as f:
+            pickle.dump(m, f)
+    except Exception:
+        pass
     return m
 
 

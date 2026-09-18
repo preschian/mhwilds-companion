@@ -18,6 +18,16 @@ below come from the installed game + patches (merged newest-wins).
 | Badge table | `GameDesign/GUI/Common/_UserData/AddIconData.user.3` |
 | Tint palette | `GUI/colorPreset.gcp.2` (`GCPR`: count + 40B entries, 4×ABGR) + `app.ColorPreset.TYPE` enum |
 | Struct database | `il2cpp_dump.json` (REFramework SDK dump, beside the exe) |
+| Ecology/tips/features | `EnemyText.msg.23` (`EnemyText_EXP/FEATURES/TIPS/MEMO/FIRST_CAPTURE/BOSS_EXP_EM*`) |
+| Species/serials/text links | `GameDesign/Common/Enemy/EnemyData.user.3` (149 rows; `_enemyId` = `ID_Fixed`, `_Species` 1–21) |
+| Habitat/reco/SP attacks | `EnemyReportBossData` (34) / `EnemyReportZakoData` (19) / `EnemyReportAnimalData` (70) |
+| SP/attribute/break names | `EnemyReportSpecialAttackTypeText/WeaponAttributeText/PartsBreakTypeName.msg.23` |
+| Part break display | `EnemyReportAnatomyPartsBreakData` (10 diagram slots → partsType + break type) |
+| Hunter titles | `EnemyReportBossTitleData` (Hunt 20/30/40/50 → `Title_Word`) |
+| Size/crowns | `Enemy/CommonData/Data/EmCommonRandomSize.user.3` (scale/prob tables + per-enemy rank bounds) |
+| Tempered/enrage/stamina/ride | `GameDesign/Enemy/EmXXXX/VV/Data/*_Param_Legendary/Angry/Stamina/Ride/Basic.user.3` |
+| Quests/locales | `GameDesign/Mission/Mission*/*MsData` + `BossZakoLayout_*` + `_Quest/*_QuestData` |
+| Quest titles/texts | `GameDesign/Text/Mission/Mission*.msg.23` + `Mission_Quest*` templates |
 
 PAKs: gameplay data in `re_chunk_000.pak` + `patch_001..015`; textures in
 `re_chunk_000.pak.sub_000.pak` + its patches. File list `MHWs.list`
@@ -150,8 +160,66 @@ Bonus found while surveying (not extracted): `tex000201_1` holds map
 icons + full-color monster minimap icons + white weapon/armor glyphs;
 `tex000201_2` holds ailment/buff icons + full-color endemic-life icons.
 
+## Field Guide model (`EnemyReport*`)
+
+- Habitat is a stage bitset: bit 1 Windward Plains, 2 Scarlet Forest,
+  3 Oilwell Basin, 4 Iceshard Cliffs, 5 Ruins of Wyveria. Cross-checked
+  against all 291 quests' stage/tag fields (story monsters anchor each
+  locale: Balahara/Plains, Uth Duna/Forest, Rompopolo/Basin,
+  Hirabami/Cliffs, Xu Wu/Ruins).
+- `RecoAttributeBit` bit N = `WeaponDef.ATTR` N (1 Fire … 9 Blast).
+- `EnemySPAttackBit` bit N = `EnemyReportSpecialAttackTypeData` type N
+  (1-based: 1 Weak Roar … 34 HP Penalty), verified per monster
+  (Gore Magala bit 25 = Frenzy, Seregios bit 24 = Bleeding, Mizutsune
+  bits 30/31 = Bubbleblights).
+- Star cutoffs: physical hitzone [1,20,40,60,80], element
+  [1,15,20,30,80], shiny drops [15,30,45,60,75].
+- Break display types: Weak Point / Breakable (×2/×5) / Severable
+  (×4/×6) / combos; merged onto `partsBreak[].breakType` (163/172).
+- Titles: 4 unlocks per boss (Hunt 20/30/40/50 → title words);
+  Zoh Shia has 8 rows.
+
+## Quest model (`data/quests.json`, 291)
+
+- Locale resolution: `MsData._BeaconSetStage` → emset tag → QuestData
+  stage; `1044114240` = hub/departure (not a locale). Special venues:
+  1181994624 Arena, 544388992 Special Arena, 2009549184 Wounded Hollow,
+  13836 Gogmazios siege (Basin), -1869346688 Grand Hub.
+- QuestData (`_Quest/`) exists only for 33 HR/event/arena quests;
+  optionals carry no params. Quest types: 0 HUNTING, 1 KILL, 2 CAPTURE,
+  4 TRANSPORT, 5 ARENA, 6 BOSSRUSH; QuestData `_EmTargetID` 101–105 are
+  layout slots, not EmIDs — monster links come from BossZako mains.
+- Titles: real `Mission*_000` text when present (story/side/investigation
+  quests); else templated (`Hunt/Slay/Capture the X`, `X Investigation`,
+  `Hunt all target monsters`) with `titleGuessed: true`. Optional star =
+  3rd mission digit (verified: 105013→lv5, 106007→lv6); LR ≤3★, HR ≥4★.
+- Wild habitat (guide table) vs quest venue are independent: 4 quests
+  legitimately fall outside habitat — 730015 (Nerscylla *invades* the
+  Plains), 199004/199012 (cross-locale events), 005390 (Zoh Shia
+  scripted finale).
+
+## Size + per-monster params
+
+- `sizeClass` = `MODEL_SIZE` (S/M/L/LL…); `sizeTables` = per-variant
+  reward-rank bounds (`EM_REWARD_RANK_01..10`) + scale/prob distribution
+  (scales ~88–125, prob weights).
+- `tempered` = normal/king/hard tiers (`Param_Legendary` suffix groups):
+  motion/stamina/attack/vital multipliers; `enrage` = lower/upper angry
+  params + rate levels;
+  `stamina` = exhaust params; `ride` = mount success vital;
+  `partVitals` = per-part HP pools; `attacks` = shell-attack name catalog;
+  `breakRewards` = break→reward-table linkage; `guild` = guild/HR points
+  + zenny per hunt tier.
+
+## Endemics (`data/endemics.json`, 70)
+
+`EnemyReportAnimalData` habitats + EnemyData names. Species id 0 =
+unclassified (all endemics); variants share one EM (toads, wasps,
+beetles…) distinguished by EnemyData rows.
+
 ## Regenerating
 
 Follow `datamine/README.md`. After a game patch, re-run the extraction
 (base + patch chain merge) and `meat_all.py`; the validation step prints
-the new match rate and every drifted cell.
+the new match rate and every drifted cell. Then re-run steps 10–12 for
+the guide/quest/size dataset.

@@ -68,7 +68,7 @@ def parse_parts_file(path, layouts, mmap):
     insts = [struct.unpack_from('<I', raw, base + inst_off + 8 * i)[0] for i in range(n_inst)]
     objs, end = parse_instances(raw, base, data_off, insts, layouts, mmap, verbose=False)
     # entry points are 1-based into non-null objs
-    root = resolve_refs(objs, [objs[e - 1] for e in eps])[0]
+    root = resolve_refs(objs, [objs[e] for e in eps])[0]
     return root, end, len(raw)
 
 
