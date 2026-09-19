@@ -95,6 +95,8 @@ exe; it is the struct database for the RSZ reader. It is never committed.
 | `build_itemicons.ps1` | Atlas merge + TEX→DDS→PNG batch |
 | `itemicons_all.py` | Icon fields + palette parse, glyph/badge crop |
 | `itemicons_finalize.py` | `data/icons/items/` + palette + `materials.json` icons |
+| `elementicons.py` | Crop element/status/res cells → `data/icons/elements/` |
+| `weaponicons.py` | Crop 14 weapon glyphs → `data/icons/weapons/` |
 | `extract_guide.ps1` | Guide/mission/text extract (`lists/*.list`) + merge |
 | `monster_extra.py` | RSZ auto-parse + extras/texts/sizes → research JSONs |
 | `mission_all.py` | 291 missions → `mission_index.json` |

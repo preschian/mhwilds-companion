@@ -15,6 +15,8 @@ below come from the installed game + patches (merged newest-wins).
 | Icons (512px BC7) | `GUI/ui_texture/tex000000/tex_EmIcon_*/tex_EmIcon_EM*.tex.*` |
 | Item glyphs (white) | `GUI/ui_texture/tex000000/tex000201_0_IMLM4.tex.*` (100px grid, 20 cols) |
 | Item badges (color) | `.../tex000201_20_IMLM4.tex.*` (64px grid, 8 cols) |
+| Element/status icons | `.../tex000201_2_IMLM4.tex.*` row 0 (elements/statuses) + row 2 (res shields) |
+| Weapon glyphs (white) | `.../tex000201_1_IMLM4.tex.*` row 16 cols 6-19 (14 types) |
 | Badge table | `GameDesign/GUI/Common/_UserData/AddIconData.user.3` |
 | Tint palette | `GUI/colorPreset.gcp.2` (`GCPR`: count + 40B entries, 4×ABGR) + `app.ColorPreset.TYPE` enum |
 | Struct database | `il2cpp_dump.json` (REFramework SDK dump, beside the exe) |
@@ -156,9 +158,38 @@ base glyph × tint + corner badge:
   badgePos}`; glyphs/badges ship as 82 PNGs under `data/icons/items/`
   (624 KB, tight alpha-bbox crops).
 
-Bonus found while surveying (not extracted): `tex000201_1` holds map
-icons + full-color monster minimap icons + white weapon/armor glyphs;
-`tex000201_2` holds ailment/buff icons + full-color endemic-life icons.
+Bonus found while surveying: `tex000201_1` holds map icons (rows
+0-3) + full-color monster minimap icons (rows 8-9, 13, not extracted);
+`tex000201_2` holds ailment/buff icons + full-color endemic-life icons
+(rows 10-14, not extracted).
+
+## Element/status icons (`data/icons/elements/`, 22 PNGs)
+
+Row 0 of `tex000201_2` (100px grid, 20 cols, same geometry as the item
+atlas) holds the elements in `WeaponDef.ATTR` order — Fire, Water,
+Thunder, Ice, Dragon (matching `RecoAttributeBit` bit order) — followed
+by Poison, Frenzy, Paralysis, Stun (stars), Sleep (Zzz), Blast,
+Bleeding. Row 2 holds the matching element-res shields, paired
+single/double up-arrow (Lv1/Lv2). Extraction: `datamine/elementicons.py`
+crops full 100x100 cells (uniform UI geometry, unlike the tight-cropped
+item glyphs). Remaining buff/debuff/blight cells are unlabeled without a
+`.gui` layout parser and were left out.
+
+## Weapon icons (`data/icons/weapons/`, 14 PNGs)
+
+Row 16 cols 6-19 of `tex000201_1` (same 100px grid) hold the white
+tintable glyphs for all 14 weapon types, each identified by silhouette
+(zoom-verified): Sword & Shield, Great Sword, Long Sword, Dual Blades,
+Lance, Gunlance, Hammer, Hunting Horn, Switch Axe, Charge Blade,
+Insect Glaive, Bow, Heavy Bowgun, Light Bowgun. Extraction:
+`datamine/weaponicons.py` crops full 100x100 cells and pins each glyph
+to its `app.WeaponDef.TYPE` value (`LONG_SWORD 0` = Great Sword,
+`SHORT_SWORD 1`, `TWIN_SWORD 2`, `TACHI 3` = Long Sword, `HAMMER 4`,
+`WHISTLE 5` = Hunting Horn, `LANCE 6`, `GUN_LANCE 7`, `SLASH_AXE 8`,
+`CHARGE_AXE 9`, `ROD 10` = Insect Glaive, `BOW 11`, `HEAVY_BOWGUN 12`,
+`LIGHT_BOWGUN 13`); note the atlas order is not enum order. Row 16
+cols 0-5 (armor pieces + charm) and row 7's colored octagons
+(equipment-category tabs, not weapon types) were left out.
 
 ## Field Guide model (`EnemyReport*`)
 
