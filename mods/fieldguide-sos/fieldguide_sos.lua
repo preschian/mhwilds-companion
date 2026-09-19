@@ -6,7 +6,7 @@
 -- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.6.0"
+local VERSION = "1.6.1"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
 local PAD_R2 = 2048 -- via.hid.GamePadButton.RTrigBottom
@@ -667,9 +667,40 @@ local function start_auto()
   set_phase("wait_alma", detail)
 end
 
+-- F1/R2 may (re)start while still searching; once a quest is picked the join
+-- owns the flow until done/error (Esc cancels).
+local function phase_allows_start(phase)
+  return phase == "idle" or phase == "done" or phase == "error"
+      or phase == "wait_alma" or phase == "prep_cat"
+      or phase == "search" or phase == "wait_list"
+end
+
 local function poll_pad_start()
-  if state.phase ~= "idle" and state.phase ~= "done" and state.phase ~= "error" and not pad.r2 then return end
+  if not cfg.pad_r2_start then pad.r2 = false return end
   local down = pad_r2_down()
+  -- R2 edge handling (the legacy branch below only fires on idle/done/error
+  -- with a valid target; targetless pad presses stay silent, R2 is a combat button)
+  if down and not pad.r2 then
+    if not phase_allows_start(state.phase) then
+      state.msg = "R2 ignored: join in progress (" .. tostring(state.phase) .. ")"
+    elseif state.phase == "idle" or state.phase == "done" or state.phase == "error" then
+      local em_now = resolve_em_id()
+      if em_now == nil then
+        state.msg = "R2 ignored: no Field Guide target"
+        pad.r2 = true
+        return
+      end
+    else
+      local em_now = resolve_em_id()
+      if em_now ~= nil then
+        start_auto() -- restart with current Field Guide target
+        pad.r2 = true
+        return
+      else
+        state.msg = "R2 ignored: no Field Guide target"
+      end
+    end
+  end
   if down and not pad.r2 then
     if state.phase == "idle" or state.phase == "done" or state.phase == "error" then
       start_auto()
@@ -828,6 +859,15 @@ end
 
 local function poll_keys()
   local f1, f8, f9, esc = key_down(VK_F1), key_down(VK_F8), key_down(VK_F9), key_down(VK_ESC)
+  -- F1 restarts the search stage with the current Field Guide target
+  -- (the legacy branch below handles fresh starts on idle/done/error)
+  if f1 and not keys.f1 then
+    if not phase_allows_start(state.phase) then
+      note("F1 ignored: join in progress (" .. tostring(state.phase) .. ")")
+    elseif state.phase ~= "idle" and state.phase ~= "done" and state.phase ~= "error" then
+      start_auto() -- restart with current Field Guide target
+    end
+  end
   if f1 and not keys.f1 then
     if state.phase == "idle" or state.phase == "done" or state.phase == "error" then
       start_auto()
