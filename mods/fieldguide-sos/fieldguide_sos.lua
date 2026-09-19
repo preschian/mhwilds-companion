@@ -1,14 +1,15 @@
 -- FieldGuideSOS
--- F1 = auto | F8 = start log | F9 = stop log
+-- F1/R2 = auto | F8 = start log | F9 = stop log
 -- Crash: setQuestListInCategory(12) AFTER search = CRASH
 -- Safe: setQuestListInCategory(12) ONLY before search; after search use soft set_ViewCategory
 -- Popup: skip LOCAL_SESSION_NOT_FOUND + skip openDialog_faildSearchQuest (no Invoke, no cat rewrite)
 -- Native Accept & Depart owns the final decideDepartLate/QuestDepart transition.
 
 local MOD = "FieldGuideSOS"
-local VERSION = "1.5.4"
+local VERSION = "1.6.0"
 
 local VK_F1, VK_F8, VK_F9, VK_ESC = 0x70, 0x77, 0x78, 0x1B
+local PAD_R2 = 2048 -- via.hid.GamePadButton.RTrigBottom
 local UI050000, UI050001, UI050002 = 161, 162, 163
 local UI060000, UI060001 = 169, 170
 local UI060102 = 179
@@ -54,11 +55,15 @@ local cfg = {
   search_tempered = true,
   search_frenzied = true,
   search_normal = true,
+  skip_need_approval = true,
+  skip_password = true,
+  skip_full = true,
+  pad_r2_start = true,
 }
 
 local state = {
   phase = "idle",
-  msg = "F1=auto | F8=log | F9=stop",
+  msg = "F1/R2=auto | F8=log | F9=stop",
   searches = 0,
   deadline = 0,
   ordered = false,
@@ -149,6 +154,47 @@ local function key_down(vk)
 end
 
 ----------------------------------------------------------------
+-- Gamepad (R2 start; polled from UpdateBehavior tick, never on_frame)
+local pad = { dev_m = nil, btn_m = nil, conv = nil, r2 = false, init = false, warned = false }
+
+local function pad_init()
+  if pad.init then return pad.dev_m ~= nil and pad.btn_m ~= nil end
+  pad.init = true
+  local ok, t = pcall(sdk.find_type_definition, "via.hid.GamePad")
+  if ok and t then
+    local okm, m = pcall(function() return t:get_method("get_MergedDevice") end)
+    if okm and m then pad.dev_m = m end
+  end
+  local ok2, td = pcall(sdk.find_type_definition, "via.hid.GamePadDevice")
+  if ok2 and td then
+    local okm, m = pcall(function() return td:get_method("get_Button") end)
+    if okm and m then pad.btn_m = m end
+  end
+  return pad.dev_m ~= nil and pad.btn_m ~= nil
+end
+
+local function pad_r2_down()
+  if not cfg.pad_r2_start then return false end
+  if not pad_init() then
+    if not pad.warned then pad.warned = true note("pad R2 unavailable (no GamePad API)") end
+    return false
+  end
+  local ok, dev = pcall(function() return pad.dev_m:call(nil) end)
+  if not ok or dev == nil then return false end
+  local mask
+  if pad.conv ~= "def" then
+    local okb, m = pcall(function() return dev:call("get_Button") end)
+    if okb and m ~= nil then mask, pad.conv = m, "obj" end
+  end
+  if mask == nil and pad.conv ~= "obj" then
+    local okb, m = pcall(function() return pad.btn_m:call(dev) end)
+    if okb and m ~= nil then mask, pad.conv = m, "def" end
+  end
+  mask = to_int(mask)
+  if mask == nil then return false end
+  return (mask & PAD_R2) ~= 0
+end
+
 -- Tracer
 ----------------------------------------------------------------
 local function tpush(msg)
@@ -211,6 +257,8 @@ local function dump_view(view)
     local sr = nil
     pcall(function() sr = session:call("get_SearchResult") end)
     bits[#bits+1] = "hasSR=" .. tostring(sr ~= nil)
+    pcall(function() bits[#bits+1] = "auto=" .. tostring(session:call("get_isAutoAccept")) end)
+    pcall(function() bits[#bits+1] = "mem=" .. tostring(session:call("get_MemberNum")) .. "/" .. tostring(session:call("get_MemberMax")) end)
   else
     bits[#bits+1] = "session=nil"
   end
@@ -456,6 +504,34 @@ local function view_has_sr(view)
   return sr ~= nil
 end
 
+local function view_skip_reason(view)
+  local session = nil
+  pcall(function() session = view:get_field("Session") end)
+  if not session then return nil end -- unknown: keep (old behavior)
+  if cfg.skip_need_approval then
+    local auto = nil
+    pcall(function() auto = session:call("get_isAutoAccept") end)
+    if auto == false then return "approval" end
+  end
+  if cfg.skip_password then
+    local need = nil
+    pcall(function() need = session:call("get_IsNeedPassword") end)
+    if need == true then return "password" end
+  end
+  if cfg.skip_full then
+    local num, max = nil, nil
+    pcall(function() num = to_int(session:call("get_MemberNum")) end)
+    pcall(function() max = to_int(session:call("get_MemberMax")) end)
+    if num ~= nil and max ~= nil and max > 0 and num >= max then return "full" end
+  end
+  return nil
+end
+
+local function skip_detail(n, skipped)
+  return string.format("no joinable n=%s approval=%d pass=%d full=%d",
+    tostring(n), skipped.approval or 0, skipped.password or 0, skipped.full or 0)
+end
+
 local function pick_rescue_view()
   local parts = get_parts()
   if not parts then return nil, nil, "no parts" end
@@ -465,13 +541,18 @@ local function pick_rescue_view()
     pcall(function() list = parts:call("get_ViewQuestDataList") end)
   end
   local n = list_count(list)
+  local skipped = {}
   for i = 0, math.max(n - 1, -1) do
     local view = list_get(list, i)
     if view_has_sr(view) then
-      return view, parts, "idx=" .. i .. " n=" .. n
+      local reason = view_skip_reason(view)
+      if reason == nil then
+        return view, parts, "idx=" .. i .. " n=" .. n
+      end
+      skipped[reason] = (skipped[reason] or 0) + 1
     end
   end
-  return nil, nil, "no hasSR n=" .. tostring(n)
+  return nil, nil, skip_detail(n, skipped)
 end
 
 local function do_detail()
@@ -586,7 +667,19 @@ local function start_auto()
   set_phase("wait_alma", detail)
 end
 
+local function poll_pad_start()
+  if state.phase ~= "idle" and state.phase ~= "done" and state.phase ~= "error" and not pad.r2 then return end
+  local down = pad_r2_down()
+  if down and not pad.r2 then
+    if state.phase == "idle" or state.phase == "done" or state.phase == "error" then
+      start_auto()
+    end
+  end
+  pad.r2 = down
+end
+
 local function tick_auto()
+  poll_pad_start()
   local phase = state.phase
   if phase == "idle" or phase == "done" or phase == "error" then return end
   local now = os.clock()
@@ -762,7 +855,7 @@ re.on_frame(function()
   pcall(function()
     draw.text(string.format("[%s v%s] %s trace=%s", MOD, VERSION, state.phase, tostring(tracing)), 24, 20, 0xFFFFFFFF)
     draw.text(tostring(state.msg), 24, 40, 0xFFAAFFAA)
-    draw.text("F1 auto | F8 log | F9 stop | Esc cancel", 24, 60, 0xFFAAAAAA)
+    draw.text("F1/R2 auto | F8 log | F9 stop | Esc cancel", 24, 60, 0xFFAAAAAA)
     local y = 78
     for i = 1, #lines do
       draw.text(lines[i], 24, y, 0xFF88CCFF)
@@ -785,6 +878,16 @@ re.on_draw_ui(function()
     cfg.search_frenzied = frenzied
     local _, normal = imgui.checkbox("Normal", cfg.search_normal)
     cfg.search_normal = normal
+    imgui.text("join filters")
+    local _, noappr = imgui.checkbox("Skip approval-required", cfg.skip_need_approval)
+    cfg.skip_need_approval = noappr
+    local _, nopass = imgui.checkbox("Skip password", cfg.skip_password)
+    cfg.skip_password = nopass
+    local _, nofull = imgui.checkbox("Skip full lobby", cfg.skip_full)
+    cfg.skip_full = nofull
+    imgui.text("controller")
+    local _, r2 = imgui.checkbox("R2 starts auto", cfg.pad_r2_start)
+    cfg.pad_r2_start = r2
   end)
   imgui.tree_pop()
 end)
