@@ -7,6 +7,7 @@ Write all repo docs, comments, UI copy, and commit messages in English.
 | What | Path |
 |------|------|
 | Mod | `mods/fieldguide-sos/fieldguide_sos.lua` |
+| Mod (GL shells) | `mods/gunlance-shells/gunlance_shells.lua` |
 | Deploy | `.\scripts\deploy.ps1` → game `reframework\autorun\` |
 | Game | `D:\Program Files (x86)\Steam\steamapps\common\MonsterHunterWilds` |
 | Variant matrix | `docs/high-rank-monster-variants.md` |
